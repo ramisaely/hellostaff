@@ -1,0 +1,2475 @@
+@charset "UTF-8";
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+/* line 7, ../../../sass/Front/generale/hello_staff.scss */
+* {
+  font-family: Raleway;
+}
+
+/* coloration svg avec element.js */
+/* line 10, ../../../sass/Front/generale/hello_staff.scss */
+.svg_color_white {
+  fill: #fff !important;
+}
+
+/* End coloration svg avec element.js */
+/* line 14, ../../../sass/Front/generale/hello_staff.scss */
+.no_scroll_body {
+  overflow-y: hidden;
+}
+
+/* line 17, ../../../sass/Front/generale/hello_staff.scss */
+.scroll_header {
+  overflow-y: auto;
+}
+
+/** class hidden */
+/* line 21, ../../../sass/Front/generale/hello_staff.scss */
+.is_hidden {
+  visibility: hidden;
+  display: none !important;
+}
+
+/* line 25, ../../../sass/Front/generale/hello_staff.scss */
+.is_active {
+  display: block;
+}
+
+/* line 28, ../../../sass/Front/generale/hello_staff.scss */
+.visible {
+  display: block !important;
+}
+
+/* line 31, ../../../sass/Front/generale/hello_staff.scss */
+.box_shadow_filter {
+  box-shadow: 0px 3px 4px #707070;
+}
+
+/** end class hidden */
+/*** start titles ***/
+/* line 37, ../../../sass/Front/generale/hello_staff.scss */
+.header_title {
+  margin: 0;
+  text-align: center;
+  line-height: 1.42;
+  	/*// @font-face {
+    //   font-family: Raleway-Black;
+    //   src: url('/fonts/Raleway/Raleway-Black.tff');
+  	// }
+  	// src: url("fonts/Raleway/Raleway-Black.tff");*/
+  font-style: normal;
+  /*family: Raleway;*/
+  font-weight: 500;
+  font-size: 40px;
+  font-stretch: normal;
+  font-spacing: normal;
+  color: #ffffff;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 43, ../../../sass/Front/generale/hello_staff.scss */
+.medium_title {
+  /** title_bloc **/
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #43425d;
+  cursor: pointer;
+}
+
+/* line 55, ../../../sass/Front/generale/hello_staff.scss */
+.mini_title {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 4.39;
+  letter-spacing: normal;
+  text-align: center;
+  color: #aaaaaa;
+}
+
+/*** end titles ***/
+/* line 68, ../../../sass/Front/generale/hello_staff.scss */
+a, .select, button {
+  cursor: pointer;
+}
+
+/* line 72, ../../../sass/Front/generale/hello_staff.scss */
+button {
+  outline: none;
+}
+
+/* line 76, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox {
+  /*font-family: Raleway;*/
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #43425d;
+}
+/* line 83, ../../../sass/Front/generale/_element.scss */
+.checkbox:not(:last-child) {
+  margin-right: 15px;
+}
+
+/* line 88, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event {
+  margin: 20px 0;
+}
+/* line 91, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event input:not([type="checkbox"]) {
+  outline: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  margin: 1px;
+  height: 22px;
+  margin-top: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0px;
+  /* Firefox */
+  -moz-appearance: textfield;
+  /* Chrome */
+  /* Opéra*/
+}
+/* line 136, ../../../sass/Front/generale/_element.scss */
+.form_item_create_event input:not([type="checkbox"]):focus {
+  border: solid 2px #36ccb5;
+  margin: 0px;
+  margin-top: 7px;
+}
+/* line 99, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event input:not([type="checkbox"])::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 105, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event input:not([type="checkbox"])::-o-inner-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
+/* line 111, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event.error input, .form_item_create_event.error .input_addon {
+  border-color: #ff1313 !important;
+}
+/* line 114, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event.error input:focus {
+  border-color: #ff1313 !important;
+}
+/* line 117, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event.error label.error {
+  color: #ff1313 !important;
+  font-size: 13px !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  font-stretch: normal !important;
+  clear: both !important;
+  display: table !important;
+  margin-top: -10px;
+}
+
+/* line 131, ../../../sass/Front/generale/hello_staff.scss */
+.form_item {
+  margin: 20px 0;
+  /** start error **/
+  /*** end error ***/
+}
+/* line 134, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_no {
+  border-radius: 0 !important;
+}
+/* line 137, ../../../sass/Front/generale/hello_staff.scss */
+.form_item input:not([type="checkbox"]) {
+  outline: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  margin: 1px;
+  height: 22px;
+  margin-top: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Firefox */
+  -moz-appearance: textfield;
+  /* Chrome */
+  /* Opéra*/
+}
+/* line 136, ../../../sass/Front/generale/_element.scss */
+.form_item input:not([type="checkbox"]):focus {
+  border: solid 2px #36ccb5;
+  margin: 0px;
+  margin-top: 7px;
+}
+/* line 144, ../../../sass/Front/generale/hello_staff.scss */
+.form_item input:not([type="checkbox"])::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 150, ../../../sass/Front/generale/hello_staff.scss */
+.form_item input:not([type="checkbox"])::-o-inner-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
+/* line 157, ../../../sass/Front/generale/hello_staff.scss */
+.form_item.error input, .form_item.error .input_addon {
+  border-color: #ff1313 !important;
+}
+/* line 160, ../../../sass/Front/generale/hello_staff.scss */
+.form_item.error input:focus {
+  border-color: #ff1313 !important;
+}
+/* line 163, ../../../sass/Front/generale/hello_staff.scss */
+.form_item.error label.error {
+  color: #ff1313 !important;
+  font-size: 13px !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  font-stretch: normal !important;
+  clear: both !important;
+  display: table !important;
+}
+/* line 172, ../../../sass/Front/generale/hello_staff.scss */
+.form_item.error .input_group input {
+  margin-bottom: 15px;
+}
+/* line 176, ../../../sass/Front/generale/hello_staff.scss */
+.form_item.error .checkbox label.error {
+  display: none !important;
+}
+/* line 179, ../../../sass/Front/generale/hello_staff.scss */
+.form_item.error .checkbox .checkbox_label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+}
+/* line 183, ../../../sass/Front/generale/hello_staff.scss */
+.form_item.error .checkbox .checkbox_label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -3px;
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ff1313 !important;
+}
+/* line 200, ../../../sass/Front/generale/hello_staff.scss */
+.form_item label {
+  /*font-family: Raleway;*/
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #43425d;
+}
+/* line 210, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown-menu {
+  position: relative;
+}
+/* line 212, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown-menu .label_select {
+  position: relative;
+  /*&:after {
+  	content:"\f078";
+      font-family: "FontAwesome";
+      font-size: 11px;
+      color:#aaa;
+      right:8px; top:4px;
+      padding:0 0 2px;
+      position:absolute;
+      pointer-events:none;
+  }*/
+}
+/* line 152, ../../../sass/Front/generale/_element.scss */
+.form_item .dropdown-menu .label_select:before {
+  content: '';
+  right: 6px;
+  top: 2px;
+  width: 16px;
+  /* // right:4px;
+   // top:0px;
+   // width:23px;*/
+  height: 18px;
+  background: #fff;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  background-image: url(../../../img/input_icons/down-arrow.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+/* line 170, ../../../sass/Front/generale/_element.scss */
+.form_item .dropdown-menu .label_select.active:before {
+  transform: rotate(180deg);
+}
+/* line 215, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown-menu .label_select .select {
+  outline: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  margin: 1px;
+  height: 22px;
+  margin-top: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 5px;
+}
+/* line 136, ../../../sass/Front/generale/_element.scss */
+.form_item .dropdown-menu .label_select .select:focus {
+  border: solid 2px #36ccb5;
+  margin: 0px;
+  margin-top: 7px;
+}
+/* line 218, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown-menu .label_select.form_item {
+  margin: 0 !important;
+}
+/* line 225, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .smile_message_attribut {
+  margin-top: 2rem;
+}
+/* line 228, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown, .form_item .dropdown.large {
+  display: none;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 7px;
+  position: absolute;
+  font-size: small;
+  z-index: 999;
+  width: 90%;
+  box-shadow: 0 0.5px 2.5px 0 rgba(0, 0, 0, 0.11);
+}
+/* line 197, ../../../sass/Front/generale/_element.scss */
+.form_item .dropdown li, .form_item .dropdown.large li {
+  list-style-type: none;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+/* line 202, ../../../sass/Front/generale/_element.scss */
+.form_item .dropdown li:hover {
+  background-color: #e9e9f0 !important;
+}
+/* line 206, ../../../sass/Front/generale/_element.scss */
+.form_item .dropdown li:nth-child(even) {
+  background-color: #e9e9f0;
+}
+/* line 209, ../../../sass/Front/generale/_element.scss */
+.form_item .dropdown li:nth-child(odd) {
+  background-color: #ffffff;
+}
+/* line 233, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple li {
+  padding: 2px 0;
+}
+/* line 235, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple li, .form_item .dropdown.multiple li:hover {
+  background-color: #fff !important;
+}
+/* line 239, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple li:not(:last-child) {
+  border-bottom: solid 1px rgba(112, 112, 112, 0.15);
+}
+/* line 244, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple li:nth-child(odd) .multiple_item {
+  background-color: #ffffff;
+}
+/* line 248, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple li:nth-child(even) .multiple_item {
+  background-color: #F2F6F8;
+}
+/* line 252, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .multiple_item {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+/* line 259, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple.extendable .multiple_item {
+  padding-bottom: 0;
+}
+/* line 262, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .checkbox {
+  margin-right: 0;
+}
+/* line 264, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple label {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 269, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .extend {
+  text-decoration: none;
+}
+/* line 272, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .extend img {
+  width: 10px;
+}
+/* line 277, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .with_fake_out_in {
+  font-size: 14px;
+}
+/* line 280, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .with_fake_out_in .out_check {
+  border: 1px solid #bcc5d3;
+}
+/* line 285, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .with_fake_out_in [type="checkbox"]:checked + .out_check, .form_item .dropdown.multiple .with_fake_out_in [type="radio"]:checked + .out_check {
+  border: 1px solid #bcc5d3 !important;
+}
+/* line 291, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .parent_element {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+/* line 296, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .parent_element label {
+  width: auto;
+}
+/* line 299, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .extended_element {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 10px;
+  border-top: solid 1px rgba(112, 112, 112, 0.15);
+}
+/* line 306, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .extended_element label {
+  font-size: 12px;
+}
+/* line 308, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .extended_element .checkbox {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+/* line 312, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .extended_element .with_fake_out_in .out_check {
+  height: 18px;
+  width: 18px;
+  margin-right: 6px;
+}
+/* line 322, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown.multiple .extended_element .with_fake_out_in [type="checkbox"]:checked + .out_check .in_check, .form_item .dropdown.multiple .extended_element .with_fake_out_in [type="radio"]:checked + .out_check .in_check {
+  height: 12px;
+  width: 12px;
+}
+/* line 333, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .large.dropdown {
+  width: -moz-fill-available;
+  width: -webkit-fill-available;
+  width: -o-fill-available;
+  width: -ms-fill-available;
+  margin-top: 50px;
+}
+/* line 341, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .birth_day li, .form_item .birth_month li, .form_item .birth_year li {
+  text-align: center;
+}
+/* line 346, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .checkbox_wrap {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 349, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_group {
+  width: 100%;
+  display: inline-table;
+  position: relative;
+}
+/* line 354, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_group input {
+  outline: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  margin: 1px;
+  height: 22px;
+  margin-top: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: calc(93% - 24px) !important;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+/* line 136, ../../../sass/Front/generale/_element.scss */
+.form_item .input_group input:focus {
+  border: solid 2px #36ccb5;
+  margin: 0px;
+  margin-top: 7px;
+}
+/* line 360, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_group .input_addon {
+  width: 30px;
+  height: 22px;
+  padding: 6px 13px 6px 13px;
+  margin-top: 8px;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  margin-left: -30px;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  text-align: right;
+  position: absolute;
+}
+/* line 373, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_group .input_addon i {
+  color: #707070;
+}
+/* line 377, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_group .input_addon.focused {
+  border-width: 2px;
+  border-color: #36ccb5;
+}
+/* line 381, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_group .input_addon.error {
+  border-color: #ff1313 !important;
+}
+/* line 385, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_group label {
+  position: absolute;
+  margin-top: -1rem;
+  /*46px*/
+}
+/* line 389, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .input_group label:after {
+  margin-bottom: 20px;
+}
+
+/* line 396, ../../../sass/Front/generale/hello_staff.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 400, ../../../sass/Front/generale/hello_staff.scss */
+.input_addon_update_profil {
+  width: 41px;
+  height: 22px;
+  background-color: #ffffff;
+  border-width: 0 0 1px 0;
+  /*padding: 0px 13px 10px 0;*/
+  border-color: rgba(255, 255, 255, 0.1);
+  /*margin-left: 26%;*/
+  cursor: pointer;
+  text-align: right;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* line 413, ../../../sass/Front/generale/hello_staff.scss */
+.separated_date_picker {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+/* line 420, ../../../sass/Front/generale/hello_staff.scss */
+.separated_date_picker .form_item {
+  margin: 0 !important;
+}
+
+/***
+**** input type checkbox
+****
+***/
+/* line 429, ../../../sass/Front/generale/hello_staff.scss */
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked, [type="radio"]:not(:checked), [type="radio"]:checked {
+  position: absolute;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 437, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox_label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /** checkbox checked **/
+}
+/* line 443, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox_label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -3px;
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #bcc5d3;
+}
+/* line 455, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox_label:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #36ccb5;
+  transition: all .2s;
+  /** hide checked aspect **/
+  opacity: 0;
+}
+/* line 471, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox_label.active:before {
+  border: 2px solid #36ccb5;
+}
+/* line 474, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox_label.active:after {
+  /** show checked aspect **/
+  opacity: 1;
+}
+
+/* hover style just for information */
+/* line 484, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox .checkbox_label:hover:before {
+  border: 2px solid #36ccb5 !important;
+}
+/* line 488, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox .with_fake_out_in {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 491, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox .with_fake_out_in .out_check {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 8px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+/* line 505, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox .with_fake_out_in [type="checkbox"]:not(:checked) + .out_check, .checkbox .with_fake_out_in [type="radio"]:not(:checked) + .out_check {
+  border: 1px solid #bcc5d3;
+}
+/* line 508, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox .with_fake_out_in [type="checkbox"]:not(:checked) + .out_check .in_check, .checkbox .with_fake_out_in [type="radio"]:not(:checked) + .out_check .in_check {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* line 517, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox .with_fake_out_in [type="checkbox"]:checked + .out_check, .checkbox .with_fake_out_in [type="radio"]:checked + .out_check {
+  border: 2px solid #36ccb5 !important;
+}
+/* line 520, ../../../sass/Front/generale/hello_staff.scss */
+.checkbox .with_fake_out_in [type="checkbox"]:checked + .out_check .in_check, .checkbox .with_fake_out_in [type="radio"]:checked + .out_check .in_check {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #36ccb5;
+  transition: all .2s;
+  opacity: 1;
+}
+
+/** language site checkbox **/
+/* line 535, ../../../sass/Front/generale/hello_staff.scss */
+.language_site .checkbox_label {
+  /** checkbox checked **/
+}
+/* line 536, ../../../sass/Front/generale/hello_staff.scss */
+.language_site .checkbox_label:hover:before {
+  border: 2px solid #ffffff !important;
+}
+/* line 540, ../../../sass/Front/generale/hello_staff.scss */
+.language_site .checkbox_label:before {
+  border: 1px solid #ffffff;
+  background: transparent;
+  top: -0.2rem;
+}
+/* line 548, ../../../sass/Front/generale/hello_staff.scss */
+.language_site .checkbox_label.active:before {
+  border: 1px solid #ffffff;
+  background-color: #36ccb5;
+  top: -0.2rem;
+}
+/* line 553, ../../../sass/Front/generale/hello_staff.scss */
+.language_site .checkbox_label.active:after {
+  content: "\f00c";
+  color: #ffffff;
+  left: 5px;
+  font-size: 14px;
+  top: 0 !important;
+  font-family: "FontAwesome";
+}
+
+/***
+**** end input type checkbox
+****
+***/
+/* line 572, ../../../sass/Front/generale/hello_staff.scss */
+small {
+  /*font-family: Raleway;*/
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: normal;
+  text-align: left;
+  color: #43425d;
+}
+
+/* line 583, ../../../sass/Front/generale/hello_staff.scss */
+.divider {
+  opacity: 0.2;
+  border: solid 0.5px #707070;
+  width: 0;
+  margin: 30px;
+}
+
+/* line 587, ../../../sass/Front/generale/hello_staff.scss */
+.no_scroll {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*** start language site ***/
+/* line 592, ../../../sass/Front/generale/hello_staff.scss */
+.language_site {
+  display: -webkit-flex;
+  -webkit-justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  width: 95%;
+  padding: 30px 20px 0 0;
+}
+/* line 598, ../../../sass/Front/generale/hello_staff.scss */
+.language_site .checkbox {
+  display: flex;
+  align-items: center;
+  font-family: Raleway !important;
+  font-size: 14px;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: 1.43 !important;
+  letter-spacing: normal !important;
+  text-align: left !important;
+  color: #ffffff !important;
+}
+
+/* line 613, ../../../sass/Front/generale/hello_staff.scss */
+.sending_report {
+  cursor: pointer;
+  width: 350px;
+  height: 80px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-image: linear-gradient(90deg, #1dc4e9, #1de9b6);
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+/*** end language site ***/
+/* line 638, ../../../sass/Front/generale/hello_staff.scss */
+.input_hidden {
+  width: 0.1px;
+  height: 0.1px;
+  /*opacity: 0;*/
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+/*** start link style ***/
+/* line 642, ../../../sass/Front/generale/hello_staff.scss */
+.file_link {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: center;
+  color: #36ccb5;
+  text-decoration: underline #36ccb5;
+  cursor: pointer;
+}
+
+/*** end link style ***/
+/* focus when the select is disabled */
+/* line 657, ../../../sass/Front/generale/hello_staff.scss */
+.form_item .dropdown-menu .label_select.disabled .select:focus {
+  border: solid 1px rgba(112, 112, 112, 0.15);
+}
+
+/* page attribut */
+/* line 662, ../../../sass/Front/generale/hello_staff.scss */
+.content_attribut_pronoced {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+/* line 671, ../../../sass/Front/generale/hello_staff.scss */
+.content_attribut_pronoced .content_item_attribut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* end page attribut **/
+/** start notifications success, warning ... **/
+/* line 683, ../../../sass/Front/generale/hello_staff.scss */
+.alert_notification {
+  width: 56.5%;
+  margin: auto;
+}
+/* line 686, ../../../sass/Front/generale/hello_staff.scss */
+.alert_notification .alert {
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px 10px;
+  position: relative;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 694, ../../../sass/Front/generale/hello_staff.scss */
+.alert_notification .alert .close {
+  cursor: pointer;
+  position: absolute;
+  right: 1.5%;
+  top: 3%;
+}
+/* line 699, ../../../sass/Front/generale/hello_staff.scss */
+.alert_notification .alert .close:hover i {
+  color: #ffffff;
+}
+
+/* line 706, ../../../sass/Front/generale/hello_staff.scss */
+.success {
+  background-color: #36ccb5;
+}
+
+/* line 709, ../../../sass/Front/generale/hello_staff.scss */
+.warning {
+  background-color: rgba(255, 146, 45, 0.6);
+}
+
+/* line 712, ../../../sass/Front/generale/hello_staff.scss */
+.danger {
+  background-color: #e49393;
+  /* #fce3e3*/
+  color: #a94442;
+}
+
+/** end notifications success, warning ... **/
+/******************** start container *******************/
+/* line 718, ../../../sass/Front/generale/hello_staff.scss */
+.flex_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/******************** start container *******************/
+/******************** start photo_agency *******************/
+/* line 728, ../../../sass/Front/generale/hello_staff.scss */
+.photo_event_content {
+  width: calc(25% - 20px);
+  background-image: linear-gradient(50deg, #36ccb5, #559bf7);
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 10px solid #fff;
+  margin-right: 3%;
+}
+
+/* line 736, ../../../sass/Front/generale/hello_staff.scss */
+.photo_creat_event {
+  width: 100%;
+  height: calc(100% - 6%);
+  padding: 3% 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 744, ../../../sass/Front/generale/hello_staff.scss */
+.title_creat {
+  color: #fff;
+  font-size: 25px;
+  line-height: 2;
+}
+
+/* line 749, ../../../sass/Front/generale/hello_staff.scss */
+.icon_creat_event {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* line 759, ../../../sass/Front/generale/hello_staff.scss */
+.icon_creat {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #fff;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+/* line 773, ../../../sass/Front/generale/hello_staff.scss */
+.icon_plus_creat_event, .icon_plus_event_form {
+  position: absolute;
+  z-index: 9;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  bottom: 1rem;
+  right: 7.5rem;
+}
+/* line 782, ../../../sass/Front/generale/hello_staff.scss */
+.icon_plus_creat_event img, .icon_plus_event_form img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 788, ../../../sass/Front/generale/hello_staff.scss */
+.img_Staff {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 794, ../../../sass/Front/generale/hello_staff.scss */
+.icon_refresh {
+  background-color: #36ccb5;
+  font-family: Century Gothic;
+  position: absolute;
+  color: #fff;
+  font-size: 28px;
+  z-index: 9;
+  border-radius: 50%;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/input_icons/refrech.svg);
+  border: 7px solid #36ccb5;
+  padding: 0px 5px 5px 0px;
+  width: 11px;
+  height: 14px;
+  padding: 4px 4px 0px 4px;
+  right: 10px;
+  bottom: 25px;
+}
+
+/* line 807, ../../../sass/Front/generale/hello_staff.scss */
+.title_footer_creat_event {
+  font-style: normal;
+  color: #fff !important;
+  line-height: 2;
+  font-family: Raleway;
+  font-size: 15px;
+  text-align: center;
+}
+/* line 815, ../../../sass/Front/generale/hello_staff.scss */
+.title_footer_creat_event .file_link {
+  color: #fff !important;
+  text-decoration: underline #fff !important;
+  font-size: 15px;
+}
+
+/* line 822, ../../../sass/Front/generale/hello_staff.scss */
+.file_link {
+  color: #36CCB5;
+  text-decoration: underline #36CCB5;
+}
+
+/******************** end  photo_agency  *******************/
+/******************** start_brief container *******************/
+/* line 829, ../../../sass/Front/generale/hello_staff.scss */
+.content_form_description_event {
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  align-content: flex-end;
+  margin-top: 18px;
+  margin-left: 3%;
+  /*margin-bottom: 5px;*/
+}
+/* line 836, ../../../sass/Front/generale/hello_staff.scss */
+.content_form_description_event .content_description_event {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 842, ../../../sass/Front/generale/hello_staff.scss */
+.heading_event {
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-justify-content: safe;
+  -webkit-align-self: center;
+  -webkit-align-items: center;
+  justify-content: safe;
+  align-self: center;
+  align-items: center;
+  /*height: 19%;*/
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 850, ../../../sass/Front/generale/hello_staff.scss */
+.heading_event_two {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-bottosm: 1.5%;
+  margin-top: 0.8%;
+}
+
+/* line 859, ../../../sass/Front/generale/hello_staff.scss */
+.description_event {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  align-self: center;
+  /*height: 74.5%;*/
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  margin-top: 13px;
+}
+
+/* line 869, ../../../sass/Front/generale/hello_staff.scss */
+.description_event_two {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: safe;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  align-self: center;
+  margin-bottom: 5px;
+  height: 66.5%;
+}
+
+/* line 879, ../../../sass/Front/generale/hello_staff.scss */
+.text_description {
+  background-color: #fff;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 96%;
+  height: 25%;
+}
+
+/* line 887, ../../../sass/Front/generale/hello_staff.scss */
+.text_description_brief {
+  display: flex;
+  height: 69%;
+  width: 96%;
+  border-top: 1px solid #707070;
+  opacity: 0.7;
+}
+
+/* line 894, ../../../sass/Front/generale/hello_staff.scss */
+.text_brief {
+  border: none;
+  font-size: 14px;
+  color: #707070;
+  margin-top: 8px;
+  resize: none;
+}
+
+/* line 902, ../../../sass/Front/generale/hello_staff.scss */
+.text_brief_new {
+  width: 100%;
+  font-size: 14px !important;
+  border: none;
+  font-size: 14px;
+  color: #444;
+  margin-top: 8px;
+  resize: none;
+  outline: none;
+}
+
+/* line 915, ../../../sass/Front/generale/hello_staff.scss */
+.heading_text_description {
+  font-size: 16px;
+  color: #707070;
+  margin-left: 5px;
+  opacity: 0.7;
+}
+
+/* line 921, ../../../sass/Front/generale/hello_staff.scss */
+.icones_agency {
+  width: 42px;
+  margin-right: 15px;
+}
+
+/* line 925, ../../../sass/Front/generale/hello_staff.scss */
+.icon_agency {
+  margin-left: -9px;
+  width: 35px;
+}
+
+/* line 929, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage_heading {
+  width: 45%;
+  padding: 1% !important;
+}
+
+/* line 934, ../../../sass/Front/generale/hello_staff.scss */
+.description_event_tab {
+  height: 100%;
+  margin-top: 2%;
+}
+
+/* line 938, ../../../sass/Front/generale/hello_staff.scss */
+.drop_creat_new {
+  margin-left: -1%;
+}
+
+/* line 941, ../../../sass/Front/generale/hello_staff.scss */
+.drop_creat_two {
+  width: 92% !important;
+  margin-left: 2px;
+}
+
+/******************** end_brief container *******************/
+/** Agency: conteneur des 3 diviseurs de staff nesessary */
+/* line 948, ../../../sass/Front/generale/hello_staff.scss */
+.content_staff_necessary {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 952, ../../../sass/Front/generale/hello_staff.scss */
+.content_first_divider {
+  width: 22%;
+  margin-right: 1.5%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* line 961, ../../../sass/Front/generale/hello_staff.scss */
+.content_three_divider {
+  width: 20%;
+  margin-left: 1.5%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 968, ../../../sass/Front/generale/hello_staff.scss */
+.content_second_divider {
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+/* line 973, ../../../sass/Front/generale/hello_staff.scss */
+.first_content_description {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 24%;
+}
+
+/* line 977, ../../../sass/Front/generale/hello_staff.scss */
+.first_content_description_heading {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 988, ../../../sass/Front/generale/hello_staff.scss */
+.text_cage {
+  text-align: center !important;
+}
+
+/* line 991, ../../../sass/Front/generale/hello_staff.scss */
+.text_heading {
+  font-size: 16px !important;
+}
+
+/* line 995, ../../../sass/Front/generale/hello_staff.scss */
+.text_drop {
+  text-align: start !important;
+  width: 30%;
+  display: flex;
+  flex: inherit;
+  background-color: #F2F6F8;
+  height: 30px;
+  padding: 0px 10px;
+  border: none;
+  color: #707070;
+  font-size: 14px;
+  opacity: 0.6;
+  outline: none;
+}
+
+/* line 1009, ../../../sass/Front/generale/hello_staff.scss */
+.text_drop_new {
+  text-align: start !important;
+  width: 30%;
+  display: flex;
+  flex: inherit;
+  background-color: #F2F6F8;
+  height: 30px;
+  padding: 0px 10px;
+  border: none;
+  color: #707070;
+  font-size: 14px;
+  opacity: 0.6;
+  outline: none;
+}
+
+/* line 1023, ../../../sass/Front/generale/hello_staff.scss */
+.drop_new {
+  width: 18% !important;
+}
+
+/** End Agency: conteneur des 3 diviseurs de staff nesessary */
+/** Agency: dropdown cage */
+/* line 1030, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage {
+  background-color: #fff;
+  padding: 2%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+/* line 1038, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .icones_dropdown_cage {
+  width: 42px;
+}
+/* line 1042, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .text_dropdown_cage {
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.8;
+}
+/* line 1048, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .text_dropdown_cage_two {
+  font-size: 16px;
+}
+/* line 1052, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .line_separator_dropdown {
+  width: 69px;
+  height: 50px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-left: 1px solid #707070;
+  opacity: 0.7;
+  cursor: pointer;
+}
+/* line 1060, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .line_separator_dropdown .image_dropdown_cage {
+  width: 10px;
+  margin-left: 7px;
+}
+/* line 1065, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .line_separator_dropdown_two {
+  width: 38px;
+  height: 50px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-left: 1px solid #707070;
+  opacity: 0.7;
+  cursor: pointer;
+}
+/* line 1073, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .line_separator_dropdown_two .image_dropdown_cage {
+  width: 10px;
+  margin-left: 7px;
+}
+/* line 1078, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .separator_two {
+  width: 72px;
+  height: 50px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-left: 1px solid #707070;
+  opacity: 0.3;
+  cursor: pointer;
+}
+/* line 1086, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_cage .separator_two .image_dropdown_cage {
+  width: 10px;
+  margin-left: 7px;
+}
+
+/** End Agency: dropdown cage*/
+/** star start*/
+/* line 1094, ../../../sass/Front/generale/hello_staff.scss */
+.star {
+  color: orange;
+}
+
+/* line 1097, ../../../sass/Front/generale/hello_staff.scss */
+.star_no_color {
+  color: transparent;
+}
+
+/** star end*/
+/** Container logo avec avatar devant avec dropdown */
+/* line 1102, ../../../sass/Front/generale/hello_staff.scss */
+.container_logo {
+  position: relative;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+/* line 1107, ../../../sass/Front/generale/hello_staff.scss */
+.container_logo .avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #fff;
+  margin-right: 25px;
+  cursor: pointer;
+}
+/* line 1116, ../../../sass/Front/generale/hello_staff.scss */
+.container_logo .avatar .logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* line 1122, ../../../sass/Front/generale/hello_staff.scss */
+.container_logo .border_first_letter {
+  border: 1px solid #35c4b0 !important;
+}
+/* line 1126, ../../../sass/Front/generale/hello_staff.scss */
+.container_logo .logo_hello_staff {
+  height: 50px;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  cursor: pointer;
+}
+
+/* line 1133, ../../../sass/Front/generale/hello_staff.scss */
+.center_staff {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+/*------------- Start create event------------------------*/
+/* line 1142, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 1145, ../../../sass/Front/generale/hello_staff.scss */
+.label_create_event {
+  display: inline-grid;
+  font-size: 14px;
+}
+
+/* line 1150, ../../../sass/Front/generale/hello_staff.scss */
+.input_create_event {
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  height: 36px;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 22px;
+}
+/* line 249, ../../../sass/Front/generale/_layout.scss */
+.input_create_event:focus {
+  border: solid 2px #36ccb5;
+}
+
+/* line 1154, ../../../sass/Front/generale/hello_staff.scss */
+.input_code_postal {
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  height: 36px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding: 2px 12px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 31px;
+}
+/* line 269, ../../../sass/Front/generale/_layout.scss */
+.input_code_postal:focus {
+  border: solid 2px #36ccb5;
+}
+
+/* line 1158, ../../../sass/Front/generale/hello_staff.scss */
+.input_dropdown_create_event {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  height: 36px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding: 2px 12px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 31px;
+  outline: none;
+}
+/* line 269, ../../../sass/Front/generale/_layout.scss */
+.input_dropdown_create_event:focus {
+  border: solid 2px #36ccb5;
+}
+
+/* line 1165, ../../../sass/Front/generale/hello_staff.scss */
+.background_view_noir {
+  position: absolute;
+  background-image: url("../../../img/input_icons/icon_view_noir.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  opacity: 0.3;
+  bottom: 15px;
+  right: 0px;
+}
+
+/* line 1175, ../../../sass/Front/generale/hello_staff.scss */
+.background_no_view_noir {
+  position: absolute;
+  background-image: url("../../../img/input_icons/icon_no_view_noir.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  opacity: 0.3;
+  bottom: 15px;
+  right: 0px;
+}
+
+/* line 1186, ../../../sass/Front/generale/hello_staff.scss */
+.postal_event {
+  width: 31%;
+}
+
+/* line 1190, ../../../sass/Front/generale/hello_staff.scss */
+.empty_div_dropdown {
+  width: 12%;
+}
+
+/* line 1203, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event_footer {
+  display: -webkit-flex;
+  display: flex;
+}
+/* line 1206, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event_footer .postal_event .label_create_event i
+.input_code_postal {
+  width: 77%;
+}
+/* line 1215, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_create_event_footer .dropdown_create_event span .input_dropdown_create_event {
+  width: 84%;
+}
+
+/* line 1222, ../../../sass/Front/generale/hello_staff.scss */
+.description_event_divider {
+  -webkit-justify-content: safe;
+  -webkit-align-self: center;
+  -webkit-align-items: center;
+  justify-content: safe;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  background-color: white;
+}
+
+/* line 1229, ../../../sass/Front/generale/hello_staff.scss */
+.date_horaire_create_event {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 2rem;
+}
+
+/* line 1238, ../../../sass/Front/generale/hello_staff.scss */
+.moins_date_create_event {
+  position: absolute;
+  font-family: Century Gothic;
+  margin: 12px;
+  border: 1px solid #707070;
+  padding: 0px 0px 20px 8px;
+  font-size: 21px;
+  color: #707070;
+  width: 16px;
+  height: 8px;
+  border-radius: 74%;
+  height: 4px;
+  font-size: 21px;
+}
+
+/* line 1252, ../../../sass/Front/generale/hello_staff.scss */
+.plus_create_event {
+  margin-top: -3rem;
+  margin-right: 6.1rem;
+  opacity: 0.3;
+}
+
+/* line 1257, ../../../sass/Front/generale/hello_staff.scss */
+.moins_create_event {
+  margin-top: -6.5rem;
+  margin-left: 17.2rem;
+  opacity: 0.3;
+}
+
+/* line 1263, ../../../sass/Front/generale/hello_staff.scss */
+.horaire_create_event {
+  border-left: solid 1px #707070;
+  padding-left: 2rem;
+  opacity: 0.7;
+}
+
+/* line 1269, ../../../sass/Front/generale/hello_staff.scss */
+.date_create_event {
+  padding-right: 2rem;
+  opacity: 0.7;
+}
+
+/* line 1274, ../../../sass/Front/generale/hello_staff.scss */
+.circle_create_event_blue {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #36ccb5;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 1283, ../../../sass/Front/generale/hello_staff.scss */
+.circle_create_event_purple {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #a389d4;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 1292, ../../../sass/Front/generale/hello_staff.scss */
+.circle_create_event_blue_fonce {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #337de2;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 1301, ../../../sass/Front/generale/hello_staff.scss */
+.circle_create_event_red {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #f44436;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 1310, ../../../sass/Front/generale/hello_staff.scss */
+.circle_create_event_green {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #1fa548;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 1319, ../../../sass/Front/generale/hello_staff.scss */
+.separator_plus_moins {
+  position: absolute;
+  padding-left: 17.2rem;
+  opacity: 0.3;
+  padding-bottom: 0.5rem;
+}
+
+/* line 1325, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_create_event_full {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 1331, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_create_event_full {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/*-------------End create event------------------------*/
+/** Dropdown with cage */
+/* line 1338, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_login {
+  position: absolute;
+  z-index: 999;
+  top: 55px;
+  list-style: none;
+  width: 25%;
+  left: -39px;
+}
+/* line 1346, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_login li {
+  padding: 6px 12px;
+  height: 60px;
+  border-bottom: 1px solid #707070;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 1352, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_login li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+/* line 1357, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_login li img {
+  margin-right: 15px;
+  width: 30px;
+}
+
+/** End Dropdown with cage */
+/** Dropdown with avatar utilisateur */
+/* line 1367, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_drop_user {
+  position: relative;
+  width: 100%;
+}
+/* line 1371, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_drop_user .label_drop_user {
+  font-size: 16px;
+  color: #707070;
+}
+/* line 1376, ../../../sass/Front/generale/hello_staff.scss */
+.form_item_drop_user .input_drop_user {
+  width: 100%;
+  height: 30px;
+  border: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #707070;
+  background-color: #ffffff;
+  padding: 8px 8px;
+  outline: none;
+}
+
+/* line 1388, ../../../sass/Front/generale/hello_staff.scss */
+.dropdownScroll {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+/* line 1392, ../../../sass/Front/generale/hello_staff.scss */
+.dropdownScroll::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+  border-radius: 10px;
+  background-color: transparent;
+}
+/* line 1398, ../../../sass/Front/generale/hello_staff.scss */
+.dropdownScroll::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+/* line 1403, ../../../sass/Front/generale/hello_staff.scss */
+.dropdownScroll::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+  background-color: #ebebeb;
+}
+
+/* line 1411, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users {
+  width: 100%;
+  padding: 0;
+  border: 1px solid #707070;
+  border-radius: 2px;
+  background-color: #fff;
+  left: 0px;
+  top: 65px;
+}
+/* line 1420, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users li {
+  border: 0px;
+  cursor: pointer;
+  padding: 0 20px;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+/* line 1428, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users li:hover {
+  background-color: #e9e9f0 !important;
+}
+/* line 1432, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users li:nth-child(even) {
+  background-color: #e9e9f0;
+}
+/* line 1435, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users li:nth-child(odd) {
+  background-color: #ffffff;
+}
+/* line 1440, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .icone_name_users {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 1444, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .avatar {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+/* line 1452, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .avatar img {
+  width: 100%;
+  height: 100%;
+}
+/* line 1458, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .name_users {
+  color: #707070;
+  font-size: 14px;
+}
+/* line 1463, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .name_users_update {
+  color: #707070;
+  font-size: 14px;
+}
+/* line 1468, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users {
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /** checkbox checked **/
+}
+/* line 1478, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users:before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+}
+/* line 1488, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #36ccb5;
+  transition: all .2s;
+  /** hide checked aspect **/
+  opacity: 0;
+}
+/* line 1504, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users.active:before {
+  border: 0px;
+}
+/* line 1507, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users.active:after {
+  /** show checked aspect **/
+  opacity: 1;
+}
+/* line 1513, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users_update {
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /** checkbox checked **/
+}
+/* line 1523, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users_update:before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+}
+/* line 1533, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users_update:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #36ccb5;
+  transition: all .2s;
+  /** hide checked aspect **/
+  opacity: 0;
+}
+/* line 1549, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users_update.active:before {
+  border: 0px;
+}
+/* line 1552, ../../../sass/Front/generale/hello_staff.scss */
+.dropdown_users .checkbox_users_update.active:after {
+  /** show checked aspect **/
+  opacity: 1;
+}
+
+/** End Dropdown with avatar utilisateur */
+/** menus page with slider */
+/* line 1563, ../../../sass/Front/generale/hello_staff.scss */
+.header_menus {
+  width: 100%;
+  height: 190px;
+}
+/* line 1567, ../../../sass/Front/generale/hello_staff.scss */
+.header_menus .list_menus {
+  padding: 0 30px;
+  height: 100%;
+  background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+
+/* line 1577, ../../../sass/Front/generale/hello_staff.scss */
+.menu_head {
+  width: 10%;
+  height: calc(100% - 50px);
+  display: flex;
+  flex-direction: column;
+  height: calc(100% -50 px);
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+  border: 25px solid transparent;
+}
+/* line 1590, ../../../sass/Front/generale/hello_staff.scss */
+.menu_head:hover {
+  border: 25px solid #82d3dc;
+}
+/* line 1593, ../../../sass/Front/generale/hello_staff.scss */
+.menu_head.active {
+  border: 25px solid #82d3dc;
+}
+/* line 1597, ../../../sass/Front/generale/hello_staff.scss */
+.menu_head .icone_header {
+  width: 30%;
+  margin-bottom: 15px;
+}
+/* line 1600, ../../../sass/Front/generale/hello_staff.scss */
+.menu_head .icone_header img {
+  width: 100%;
+}
+/* line 1605, ../../../sass/Front/generale/hello_staff.scss */
+.menu_head .title_menus {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+/* line 1612, ../../../sass/Front/generale/hello_staff.scss */
+.background_etoile_full {
+  position: absolute;
+  background-image: url(../../../img/input_icons/etoile_vert.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+/* line 1619, ../../../sass/Front/generale/hello_staff.scss */
+.background_etoile_empty {
+  position: absolute;
+  background-image: url(../../../img/input_icons/etoile_vide.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+/* line 1627, ../../../sass/Front/generale/hello_staff.scss */
+.background_moins {
+  position: absolute;
+  background-image: url(../../../img/input_icons/moins.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  opacity: 0.3;
+  bottom: 16px;
+}
+
+/* line 1638, ../../../sass/Front/generale/hello_staff.scss */
+.background_icon_etoile_color {
+  width: 30px;
+  height: 22px;
+  margin-top: 8px;
+  background-color: #ffffff;
+  border-width: 0 0 1px 0;
+  padding: 0px 13px 10px 0;
+  border-color: rgba(255, 255, 255, 0.1);
+  margin-left: -1%;
+  cursor: pointer;
+  text-align: right;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: -19px;
+  background-color: #F2F6F8;
+}
+
+/* line 1653, ../../../sass/Front/generale/hello_staff.scss */
+.background_icon_etoile_no_color {
+  width: 30px;
+  height: 22px;
+  margin-top: 8px;
+  border-width: 0 0 1px 0;
+  padding: 0px 13px 10px 0;
+  border-color: rgba(255, 255, 255, 0.1);
+  margin-left: -1%;
+  cursor: pointer;
+  text-align: right;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: -19px;
+  background-color: #fff;
+}
+
+/** End menu page with slider */
+/*start toastr*/
+/* line 1671, ../../../sass/Front/generale/hello_staff.scss */
+#toast-container * {
+  font-size: 14px;
+}
+
+/* line 1674, ../../../sass/Front/generale/hello_staff.scss */
+.toast-success {
+  background-color: #36ccb5 !important;
+}
+
+/* line 1677, ../../../sass/Front/generale/hello_staff.scss */
+.toast-error {
+  background-color: #f44236 !important;
+}
+
+/*end toastr*/
+/*.select_large {
+    margin-left: -12%;
+}*/
+/* line 1685, ../../../sass/Front/generale/hello_staff.scss */
+.close_new {
+  right: 0.5rem !important;
+  top: 0.5rem !important;
+}
+
+/** Slider slick dots */
+/* line 1690, ../../../sass/Front/generale/hello_staff.scss */
+.slick-dots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+/* line 1697, ../../../sass/Front/generale/hello_staff.scss */
+.slick-dots li button {
+  border-radius: 50%;
+  color: transparent;
+  width: 5px;
+  height: 16px;
+  margin-right: 3px;
+  border: 1px solid #707070;
+  background-color: #fff;
+}
+/* line 1708, ../../../sass/Front/generale/hello_staff.scss */
+.slick-dots .slick-active button {
+  background-image: linear-gradient(225deg, #36ccb5, #559bf7) !important;
+  border: 0 !important;
+}
+
+/** End Slider Slick Dots */
+/* line 1716, ../../../sass/Front/generale/hello_staff.scss */
+.post_slider_exp .description_jobs_exp {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 1723, ../../../sass/Front/generale/hello_staff.scss */
+.label_editable {
+  width: 80%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-color: #F2F6F8;
+  border-top: 1px solid #D1D8DB;
+  border-bottom: 1px solid #D1D8DB;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+/* line 1736, ../../../sass/Front/generale/hello_staff.scss */
+.inherit_padding {
+  padding: 0 !important;
+}

@@ -1,0 +1,619 @@
+@charset "UTF-8";
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 6, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.content_pages {
+  padding: 3%;
+}
+
+/* line 10, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.modify_profil {
+  width: 100%;
+}
+
+/* line 13, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.step_modify_profil {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #F2F6F8;
+  border-top: 1px solid #F2F6F8;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* flex-wrap: wrap; */
+}
+/* line 24, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.step_modify_profil .modify {
+  height: 96%;
+  width: 100%;
+  background-color: #F2F6F8;
+  padding: 0 25px;
+  font-size: 20px;
+  color: #707070;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 34, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.step_modify_profil .modify_language {
+  height: 96%;
+  width: 100%;
+  background-color: #F2F6F8;
+  padding: 0 25px;
+  font-size: 20px;
+  color: #707070;
+  display: -webkit-flex;
+  -webkit-justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 45, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.parent_view {
+  width: 100%;
+  position: relative;
+}
+
+/* line 50, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modify_profil {
+  margin-top: 40px;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 54, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modify_profil .form_group_profil {
+  width: 23%;
+}
+/* line 57, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modify_profil .form_group_profil .form_item {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  color: #707070;
+  /* Firefox */
+  /* Chrome */
+  /* Opéra*/
+}
+/* line 61, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modify_profil .form_group_profil .form_item input[type=number] {
+  -moz-appearance: textfield;
+  width: 94%;
+}
+/* line 66, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modify_profil .form_group_profil .form_item input::-webkit-inner-spin-button,
+.form_modify_profil .form_group_profil .form_item input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 72, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modify_profil .form_group_profil .form_item input::-o-inner-spin-button,
+.form_modify_profil .form_group_profil .form_item input::-o-outer-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
+/* line 78, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modify_profil .form_group_profil .form_item input {
+  border-radius: 0px;
+  background-color: #F2F6F8;
+  border: 0;
+}
+
+/* line 87, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_tps_tvq {
+  width: 96%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 91, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_tps_tvq .tps_tvq {
+  width: 44%;
+}
+
+/* line 96, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_message {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-flex;
+  -webkit-justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+/* line 102, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_message .bold_message {
+  font-weight: bold;
+}
+
+/* line 107, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.description_modify {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #F2F6F8;
+  padding: 53px;
+  font-size: 14px;
+  color: #707070;
+  margin-top: 35px;
+}
+
+/* line 116, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.logo_modif {
+  width: 15%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+/* line 122, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.title_logo {
+  margin-bottom: 15px;
+}
+
+/* line 125, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.agency_logo {
+  width: auto;
+  border-radius: 10px;
+  border: 20px solid #fff;
+  position: relative;
+  height: 173px;
+  overflow: hidden;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 133, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.agency_logo .change {
+  position: absolute;
+}
+/* line 137, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.agency_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 144, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modif {
+  width: 20%;
+}
+/* line 146, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modif .form_item {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+/* line 148, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_modif .form_item label {
+  color: #707070;
+  font-size: 14px;
+}
+
+/* line 155, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.description {
+  width: 56%;
+}
+/* line 158, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.description .form_item {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+/* line 161, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.description .form_item .desc_modif {
+  color: #707070;
+  font-size: 14px;
+}
+/* line 165, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.description .form_item textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+/* line 172, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.description textarea:focus {
+  border: solid 2px #36ccb5;
+  outline: none;
+}
+
+/* line 176, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.form_item_create_event input:focus {
+  border: solid 2px #36ccb5;
+  outline: none;
+}
+
+/* line 181, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.texte_description {
+  margin-top: 11px;
+  border: 0px;
+  color: #707070;
+  font-size: 14px;
+  padding: 40px 25px;
+  background-color: #fff;
+  height: 112px;
+  line-height: 30px;
+}
+
+/* line 191, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.header_create_event {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 195, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.header_create_event_two {
+  width: 100%;
+  padding-bottom: 2.5%;
+  padding-top: 0.5%;
+}
+
+/* line 202, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.number_step_head {
+  width: 60px;
+  height: 60px;
+  background-color: #36ccb5;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  font-size: 29px;
+  color: #fff;
+  margin-right: 1%;
+  margin-left: 3%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 29px;
+  color: #fff;
+}
+
+/* line 218, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+/* line 221, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.title_step {
+  margin-right: 34px;
+}
+
+/* line 224, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 30px;
+}
+
+/* line 228, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.line_divider {
+  color: #707070;
+  border: 0.5px solid #707070;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  opacity: 0.3;
+  margin-left: 3%;
+  margin-right: 56px;
+}
+
+/* line 237, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.utilisateur_profil_update {
+  background-color: #F2F6F8;
+  padding-bottom: 4%;
+}
+
+/* line 241, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.input_update_profil {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 246, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.input_update_profil .input_update_profil_col1 {
+  width: 27%;
+  padding-left: 3.5%;
+}
+/* line 250, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.input_update_profil .input_update_profil_col1 .dropdown_create_event {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+/* line 255, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.input_update_profil .input_update_profil_col1 .icon_input_create_event {
+  position: absolute;
+  top: 34px;
+  right: 9%;
+  height: 22px;
+  transition: all 275ms;
+}
+/* line 264, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.input_update_profil .input_update_profil_col2 {
+  width: 30%;
+}
+/* line 268, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.input_update_profil .input_update_profil_col3 {
+  width: 30%;
+  padding-right: 3.5%;
+}
+
+/* line 274, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.liste_button_update {
+  width: 100%;
+  margin-top: 3%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 280, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.liste_button_update .button_update_profil_gradient {
+  width: 30% !important;
+  height: 57px !important;
+  margin-right: 0 !important;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+}
+
+/* line 288, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.content_button_update_profil {
+  display: -webkit-flex;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: calc(100% - 8%);
+  padding: 3% 4%;
+}
+
+/* line 295, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.button_update_profil_no_gradient {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #C6C9CF;
+  color: #C6C9CF;
+  border-radius: 2px;
+}
+
+/* line 300, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.button_update_profil_gradient {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  /*background-image: linear-gradient(83deg, #559bf7, #36ccb5);*/
+  border: 0px;
+  color: #fff;
+  background-color: #36ccb5;
+  border-radius: 2px;
+  margin-right: 3%;
+}
+
+/* line 307, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.btn_valide {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  /*background-image: linear-gradient(83deg, #559bf7, #36ccb5);*/
+  border: 0px;
+  color: #fff;
+  background-color: #36ccb5;
+  border-radius: 2px;
+  margin-right: 3%;
+}
+
+/* line 314, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.btn_valide_first {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  /*background-image: linear-gradient(83deg, #559bf7, #36ccb5);*/
+  border: 0px;
+  color: #fff;
+  background-color: #36ccb5;
+  border-radius: 2px;
+  margin-right: 3%;
+}
+
+/* line 321, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.btn_validLast {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  /*background-image: linear-gradient(83deg, #559bf7, #36ccb5);*/
+  border: 0px;
+  color: #fff;
+  background-color: #36ccb5;
+  border-radius: 2px;
+  margin-right: 3%;
+}
+
+/* line 328, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.button_update_profil_footer {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  /*background-image: linear-gradient(83deg, #559bf7, #36ccb5);*/
+  border: 0px;
+  color: #fff;
+  height: 44px;
+  font-size: 11px;
+  width: 143px;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+}
+
+/* line 336, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.button_update_profil_footer {
+  width: 15%;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 1px solid #36ccb5;
+  color: #36ccb5;
+  background-image: inherit !important;
+  background-color: #fff !important;
+}
+
+/* line 347, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.footer_update_profil {
+  background-color: #F2F6F8;
+  padding: 4% 0% 4% 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 355, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.line_divider_bg {
+  width: 100%;
+  background-color: #F2F6F8;
+}
+
+/* line 360, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* line 366, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+input[type=number] {
+  -moz-appearance: textfield;
+  width: auto;
+  /* Chrome */
+  /* Opéra*/
+}
+/* line 370, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 376, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+input[type=number]::-o-inner-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
+
+/* line 382, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.modal_body_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+/* line 388, ../../../../sass/Front/agency/updateProfil/update_profil.scss */
+.modal_body_img img {
+  width: 100%;
+  height: 100%;
+}

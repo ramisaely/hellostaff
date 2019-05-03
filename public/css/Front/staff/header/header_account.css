@@ -1,0 +1,105 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 5, ../../../../sass/Front/staff/header/header_account.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* line 10, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .menus {
+  width: 100px;
+  text-decoration: none;
+}
+/* line 14, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .menus .title_menu {
+  font-family: Raleway Regular;
+  font-size: 11px;
+  height: 15px;
+}
+/* line 20, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .menus .img_menus img {
+  width: 40px !important;
+  height: 40px !important;
+}
+/* line 26, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .responsive_menus_tools {
+  width: 50px;
+  margin-right: 3.6vw;
+}
+/* line 30, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .responsive_menus_tools .menus_responsive_btn {
+  width: 80%;
+}
+/* line 33, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .responsive_menus_tools .menus_responsive_btn .click_menus, .header_account .responsive_menus_tools .menus_responsive_btn .click_menus_1 {
+  height: 3px;
+  background: #818b95;
+  border: none;
+  border-radius: 0;
+}
+/* line 40, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .responsive_menus_tools .menus_responsive_btn .click_menus {
+  width: 100%;
+}
+/* line 42, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .responsive_menus_tools .menus_responsive_btn .click_menus_1 {
+  width: 60%;
+  margin: 6px 0;
+}
+/* line 46, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .logo_users .avatar label {
+  font-family: Raleway Medium;
+}
+/* line 48, ../../../../sass/Front/staff/header/header_account.scss */
+.header_account .dropdown_login li a {
+  font-family: Raleway Light;
+}
+
+/* line 51, ../../../../sass/Front/staff/header/header_account.scss */
+.header_menus .menu_head {
+  width: 20%;
+}
+/* line 54, ../../../../sass/Front/staff/header/header_account.scss */
+.header_menus .menu_head .icone_header {
+  width: 3rem;
+}
+
+/* line 60, ../../../../sass/Front/staff/header/header_account.scss */
+.staff_finished_event_menus .menu_head {
+  height: 100%;
+}

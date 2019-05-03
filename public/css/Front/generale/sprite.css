@@ -1,0 +1,91 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 6, ../../../sass/Front/generale/sprite.scss */
+.background_view {
+  background-image: url("../../../img/input_icons/icon_view.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+/* line 12, ../../../sass/Front/generale/sprite.scss */
+.background_no_view {
+  background-image: url("../../../img/input_icons/icon_no_view.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/* line 18, ../../../sass/Front/generale/sprite.scss */
+.backgroung_search {
+  position: absolute;
+  background-image: url(../../../img/input_icons/Search.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  opacity: 0.3;
+  top: 29%;
+}
+
+/* line 28, ../../../sass/Front/generale/sprite.scss */
+.background_plus_color {
+  position: absolute;
+  background-image: url("../../../img/input_icons/plus_color.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  opacity: 0.3;
+  right: 0;
+  bottom: 10px;
+}
+
+/* line 38, ../../../sass/Front/generale/sprite.scss */
+.background_refrech {
+  position: absolute;
+  background-image: url("../../../img/input_icons/refrech.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+/* line 45, ../../../sass/Front/generale/sprite.scss */
+.go_back_grey {
+  background-image: url("../../../img/input_icons/go_back_grey.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}

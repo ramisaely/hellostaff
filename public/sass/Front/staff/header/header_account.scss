@@ -1,0 +1,61 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.header_account {
+	.menus {
+	    width: 100px;
+	    text-decoration: none;
+
+		.title_menu {
+			font-family: Raleway Regular;
+			font-size: 11px;
+		    height: 15px;
+		}
+
+		.img_menus img {
+		    width: 40px !important;
+    		height: 40px !important;
+		}
+	}
+
+	.responsive_menus_tools {
+		  width: 50px;
+	    margin-right: 3.6vw;
+
+		.menus_responsive_btn {
+			width: 80%;
+
+			.click_menus, .click_menus_1 {
+				height: 3px;
+    			background: #818b95;
+    			border: none;
+    			border-radius: 0;
+			}
+
+			.click_menus { width: 100%; }
+
+			.click_menus_1 { width: 60%; margin: 6px 0; }
+		}
+	}
+
+	.logo_users .avatar label { font-family: Raleway Medium; }
+
+	.dropdown_login li a { font-family: Raleway Light; }
+}
+
+.header_menus .menu_head {
+	width: 20%;
+
+	.icone_header {
+		width: 3rem;
+	}
+}
+
+.staff_finished_event_menus {
+	.menu_head { height: 100%; }
+}

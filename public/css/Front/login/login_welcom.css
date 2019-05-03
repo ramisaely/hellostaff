@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../fonts/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../fonts/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../fonts/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../fonts/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../fonts/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/* line 25, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login {
+  display: flex;
+  height: 16%;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background: #2d3d4e;
+}
+/* line 34, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -1px;
+  margin-left: 4px;
+}
+/* line 44, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title .icon {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+  align-self: center;
+  width: 51px;
+  height: 51px;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: -5px;
+}
+/* line 56, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title .icon .icon_circle {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: black;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+/* line 67, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title .icon .icon_circle .label_one {
+  color: white;
+  opacity: 1;
+  font-size: 10px;
+}
+/* line 75, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title .icon .label {
+  color: #fff;
+  font-size: 10px;
+  margin-left: 12px;
+}
+/* line 83, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title .icone {
+  font-size: 20px;
+  color: white;
+  opacity: 0.4;
+  display: flex;
+  width: 8%;
+  align-items: center;
+  justify-content: flex-end;
+  background: #3d4c5e;
+  width: 26px;
+  height: 26px;
+}
+/* line 97, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title .label {
+  width: 74%;
+  display: flex;
+  align-items: center;
+  flex-direction: rows;
+  justify-content: flex-start;
+}
+/* line 104, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title .label .label_hello {
+  font-size: 20px;
+  font-family: raleway;
+  color: white;
+}
+/* line 111, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .logo_title .label .staff_hello {
+  color: #36ccb5;
+  font-size: 20px;
+  font-family: raleway;
+}
+/* line 122, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login {
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+  height: 100%;
+  align-items: center;
+  align-content: space-between;
+  align-self: center;
+  justify-items: self-start;
+  justify-content: space-evenly;
+  margin-right: -20px;
+}
+/* line 134, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_calendar_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  width: 50px;
+  flex-direction: column;
+}
+/* line 145, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_calendar_login .header_mobile_folder_login {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+/* line 153, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_calendar_login .header_mobile_folder_login .calendar {
+  font-size: 20px;
+  color: white;
+  opacity: 0.4;
+  align-self: first auto;
+}
+/* line 163, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_calendar_login .header_mobile_folder_login .calendrier {
+  font-size: 10px;
+  font-family: Raleway;
+  color: white;
+  opacity: 0.9;
+  align-items: center;
+}
+/* line 179, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_calendar_login:hover {
+  background: #3d4c5e;
+  height: 100%;
+  border-bottom: 2px solid #36ccb5;
+}
+/* line 187, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_folder_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  margin-top: -1px;
+  flex-direction: column;
+}
+/* line 199, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_folder_login .mobile_folder_login {
+  display: flex;
+  justify-content: space-aroud;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+}
+/* line 208, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_folder_login .mobile_folder_login .mobile_folder_open_login {
+  font-size: 20px;
+  color: white;
+  opacity: 0.4;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  margin-left: 6px;
+  align-items: center;
+}
+/* line 220, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_folder_login .mobile_folder_login .open_login {
+  font-size: 10px;
+  font-family: Raleway;
+  color: white;
+  opacity: 0.9;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+}
+/* line 236, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_mobile_folder_login:hover {
+  height: 100%;
+  border-bottom: 5px solid #36ccb5;
+  background: #3d4c5e;
+}
+/* line 242, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_finish_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border-style: none;
+  margin-top: -1px;
+  width: 50px;
+}
+/* line 253, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_finish_login .mobile_event_finish_login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+/* line 261, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_finish_login .mobile_event_finish_login .finish_login {
+  font-size: 20px;
+  color: white;
+  opacity: 0.4;
+  width: 28px;
+  height: 28px;
+}
+/* line 270, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_finish_login .mobile_event_finish_login .finish_new_login {
+  font-size: 10px;
+  font-family: Raleway;
+  color: white;
+  opacity: 0.9;
+  text-align: center;
+}
+/* line 285, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_finish_login:hover {
+  background: #3d4c5e;
+  height: 100%;
+  border-bottom: 5px solid #36ccb5;
+}
+/* line 291, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_users_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  margin-top: -1px;
+  width: 50px;
+}
+/* line 304, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_users_login .mobile_event_users_login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: 12px;
+  height: 50px;
+}
+/* line 311, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_users_login .mobile_event_users_login .mobile_users {
+  font-size: 20px;
+  color: white;
+  opacity: 0.4;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+}
+/* line 321, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .mobile_container_login .header_event_users_login .mobile_event_users_login .users_login {
+  font-size: 10px;
+  font-family: Raleway;
+  color: white;
+  opacity: 0.9;
+}
+/* line 338, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .header_event_users_login:hover {
+  background: #3d4c5e;
+  height: 100%;
+  border-bottom: 5px solid #36ccb5;
+  width: 20%;
+}
+/* line 344, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .users_plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  margin-top: -1px;
+  width: 50px;
+  border-left: 1px solid #bbb;
+  height: 56%;
+  margin-right: 23px;
+}
+/* line 361, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .users_plus .mobile_event_users_login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 23px;
+  height: 50px;
+}
+/* line 369, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .users_plus .mobile_event_users_login .mobile_users {
+  font-size: 25px;
+  color: #36ccb5;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  margin-top: 4px;
+  margin-left: 11px;
+}
+/* line 381, ../../../sass/Front/login/login_welcom.scss */
+.container_header_login .users_plus .mobile_event_users_login .mobile_users_login {
+  font-size: 10px;
+  font-family: Raleway;
+  color: white;
+  width: 28px;
+  height: 28px;
+}
+
+/* line 398, ../../../sass/Front/login/login_welcom.scss */
+.users_plus:hover {
+  background: #3d4c5e;
+  height: 100%;
+  border-bottom: 5px solid #36ccb5;
+}

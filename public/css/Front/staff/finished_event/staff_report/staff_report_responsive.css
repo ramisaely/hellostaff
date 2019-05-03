@@ -1,0 +1,164 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+@media (min-width: 780px) {
+  /* line 9, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .section_title {
+    border-bottom: 2px solid #F2F6F8;
+    border-top: 2px solid #F2F6F8;
+  }
+  /* line 13, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .section_title span {
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    padding: 0 3vw;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 22, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .staff_report_content {
+    margin-top: 50px;
+  }
+  /* line 26, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .question label, .staff_report_page .response label {
+    font-size: 25px;
+  }
+  /* line 33, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .question label {
+    margin-bottom: 13px;
+  }
+  /* line 35, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .question .question_content {
+    font-size: 16px;
+    color: #434242;
+  }
+  /* line 41, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .response {
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    display: flex;
+    flex: 1;
+  }
+  /* line 43, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .response label {
+    margin-bottom: 20px;
+  }
+  /* line 45, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .response textarea {
+    font-size: 16px;
+  }
+  /* line 50, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment_container {
+    width: 35%;
+  }
+  /* line 54, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment {
+    width: 300px;
+  }
+  /* line 57, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment .attachment_file_content {
+    margin-top: 20px;
+  }
+  /* line 62, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .submit {
+    display: -webkit-flex;
+    -webkit-justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 781px) and (max-width: 1150px) {
+  /* line 74, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment_container {
+    display: -webkit-flex;
+    -webkit-justify-content: flex-end;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  /* line 78, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .response {
+    margin-right: 2rem;
+  }
+  /* line 80, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment {
+    margin-right: 0;
+  }
+  /* line 83, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment .title {
+    font-size: 140%;
+  }
+  /* line 87, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment label {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+@media (max-width: 500px) {
+  /* line 96, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page {
+    padding: 15px;
+  }
+}
+@media (max-width: 300px) {
+  /* line 108, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment .title {
+    font-size: 130%;
+  }
+  /* line 110, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment .separator {
+    margin-right: 10px;
+  }
+  /* line 112, ../../../../../sass/Front/staff/finished_event/staff_report/staff_report_responsive.scss */
+  .staff_report_page .attachment label {
+    width: 10vw;
+    height: 10vw;
+  }
+}

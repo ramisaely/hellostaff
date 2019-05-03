@@ -1,0 +1,170 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+
+@media (max-width : 1780px) {
+		#popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar {
+			width: 80% !important;
+		}
+}
+
+@media (max-width: 1545px) {
+	#popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar {
+		width: 90% !important;
+	}
+	#popup_dates {
+		.daterangepicker .calendar-table td {
+			height: 40px !important;
+		}
+	}
+}
+
+@media (max-width: 1380px) {
+
+	#popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar {
+		width: 100% !important;
+	}
+	#popup_dates {
+			.header_popup {
+					.plage_dates {
+						width: 100%;
+						justify-content: center;
+						margin-bottom: 4%;
+					}
+					.liste_dates {
+						width: 100%;
+						justify-content: center;
+					}
+			}
+	}
+}
+
+@media (max-width: 1140px) {
+	#popup_dates .modal_content {
+		max-width: 90% !important;
+		width: 90% !important;
+	}
+	#popup_dates .daterangepicker .calendar-table td {
+		height: 60px !important;
+	}
+}
+
+@media (max-width: 1050px) {
+	#popup_dates_2 .modal_content {
+    max-width: 60%;
+    width: 60%;
+	}
+}
+
+@media(max-width: 940px) {
+	#popup_dates .daterangepicker .calendar-table td {
+		height: 40px !important;
+	}
+}
+
+@media (max-width: 730px) {
+	#popup_dates_2 .modal_content {
+    max-width: 90%;
+    width: 90%;
+	}
+}
+
+@media (max-width: 700px) {
+	#popup_dates .daterangepicker .calendar-table td {
+		height: 33px !important;
+	}
+}
+
+@media (max-width: 650px) {
+	.embedded-daterangepicker {
+		.daterangepicker {
+			flex-direction: column;
+
+			.drp-calendar {
+				width: 100%;
+				max-width: 100%;
+				margin-bottom: 5%;
+			}
+		}
+	}
+
+	.boutton_popup_dates {
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 490px) {
+	#popup_dates_2 {
+		.header_popup {
+			.plage_dates {
+				width: 100%;
+				padding-left: 0;
+				justify-content: center;
+				margin-bottom: 5%;
+			}
+
+			.liste_dates {
+				justify-content: center;
+				width: 100%;
+
+				.first_dates {
+				    width: 100px;
+				    height: 115px;
+						margin-right: 0;
+				}
+				.date_number {
+					font-size: 70px;
+				}
+			}
+		}
+		.content_title_hours {
+			justify-content: center;
+			flex-direction: column;
+			margin-bottom: 5%;
+		}
+
+		.embedded-daterangepicker .daterangepicker .drp-calendar .calendar-table td {
+			height: 40px !important;
+
+		}
+	}
+}
+
+@media (max-width: 380px) {
+	.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
+		height: 37px !important;
+	}
+	#popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar .calendar-table td {
+		height: 35px !important;
+	}
+	#popup_dates, #popup_dates_2 {
+		.header_popup {
+			.plage_dates {
+				 .title_hours {
+					font-size: 20px;
+				}
+				.icon_hours {
+					margin-right: 15%;
+
+					.times {
+						width: 60px;
+					}
+				}
+			 }
+
+			 .liste_dates {
+				 margin-top: 10%;
+
+				 .date_number {
+					 font-size: 70px;
+				 }
+
+				 .first_dates, .second_dates {
+					 width: 100px;
+					 height: 115px;
+				 }
+			 }
+		}
+	}
+}

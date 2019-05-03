@@ -1,0 +1,252 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+/* line 5, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.container_fullcalendar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  padding: 3% !important;
+}
+
+/* line 11, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.staff_necessary_update {
+  margin-bottom: 3%;
+}
+
+/* line 15, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.left_staff {
+  padding-left: 13%;
+}
+
+/* line 18, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.form_item_create_event {
+  width: 100%;
+}
+/* line 21, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.form_item_create_event .label_drop_user, .form_item_create_event .labedropdown_largel_create_event {
+  font-size: 16px;
+  color: #707070;
+}
+
+/* line 26, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.content_event_form {
+  padding: 2%;
+  background-color: #F2F6F8;
+}
+
+/* line 30, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.plus_moin .td_dates {
+  width: auto;
+  display: flex;
+  flex: 1;
+}
+
+/* line 35, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.icon_creat_event {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 40, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.step_modify_profil {
+  width: 96%;
+  height: auto;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+/* line 47, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.form_item_drop_user::before {
+  display: none;
+}
+
+/* line 50, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.content_pages_event_form {
+  width: 96%;
+  background-color: #fff;
+  padding: 2%;
+  height: auto;
+}
+/* line 56, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.content_pages_event_form .statement_event_form {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 3%;
+}
+/* line 63, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.content_pages_event_form .statement_event_form .form_item_create_event .input_create_event {
+  position: absolute;
+  width: 20%;
+  margin-left: -28%;
+  top: 24%;
+  right: 2%;
+}
+
+/* line 74, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.content_event_form .create_event {
+  padding: 0%;
+}
+
+/* line 78, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.dropdown_create_event {
+  width: 90%;
+}
+
+/* line 82, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.content_event_form #country {
+  width: 89%;
+}
+
+/* line 86, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.form_item_drop_user .input_drop_user {
+  height: 25px;
+}
+
+/* line 90, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.content_color_bouton .content_bouton .add {
+  font-size: 11px;
+}
+
+/* line 94, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.content_color_bouton .content_bouton .delet {
+  font-size: 11px;
+}
+
+/* line 98, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.img_roue {
+  width: 40px;
+}
+
+/* line 104, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.code_postal_drop .icon_input_create_event_pro, .drop_one .icon_input_create_event_pro {
+  top: 1rem;
+}
+
+/* line 108, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.text_brief {
+  opacity: 0.3;
+}
+
+/* line 111, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.zone_event_staff {
+  width: 55% !important;
+}
+
+/* line 114, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.icone_modify_photo {
+  background-color: #36ccb5;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* line 121, ../../../../sass/Front/agency/finished_event/event_form.scss */
+#dropdown_users_manage {
+  top: 3.8rem;
+  width: 100%;
+}
+
+/* line 125, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.create_event .drop_creat_two {
+  top: 2.8rem;
+}
+
+/* line 128, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.specify_modif_drop_city {
+  top: 3.8rem !important;
+  width: 108% !important;
+  right: -1rem !important;
+}
+
+/* line 133, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.specify_modif_drop_province {
+  top: 3rem !important;
+  width: 102% !important;
+  right: -1rem !important;
+}
+
+/* line 139, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.text_drop_new {
+  border-top: 1px solid #d3d6d7;
+  border-bottom: 1px solid #d3d6d7;
+}
+
+/* line 145, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.description_event_tab tbody {
+  width: 90%;
+  padding: 2%;
+}
+/* line 149, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.description_event_tab tbody tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 156, ../../../../sass/Front/agency/finished_event/event_form.scss */
+.horaire_create_event {
+  border: 0;
+}

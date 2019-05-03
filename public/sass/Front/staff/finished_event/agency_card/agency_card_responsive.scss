@@ -1,0 +1,174 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+@media (min-width: 780px) {
+	.agency_card_page {
+
+		.section_title {
+			border-bottom: 2px solid #F2F6F8;
+	    	border-top: 2px solid #F2F6F8;
+
+	    	span {
+			    border-bottom: 2px solid #ffffff;
+			    border-top: 2px solid #ffffff;
+			    padding: 0 3vw;
+			    @include hs_flex_start;
+			    @include hs_flex_align_centered;
+	    	}
+		}
+
+		.agency_card_content {
+			@include hs_flex_align_centered;
+			@include hs_flex_wrap;
+		}
+
+		.agency_logo {
+			width: auto;
+			/*width: 390px;
+			/*padding-right: 130px;*/
+		    padding-left: 1rem;			
+			padding-right: 6.7vw;
+			margin: 0;
+
+			img { 
+				/*width: 260px; height: 260px;*/ 
+				width: 13.5vw;
+    			height: 13.5vw;
+			}
+		}
+
+		.agency_card_header { 
+			@include hs_flex_one; 
+			@include hs_flex_wrap; 
+			@include hs_flex_align_centered;
+			min-height: 13.5vw;
+			margin: 3.3rem 0;
+		}
+
+		.agency_identity { 
+			width: 100%; 
+			@include hs_flex_align_centered; 
+		}
+
+		.agency_identity_item { 
+			@include hs_flex_direction_row;
+			@include hs_flex_start;
+
+			&.address {
+				margin-top: 0;
+			}
+
+			&:not(:last-child) { margin-right: 100px; }
+
+			.content { 
+				@include hs_flex_align_start; 
+				@include hs_flex_justify_centered; 
+			}
+
+			img { margin-right: 20px; }
+		}
+
+		.description {
+			margin-left: 0;
+			margin-right: 0;
+			margin-top: 30px;
+
+			p { text-align: left; }
+
+			.title { margin-bottom: 15px; }
+
+			.text { font-size: 17px; }
+		}
+
+		.agency_card_footer {
+			height: 13rem;
+			@include hs_flex_align_centered; 
+			padding: 0;
+
+			.submit {
+				order: 1;
+				width: calc(20.2vw + 1rem);
+				padding-left: 2.3vw;
+				@include hs_flex_start;
+
+				button { 
+					width: 13.5vw;
+					min-width: 200px;
+					font-size: 100%; 
+				}
+			}
+
+			.footer_informations {
+				order: 2;
+				@include hs_flex_one;
+				@include hs_flex_direction_row;
+				@include hs_flex_space_between;
+				margin-bottom: 0;
+				margin-right: 5.2vw;
+
+				.information_item { 
+					margin-bottom: 0!important; 
+					@include hs_flex_direction_row; 
+
+					img {
+						margin-bottom: 0;
+						/*margin-right: 20px;*/
+						margin-right: 1.1vw;
+						width: 3.8vw;height: 3.8vw;
+					}
+				}
+
+				p {
+					text-align: left;
+					font-size: 19px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 781px) and (max-width: 1100px) {
+	.agency_card_page {
+		.agency_logo img {
+			width: 17.5vw;
+    		height: 17.5vw;
+		}
+
+		.agency_card_header {
+			min-height: 17.5vw;
+		}
+
+		.agency_card_footer {
+			.footer_informations {
+				.information_item {
+					img {
+
+					}
+				}
+
+				p {
+				    font-size: 15px;
+				}
+			}
+
+			.submit {
+				width: calc(24.2vw + 1rem);
+
+				button {
+					font-size: 90%;
+					min-width: 180px;
+					height: 65px;
+
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 501px) {
+	.agency_card_page {
+		padding: 2rem;
+
+	}
+}

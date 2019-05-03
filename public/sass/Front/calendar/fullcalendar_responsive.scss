@@ -1,0 +1,177 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+
+
+@media (max-width: 1400px) {
+	.fc-toolbar .fc-left {
+	  	width: auto;
+	}
+
+	.fc-basic-view .fc-body .fc-row {
+
+	}
+}
+
+@media (max-width: 1250px) {
+	.fc-today-button, .fc-agendaDay-button, .fc-agendaWeek-button, 
+	.fc-month-button, .fc-listWeek-button {
+		width: 120px !important;
+    	height: 45px !important;
+	}
+
+	.fc-toolbar {
+	  	.fc-right .fc-button {
+	  		margin-left: 1em;
+	  	}
+
+	  	.fc-center h2 {
+	  		font-size: 35px;
+	  	}
+	}
+}
+
+@media (max-width: 1023px){
+	.fc-widget-content {
+		height: auto;
+		overflow: auto;
+		width: 100%;
+	}
+
+	.fc-unthemed tbody {
+		height: auto;
+		width: 100%;
+	}
+
+	.fc-toolbar {
+		&.fc-header-toolbar {
+			@include hs_flex_wrap;
+		}
+
+		.fc-left {
+			width: 100%;
+			order: 1;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #ddd;
+		}
+
+		.fc-right {
+			width: 100%;
+			order: 2;
+			@include hs_flex_justify_centered;
+			margin-top: 15px;
+		}
+
+		.fc-center {
+			width: 100%;
+			order: 3;
+			@include hs_flex_justify_centered;
+			margin-top: 20px;
+		}
+	}
+
+	.fc-list-item-time {
+		width: 40%;
+		text-align: left;
+
+		br {
+			content: " ";
+			margin-left: 10px;
+		}
+	}
+
+	.fc-list-item-marker {
+	    width: 15px;
+		text-align: left;
+	}
+
+	.fc-list-item-title {
+		@include hs_flex_one;
+		text-align: left;
+	}
+
+	.fc-widget-header {
+		width: 100%;
+	}
+
+	.fc-month-view {
+
+		.fc-week .fc-content-skeleton {
+			thead {
+				height: 30px;
+
+				.fc-day-number {
+					font-size: 15px;
+				}
+			}
+
+			tbody {
+				.fc-more-cell .fc-more {
+					font-size: 14px;
+				}
+			}
+		}
+
+		.fc-event-container {
+			.fc-content {
+				height: 35px;
+				font-size: 15px;
+			}
+		}
+	}
+
+}
+
+@media (max-width: 780px){
+	
+}
+
+@media (max-width: 500px){
+	.fc button {
+		font-size: 14px;
+	}
+
+	.fc-right button, .fc-today-button {
+	    width: 95px !important;
+		height: 35px !important;
+	}
+}
+
+.fc-listWeek-view {
+	.fc-widget-header {
+		height: 30px;
+		background-color: #F5F6F7;	
+		font-weight: normal;		
+
+		.fc-list-heading-main {
+			font-size: 15px;
+			color: #707070;
+		}
+
+		.fc-list-heading-alt {
+			font-size: 16px;
+			color: #393C40;
+		}
+	}
+
+	.fc-list-item {
+		td { 
+			height: auto; 
+			font-size: 15px;
+		}
+
+		.fc-list-item-time {
+			font-size: 13px;
+			color: #707070;
+		}
+
+		.fc-list-item-title {
+			@include hs_flex_align_centered;
+			font-size: 12px;
+			color: #393C40;
+		}
+	}
+}
+
+

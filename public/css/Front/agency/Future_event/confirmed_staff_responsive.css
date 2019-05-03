@@ -1,0 +1,188 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+@media (min-width: 1024px) and (max-width: 1680px) {
+  /* line 8, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .description_item_jobs .icones_jobs {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+  }
+  /* line 13, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .description_item_jobs .name_jobs {
+    font-size: 14px;
+  }
+
+  /* line 17, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .status_item_jobs {
+    width: 24%;
+  }
+  /* line 20, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .status_item_jobs .listes_status {
+    font-size: 16px;
+  }
+
+  /* line 24, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .find_new_jobs .new_jobs {
+    font-size: 16px;
+  }
+
+  /* line 27, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .dropdown_liste_jobs {
+    width: 100%;
+  }
+  /* line 30, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .dropdown_liste_jobs .description_staffs .name_staff {
+    font-size: 15px;
+  }
+  /* line 34, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .dropdown_liste_jobs .country_staff {
+    font-size: 13px;
+  }
+
+  /* line 38, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .dropdown_liste_jobs li {
+    padding: 2%;
+  }
+
+  /* line 41, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .listes_jobs {
+    width: 92%;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 49, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .listes_staff_confirmed .content_dropdown_jobs {
+    width: 46%;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 56, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .description_item_jobs .name_jobs {
+    font-size: 11px;
+  }
+  /* line 59, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .description_item_jobs .listes_status {
+    font-size: 13px;
+  }
+
+  /* line 63, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .action_staff {
+    width: 25%;
+  }
+
+  /* line 66, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .dropdown_liste_jobs {
+    width: 319px;
+  }
+
+  /* line 69, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .status_item_jobs .listes_status {
+    font-size: 13px;
+  }
+
+  /* line 73, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .description_item_jobs .icones_jobs {
+    margin-right: 2px;
+  }
+}
+@media (min-width: 360px) and (max-width: 1023px) {
+  /* line 79, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .confirmed_staff_menus {
+    margin-right: -7px;
+  }
+
+  /* line 82, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .listes_staff_confirmed .content_dropdown_jobs {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+
+  /* line 87, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .description_item_jobs .icones_jobs {
+    margin-right: 0px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+  }
+  /* line 93, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .description_item_jobs .name_jobs {
+    font-size: 14px;
+  }
+
+  /* line 97, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .dropdown_liste_jobs {
+    width: 100%;
+  }
+
+  /* line 101, ../../../../sass/Front/agency/Future_event/confirmed_staff_responsive.scss */
+  .status_item_jobs {
+    width: 26%;
+  }
+
+  /* .menu_head .icone_header {
+      width: 0%;
+      margin-bottom: 0px;
+  }*/
+}

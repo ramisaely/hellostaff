@@ -1,0 +1,29 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+.staff_finished_event_menus {
+	.menu_head {
+		width: 30%;
+		@include hs_flex_direction_row;
+
+		.title_menus {
+			margin-left: 2rem;
+		}
+
+		.icone_header { margin-bottom: 0; }
+	}
+}
+
+@media (min-width: 781px) and (max-width: 1023px) {
+	.staff_finished_event_menus {
+		.menu_head {
+
+			.title_menus {
+				margin-left: 1.5vw;
+			}
+
+			.icone_header { width: 2rem; }
+		}
+	}
+}

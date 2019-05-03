@@ -1,0 +1,482 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../fonts/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../fonts/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../fonts/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../fonts/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../fonts/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../sass/_layout.scss */
+/* line 27, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/************************************* Agence responsive : 1200-1367  ***********************************************/
+@media (min-width: 1199.98px) and (max-width: 1366.98px) {
+  /* line 37, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .footer .step_btn {
+    padding: 8px 20px;
+  }
+
+  /* line 40, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .corporative_identity .entreprise_logo .logo i {
+    font-size: 8rem;
+  }
+
+  /* line 43, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .tiret {
+    width: 66%;
+  }
+
+  /* line 46, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .tiret_users {
+    width: 66% !important;
+  }
+
+  /*.input_hidden_special {
+      margin-left: -30rem !important;
+  }*/
+  /* line 52, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .form_item .dropdown.drop_new_two {
+    width: 65%;
+  }
+}
+/******************************************Agence responsive: 768-1024***********************************************/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 60, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .btn_responsive {
+    width: 78% !important;
+  }
+
+  /*Modal finish*/
+  /* line 64, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .modal .modal_content {
+    max-width: 90%;
+  }
+
+  /*end Modal finish*/
+  /** Contact utilisateur bouton ajouter supprimer*/
+  /* line 71, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .bouton_personal .supprimer {
+    padding: 3%;
+  }
+  /* line 74, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .bouton_personal .ajouter {
+    padding: 3%;
+  }
+
+  /* line 78, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .form_item .dropdown.drop_new_two {
+    width: 67%;
+  }
+
+  /** End Contact utilisateur bouton ajouter supprimer*/
+  /*.input_hidden_special{
+      margin-left: -23rem !important;
+  }*/
+}
+/*****************************************End Agence responsive: 768-1024********************************************/
+/******************************************Agence responsive: max 767 ***********************************************/
+@media (max-width: 767px) {
+  /* line 96, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  /* line 103, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .sidebar {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(54deg, #36ccb5, #559bf7);
+    position: relative;
+  }
+  /* line 109, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .sidebar .font_sidebar {
+    display: none;
+  }
+  /* line 114, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .content_wrap {
+    margin-left: 0px;
+    width: 100%;
+  }
+  /* line 118, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .sidebar .agency_reg_side {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  /* line 122, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .personal {
+    width: 75%;
+  }
+  /* line 128, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .agency_reg_step_nav .agency_reg_step_range_labels li {
+    color: transparent;
+  }
+  /* line 131, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .medium_title {
+    font-size: 14px;
+  }
+  /* line 134, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .tiret {
+    display: none;
+  }
+  /* line 138, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .step_range, .master .job_experience_range {
+    background-color: transparent;
+  }
+  /* line 141, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .agency_reg_step_nav {
+    width: 20%;
+  }
+  /* line 144, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .agency_reg_step_range_labels li::before {
+    width: 5px;
+    height: 5px;
+    opacity: 0.3;
+    background-color: #3b86ff;
+    content: "";
+  }
+  /* line 153, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .agency_reg_step_nav .agency_reg_step_range_labels {
+    margin: 16px 0rem 0;
+  }
+  /* line 158, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .agency_reg_step_range_labels li:before {
+    width: 5px;
+    height: 5px;
+    opacity: 0.3;
+    background-color: #3b86ff;
+    content: "";
+  }
+  /* line 166, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .agency_reg_step_range_labels .current::before {
+    width: 25px;
+    height: 25px;
+    top: -45px;
+    margin: auto -10px auto -3px;
+    opacity: 1;
+  }
+  /* line 173, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .master .agency_reg_step_range_labels .active.selected::before {
+    opacity: 1;
+  }
+
+  /* line 179, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .modal_content .check_confirmation {
+    margin: 44px 145px;
+  }
+  /* line 182, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .modal_content .text_confirmation {
+    margin: 10px 45px;
+  }
+
+  /** End Photo&CV**/
+  /*** start modal ***/
+  /*** end modal ***/
+  /*Modal finish*/
+  /* line 194, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .modal .modal_content {
+    max-width: 90%;
+  }
+
+  /*end Modal finish*/
+  /** Contact utilisateur bouton ajouter supprimer*/
+  /* line 200, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .bouton_personal .supprimer {
+    padding: 3%;
+  }
+  /* line 203, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .bouton_personal .ajouter {
+    padding: 3%;
+  }
+
+  /** End Contact utilisateur bouton ajouter supprimer*/
+  /** Language Site */
+  /* line 210, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .sidebar .language_site {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  /** End language Site */
+  /* Language site */
+  /* line 224, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .sidebar .language_site .english {
+    border-right: 0.5rem solid transparent;
+  }
+
+  /* line 228, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .form_item .dropdown.drop_new_two {
+    width: 68%;
+  }
+
+  /* End Language site */
+}
+/****************************************End Agence responsive: max 767 ***********************************************/
+/******************************************Agence responsive: max 480 ***********************************************/
+@media (max-width: 480px) {
+  /* 1st page*/
+  /* line 244, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .sidebar .agency_reg_side {
+    padding: 3rem;
+  }
+  /* line 246, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .sidebar .agency_reg_side .header_title {
+    font-size: 30px;
+  }
+
+  /*end 1st page*/
+  /* line 257, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .entreprise .contact_user {
+    width: 100%;
+  }
+  /* line 260, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .entreprise .contact_user .personnal {
+    width: 70%;
+  }
+
+  /*** start step registration Agency range slider ***/
+  /* line 267, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .agency_reg_step_nav {
+    width: 30%;
+  }
+
+  /* line 270, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .step_range {
+    background-color: transparent;
+  }
+
+  /* line 275, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .agency_reg_step_range_labels li:before {
+    width: 5px;
+    height: 5px;
+    opacity: 0.3;
+    background-color: #3b86ff;
+    content: "";
+  }
+  /* line 283, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .agency_reg_step_range_labels .current::before {
+    width: 25px;
+    height: 25px;
+    top: -45px;
+    margin: auto -10px auto -3px;
+    opacity: 1;
+  }
+  /* line 290, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .agency_reg_step_range_labels .active.selected::before {
+    opacity: 1;
+  }
+
+  /*** end step registration Agency range slider ***/
+  /** 2nd page*/
+  /* line 299, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .corporative_identity {
+    padding: 3rem 0;
+  }
+
+  /* line 302, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .corporative_identity .entreprise_logo, .corporative_identity .brief_description {
+    margin: 5%;
+    width: 100%;
+  }
+
+  /* line 306, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .corporative_identity .entreprise_logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* line 310, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .personal {
+    width: 74%;
+  }
+
+  /* line 313, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .tiret {
+    width: 0%;
+  }
+
+  /* line 316, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .entreprise .form_item input:not([type="checkbox"]) {
+    width: 100%;
+  }
+
+  /* line 319, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .entreprise .form_item {
+    width: 100%;
+  }
+
+  /* line 322, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .dropdown_city {
+    width: 100%;
+  }
+
+  /*Modal finish*/
+  /* line 327, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .modal .modal_content {
+    max-width: 80%;
+  }
+
+  /* line 332, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .check_confirmation {
+    width: 5rem;
+    height: 5rem;
+  }
+  /* line 336, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .post_confirmation {
+    font-size: 32px;
+  }
+  /* line 339, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .text_confirmation {
+    font-size: 22px;
+  }
+  /* line 342, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .step_btn {
+    padding: 8px 40px;
+    font-size: 22px;
+  }
+  /* line 346, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .confirm_agency {
+    margin-top: 80px;
+  }
+
+  /*end Modal finish*/
+  /* Footer step btn*/
+  /* line 352, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  /* line 361, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .footer .step_prev_btn {
+    width: 30%;
+    font-size: 15px;
+    height: 14px;
+    text-align: center;
+  }
+  /* line 368, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .footer .step_next_btn {
+    width: 30%;
+    height: 14px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  /* end Footer step btn*/
+}
+/****************************************** End Agence responsive: max 480  ***********************************************/
+@media (max-width: 380px) {
+  /* line 384, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .personal {
+    width: 85%;
+    margin-left: -7%;
+  }
+
+  /* line 388, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .personal_plus:before {
+    margin: -90px auto auto 42.5%;
+  }
+
+  /* line 391, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .personal_plus {
+    margin-top: 34%;
+  }
+  /* line 393, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .personal_plus .title_agency {
+    margin: inherit;
+  }
+  /* line 395, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .personal_plus .title_agency .title_tiret {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* line 399, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .personal_plus .title_agency .title_tiret .title {
+    margin-right: inherit;
+  }
+
+  /* end 3rd page*/
+  /*Modal finish*/
+  /* line 408, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .modal .modal_content {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  /* line 414, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .check_confirmation {
+    margin: 44px 0px;
+    width: 4rem;
+    height: 4rem;
+  }
+  /* line 419, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .post_confirmation {
+    font-size: 25px;
+  }
+  /* line 422, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .text_confirmation {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+  /* line 426, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .step_btn {
+    font-size: 16px;
+  }
+  /* line 429, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  #agency_registration_finish .confirm_agency {
+    margin-top: 35px;
+  }
+
+  /*end Modal finish*/
+  /** Contact utilisateur bouton ajouter supprimer*/
+  /* line 436, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .bouton_personal .supprimer {
+    padding: 3%;
+    width: 95%;
+    margin-bottom: 10%;
+  }
+  /* line 441, ../../../../sass/Front/agency/sign_up/agency_responsive.scss */
+  .bouton_personal .ajouter {
+    padding: 3%;
+    width: 95%;
+  }
+
+  /** End Contact utilisateur bouton ajouter supprimer*/
+}

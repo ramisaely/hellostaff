@@ -1,0 +1,241 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.hour_facture_page {
+	width: 100%;
+	background-color: #F2F6F8;
+	@include hs_flex_wrap;
+
+	form {
+	    width: 100%;
+	}
+
+	.hour_facture_content {
+		width: 100%;
+		background-color: #FFFFFF;
+		padding: 0 35px;
+		margin: 45px;
+	}
+
+	.section_title {
+		margin-top: 50px;
+		font-size: 30px;
+		color: #707070;
+
+		span { font-family: Raleway Light;}
+	}
+
+	.table_hour_facture {
+		width: 100%;
+		margin-top: 45px;
+
+		.travelling {
+			display: block;
+			font-size: 17px;
+			color: #707070;
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+	}
+
+	table {
+		width: 100%;
+		border: 1px solid #F2F6F8;
+		border-spacing: 0;
+
+		thead {
+			/*display: table-caption;*/
+    		width: 100%;
+
+    		tr {
+    			padding: 8px 0;
+			    background-color: #F2F6F8;
+    		}
+		}
+
+		tr {
+		    /*display: flex;*/
+		    width: 100%;
+		}
+
+		th {
+			/*background-color: #F2F6F8;*/
+			height: 35px;
+		    white-space: nowrap;
+			/*@include hs_flex_one;
+			@include hs_flex_align_centered;
+			@include hs_flex_justify_centered;*/
+			font-weight: normal;
+			color: #707070;
+			font-size: 16px;
+
+			&:not(:last-child) { border-right: 1px solid #d4dbde; }
+		}
+
+		td {
+			height: 50px;
+			font-size: 15px;
+			border-bottom: 1px solid #d4dbde;
+			text-align: center;
+			color: #393C40;
+			/*@include hs_flex_one;
+			@include hs_flex_align_centered;
+			@include hs_flex_justify_centered;*/
+			&:not(:last-child) { border-right: 1px dashed #d4dbde; }
+		}
+
+		.performed_hour, .distance_rate, .expense {
+			@include hs_flex_nowrap;
+			@include hs_flex_align_centered;
+			@include hs_flex_justify_space_evenly;
+			width: 100%;
+			color: #393C40;
+		}
+
+		.hour_from, .hour_to,
+		.distance_rate .distance,
+		.expense .amount {
+			font-family: Raleway Light;
+			height: 30px;
+			background-color: #F2F6F8;
+			border: 1px solid #AFB5BD;
+			color: #707070;
+			@include hs_flex_align_centered;
+			@include hs_flex_justify_centered;
+		}
+
+		.performed_hour {
+
+			padding: 0 10px;
+
+			div {
+        @include hs_flex_align_centered;
+        @include hs_flex_nowrap;
+        width: 90px;
+      }
+
+			.hour_from, .hour_to {
+				width: 100%;
+			}
+
+			.to {
+				color: #393C40;
+			}
+		}
+
+		.distance_rate {
+			.distance { width: 80px; }
+		}
+
+		.expense {
+			.amount { width: 80px; }
+		}
+
+		.cell_performed_hour {
+			/*width: 80px;
+			flex: 80px;*/
+			width: 15%;
+			flex: 15%;
+
+			button { display: none; }
+		}
+
+		.cell_distance_rate, .cell_expense {
+			/*width: 50px;*/
+			width: 12%;
+			flex: 12%;
+		}
+
+		.cell_more_info {
+			width: 18%;
+			flex: 18%;
+			position: relative;
+
+			.more_info {
+				width: 100%;
+				position: absolute;
+				top: 8px;
+				bottom: 8px;
+				font-size: 14px;
+				background-color: #F2F6F8;
+				border: 1px solid #AFB5BD;
+				color: #707070;
+				text-align: center;
+				@include hs_flex_justify_centered;
+				@include hs_flex_align_centered;
+
+				span {
+					font-family: Raleway Light;
+					width: 90%;
+				}
+			}
+		}
+
+		.responsive_more_info {
+			display: none;
+		}
+
+		.sub_total {
+			background-color: #FFFFFF;
+
+			td {
+				background-color: #F2F6F8;
+			}
+
+			.distance_rate, .expense {
+				background-color: transparent;
+				border: none;
+			}
+
+			.responsive_separator { display: none; }
+		}
+	}
+
+	.hour_facture_footer {
+		@include hs_flex_space_between;
+		margin-bottom: 25px;
+
+		.left, .right {
+			max-width: 48%;
+		}
+
+		.show_my_bill {
+			display: block;
+			font-size: 19px;
+			color: #405164;
+			text-decoration: underline;
+		    font-style: italic;
+		    margin-bottom: 20px;
+		}
+
+		.message p {
+			font-family: Raleway Light;
+			font-size: 16px;
+			color: #707070;
+		    font-style: italic;
+		    margin: 5px 0;
+
+		}
+
+		.right {
+			button {
+				font-family: Raleway Medium;
+				@include hs_flex_align_centered;
+				@include hs_flex_justify_centered;
+			    width: 270px;
+    			height: 70px;
+				background-image: linear-gradient(90deg, #1DC4E9, #1DE9B6);
+				border: none;
+				font-size: 22px;
+				color: #FFFFFF;
+			    text-transform: uppercase;
+			    cursor: pointer;
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none">
+    <symbol viewBox="0 0 20 20" id="icon-cross">
+            <path d="M16.364 3.636l-6.018 6.018-6.71 6.71m12.728 0L3.636 3.636" stroke="currentColor" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square" />
+    </symbol>
+    <symbol id="icon-arrow-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path id="a" d="M7.339 23.703a.99.99 0 0 1-1.38 0 .947.947 0 0 1 0-1.358l10.38-10.219L5.962 2.261a.942.942 0 0 1 0-1.352.979.979 0 0 1 1.38 0l11.596 11.217-11.6 11.577z"/>
+    </symbol>
+    <symbol id="icon-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55"  style="enable-background:new 0 0 55 55;" xml:space="preserve">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve">
+            <g id="hover" transform="translate(-599.5 -1.5)">
+                <g id="icon" transform="translate(169.5 -199.5)">
+                    <path id="path" class="st0" style="fill:none;stroke:#FFFFFF;stroke-width: 2px;" d="M443.5,230.3l8.4,8.4l19.4-19.2"/>
+                </g>
+            </g>
+        </svg>
+    </symbol>
+    <symbol id="icon-plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path id="a" d="M12 0c.51 0 .923.413.923.923v22.154a.923.923 0 1 1-1.846 0V.923c0-.51.413-.923.923-.923zM.923 11.077h22.154a.923.923 0 1 1 0 1.846H.923a.923.923 0 1 1 0-1.846z"/>
+    </symbol>
+</svg>

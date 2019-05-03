@@ -1,0 +1,225 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+@media (max-width: 1780px) {
+  /* line 7, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar {
+    width: 80% !important;
+  }
+}
+@media (max-width: 1545px) {
+  /* line 13, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar {
+    width: 90% !important;
+  }
+
+  /* line 17, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .daterangepicker .calendar-table td {
+    height: 40px !important;
+  }
+}
+@media (max-width: 1380px) {
+  /* line 25, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar {
+    width: 100% !important;
+  }
+
+  /* line 30, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .header_popup .plage_dates {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 4%;
+  }
+  /* line 35, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .header_popup .liste_dates {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 1140px) {
+  /* line 44, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .modal_content {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+
+  /* line 48, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .daterangepicker .calendar-table td {
+    height: 60px !important;
+  }
+}
+@media (max-width: 1050px) {
+  /* line 54, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .modal_content {
+    max-width: 60%;
+    width: 60%;
+  }
+}
+@media (max-width: 940px) {
+  /* line 61, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .daterangepicker .calendar-table td {
+    height: 40px !important;
+  }
+}
+@media (max-width: 730px) {
+  /* line 67, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .modal_content {
+    max-width: 90%;
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  /* line 74, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .daterangepicker .calendar-table td {
+    height: 33px !important;
+  }
+}
+@media (max-width: 650px) {
+  /* line 81, ../../../sass/Front/calendar/calendar_responsive.scss */
+  .embedded-daterangepicker .daterangepicker {
+    flex-direction: column;
+  }
+  /* line 84, ../../../sass/Front/calendar/calendar_responsive.scss */
+  .embedded-daterangepicker .daterangepicker .drp-calendar {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+
+  /* line 92, ../../../sass/Front/calendar/calendar_responsive.scss */
+  .boutton_popup_dates {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 490px) {
+  /* line 100, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .header_popup .plage_dates {
+    width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  /* line 107, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .header_popup .liste_dates {
+    justify-content: center;
+    width: 100%;
+  }
+  /* line 111, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .header_popup .liste_dates .first_dates {
+    width: 100px;
+    height: 115px;
+    margin-right: 0;
+  }
+  /* line 116, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .header_popup .liste_dates .date_number {
+    font-size: 70px;
+  }
+  /* line 121, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .content_title_hours {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  /* line 127, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar .calendar-table td {
+    height: 40px !important;
+  }
+}
+@media (max-width: 380px) {
+  /* line 135, ../../../sass/Front/calendar/calendar_responsive.scss */
+  .daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
+    height: 37px !important;
+  }
+
+  /* line 138, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates_2 .embedded-daterangepicker .daterangepicker .drp-calendar .calendar-table td {
+    height: 35px !important;
+  }
+
+  /* line 144, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .header_popup .plage_dates .title_hours, #popup_dates_2 .header_popup .plage_dates .title_hours {
+    font-size: 20px;
+  }
+  /* line 147, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .header_popup .plage_dates .icon_hours, #popup_dates_2 .header_popup .plage_dates .icon_hours {
+    margin-right: 15%;
+  }
+  /* line 150, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .header_popup .plage_dates .icon_hours .times, #popup_dates_2 .header_popup .plage_dates .icon_hours .times {
+    width: 60px;
+  }
+  /* line 156, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .header_popup .liste_dates, #popup_dates_2 .header_popup .liste_dates {
+    margin-top: 10%;
+  }
+  /* line 159, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .header_popup .liste_dates .date_number, #popup_dates_2 .header_popup .liste_dates .date_number {
+    font-size: 70px;
+  }
+  /* line 163, ../../../sass/Front/calendar/calendar_responsive.scss */
+  #popup_dates .header_popup .liste_dates .first_dates, #popup_dates .header_popup .liste_dates .second_dates, #popup_dates_2 .header_popup .liste_dates .first_dates, #popup_dates_2 .header_popup .liste_dates .second_dates {
+    width: 100px;
+    height: 115px;
+  }
+}

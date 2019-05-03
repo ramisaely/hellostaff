@@ -1,0 +1,623 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 6, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_my_staff {
+  padding: 2%;
+  background-color: #F2F6F8;
+}
+
+/* line 10, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.dropdown_liste_jobs {
+  list-style: none;
+  top: 45%;
+  width: 100%;
+  right: 0%;
+  position: absolute;
+  z-index: 9;
+  max-height: 220px;
+  height: 220px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* line 22, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.dropdown_liste_jobs li {
+  padding: 0.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+/* line 32, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.dropdown_liste_jobs .avatar_staff {
+  margin-right: 30px;
+}
+/* line 35, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.dropdown_liste_jobs .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+/* line 42, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.dropdown_liste_jobs .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* line 48, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.dropdown_liste_jobs .description_staffs {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+/* line 52, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.dropdown_liste_jobs .description_staffs .name_staff {
+  cursor: pointer;
+  color: #4C5264;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* line 60, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.action_staff {
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  cursor: pointer;
+}
+
+/* line 68, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.delete_staff {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  color: #707070;
+  font-size: 15px;
+  justify-content: center;
+  flex-wrap: swrap;
+  background-color: #36CCB5;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+/* line 82, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_liste_staff {
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+/* line 88, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.litle_separator {
+  font-size: 48px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-weight: unset;
+  margin-top: 4px;
+}
+
+/* line 98, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.form_item_create_event input:not([type="checkbox"]) {
+  padding: 6px 0px;
+}
+
+/* line 101, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_pages_my_staff {
+  width: 96%;
+  background-color: #fff;
+  padding: 2%;
+}
+/* line 105, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_pages_my_staff .mystaff {
+  width: 100%;
+  background-color: #fff;
+}
+/* line 109, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_pages_my_staff .mystaff .form_item_create_event .input_create_event {
+  width: 98%;
+  padding: 2% 0 2% 2%;
+}
+/* line 113, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_pages_my_staff .mystaff .form_item_create_event .search {
+  right: -3px;
+  top: 18px;
+}
+
+/* line 121, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.input_creat_one {
+  position: relative;
+}
+
+/* line 124, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.form_item_create_event {
+  width: 25%;
+  display: flex;
+  margin-right: 1%;
+}
+
+/* line 130, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_step_profil {
+  position: relative;
+  height: 106px;
+  border-bottom: 1px solid #F2F6F8;
+  border-top: 1px solid #F2F6F8;
+}
+
+/* line 136, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.small_label_myStaff {
+  position: relative;
+}
+
+/* line 140, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.box_shadow_filter {
+  box-shadow: 0px 3px 4px #707070;
+}
+
+/* line 143, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.message_myStaff {
+  left: 2%;
+  bottom: 12px;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: normal;
+}
+
+/* line 158, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_myStaff_color {
+  background-color: #F2F6F8;
+}
+/* line 160, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_myStaff_color span {
+  top: 145%;
+  right: 28%;
+}
+
+/* line 165, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.description_staffs {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+
+/* line 171, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.modify {
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+/* line 177, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.differente_inherit_padding {
+  padding-right: 41px;
+}
+
+/* line 181, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.name_and_first {
+  cursor: pointer;
+}
+
+/* line 185, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_modify_six {
+  width: 16%;
+  text-align: center;
+  font-size: 14px;
+  border-right: 1px solid rgba(230, 230, 230, 0.5);
+}
+
+/* line 191, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_modify {
+  width: 12%;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  border-right: 1px solid rgba(230, 230, 230, 0.5);
+}
+
+/* line 198, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_modify_finish {
+  width: 8%;
+  text-align: center;
+  font-size: 14px;
+  border-right: 1px solid rgba(230, 230, 230, 0.5);
+}
+
+/* line 205, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_modify_start_avatar {
+  text-align: center;
+  font-size: 14px;
+  border-right: 1px solid rgba(230, 230, 230, 0.5);
+}
+
+/* line 210, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_modify_start_name {
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5%;
+  display: flex;
+  flex: 1;
+}
+
+/* line 223, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_modify_color {
+  border-right: 0px solid rgba(230, 230, 230, 0.5) !important;
+}
+
+/* line 228, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_table {
+  width: 100%;
+  margin-top: 2%;
+}
+/* line 231, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_table .table_nom_candidat {
+  width: 11%;
+  padding: 0.5%;
+  font-size: 15px;
+  color: #393C40;
+  border-right: 1px solid #F2F6F8;
+}
+/* line 238, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_table .tabel_mystaff_ville {
+  width: 10%;
+  border-right: 1px solid #F2F6F8;
+  text-align: center;
+  font-size: 15px;
+}
+/* line 244, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_table .tabel_mystaff_ville_job {
+  width: 10%;
+  border-right: 1px solid #F2F6F8;
+  text-align: center;
+  font-size: 15px;
+}
+/* line 250, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_table .tabel_mystaff_ville_finish {
+  width: 7%;
+  text-align: center;
+  border-right: 1px solid #F2F6F8;
+  font-size: 15px;
+}
+/* line 256, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_table .tabel_mystaff_ville_finish_list {
+  width: 7%;
+  text-align: center;
+  border-right: 1px solid #F2F6F8;
+  font-size: 15px;
+}
+
+/* line 263, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+label.label_chiffre {
+  position: absolute;
+  margin-left: 26%;
+  margin-top: -9px;
+}
+
+/* line 269, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_myStaff_color .label_table {
+  position: absolute;
+  bottom: -162px;
+}
+
+/* line 275, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.input_addon_update_profil_mystaff_color {
+  margin-left: -10%;
+}
+
+/* line 278, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_myStaff_color .input_addon_update_profil_mystaff_color {
+  background-color: #F2F6F8;
+}
+
+/* line 283, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.avatar_myStaff {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+
+/* line 291, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.couriel_modify {
+  padding: 1.5%;
+}
+
+/* line 294, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.content_table .table_modify .background_view_noir {
+  background-color: #F2F6F8;
+  right: 0;
+}
+
+/* line 299, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.table_myStaff_no_color.content_table .table_modify .background_view_noir {
+  background-color: #fff;
+  right: 0;
+}
+
+/* line 304, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.couriel_modify_etoile {
+  padding-right: 4%;
+}
+
+/* line 307, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.couriel_modify_ambassad {
+  padding-left: 13px;
+  position: relative;
+}
+
+/* line 312, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.modal_divider {
+  border: 1px solid #F2F6F8;
+  background-color: #F2F6F8;
+  padding: 4%;
+  width: 196px;
+}
+
+/* line 319, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.modal_divider_no {
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 4%;
+  width: 196px;
+}
+
+/* line 325, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.modal_divider_no {
+  width: 147px;
+  border: 1px solid #707070;
+  padding: 11%;
+  background-color: #707070;
+}
+
+/* line 332, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.avatar_myStaff_big {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #fff;
+  position: absolute;
+  bottom: 252px;
+  left: 78px;
+}
+
+/* line 342, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.avatar_myStaff_new {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #fff;
+  position: absolute;
+  bottom: 252px;
+}
+
+/* line 354, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .modal_content {
+  width: auto !important;
+  height: auto !important;
+}
+/* line 358, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .label_little {
+  font-size: 28px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+/* line 365, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .modal_body_img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 371, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .avatar_myStaff_big {
+  position: relative !important;
+  margin-bottom: 10px;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+
+/* line 379, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+label.input_addon_update_profil.background_view_noir.bacck {
+  bottom: 23px;
+}
+
+/* line 384, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#modal_update_actual .modal_body .modal_body_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+
+/* line 392, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.label_little {
+  font-size: 16px;
+  opacity: 0.5;
+  position: absolute;
+  right: 74px;
+  top: 167px;
+}
+
+/* line 400, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#img_update {
+  border-style: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 406, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+thead {
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 411, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+table {
+  border-top: 1px solid #F2F6F8;
+  border-spacing: 0;
+  border-bottom: 1px solid #F2F6F8;
+}
+
+/* line 417, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.flex_avatar_name {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5%;
+}
+
+/* line 428, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.step_modify_profil {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #F2F6F8;
+  border-top: 1px solid #F2F6F8;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  background-color: #F2F6F8;
+  margin-top: 2px;
+}
+/* line 443, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.step_modify_profil .modify {
+  height: 96%;
+  width: 100%;
+  background-color: #F2F6F8;
+  font-size: 20px;
+  color: #707070;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 452, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.step_modify_profil .message_myStaff {
+  font-weight: bold;
+}
+
+/* line 456, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+.modify_one {
+  height: 96%;
+  width: auto;
+  font-size: 20px;
+  color: #707070;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 7px;
+}
+
+/* line 465, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .label_little {
+  font-size: 28px;
+  position: relative;
+  right: 0;
+  top: 0;
+  opacity: 0.9;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-right: 3rem;
+}
+/* line 476, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .view_post {
+  width: 400px;
+  margin-bottom: 13%;
+}
+/* line 479, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .view_post .model {
+  border-bottom: 1px solid #F2F6F8;
+  border-top: 1px solid #F2F6F8;
+}
+/* line 482, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .view_post .model .color {
+  border: 1px solid #F2F6F8;
+  padding-bottom: 3%;
+  padding-left: 2%;
+  /*padding-right: 61%;*/
+  padding-top: 2%;
+  background-color: #F2F6F8;
+  border-radius: 2px;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+}
+/* line 493, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .view_post .model .color .label_little_poste_color {
+  font-size: 14px;
+}
+/* line 502, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .view_post .ambassad .no_color {
+  margin-bottom: 1%;
+  border: 1px solid #fff;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 45%;
+  padding-top: 2%;
+  background-color: #fff;
+  margin-left: -29px;
+}
+/* line 512, ../../../../sass/Front/agency/myStaff/myStaff.scss */
+#view_post_my_staff .view_post .ambassad .no_color .label_little_poste_no_color {
+  font-size: 14px;
+}

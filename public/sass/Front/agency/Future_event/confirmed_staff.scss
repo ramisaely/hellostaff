@@ -1,0 +1,252 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+
+.confirmated_staff_finished_event {
+  .action_staff {
+    width: 6%;
+    @include hs_flex_space_between;
+    @include hs_flex_align_Centered;
+
+    .icones_loupe {
+      width: 30px;
+      opacity: 0.5;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.confirmed_staff_menus {
+  background-color: #fff;
+  padding: 3%;
+  margin-right: -4.5%;
+}
+
+.listes_staff_confirmed {
+  width: 100%;
+  @include hs_flex_direction_row;
+
+  .content_dropdown_jobs {
+    width: 30%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+  }
+}
+.listes_jobs {
+  // width: 100%;
+  padding: 20px;
+  height: 50px;
+  color: #fff;
+  @include hs_flex_space_between;
+  @include hs_flex_align_Centered;
+}
+.description_item_jobs {
+  // width: 50%;
+  @include hs_flex_space_between;
+  @include hs_flex_align_Centered;
+
+  .icones_jobs {
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .name_jobs {
+    font-size: 20px;
+  }
+}
+
+.status_item_jobs {
+  width: 20%;
+  @include hs_flex_space_between;
+  @include hs_flex_align_Centered;
+
+  .listes_status {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .icones_dropdown {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    @include hs_flex_align_Centered;
+    @include hs_flex_justify_centered;
+
+    img {
+      width: 10px;
+    }
+    .icone_play_click {
+      transform: rotate(90deg);
+    }
+  }
+}
+
+/** Find new Jobs */
+.find_new_jobs {
+  color: #707070 !important;
+  border: 1px dashed #707070;
+  position: relative;
+  opacity: 0.5;
+
+  .new_jobs {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  .icones_plus_jobs {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    font-size: 25px;
+    right: 1.2rem;
+    @include hs_flex_align_Centered;
+    @include hs_flex_justify_centered;
+  }
+}
+/** End Find new Jobs */
+
+.color_jobs_oranage {
+  background-image: linear-gradient(81deg, #F44236, #F44436, #F48F36 );
+  border: 1px solid #F44B29;
+}
+.color_jobs_violet {
+  background-image: linear-gradient(81deg, #A389D4, #899ED4 );
+  border: 1px solid #899ED4;
+}
+.color_jobs_vert {
+  background-image: linear-gradient(81deg, #1FA548, #1DE9B6 );
+  border: 1px solid #1FA548;
+}
+.color_jobs_blue_fine {
+  background-image: linear-gradient(81deg, #1DC4E9, #1DE9B6 );
+  border: 1px solid #1DC4E9;
+}
+.color_jobs_blue {
+  background-image: linear-gradient(81deg, #337DE2, #48C6EF );
+  border: 1px solid #337DE2;
+}
+
+
+/** Dropdown liste des candidates */
+.dropdown_liste_jobs {
+  list-style: none;
+  // margin: 0;
+  padding: 0;
+
+  li {
+    padding: 3%;
+    // border: 1px solid #4C5264;
+    margin-bottom: 15px;
+    @include hs_flex_align_Centered;
+    @include hs_flex_space_between;
+  }
+
+  .content_liste_staff {
+    @include hs_flex_align_Centered;
+  }
+  .avatar_staff {
+    margin-right: 30px;
+  }
+
+  .avatar {
+    width: 50px;
+    height: 50px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .description_staffs {
+    @include hs_flex_direction;
+    height: 70%;
+    .name_staff {
+      color: #4C5264;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .ages_staff {
+      color: #707070;
+      font-size: 13px;
+      margin-bottom: 3px;
+      margin-top: 3px;
+    }
+    .country_staff {
+      color: #4C5264;
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+}
+
+.confirmated_staff_menus_future_event {
+  .action_staff {
+    width: 20%;
+    @include hs_flex_space_between;
+    @include hs_flex_align_Centered;
+
+    .icones_loupe {
+      width: 30px;
+      opacity: 0.5;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+      }
+    }
+}
+
+  .separated_actions {
+    border: 1px solid #707070;
+    height: 25px;
+    opacity: 0.5;
+  }
+
+  .delete_staff {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    color: #707070;
+    font-size: 15px;
+    cursor: pointer;
+    @include hs_flex_align_Centered;
+    @include hs_flex_justify_centered;
+  }
+}
+
+
+/** End Dropdown liste des candidates */
+
+/** FullCalendar */
+.calendar_confirmed_staff {
+  background-color: #F2F6F8;
+  padding: 2%;
+}
+.container_fullcalendar_staff_confirmed {
+  background-color: #fff;
+  padding: 4%;
+}
+
+
+/** End FullCalendar */

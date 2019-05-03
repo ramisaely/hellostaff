@@ -1,0 +1,215 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+@media (max-width: 1710px) {
+  /* line 7, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_create_event_footer .event_form_code_postal {
+    width: 45%;
+  }
+
+  /* line 10, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .content_color_bouton .content_color {
+    width: 12%;
+  }
+
+  /* line 13, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_drop_user .input_drop_user {
+    width: 92%;
+  }
+
+  /* line 16, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_create_event_footer .event_form_province #country {
+    width: 79% !important;
+  }
+
+  /* line 19, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .create_event .hour_rate {
+    width: 30%;
+  }
+}
+@media (max-width: 1545px) {
+  /* line 25, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_create_event_footer .event_form_province #country {
+    width: 76% !important;
+  }
+}
+@media (max-width: 1300px) {
+  /* line 30, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .create_event .hour_rate {
+    width: 30% !important;
+  }
+}
+@media (max-width: 1340px) {
+  /* line 35, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .content_event_form {
+    padding: 2% 0%;
+  }
+
+  /* line 38, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .photo_event_content {
+    margin-right: 1%;
+  }
+
+  /* line 41, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .content_form_description_event {
+    margin-left: 1%;
+  }
+}
+@media (max-width: 1230px) {
+  /* line 47, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_drop_user .input_drop_user {
+    width: 97%;
+  }
+
+  /* line 50, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .code_postal_drop {
+    width: 100%;
+  }
+
+  /* line 53, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_create_event_footer .event_form_province #country {
+    width: 90% !important;
+  }
+
+  /* line 56, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .decription_table_event_form {
+    height: 200px;
+  }
+
+  /* line 59, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .description_event_tab tbody tr {
+    margin-top: 0rem !important;
+  }
+
+  /* line 62, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .content_color_bouton .content_color {
+    width: 16%;
+  }
+}
+@media (max-width: 1145px) {
+  /* line 67, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_drop_user .input_drop_user {
+    width: 96.5%;
+  }
+
+  /* line 70, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_create_event_footer .event_form_province #country {
+    width: 89% !important;
+  }
+}
+@media (max-width: 1025px) {
+  /* line 76, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_drop_user .input_drop_user {
+    width: 96%;
+  }
+
+  /* line 79, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_create_event_footer .event_form_province #country {
+    width: 88% !important;
+  }
+}
+@media (max-width: 910px) {
+  /* line 85, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_create_event_footer .event_form_province #country {
+    width: 86% !important;
+  }
+
+  /* line 88, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_drop_user .input_drop_user {
+    width: 95%;
+  }
+
+  /* line 91, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .content_color_bouton .content_color {
+    width: 20%;
+  }
+}
+@media (max-width: 800px) {
+  /* line 96, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_drop_user .input_drop_user {
+    width: 97.7%;
+  }
+
+  /* line 99, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .form_item_create_event_footer .event_form_province #country {
+    width: 93% !important;
+  }
+
+  /* line 102, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .step_modify_profil {
+    height: auto !important;
+    flex-direction: row !important;
+    padding: 2%;
+  }
+
+  /* line 107, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .step_modify_profil .modify {
+    margin-top: inherit !important;
+  }
+
+  /* line 110, ../../../../sass/Front/agency/finished_event/event_form_responsive.scss */
+  .content_color_bouton .content_color {
+    width: 100%;
+  }
+}

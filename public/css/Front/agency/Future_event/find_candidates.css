@@ -1,0 +1,1212 @@
+@charset "UTF-8";
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+/* Choix des jobs des candidats */
+/* line 7, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.find_candidates {
+  width: 100%;
+}
+
+/* line 11, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.find_candidates_form {
+  background-color: #F2F6F8;
+  padding: 3%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 16, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.find_candidates_form .slider_jobs, .find_candidates_form .jobs_candidates {
+  width: calc(50% - 1.3vw);
+}
+/* line 20, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.find_candidates_form .jobs_candidates {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 23, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.find_candidates_form .jobs_candidates .jobs_proposed, .find_candidates_form .jobs_candidates .presence_confirm {
+  width: calc(53% - 40px);
+}
+
+/** Slider listes des jobs */
+/* line 29, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.slider_jobs {
+  position: relative;
+  background-color: #fff;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 35, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.slider_jobs .container_slider_jobs {
+  width: 68%;
+  height: 70%;
+}
+/* line 39, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.slider_jobs .container_slider_jobs .post_slider {
+  height: 100%;
+}
+/* line 42, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.slider_jobs .container_slider_jobs .post_slider .slick-list {
+  height: 100%;
+}
+/* line 45, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.slider_jobs .container_slider_jobs .post_slider .slick-list .slick-track {
+  height: 100%;
+}
+/* line 51, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.slider_jobs .container_btn_slider {
+  position: absolute;
+  width: 85%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 59, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.description_jobs {
+  cursor: pointer;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+/* line 65, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.description_jobs .item_jobs_list {
+  width: 98%;
+  height: 100%;
+  border: 25px solid transparent;
+  background-color: transparent;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  color: #6F7C8E;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+/* line 84, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.description_jobs .item_jobs_list .title_jobs {
+  font-size: 21px;
+  text-align: center;
+  word-break: break-all;
+}
+/* line 90, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.description_jobs .item_jobs_list .status_jobs {
+  font-size: 30px;
+}
+/* line 94, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.description_jobs .item_jobs_list:hover {
+  border: 25px solid #d6f5f0;
+  background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  color: #fff;
+}
+/* line 101, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.description_jobs .item_jobs_list:hover .svg-inline_jobs {
+  fill: #fff !important;
+}
+/* line 105, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.description_jobs .item_jobs_list.active {
+  border: 25px solid #d6f5f0;
+  background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  color: #fff;
+}
+/* line 112, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.description_jobs .item_jobs_list.active .svg-inline_jobs {
+  fill: #fff !important;
+}
+
+/* line 118, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.prev_post, .next_post {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #707070;
+  border: 1px solid #707070;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 131, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.prev_post:hover, .next_post:hover {
+  color: #36ccb5;
+  border: 1px solid #36ccb5;
+  opacity: 1;
+}
+
+/** End slider listes des jobs */
+/* line 139, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filtre_candidates, .check_presence {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  border: 20px solid transparent;
+  padding: 10% 0;
+}
+/* line 147, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filtre_candidates img, .check_presence img {
+  width: 20%;
+  margin-bottom: 50px;
+}
+/* line 152, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filtre_candidates .title_jobs_candidates, .check_presence .title_jobs_candidates {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 161, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.color_check_presence {
+  background-image: linear-gradient(45deg, #f755a1, #edd52f), linear-gradient(45deg, #f755a1, #edd52f);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+/* line 167, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.color_filtre_candidates {
+  background-image: linear-gradient(46deg, #10cede, #21c4ab), linear-gradient(46deg, #10cede, #21c4ab);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+/* line 173, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.btn_find_candidates_white {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #C6C9CF;
+  color: #C6C9CF;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  width: 200px;
+}
+
+/* End Choix des jobs des candidats */
+/** Liste candidates filter */
+/* line 184, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_candidates_filter {
+  background-color: #fff;
+  padding: 3%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 189, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_candidates_filter .listes_staff {
+  width: 48%;
+}
+/* line 192, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_candidates_filter .listes_staff .personnal_candidates {
+  width: 100% !important;
+}
+/* line 196, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_candidates_filter .title_filter_candidates {
+  position: relative;
+  width: 100%;
+  height: 78px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 6%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 207, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_candidates_filter .my_staff {
+  background-color: #4EA5E9;
+}
+/* line 210, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_candidates_filter .new_staff {
+  background-color: #1EC4BB;
+}
+
+/* line 214, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates {
+  width: 100%;
+  margin-bottom: 6%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 220, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .form_item_candidates_search {
+  width: 55%;
+  position: relative;
+}
+/* line 224, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .form_item_candidates_search input {
+  width: 95%;
+  height: 50px;
+  border-radius: 4px;
+  color: #4E5465;
+  padding: 0 16px;
+}
+/* line 232, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .form_item_candidates_search .input_my_staff {
+  border: 1px solid #707070;
+}
+/* line 234, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .form_item_candidates_search .input_my_staff:hover {
+  border: 1px solid #4EA5E9;
+}
+/* line 238, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .form_item_candidates_search .input_new_staff {
+  border: 1px solid #707070;
+}
+/* line 240, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .form_item_candidates_search .input_new_staff:hover {
+  border: 1px solid #1EC4BB;
+}
+/* line 245, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .form_item_candidates_search .loup_search {
+  width: 20px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+/* line 252, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .checkox_filter {
+  width: 35%;
+}
+/* line 256, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.search_candidates .checkox_filter .list_item_filter .title_filter {
+  color: #4E5465;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+/** End Liste candidates filter */
+/** Liste des candidates */
+/* line 267, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_candidates {
+  background-color: #fff;
+  padding: 3%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 272, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates {
+  width: calc(50% - 1.3vw);
+  margin-bottom: 20px;
+}
+
+/* line 276, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.candidates {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+  padding: 15px;
+  box-shadow: 0px 3px 4px #707070;
+}
+
+/* line 284, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates_description {
+  /*width: 24%;*/
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+/* line 292, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates_description .photo_candidates {
+  width: 60px;
+  height: 60px;
+  margin-right: 1vw;
+  position: relative;
+}
+/* line 298, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates_description .photo_candidates img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* line 305, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates_description .photo_candidates .status {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.3vw;
+  right: 0;
+}
+/* line 315, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates_description .description_candidates {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 60px;
+  height: auto;
+  flex-shrink: 0;
+}
+/* line 322, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates_description .description_candidates .name {
+  color: #4C5264;
+  font-size: 18px;
+}
+/* line 326, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates_description .description_candidates .ages {
+  color: #6F7C8E;
+  font-size: 13px;
+}
+/* line 330, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.personnal_candidates_description .description_candidates .country {
+  color: #4C5264;
+  font-size: 14px;
+}
+
+/* line 337, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.evaluations_candidates {
+  /*width: 22%;*/
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+/* line 342, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.evaluations_candidates .description_appreciations {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 346, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.evaluations_candidates .description_appreciations .status_appreciation {
+  margin-bottom: 8px;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 350, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.evaluations_candidates .description_appreciations .status_appreciation .number {
+  color: #4C5264;
+  font-size: 18px;
+}
+/* line 355, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.evaluations_candidates .description_appreciations .status_appreciation img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* line 364, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.separated {
+  border: 1px solid #eef1f4;
+  margin: 0 1vw;
+}
+
+/* line 368, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.title_p_candidates {
+  color: #4C5264;
+  font-size: 14px;
+}
+
+/* line 373, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_buttons {
+  /*width: 43%;*/
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+  justify-content: flex-end;
+}
+
+/* line 378, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.btn_list_candidates {
+  color: #fff;
+  font-size: 12px;
+  border: 0;
+  border-radius: 4px;
+  width: 179px;
+  height: 57px;
+}
+
+/* line 387, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.btn_action_candidates {
+  margin-right: 10px;
+}
+
+/* line 391, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.btn_candidat_fiche {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 395, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.btn_candidat_fiche .loup {
+  width: 20px;
+  margin-right: 16px;
+}
+
+/* Coloration status */
+/* line 402, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.color_proposed_jobs {
+  background-color: #1EC4BB;
+}
+
+/* line 405, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.color_waiting_response {
+  background-color: #EE9832;
+}
+
+/* line 408, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.color_confirmed {
+  background-color: #23DA83;
+}
+
+/* line 411, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.color_indisponible {
+  background-color: #EEEEEE;
+  color: #B3AEAE;
+}
+
+/* line 415, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.color_candidat_fiche {
+  background-color: #48C6EF;
+  color: #fff;
+}
+
+/** End coloration status */
+/** End Liste des candidates */
+/** Footer listes candidates */
+/* line 424, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.footer_candidates_filter {
+  background-color: #F2F6F8;
+  width: 100%;
+  padding-bottom: 45px;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 432, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.footer_candidates_filter .title_footer {
+  font-size: 20px;
+  color: #707070;
+  opacity: 0.5;
+  margin-bottom: 45px;
+}
+
+/* line 439, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.number_candidates {
+  margin-top: 50px;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+/* line 443, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.number_candidates .label_number_candidates {
+  font-size: 58px;
+  color: #707070;
+  opacity: 0.5;
+}
+
+/* line 449, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.see_more_agency {
+  width: 272px;
+  height: 75px;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  border: 0px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/** End footer listes candidates */
+/** Page filter_candidates */
+/* line 457, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.item_jobs_list .image_slider_jobs_slick {
+  width: 30% !important;
+  height: 50px;
+}
+/* line 462, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.item_jobs_list .image_slider_jobs_slick img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* line 467, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filter_candidates {
+  background-color: #F2F6F8;
+  padding: 3%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 472, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filter_candidates .slider_jobs {
+  width: 38.5%;
+}
+/* line 474, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filter_candidates .slider_jobs .container_slider_jobs {
+  width: 80% !important;
+}
+/* line 477, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filter_candidates .slider_jobs .container_slider_jobs .title_jobs {
+  font-size: 18px !important;
+  word-break: break-all;
+}
+/* line 481, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filter_candidates .slider_jobs .container_slider_jobs .status_jobs {
+  font-size: 25px !important;
+}
+/* line 485, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filter_candidates .slider_jobs .container_btn_slider {
+  width: 90% !important;
+}
+/* line 489, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filter_candidates .configuration_filter {
+  width: 60%;
+}
+
+/* line 493, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_filter {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 496, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.marge_content_fliter {
+  margin-bottom: 22px;
+}
+
+/* line 500, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.item_filter_form {
+  background-color: #fff;
+  padding: 15px;
+}
+
+/* line 506, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.gender_item {
+  width: 12%;
+  line-height: 36px;
+}
+/* line 510, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.gender_item .container_gender {
+  width: 100%;
+}
+
+/** checkbox filter candidates */
+/* line 515, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.list_item_filter {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+/* line 522, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.list_item_filter .checkbox_label:before {
+  left: 0;
+  top: -12px;
+  width: 20px;
+  height: 20px;
+}
+/* line 526, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.list_item_filter .checkbox_label:after {
+  top: -8px;
+  left: 4px;
+  height: 14px;
+  width: 14px;
+}
+/* line 533, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.list_item_filter .checkbox_label.active:before {
+  border: 1px solid #bcc5d3;
+}
+/* line 536, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.list_item_filter .checkbox_label.active:after {
+  /** show checked aspect **/
+  opacity: 1;
+}
+
+/** End checkox filter candidates */
+/* line 544, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.separed_item {
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  border: 1px solid #ECEDEF;
+}
+
+/* line 549, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.title_item_filter {
+  color: #393C40;
+  font-size: 18px;
+}
+
+/* line 553, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.title_filter {
+  color: #43425D;
+  font-size: 15px;
+}
+
+/** ages */
+/* line 559, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.ages_item {
+  width: 23%;
+  line-height: 36px;
+}
+/* line 563, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.ages_item .separed_item {
+  margin-bottom: 30px;
+}
+/* line 566, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.ages_item .title_filter_ages {
+  color: #43425D;
+  font-size: 18px;
+}
+
+/* line 571, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.range_ages {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 575, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.range_ages .number_ages {
+  color: #6C6C6C;
+  font-size: 11px;
+}
+
+/* line 581, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.asRange .asRange-pointer::before {
+  background: #1DC4E9 !important;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 586, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.asRange .asRange-pointer::after {
+  background: #1DC4E9 !important;
+}
+
+/* line 590, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.asRange {
+  height: 12px !important;
+  width: 100% !important;
+  background-color: #ECEDEF !important;
+}
+
+/* line 595, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.asRange .asRange-selected {
+  height: 12px !important;
+  background-color: #C6C9CF !important;
+}
+
+/* line 599, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.asRange .asRange-pointer .asRange-tip {
+  display: none;
+}
+
+/** End Ages */
+/** certifications */
+/* line 605, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.certifications_item {
+  width: 37%;
+  line-height: 36px;
+}
+
+/* line 609, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_certifications {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 613, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_certifications .long_certifications {
+  width: 63%;
+}
+/* line 616, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_certifications .court_certifications {
+  width: 35%;
+}
+
+/** End certifications */
+/** Experience */
+/* line 623, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.experiences_item {
+  width: 12%;
+  line-height: 36px;
+}
+/* line 627, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.experiences_item .separed_item {
+  margin-bottom: 15%;
+}
+/* line 630, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.experiences_item .container_exp {
+  width: 100%;
+}
+
+/** End Experience */
+/** Languages */
+/* line 636, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.languages_item {
+  width: 34%;
+  line-height: 36px;
+}
+/* line 641, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.languages_item .languages .separed_item {
+  margin-bottom: 15px;
+}
+
+/* line 646, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_languages {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 650, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_languages .cadres_langues {
+  color: #393C40;
+  font-size: 14px;
+  border: 1px solid #393C40;
+  border-radius: 3px;
+  width: 85px;
+  height: 31px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  opacity: 0.5;
+  text-align: center;
+  line-height: 13px;
+  cursor: pointer;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 666, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_languages .cadres_langues:hover {
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  color: #fff;
+  border: 1px solid transparent;
+  opacity: 1;
+  cursor: pointer;
+}
+/* line 673, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_languages .cadres_langues.active {
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  color: #fff;
+  border: 1px solid transparent;
+  opacity: 1;
+}
+
+/** End Languages */
+/** listes des attributs */
+/* line 684, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.attributs_item {
+  width: 22%;
+  line-height: 36px;
+}
+/* line 688, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.attributs_item .liste_attributs {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 693, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_attributs {
+  width: 48%;
+  margin-top: 12px;
+}
+/* line 697, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.content_attributs .title_attributs {
+  color: #43425D;
+  font-size: 16px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+/** End Listes des attributs */
+/** Taux Horaires */
+/* line 707, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_salaires {
+  line-height: 35px;
+}
+
+/* line 710, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.horaires_taux_item {
+  width: 35%;
+}
+
+/* line 713, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.liste_taux_horaires {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 720, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.value_horaires {
+  width: 37px;
+  height: 47px;
+  font-size: 16px;
+  color: #A39F9F;
+  background-color: #F0F0F0;
+  text-align: center;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 730, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.value_horaires:hover {
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  color: #fff;
+}
+/* line 734, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.value_horaires.active {
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  color: #fff;
+}
+
+/* line 740, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.btn_filter_confirmed {
+  margin-top: 15px;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 745, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.btn_filter_confirmed .filter, .btn_filter_confirmed .confirmed {
+  width: 48%;
+  height: 66px;
+  color: #fff;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 3px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 757, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.filter {
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+}
+
+/* line 760, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.confirmed {
+  background-image: linear-gradient(45deg, #f755a1, #edd52f);
+}
+
+/** End Taux horaires */
+/**icone responsive*/
+/* line 765, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+.icone_responsive_icons_play {
+  display: none !important;
+}
+
+/**end icone responsive*/
+/** End Page filtre_candidates */
+/**Popup Proposer le job ├á un candidates */
+/* line 776, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+#confirm_proposed_jobs .modal_creat_popup {
+  width: 500px;
+  height: 250px;
+}
+/* line 780, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+#confirm_proposed_jobs .text_connection_home {
+  font-size: 28px;
+}
+/* line 784, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+#confirm_proposed_jobs .check_modal_creat {
+  position: absolute;
+  top: -8.5rem;
+  right: 1rem;
+}
+
+/* line 791, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+#proposed_more_mystaff .modal_creat_popup {
+  width: 500px;
+  height: 250px;
+}
+/* line 796, ../../../../sass/Front/agency/Future_event/find_candidates.scss */
+#proposed_more_mystaff .text_connection_home {
+  font-size: 28px;
+}
+
+/**End Popup Proposer le job ├á un candidates */

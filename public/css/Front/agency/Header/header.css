@@ -1,0 +1,420 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/** header des pages dans agence */
+/* line 7, ../../../../sass/Front/agency/Header/header.scss */
+.head_page {
+  width: 100%;
+  background-color: #2D3D4E;
+}
+
+/* line 12, ../../../../sass/Front/agency/Header/header.scss */
+.content_head_page {
+  width: 100%;
+  height: 100px;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 18, ../../../../sass/Front/agency/Header/header.scss */
+.content_head_page .content_users {
+  width: 30%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 26, ../../../../sass/Front/agency/Header/header.scss */
+.logo_users {
+  width: auto;
+  padding: 0 2%;
+  height: 100%;
+  background-color: #36CCB5;
+  margin-right: 35px;
+  color: #ffffff;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 38, ../../../../sass/Front/agency/Header/header.scss */
+.logo_page {
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+}
+/* line 41, ../../../../sass/Front/agency/Header/header.scss */
+.logo_page .logo_hello_staff {
+  width: 60%;
+  cursor: pointer;
+}
+
+/* line 47, ../../../../sass/Front/agency/Header/header.scss */
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+/* line 54, ../../../../sass/Front/agency/Header/header.scss */
+.avatar .logo {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+/* line 62, ../../../../sass/Front/agency/Header/header.scss */
+.list_menu_page {
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 70, ../../../../sass/Front/agency/Header/header.scss */
+.finish_menu {
+  border: 1px solid #707070;
+  height: 50px;
+  margin: 0 8px;
+}
+
+/* line 75, ../../../../sass/Front/agency/Header/header.scss */
+.menus {
+  width: 7.5%;
+  cursor: pointer;
+  height: calc(100% - 10px);
+  border-bottom: 10px solid transparent;
+  color: #E6E7EB;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 87, ../../../../sass/Front/agency/Header/header.scss */
+.menus:hover {
+  border-bottom: 12px solid #36CCB5;
+  background-color: #3f4e5d;
+  color: #fff !important;
+}
+/* line 92, ../../../../sass/Front/agency/Header/header.scss */
+.menus.active {
+  border-bottom: 12px solid #36CCB5;
+  background-color: #3f4e5d;
+  color: #fff !important;
+}
+/* line 98, ../../../../sass/Front/agency/Header/header.scss */
+.menus .img_menus {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 103, ../../../../sass/Front/agency/Header/header.scss */
+.menus .img_menus img {
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+/* line 109, ../../../../sass/Front/agency/Header/header.scss */
+.menus .img_menus .calendar {
+  width: 36%;
+  margin-bottom: 10px;
+}
+/* line 113, ../../../../sass/Front/agency/Header/header.scss */
+.menus .img_menus .event_finish {
+  width: 48%;
+  margin-bottom: 10px;
+}
+/* line 117, ../../../../sass/Front/agency/Header/header.scss */
+.menus .img_menus .event_venir {
+  width: 47%;
+  margin-bottom: 10px;
+}
+/* line 121, ../../../../sass/Front/agency/Header/header.scss */
+.menus .img_menus .my_staff {
+  width: 35%;
+  margin-bottom: 10px;
+}
+/* line 125, ../../../../sass/Front/agency/Header/header.scss */
+.menus .img_menus .create_event {
+  width: 37%;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+/* line 132, ../../../../sass/Front/agency/Header/header.scss */
+.menus .title_menu {
+  text-decoration: none;
+  font-size: 13px;
+  color: #E6E7EB;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 144, ../../../../sass/Front/agency/Header/header.scss */
+.header_account .menus {
+  height: 100%;
+}
+
+/* line 148, ../../../../sass/Front/agency/Header/header.scss */
+.drop_login {
+  display: none;
+}
+
+/* line 151, ../../../../sass/Front/agency/Header/header.scss */
+.visible_drop_login {
+  display: block !important;
+}
+
+/* line 154, ../../../../sass/Front/agency/Header/header.scss */
+.popup_menus {
+  left: -40px !important;
+  top: 84px;
+}
+/* line 157, ../../../../sass/Front/agency/Header/header.scss */
+.popup_menus li {
+  background-color: #2D3D4E;
+}
+/* line 160, ../../../../sass/Front/agency/Header/header.scss */
+.popup_menus li:hover {
+  background-color: #3f4e5d;
+}
+
+/** End header des pages dans agences */
+/** Bouton span en responsivite */
+/* line 168, ../../../../sass/Front/agency/Header/header.scss */
+.menus_responsive_btn {
+  width: 40px;
+  cursor: pointer;
+  margin-right: 25px;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+/* line 175, ../../../../sass/Front/agency/Header/header.scss */
+.menus_responsive_btn .click_menus {
+  border: 2px solid #818B95;
+  width: auto;
+  border-radius: 5px;
+}
+/* line 180, ../../../../sass/Front/agency/Header/header.scss */
+.menus_responsive_btn .click_menus_1 {
+  margin: 4px 0;
+  border: 2px solid #818B95;
+  width: 23px;
+  border-radius: 5px;
+}
+
+/* line 188, ../../../../sass/Front/agency/Header/header.scss */
+.link_create_event_responsive {
+  width: 50px;
+  height: 100%;
+  margin-right: 25px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 195, ../../../../sass/Front/agency/Header/header.scss */
+.link_create_event_responsive .btn_creation_event_responsive {
+  width: 40px;
+  background-color: transparent;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 204, ../../../../sass/Front/agency/Header/header.scss */
+.link_create_event_responsive .btn_creation_event_responsive img {
+  width: 100%;
+  background-color: #2D3D4E;
+}
+
+/* line 210, ../../../../sass/Front/agency/Header/header.scss */
+.responsive_menus_tools {
+  width: auto;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/** End Bouton span en responsivite */
+/* line 216, ../../../../sass/Front/agency/Header/header.scss */
+.responsive_menus_tools {
+  display: none;
+}
+
+/*Avatar First Letter*/
+/* line 221, ../../../../sass/Front/agency/Header/header.scss */
+.content_first_letter {
+  width: 100%;
+  height: 100%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 234, ../../../../sass/Front/agency/Header/header.scss */
+.background_first_letter {
+  background-color: #fff;
+}
+
+/* line 237, ../../../../sass/Front/agency/Header/header.scss */
+.color_first_letter {
+  color: #35c4b0;
+}
+
+/* line 240, ../../../../sass/Front/agency/Header/header.scss */
+.first_letter_small {
+  font-size: 1.3rem !important;
+}
+
+/* line 243, ../../../../sass/Front/agency/Header/header.scss */
+.border_first_letter {
+  border: 1px solid #35c4b0 !important;
+}
+
+/*End Avatar First Letter*/

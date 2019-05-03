@@ -1,0 +1,109 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+@media (max-width: 1350px) {
+  /* line 7, ../../../../sass/Front/agency/Future_event/future_event_responsive.scss */
+  .description_jobs .item_jobs_list {
+    width: calc(100% - 50px);
+  }
+
+  /* line 10, ../../../../sass/Front/agency/Future_event/future_event_responsive.scss */
+  .find_candidates_form .jobs_candidates .jobs_proposed,
+  .find_candidates_form .jobs_candidates .presence_confirm {
+    width: 48.5%;
+  }
+
+  /* line 14, ../../../../sass/Front/agency/Future_event/future_event_responsive.scss */
+  .find_candidates_form .slider_jobs,
+  .find_candidates_form .jobs_candidates {
+    width: 49%;
+  }
+
+  /* line 18, ../../../../sass/Front/agency/Future_event/future_event_responsive.scss */
+  .btn_find_candidates_white {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  /* line 22, ../../../../sass/Front/agency/Future_event/future_event_responsive.scss */
+  .filtre_candidates .title_jobs_candidates,
+  .check_presence .title_jobs_candidates {
+    font-size: 15px;
+  }
+
+  /* line 26, ../../../../sass/Front/agency/Future_event/future_event_responsive.scss */
+  .description_jobs .item_jobs_list .status_jobs {
+    font-size: 25px;
+  }
+
+  /* line 29, ../../../../sass/Front/agency/Future_event/future_event_responsive.scss */
+  .description_jobs .item_jobs_list .title_jobs {
+    font-size: 15px;
+  }
+
+  /* line 32, ../../../../sass/Front/agency/Future_event/future_event_responsive.scss */
+  .description_jobs .item_jobs_list .status_jobs {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,342 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 5, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page {
+  width: 100%;
+  background-color: #F2F6F8;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 14, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page form {
+  width: 100%;
+}
+/* line 18, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .hour_facture_content {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 0 35px;
+  margin: 45px;
+}
+/* line 25, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .section_title {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #707070;
+}
+/* line 30, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .section_title span {
+  font-family: Raleway Light;
+}
+/* line 33, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .table_hour_facture {
+  width: 100%;
+  margin-top: 45px;
+}
+/* line 37, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .table_hour_facture .travelling {
+  display: block;
+  font-size: 17px;
+  color: #707070;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* line 46, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table {
+  width: 100%;
+  border: 1px solid #F2F6F8;
+  border-spacing: 0;
+}
+/* line 51, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table thead {
+  /*display: table-caption;*/
+  width: 100%;
+}
+/* line 55, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table thead tr {
+  padding: 8px 0;
+  background-color: #F2F6F8;
+}
+/* line 61, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table tr {
+  /*display: flex;*/
+  width: 100%;
+}
+/* line 66, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table th {
+  /*background-color: #F2F6F8;*/
+  height: 35px;
+  white-space: nowrap;
+  /*@include hs_flex_one;
+  @include hs_flex_align_centered;
+  @include hs_flex_justify_centered;*/
+  font-weight: normal;
+  color: #707070;
+  font-size: 16px;
+}
+/* line 77, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table th:not(:last-child) {
+  border-right: 1px solid #d4dbde;
+}
+/* line 80, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table td {
+  height: 50px;
+  font-size: 15px;
+  border-bottom: 1px solid #d4dbde;
+  text-align: center;
+  color: #393C40;
+  /*@include hs_flex_one;
+  @include hs_flex_align_centered;
+  @include hs_flex_justify_centered;*/
+}
+/* line 89, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table td:not(:last-child) {
+  border-right: 1px dashed #d4dbde;
+}
+/* line 92, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .performed_hour, .hour_facture_page table .distance_rate, .hour_facture_page table .expense {
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-evenly;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  color: #393C40;
+}
+/* line 100, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .hour_from, .hour_facture_page table .hour_to,
+.hour_facture_page table .distance_rate .distance,
+.hour_facture_page table .expense .amount {
+  font-family: Raleway Light;
+  height: 30px;
+  background-color: #F2F6F8;
+  border: 1px solid #AFB5BD;
+  color: #707070;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 112, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .performed_hour {
+  padding: 0 10px;
+}
+/* line 116, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .performed_hour div {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+  width: 90px;
+}
+/* line 122, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .performed_hour .hour_from, .hour_facture_page table .performed_hour .hour_to {
+  width: 100%;
+}
+/* line 126, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .performed_hour .to {
+  color: #393C40;
+}
+/* line 132, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .distance_rate .distance {
+  width: 80px;
+}
+/* line 136, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .expense .amount {
+  width: 80px;
+}
+/* line 139, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .cell_performed_hour {
+  /*width: 80px;
+  flex: 80px;*/
+  width: 15%;
+  flex: 15%;
+}
+/* line 145, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .cell_performed_hour button {
+  display: none;
+}
+/* line 148, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .cell_distance_rate, .hour_facture_page table .cell_expense {
+  /*width: 50px;*/
+  width: 12%;
+  flex: 12%;
+}
+/* line 154, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .cell_more_info {
+  width: 18%;
+  flex: 18%;
+  position: relative;
+}
+/* line 159, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .cell_more_info .more_info {
+  width: 100%;
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  font-size: 14px;
+  background-color: #F2F6F8;
+  border: 1px solid #AFB5BD;
+  color: #707070;
+  text-align: center;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 172, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .cell_more_info .more_info span {
+  font-family: Raleway Light;
+  width: 90%;
+}
+/* line 179, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .responsive_more_info {
+  display: none;
+}
+/* line 183, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .sub_total {
+  background-color: #FFFFFF;
+}
+/* line 186, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .sub_total td {
+  background-color: #F2F6F8;
+}
+/* line 190, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .sub_total .distance_rate, .hour_facture_page table .sub_total .expense {
+  background-color: transparent;
+  border: none;
+}
+/* line 195, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page table .sub_total .responsive_separator {
+  display: none;
+}
+/* line 199, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .hour_facture_footer {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+/* line 203, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .hour_facture_footer .left, .hour_facture_page .hour_facture_footer .right {
+  max-width: 48%;
+}
+/* line 207, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .hour_facture_footer .show_my_bill {
+  display: block;
+  font-size: 19px;
+  color: #405164;
+  text-decoration: underline;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+/* line 216, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .hour_facture_footer .message p {
+  font-family: Raleway Light;
+  font-size: 16px;
+  color: #707070;
+  font-style: italic;
+  margin: 5px 0;
+}
+/* line 226, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture.scss */
+.hour_facture_page .hour_facture_footer .right button {
+  font-family: Raleway Medium;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 270px;
+  height: 70px;
+  background-image: linear-gradient(90deg, #1dc4e9, #1de9b6);
+  border: none;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}

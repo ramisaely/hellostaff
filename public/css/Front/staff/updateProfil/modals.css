@@ -1,0 +1,145 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 9, ../../../../sass/Front/staff/updateProfil/modals.scss */
+#upload_head_shot_photo .modal_content,
+#upload_upper_body_photo .modal_content,
+#upload_resume_file .modal_content {
+  width: 450px;
+  max-width: 90%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+/* line 15, ../../../../sass/Front/staff/updateProfil/modals.scss */
+#upload_head_shot_photo .modal_content .modal_head .close,
+#upload_upper_body_photo .modal_content .modal_head .close,
+#upload_resume_file .modal_content .modal_head .close {
+  color: #4C5264;
+  		    /*top: 10px;
+      		right: 35px;*/
+}
+/* line 24, ../../../../sass/Front/staff/updateProfil/modals.scss */
+#upload_head_shot_photo .image_file label,
+#upload_upper_body_photo .image_file label,
+#upload_resume_file .image_file label {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -webkit-flex;
+  display: flex;
+}
+/* line 32, ../../../../sass/Front/staff/updateProfil/modals.scss */
+#upload_head_shot_photo .image_file img,
+#upload_upper_body_photo .image_file img,
+#upload_resume_file .image_file img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* line 40, ../../../../sass/Front/staff/updateProfil/modals.scss */
+#upload_head_shot_photo .message,
+#upload_upper_body_photo .message,
+#upload_resume_file .message {
+  font-size: 20px;
+  color: #AAAAAA;
+  margin: 30px 0 25px 0;
+}
+/* line 46, ../../../../sass/Front/staff/updateProfil/modals.scss */
+#upload_head_shot_photo .choose_file,
+#upload_upper_body_photo .choose_file,
+#upload_resume_file .choose_file {
+  background-image: linear-gradient(252deg, #1de2c0, #1dc4e9);
+  width: 200px;
+  height: 65px;
+  font-size: 20px;
+  color: #FFFFFF;
+  border-radius: 7px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  /* line 65, ../../../../sass/Front/staff/updateProfil/modals.scss */
+  #upload_head_shot_photo .modal_content,
+  #upload_upper_body_photo .modal_content,
+  #upload_resume_file .modal_content {
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+  }
+  /* line 69, ../../../../sass/Front/staff/updateProfil/modals.scss */
+  #upload_head_shot_photo .modal_content .modal_head .close,
+  #upload_upper_body_photo .modal_content .modal_head .close,
+  #upload_resume_file .modal_content .modal_head .close {
+    font-size: 45px;
+  }
+  /* line 76, ../../../../sass/Front/staff/updateProfil/modals.scss */
+  #upload_head_shot_photo .image_file label,
+  #upload_upper_body_photo .image_file label,
+  #upload_resume_file .image_file label {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+  /* line 82, ../../../../sass/Front/staff/updateProfil/modals.scss */
+  #upload_head_shot_photo .message,
+  #upload_upper_body_photo .message,
+  #upload_resume_file .message {
+    font-size: 17px;
+    margin: 30px 0 30px 0;
+  }
+  /* line 87, ../../../../sass/Front/staff/updateProfil/modals.scss */
+  #upload_head_shot_photo .choose_file,
+  #upload_upper_body_photo .choose_file,
+  #upload_resume_file .choose_file {
+    width: 170px;
+    height: 55px;
+    font-size: 15px;
+  }
+}

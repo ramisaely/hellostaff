@@ -1,0 +1,448 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../fonts/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../fonts/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../fonts/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../fonts/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../fonts/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../sass/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+
+/************************************* Agence responsive : 1200-1367  ***********************************************/
+@media (min-width: 1199.98px) and (max-width: 1366.98px) {
+    .footer .step_btn {
+        padding: 8px 20px;
+    }
+    .corporative_identity .entreprise_logo .logo i {
+        font-size: 8rem;
+    }
+    .tiret {
+        width: 66%;
+    }
+    .tiret_users {
+        width: 66% !important;
+    }
+    /*.input_hidden_special {
+        margin-left: -30rem !important;
+    }*/
+    .form_item .dropdown.drop_new_two {
+        width: 65%;
+    }
+    
+}
+/******************************************Agence responsive: 768-1024***********************************************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .btn_responsive {
+        width: 78% !important;
+    }
+     /*Modal finish*/
+    .modal .modal_content {
+        max-width: 90%;
+    }
+    /*end Modal finish*/
+    
+    /** Contact utilisateur bouton ajouter supprimer*/
+    .bouton_personal {
+        .supprimer {
+            padding: 3%;
+        }
+        .ajouter {
+            padding: 3%;
+        }
+    }
+    .form_item .dropdown.drop_new_two {
+        width: 67%;
+    }
+    
+    
+    /** End Contact utilisateur bouton ajouter supprimer*/
+    /*.input_hidden_special{
+        margin-left: -23rem !important;
+    }*/
+}
+
+/*****************************************End Agence responsive: 768-1024********************************************/
+
+
+
+/******************************************Agence responsive: max 767 ***********************************************/
+
+@media (max-width: 767px) {
+    .master {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        .sidebar {
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(54deg, #36ccb5, #559bf7);
+            position: relative;
+            
+            .font_sidebar {
+                display: none;
+            }
+        }
+        
+        .content_wrap {
+            margin-left: 0px;
+            width: 100%;
+        }
+        .sidebar .agency_reg_side {
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+        .personal {
+            width: 75%;
+        }
+        .agency_reg_step_nav .agency_reg_step_range_labels {
+           
+        }
+        .agency_reg_step_nav .agency_reg_step_range_labels li{
+                color: transparent;
+        }
+        .medium_title {
+            font-size: 14px;
+        }
+        .tiret {
+            // background-color: transparent;
+            display: none;
+        }
+        .step_range, .job_experience_range {
+            background-color: transparent;
+        }
+        .agency_reg_step_nav {
+            width: 20%;
+        }
+        .agency_reg_step_range_labels li::before {
+        
+            width: 5px;
+            height: 5px;
+            opacity: 0.3;
+            background-color: #3b86ff;
+            content: "";
+        
+        }
+        .agency_reg_step_nav .agency_reg_step_range_labels {
+            margin: 16px 0rem 0;
+        }
+        .agency_reg_step_range_labels {
+        	li {
+        		&:before {
+        		    width: 5px;
+        		    height: 5px;
+        		    opacity: 0.3;
+        		    background-color: #3b86ff;
+        		    content: "";
+        		}
+        	}
+        	.current::before {
+        		width: 25px;
+        	    height: 25px;
+        	    top: -45px;
+        	    margin: auto -10px auto -3px;
+        	    opacity: 1;
+        	}
+        	.active.selected::before {
+        		opacity: 1;
+        	}
+        }
+    }
+    #agency_registration_finish .modal_content {
+    	.check_confirmation {
+    		margin: 44px 145px;
+    	}
+    	.text_confirmation {
+    		 margin: 10px 45px;
+    	}
+    }
+    /** End Photo&CV**/
+    /*** start modal ***/
+    // .modal_content {
+    // 	max-width: 90%;
+    // }
+    /*** end modal ***/
+    
+     /*Modal finish*/
+    .modal .modal_content {
+        max-width: 90%;
+    }
+    /*end Modal finish*/
+    /** Contact utilisateur bouton ajouter supprimer*/
+    .bouton_personal {
+        .supprimer {
+            padding: 3%;
+        }
+        .ajouter {
+            padding: 3%;
+        }
+    }
+    /** End Contact utilisateur bouton ajouter supprimer*/
+    
+    /** Language Site */
+    .sidebar .language_site {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+    /** End language Site */ 
+     /* Language site */
+    .sidebar .language_site {
+        // flex-direction: row-reverse;
+        
+        .english {
+            border-right: 0.5rem solid transparent;
+        }
+    }
+     .form_item .dropdown.drop_new_two {
+        width: 68%;
+    }
+    /* End Language site */
+}
+
+/****************************************End Agence responsive: max 767 ***********************************************/
+
+
+
+
+/******************************************Agence responsive: max 480 ***********************************************/
+
+@media (max-width: 480px) {
+    
+    /* 1st page*/
+    .sidebar .agency_reg_side {
+        padding: 3rem;
+        .header_title { 
+            font-size: 30px;
+        }
+        
+    }
+    
+    // .entreprise {
+    //         margin-left: 0%;
+    //     }
+    /*end 1st page*/
+    .entreprise {
+        .contact_user {
+            width: 100%;
+            
+            .personnal {
+                width: 70%;
+            }
+        }
+    }
+    
+    /*** start step registration Agency range slider ***/
+    .agency_reg_step_nav {
+        width: 30%;
+    }
+    .step_range {
+    	background-color: transparent;
+    }
+    .agency_reg_step_range_labels {
+    	li {
+    		&:before {
+    		    width: 5px;
+    		    height: 5px;
+    		    opacity: 0.3;
+    		    background-color: #3b86ff;
+    		    content: "";
+    		}
+    	}
+    	.current::before {
+    		width: 25px;
+    	    height: 25px;
+    	    top: -45px;
+    	    margin: auto -10px auto -3px;
+    	    opacity: 1;
+    	}
+    	.active.selected::before {
+    		opacity: 1;
+    	}
+    }
+    
+/*** end step registration Agency range slider ***/
+
+    
+    /** 2nd page*/
+    .corporative_identity {
+        padding: 3rem 0;
+    }
+    .corporative_identity .entreprise_logo, .corporative_identity .brief_description {
+        margin: 5%;
+        width: 100%;
+    }
+    .corporative_identity .entreprise_logo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .personal {
+        width: 74%;
+    }
+    .tiret {
+        width: 0%;
+    }
+    .entreprise .form_item input:not([type="checkbox"]) {
+        width: 100%;
+    }
+    .entreprise .form_item {
+        width: 100%;
+    }
+    .dropdown_city {
+        width: 100%;
+    }
+    
+     /*Modal finish*/
+    .modal .modal_content {
+        max-width: 80%;
+    }
+    #agency_registration_finish {
+        
+        .check_confirmation {
+        width: 5rem;
+        height: 5rem;
+        }
+        .post_confirmation {
+            font-size: 32px;
+        }
+        .text_confirmation {
+            font-size: 22px;
+        }
+        .step_btn {
+            padding: 8px 40px;
+            font-size: 22px;
+        }
+        .confirm_agency {
+            margin-top: 80px;
+        }
+    }
+    /*end Modal finish*/
+    /* Footer step btn*/
+    .footer {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        
+        .step_prev_btn {
+            width: 30%;
+            font-size: 15px;
+            height: 14px;
+            text-align: center;
+        }
+        
+        .step_next_btn {
+            width: 30%;
+            height: 14px;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 1rem;
+        }
+    }
+    /* end Footer step btn*/
+   
+
+}
+
+/****************************************** End Agence responsive: max 480  ***********************************************/
+
+@media (max-width: 380px) {
+    .personal {
+        width: 85%;
+        margin-left: -7%;
+    }
+    .personal_plus:before {
+        margin: -90px auto auto 42.5%;
+    }
+    .personal_plus {
+        margin-top: 34%;
+        .title_agency {
+            margin: inherit;
+            .title_tiret {
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                .title {
+                    margin-right: inherit;
+                }
+            }
+        }
+    }
+    /* end 3rd page*/
+    
+    /*Modal finish*/
+    .modal .modal_content {
+        max-width: 90%;
+        padding: 10px;
+    }
+    #agency_registration_finish {
+        
+        .check_confirmation {
+            margin: 44px 0px;
+            width: 4rem;
+            height: 4rem;
+        }
+        .post_confirmation {
+            font-size: 25px;
+        }
+        .text_confirmation {
+            font-size: 16px;
+            margin: 10px 0px;
+        }
+        .step_btn {
+            font-size: 16px;
+        }
+        .confirm_agency {
+            margin-top: 35px;
+        }
+    }
+    /*end Modal finish*/
+    /** Contact utilisateur bouton ajouter supprimer*/
+    .bouton_personal {
+        .supprimer {
+            padding: 3%;
+            width: 95%;
+            margin-bottom: 10%;
+        }
+        .ajouter {
+            padding: 3%;
+            width: 95%;
+        }
+    }
+    /** End Contact utilisateur bouton ajouter supprimer*/
+    
+}

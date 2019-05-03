@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    <defs>
+        <path id="a" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12C23.992 5.376 18.624.008 12 0zm0 22.364c-5.724 0-10.364-4.64-10.364-10.364C1.636 6.276 6.276 1.636 12 1.636c5.724 0 10.364 4.64 10.364 10.364 0 5.724-4.64 10.364-10.364 10.364zm5.455-10.91h-4.91v-6a.818.818 0 1 0-1.636 0v7.637h6.546a.818.818 0 0 0 0-1.636z"/>
+    </defs>
+    
+<g class="currentLayer" style=""><title>Layer 1</title>
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a" id="svg_2"/>
+        </mask>
+        <g fill="#36ccb5" mask="url(#b)" id="svg_3" fill-opacity="1" class="selected">
+            <path d="M0 0h24v24H0z" id="svg_4" fill="#36ccb5" fill-opacity="1"/>
+        </g>
+    </g></svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.93 65.44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d8d8d8;
+      }
+    </style>
+  </defs>
+  <g id="magician" transform="translate(0)">
+    <g id="Group_1722" data-name="Group 1722" transform="translate(0)">
+      <g id="Group_1721" data-name="Group 1721" transform="translate(0)">
+        <path id="Path_1545" data-name="Path 1545" class="cls-1" d="M52.373,179.089h4.389v25.449H93.739V179.089h4.389V170H52.373Z" transform="translate(-47.608 -139.098)"/>
+        <rect id="Rectangle_1462" data-name="Rectangle 1462" class="cls-1" width="5.453" height="29.592" transform="translate(52.245 1.628) rotate(47.492)"/>
+        <path id="Path_1546" data-name="Path 1546" class="cls-1" d="M34.8,13.088l5.342,3.354-1.539-6.117L43.447,6.28l-6.293-.427L34.8,0,32.453,5.854l-6.294.427L31,10.325l-1.539,6.117Z" transform="translate(-26.159)"/>
+        <path id="Path_1547" data-name="Path 1547" class="cls-1" d="M110.936,84.022l-1.146,4.556,3.978-2.5,3.979,2.5L116.6,84.022l3.6-3.012-4.687-.318-1.751-4.359-1.751,4.359-4.687.318Z" transform="translate(-92.576 -62.457)"/>
+      </g>
+    </g>
+  </g>
+</svg>

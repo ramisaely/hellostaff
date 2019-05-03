@@ -1,0 +1,566 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_function.scss';
+
+@media (max-width: 1900px) {
+  .btn_profil_staff {
+    padding: inherit;
+    margin-top: 2%;
+    justify-content: space-between;
+
+    .btn_profil {
+      margin-right: inherit;
+    }
+  }
+  .content_liste_attributs {
+    padding: 3% 1% 3% 0%;
+  }
+
+  .attributs_perso {
+    .container_attributs {
+      width: 30%;
+    }
+  }
+}
+
+@media (max-width: 1655px) {
+  .img_profile{
+    .photo_staff {
+      width: 125px;
+      height: 125px;
+    }
+  }
+
+  .title_content_attributs {
+    .icones_attributs {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .title_attributs {
+    font-size: 23px;
+  }
+  .value_attributs {
+    font-size: 17px;
+  }
+
+  .attributs_auto {
+    padding: 3% 0 3% 0%;
+  }
+  .image_not_auto img {
+    width: 75%;
+  }
+  .auto_permited {
+      .image_auto_permited {
+        width: 60%;
+        height: 45px;
+      }
+  }
+
+  .form_item_staff {
+    padding: 2%;
+
+    .name_ages {
+      .name {
+        font-size: 35px;
+      }
+      .ages {
+        font-size: 23px;
+      }
+    }
+
+    .country_staff {
+      font-size: 25px;
+    }
+    .form_item_nas {
+      font-size: 21px;
+    }
+  }
+
+  .btn_profil_staff {
+      .btn_profil {
+        padding: 2% 3%;
+        font-size: 14px;
+      }
+  }
+}
+
+@media (max-width: 1400px) {
+  .form_item_staff {
+    padding: 1%;
+
+    .name_ages {
+      .name {
+        font-size: 30px;
+      }
+      .ages {
+        font-size: 20px;
+      }
+    }
+    .country_staff {
+      font-size: 20px;
+    }
+    .form_item_nas {
+      font-size: 18px;
+    }
+  }
+  .img_profile .photo_staff {
+    width: 100px;
+    height: 100px;
+  }
+
+  .title_content_attributs .icones_attributs {
+    width: 25px;
+    height: 25px;
+  }
+  .title_attributs {
+    font-size: 20px;
+  }
+  .value_attributs {
+    font-size: 14px;
+  }
+
+  .image_not_auto img {
+    width: 65%;
+  }
+  .auto_permited {
+    .image_auto_permited {
+      width: 55%;
+      height: 35px;
+    }
+    .texte_permited {
+      font-size: 10px;
+    }
+  }
+
+  .item_jobs_list_exp {
+    .logo_jobs_exp {
+      width: 60px;
+      height: 60px;
+    }
+
+    .title_jobs_exp {
+      font-size: 12px;
+    }
+  }
+
+  .item_more_exp {
+    .img_more_exp {
+      width: 50px;
+      height: 50px;
+    }
+
+    .title_more_exp {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .fiche_candidates .description_staff {
+    width: 42%;
+  }
+  .content_liste_attributs {
+    padding: 0;
+  }
+  .btn_profil_staff .btn_profil {
+    padding: 2% 2%;
+    font-size: 12px;
+  }
+  .attributs_perso {
+    width: 100%;
+    margin-right: inherit;
+  }
+  .attributs_auto {
+    padding: 0;
+  }
+  .image_not_auto {
+    @include hs_flex_justify_centered;
+    @include hs_flex_align_centered;
+
+    img {
+      width: 100%;
+    }
+  }
+  .auto_permited {
+    .image_auto_permited {
+      width: 33%;
+      height: 43px;
+    }
+
+    .texte_permited {
+      font-size: 12px;
+    }
+  }
+  .content_attributs_auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .image_not_auto {
+    width: 50%;
+  }
+  .filtre_candidates img, .check_presence img {
+    width: 15%;
+  }
+  .filtre_candidates .title_jobs_candidates, .check_presence .title_jobs_candidates {
+    font-size: 18px;
+  }
+  .btn_find_candidates_white {
+    font-size: 16px;
+  }
+
+  /** popup profil staff */
+  #slider_image_candidates .btn_next_prev_slider_image_staff {
+    width: 97%;
+    right: 1.5%;
+  }
+  /* end popup profil staff */
+}
+
+@media (max-width: 1070px) {
+  /** popup profil staff */
+  #slider_image_candidates {
+    .modal_content {
+      height: 70%;
+      width: 75%;
+      padding: 6%;
+    }
+  }
+  /* end popup profil staff */
+}
+
+@media (max-width: 900px) {
+  .fiche_candidates .description_staff {
+    width: 100%;
+    position: relative;
+    overflow: inherit;
+    padding: 5%;
+
+    .staff_img_back {
+      object-fit: cover;
+      height: 100%;
+      object-position: 50% 10%;
+    }
+  }
+  .content_btn_precedent {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+  .form_item_staff {
+    position: relative;
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .name_ages {
+      .name {
+        margin-right: inherit;
+        width: 100%;
+      }
+      .ages {
+        font-size: 20px;
+        position: absolute;
+        right: 2%;
+        top: 14%;
+        width: auto;
+      }
+    }
+  }
+
+  .img_profile {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: -20%;
+      // left: 40%;
+      z-index: 9;
+
+      .photo_staff {
+        width: 150px;
+        height: 150px;
+      }
+    }
+
+    .btn_profil_staff {
+      margin-top: 0%;
+      margin-bottom: 10%;
+
+      .btn_profil {
+        padding: 2% 4%;
+        font-size: 14px;
+      }
+    }
+
+    .content_liste_attributs {
+      margin-top: 15%;
+      width: 100%;
+    }
+    .title_content_attributs {
+      margin-bottom: 15px;
+    }
+    .attributs_perso {
+      margin-bottom: 2%;
+    }
+    .attributs_auto {
+      padding-bottom: 5%;
+    }
+
+    .item_more_exp {
+      .img_more_exp {
+        margin-bottom: inherit;
+        width: 45px;
+        height: 45px;
+      }
+
+      .title_more_exp {
+        display: none;
+      }
+    }
+
+    .container_experience {
+      padding: 0;
+    }
+    .content_title_experience {
+      height: 80px;
+      background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+      margin-bottom: 8%;
+
+      .title_experience {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+      }
+      .separated_exp {
+        display: none;
+      }
+    }
+
+    .slider_jobs_exp {
+      margin-bottom: 8%;
+    }
+
+    .container_btn_slider_exp {
+      display: none;
+    }
+    .slider_jobs_exp .container_slider_jobs_exp {
+      width: 90%;
+    }
+
+    .separated_attributs {
+      border: 0;
+    }
+
+    /** popup profil staff */
+    #slider_image_candidates {
+      .modal_content {
+        height: 70%;
+        width: 85%;
+        padding: 7%;
+      }
+    }
+    /* end popup profil staff */
+}
+
+@media (max-width: 750px) {
+  .attributs_candidates .modal_content {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  /** popup profil staff */
+  #slider_image_candidates {
+    .modal_content {
+      .close {
+        top: 0.5rem !important;
+        right: 0.5rem !important;
+        font-size: 45px !important;
+      }
+    }
+  }
+  /* end popup profil staff */
+}
+
+@media (max-width: 700px) {
+  .attributs_candidates .list_item_attributs {
+    width: 45%;
+  }
+  .attributs_candidates .name_attributs {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .language_experience .modal_content {
+    width: 90%;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 525px) {
+  .content_btn_precedent {
+    top: 12%;
+  }
+  .img_profile .photo_staff {
+    width: 130px;
+    height: 130px;
+  }
+  .img_profile {
+    bottom: -18%;
+  }
+
+  .btn_profil_staff {
+    margin-top: 5%;
+    margin-bottom: 18%;
+
+    .btn_profil {
+      padding: 2% 2%;
+      font-size: 12px;
+    }
+  }
+
+  .item_jobs_list_exp {
+    .logo_jobs_exp {
+      width: 50px;
+    }
+
+    .title_jobs_exp {
+      font-size: 10px;
+    }
+  }
+
+  .content_liste_attributs {
+    margin-top: 20%;
+  }
+  .attributs_perso {
+    margin-bottom: 5%;
+  }
+  .attributs_auto {
+    padding-bottom: 10%;
+  }
+  .mobilities_candidates .modal_content {
+    width: 90%;
+    max-width: 90%;
+  }
+  .mobilities_candidates {
+    width: 100%;
+  }
+
+  /** popup profil staff */
+  #slider_image_candidates {
+    .modal_content {
+      .close {
+        right: 0 !important;
+      }
+    }
+  }
+  /* end popup profil staff */
+}
+@media (max-width: 515px) {
+  #experience_candidat .post {
+    font-size: 135%;
+  }
+  #experience_candidat .modal_content {
+    width: 90%;
+    max-width: 90%;
+    padding: 10px !important;
+  }
+  #experience_candidat .modal_content .close {
+    font-size: 70px;
+  }
+  .footer_modals_exp {
+    .number_post_exp {
+      font-size: 15px;
+    }
+  }
+  .certifications_candidates {
+    width: 100%;
+  }
+  .certifications_candidates .modal_content {
+    width: 90%;
+    max-width: 90%;
+  }
+  .value_attributs {
+    word-break: break-all;
+  }
+
+  /** popup profil staff */
+  #slider_image_candidates {
+    .modal_content {
+      padding: 10%;
+      width: 76%;
+    }
+  }
+  /* end popup profil staff */
+}
+@media (max-width: 450px) {
+  .slider_round_language .item_slider_round {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn_profil_staff .btn_profil {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 40px;
+  }
+
+  .content_btn_precedent {
+    top: 7%;
+  }
+
+  .form_item_staff {
+    .name_ages {
+        .ages {
+          right: 1%;
+          font-size: 15px;
+        }
+    }
+  }
+
+  .title_content_attributs {
+    .icones_attributs {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+  }
+  .title_attributs {
+    font-size: 16px;
+  }
+  .value_attributs {
+    font-size: 11px;
+  }
+  .auto_permited .image_auto_permited {
+    height: 30px;
+  }
+}
+
+
+@media (max-width: 385px) {
+  .footer_modals_exp .number_post_exp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .attributs_candidates .list_item_attributs {
+    width: 100%;
+  }
+}

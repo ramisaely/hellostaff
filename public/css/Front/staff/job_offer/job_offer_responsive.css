@@ -1,0 +1,230 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+@media (min-width: 501px) {
+  /* line 6, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers {
+    padding: 3vw;
+  }
+  /* line 9, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .job_offers_content {
+    padding: 0;
+  }
+  /* line 14, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .section_title {
+    /*height: 100px;*/
+    padding: 0;
+    border-bottom: 2px solid #F2F6F8;
+    border-top: 2px solid #F2F6F8;
+  }
+  /* line 20, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .section_title .section_title_content {
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    padding: 0 3vw;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 780px) {
+  /* line 36, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers, .event_card_page .event_card_container {
+    padding: 3%;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 44, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .section_title {
+    padding-top: 1.5rem;
+  }
+  /* line 47, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .section_title .section_title_content {
+    border: none;
+  }
+  /* line 51, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .section_title label {
+    font-size: 23px;
+  }
+  /* line 55, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .section_title .search {
+    width: 100%;
+  }
+  /* line 58, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .section_title .search .message_job_offer {
+    font-size: 13px;
+  }
+  /* line 62, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table {
+    border: none;
+  }
+  /* line 65, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  /* line 74, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table tr {
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: none;
+    border-bottom: none;
+    margin-bottom: 18px;
+  }
+  /* line 83, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table td {
+    width: 100%;
+    height: 40px;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    border-bottom: 1px solid #F2F6F8;
+    background-color: #ffffff !important;
+  }
+  /* line 92, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table td:first-of-type {
+    padding-left: 20px;
+    background-color: #F2F6F8 !important;
+  }
+  /* line 97, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table td:last-of-type {
+    background-color: #F2F6F8 !important;
+  }
+  /* line 101, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table td:before {
+    font-family: Raleway Medium;
+    content: attr(data-label);
+    left: 0;
+  }
+  /* line 108, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table .cell_wrapper {
+    border-right: none;
+  }
+  /* line 112, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers table .the_job {
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /* line 117, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .job_offer_event a {
+    margin-left: 15px;
+  }
+  /* line 122, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .the_job {
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    display: flex;
+    flex: 1;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /* line 128, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .spectrum_switch .switch_out {
+    width: 48px;
+    height: 25px;
+  }
+  /* line 137, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .job_offers .spectrum_switch.apply [type="checkbox"]:checked + .switch_out .switch_in, .job_offers .spectrum_switch.decline [type="checkbox"]:checked + .switch_out .switch_in {
+    transform: translateX(20px);
+  }
+
+  /* line 150, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .event_card_container .section_title span {
+    justify-content: flex-start !important;
+    margin-left: 20px;
+  }
+  /* line 156, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .event_card_container .go_back_grey {
+    width: 45px;
+    height: 45px;
+    margin-left: 3vw;
+  }
+  /* line 164, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .event_card_container .submit .apply_for_job_event {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 1100px) and (min-width: 1024px) {
+  /* line 175, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .event_card_page .event_card_top {
+    min-height: 290px;
+  }
+  /* line 178, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .event_card_page .event_card_top .left {
+    width: 25vw;
+  }
+  /* line 180, ../../../../sass/Front/staff/job_offer/job_offer_responsive.scss */
+  .event_card_page .event_card_top .item.about {
+    margin-right: 2vw;
+  }
+}

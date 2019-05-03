@@ -1,0 +1,238 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+@media (max-width: 1400px) {
+  /* line 8, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-toolbar .fc-left {
+    width: auto;
+  }
+}
+@media (max-width: 1250px) {
+  /* line 18, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-today-button, .fc-agendaDay-button, .fc-agendaWeek-button,
+  .fc-month-button, .fc-listWeek-button {
+    width: 120px !important;
+    height: 45px !important;
+  }
+
+  /* line 25, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-toolbar .fc-right .fc-button {
+    margin-left: 1em;
+  }
+  /* line 29, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-toolbar .fc-center h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 36, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-widget-content {
+    height: auto;
+    overflow: auto;
+    width: 100%;
+  }
+
+  /* line 42, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-unthemed tbody {
+    height: auto;
+    width: 100%;
+  }
+
+  /* line 48, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-toolbar.fc-header-toolbar {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 52, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-toolbar .fc-left {
+    width: 100%;
+    order: 1;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  /* line 59, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-toolbar .fc-right {
+    width: 100%;
+    order: 2;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  /* line 66, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-toolbar .fc-center {
+    width: 100%;
+    order: 3;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  /* line 74, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-list-item-time {
+    width: 40%;
+    text-align: left;
+  }
+  /* line 78, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-list-item-time br {
+    content: " ";
+    margin-left: 10px;
+  }
+
+  /* line 84, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-list-item-marker {
+    width: 15px;
+    text-align: left;
+  }
+
+  /* line 89, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-list-item-title {
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    display: flex;
+    flex: 1;
+    text-align: left;
+  }
+
+  /* line 94, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-widget-header {
+    width: 100%;
+  }
+
+  /* line 101, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-month-view .fc-week .fc-content-skeleton thead {
+    height: 30px;
+  }
+  /* line 104, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-month-view .fc-week .fc-content-skeleton thead .fc-day-number {
+    font-size: 15px;
+  }
+  /* line 110, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-month-view .fc-week .fc-content-skeleton tbody .fc-more-cell .fc-more {
+    font-size: 14px;
+  }
+  /* line 117, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-month-view .fc-event-container .fc-content {
+    height: 35px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  /* line 131, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc button {
+    font-size: 14px;
+  }
+
+  /* line 135, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+  .fc-right button, .fc-today-button {
+    width: 95px !important;
+    height: 35px !important;
+  }
+}
+/* line 142, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+.fc-listWeek-view .fc-widget-header {
+  height: 30px;
+  background-color: #F5F6F7;
+  font-weight: normal;
+}
+/* line 147, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+.fc-listWeek-view .fc-widget-header .fc-list-heading-main {
+  font-size: 15px;
+  color: #707070;
+}
+/* line 152, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+.fc-listWeek-view .fc-widget-header .fc-list-heading-alt {
+  font-size: 16px;
+  color: #393C40;
+}
+/* line 159, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+.fc-listWeek-view .fc-list-item td {
+  height: auto;
+  font-size: 15px;
+}
+/* line 164, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+.fc-listWeek-view .fc-list-item .fc-list-item-time {
+  font-size: 13px;
+  color: #707070;
+}
+/* line 169, ../../../sass/Front/calendar/fullcalendar_responsive.scss */
+.fc-listWeek-view .fc-list-item .fc-list-item-title {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #393C40;
+}

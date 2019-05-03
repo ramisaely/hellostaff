@@ -1,0 +1,447 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 5, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill, #iframe_view_cv {
+  background-color: rgba(13, 13, 13, 0.7);
+  display: inline-block;
+}
+/* line 9, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill p, #iframe_view_cv p {
+  margin: 0;
+}
+/* line 11, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .modal_content, #iframe_view_cv .modal_content {
+  width: 970px;
+  max-width: 100%;
+  background-color: transparent;
+  padding-top: 0;
+}
+/* line 18, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .actions, #iframe_view_cv .actions {
+  width: 100%;
+  height: 77px;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+/* line 29, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .actions .previous img, #show_my_bill .actions .download_bill img, #iframe_view_cv .actions .previous img, #iframe_view_cv .actions .download_bill img {
+  width: 23px;
+}
+/* line 33, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .modal_body, #iframe_view_cv .modal_body {
+  background-color: #FFFFFF;
+}
+/* line 37, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header, #iframe_view_cv .bill_header {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  padding: 35px 60px 0;
+  margin-bottom: 60px;
+}
+/* line 46, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .rects, #iframe_view_cv .bill_header .rects {
+  position: absolute;
+  width: 40px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* line 54, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .rects span, #iframe_view_cv .bill_header .rects span {
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+}
+/* line 57, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .rects span:first-child, #iframe_view_cv .bill_header .rects span:first-child {
+  background: #35C4B0;
+}
+/* line 61, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .rects span:last-child, #iframe_view_cv .bill_header .rects span:last-child {
+  background: #4C5968;
+}
+/* line 67, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .item, #iframe_view_cv .bill_header .item {
+  font-size: 18px;
+  color: #4E5465;
+  text-align: left;
+  font-weight: bold;
+}
+/* line 76, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .left .full_name, #iframe_view_cv .bill_header .left .full_name {
+  text-align: left;
+  margin-bottom: 10px;
+}
+/* line 80, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .left .full_name .item, #iframe_view_cv .bill_header .left .full_name .item {
+  font-size: 40px;
+}
+/* line 83, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .left .full_name .item:first-child, #iframe_view_cv .bill_header .left .full_name .item:first-child {
+  color: #4C5968;
+  margin-right: 5px;
+}
+/* line 84, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .left .full_name .item:last-child, #iframe_view_cv .bill_header .left .full_name .item:last-child {
+  color: #34CBB5;
+}
+/* line 88, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .left .item, #iframe_view_cv .bill_header .left .item {
+  margin-bottom: 8px;
+}
+/* line 91, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .right .item, #iframe_view_cv .bill_header .right .item {
+  margin-bottom: 10px;
+}
+/* line 93, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_header .left, #show_my_bill .bill_header .right, #iframe_view_cv .bill_header .left, #iframe_view_cv .bill_header .right {
+  max-width: 48%;
+}
+/* line 99, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .agency_identity, #iframe_view_cv .agency_identity {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* line 104, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .agency_identity .item, #iframe_view_cv .agency_identity .item {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 108, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .agency_identity .logo_agency, #iframe_view_cv .agency_identity .logo_agency {
+  margin-bottom: 15px;
+}
+/* line 111, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .agency_identity .logo_agency img, #iframe_view_cv .agency_identity .logo_agency img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+/* line 120, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .my_bill_container, #iframe_view_cv .my_bill_container {
+  width: 100%;
+  padding: 0 60px;
+  margin-top: 40px;
+}
+/* line 125, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .my_bill_container table, #iframe_view_cv .my_bill_container table {
+  width: 100%;
+  border: 1px solid #F2F6F8;
+  border-spacing: 0;
+}
+/* line 131, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .my_bill_container th, #show_my_bill .my_bill_container .sub_total td, #show_my_bill .my_bill_container .total td, #iframe_view_cv .my_bill_container th, #iframe_view_cv .my_bill_container .sub_total td, #iframe_view_cv .my_bill_container .total td {
+  background-color: #2D3D4E;
+  color: #ffffff;
+}
+/* line 137, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .my_bill_container tr:first-child td, #iframe_view_cv .my_bill_container tr:first-child td {
+  padding-top: 15px;
+}
+/* line 140, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .my_bill_container th, #iframe_view_cv .my_bill_container th {
+  padding: 10px;
+}
+/* line 144, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .my_bill_container td, #iframe_view_cv .my_bill_container td {
+  color: #2D3D4E;
+  border: 0.5px solid #F2F6F8;
+  padding: 8px;
+}
+/* line 150, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .my_bill_container .total_content, #iframe_view_cv .my_bill_container .total_content {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+/* line 156, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .my_bill_container .travelling_content, #iframe_view_cv .my_bill_container .travelling_content {
+  text-align: left;
+}
+/* line 161, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .additionnal_info, #iframe_view_cv .additionnal_info {
+  text-align: left;
+  padding: 0 60px;
+  margin-top: 25px;
+}
+/* line 166, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .additionnal_info .title, #iframe_view_cv .additionnal_info .title {
+  font-size: 20px;
+  color: #707070;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* line 173, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .additionnal_info .info, #iframe_view_cv .additionnal_info .info {
+  font-size: 14px;
+  color: #707070;
+}
+/* line 179, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_footer, #iframe_view_cv .bill_footer {
+  margin: 30px 0;
+}
+/* line 182, ../../../../sass/Front/staff/bills/modals.scss */
+#show_my_bill .bill_footer p, #iframe_view_cv .bill_footer p {
+  font-size: 13px;
+  color: #727272;
+}
+
+@media (max-width: 1023px) {
+  /* line 193, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .modal_content {
+    width: 500px;
+  }
+  /* line 197, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header, #show_my_bill .my_bill_container, #show_my_bill .additionnal_info {
+    padding: 0 10px;
+  }
+  /* line 200, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    margin-bottom: 18px;
+  }
+  /* line 205, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header .rects {
+    display: none;
+  }
+  /* line 207, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header .item {
+    font-size: 13px;
+  }
+  /* line 209, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header .left, #show_my_bill .bill_header .right {
+    width: auto;
+    max-width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 215, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header .left p, #show_my_bill .bill_header .right p {
+    text-align: center;
+  }
+  /* line 218, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header .left {
+    border-bottom: 1px solid #4C5968;
+  }
+  /* line 221, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header .left .full_name {
+    text-align: center;
+  }
+  /* line 224, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header .left .full_name .item {
+    font-size: 20px;
+  }
+  /* line 228, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .bill_header .right {
+    margin-top: 20px;
+  }
+  /* line 233, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .agency_identity .item {
+    font-size: 13px;
+  }
+  /* line 235, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container {
+    margin-top: 32px;
+    padding-bottom: 22px;
+    position: relative;
+  }
+  /* line 240, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  /* line 249, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container tbody {
+    display: block;
+  }
+  /* line 251, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container tr.default {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 254, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container tr.default td {
+    width: 33.33%;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 !important;
+  }
+  /* line 259, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container tr.default td:before {
+    content: attr(data-label);
+    font-size: 13px;
+    background-color: #2D3D4E;
+    color: #ffffff;
+    width: 100%;
+    height: 30px;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 270, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container tr.default td span {
+    width: 100%;
+    padding: 8px;
+  }
+  /* line 277, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container .travelling_content {
+    position: absolute;
+    border: none;
+    bottom: 0;
+    padding: 0;
+    font-size: 13px;
+    width: 100% !important;
+  }
+  /* line 286, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container .total {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 289, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container .total, #show_my_bill .my_bill_container .total td {
+    width: 100%;
+  }
+  /* line 291, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .my_bill_container .total .total_content {
+    padding: 8px;
+  }
+  /* line 295, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill tr.sub_total {
+    display: none;
+  }
+  /* line 298, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .additionnal_info .title {
+    font-size: 15px;
+  }
+  /* line 300, ../../../../sass/Front/staff/bills/modals.scss */
+  #show_my_bill .additionnal_info .info {
+    font-size: 13px;
+  }
+}

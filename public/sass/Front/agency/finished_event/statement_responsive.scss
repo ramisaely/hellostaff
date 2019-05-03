@@ -1,0 +1,208 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+@media (max-width: 1368px) {
+	.flex_second_divider_finished_event {
+	    padding: 12% 6% 2% 51%;
+
+	}
+
+	.step_modify_profil {
+    	width: 69%;
+    }
+
+    .flex_second_divider_finished_event img {
+	    right: 5px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.flex_second_divider_finished_event img {
+	    right: 0px;
+	}
+
+	.flex_second_divider_finished_event {
+	    padding: 16% 6% 2% 51%;
+	}
+	.content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    	 right: 1%
+
+}
+}
+
+@media (max-width: 767px) {
+	.flex_second_divider_finished_event {
+	    padding: 21% 6% 2% 32%;
+	}
+
+	.step_modify_profil {
+	    width: 58%;
+	}
+
+	.content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    	width: 28%;
+	}
+
+	.flex_second_divider_finished_event .input_create_event {
+	    width: 90%;
+	}
+
+	.flex_second_divider_finished_event img {
+	    right: 1px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.content_step_profil {
+		@include hs_flex_direction;
+	    width: 100%;
+	    height: 166px;
+	}
+
+	.content_step_profil {
+	    width: 100%!important;
+	    height: 190px!important;
+	}
+
+	.content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    width: 80%;
+		top: -27%;
+		right: 5%;
+	}
+	.step_modify_profil {
+	    width: 100%;
+
+	}
+
+	label.modify.wth_statement_label {
+	    color: #707070;
+	    width: 100%;
+	    text-align: left;
+	    padding-left: 4%;
+	    font-size: 20px;
+	}
+
+	.step_modify_profil .modify {
+	    padding: 0 15px;
+	}
+
+	.form_item_create_event {
+	    width: 100%;
+	}
+
+	.content_divider_finished_pages {
+	    width: 100%;
+	   @include hs_flex_direction;
+	}
+
+	.flex_second_divider_finished_event {
+	    padding: 20px 2% 2% 0%;
+	}
+
+	.flex_second_divider_finished_event img {
+	    right: 6%;
+	}
+
+	.first_divider_statement_content_finished_event {
+	    width: 100%;
+	}
+
+	.second_divider_statement_content_finished_event {
+	    width: 100%;
+	}
+
+	.content_pages_statement_finished_event {
+	    height: 700px;
+	}
+
+	.flex_second_divider_finished_event .input_create_event {
+	    position: relative;
+	    width: 96%;
+	    height: 22px;
+	}
+
+	.content_statement_finished_event {
+	    padding-top: 0%;
+	    padding-left: 0%;
+	    padding-right: 0%;
+	    padding-bottom: 0%;
+	    background-color: #F2F6F8;
+	}
+
+	.content_pages_statement_finished_event {
+	    width: 100%;
+	    padding: 0%;
+	}
+
+	.flex_statement_finished_event .question_statement_finished_event textarea {
+	    width: 94%;
+		margin-left: 3.4%;
+    }
+	.flex_statement_finished_event .response_statement_finished_event textarea {
+		width: 94%;
+		margin-left: 3.4%;
+	}
+
+	.flex_second_divider_finished_event .input_create_event {
+	    width: 90%;
+	    margin-left: 3.4%;
+	}
+
+	.flex_statement_finished_event .question_statement_finished_event label {
+		padding-left: 3%;
+	}
+
+	.flex_statement_finished_event .response_statement_finished_event label {
+	    padding-left: 3%;
+	}
+
+	.flex_second_divider_finished_event label {
+	    margin-left: 3%;
+	}
+}
+@media (max-width: 767px) {
+	.content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+	    width: 82%;
+	    top: -46%;
+	    right: 2%;
+	}
+}
+@media (max-width: 480px) {
+.content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    width: 78%;
+    top: -54%;
+    right: 2%;
+	}
+}
+@media (max-width: 360px) {
+	.content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    width: 76%;
+		right: 1%;
+		top: -46%;
+	}
+	.flex_statement_finished_event .response_statement_finished_event textarea {
+	    width: 92%;
+	    margin-left: 4.4%;
+	}
+
+	.flex_second_divider_finished_event .input_create_event {
+	    width: 86%;
+	    margin-left: 4.4%;
+	}
+	.flex_second_divider_finished_event label {
+	    margin-left: 4%;
+	}
+
+	.flex_statement_finished_event .question_statement_finished_event label {
+		padding-left: 4%;
+	}
+
+	.flex_statement_finished_event .response_statement_finished_event label {
+	    padding-left: 4%;
+	}
+
+	.flex_second_divider_finished_event img {
+	    right: 20px;
+	}
+}

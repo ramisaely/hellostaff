@@ -1,0 +1,208 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+/** start menu **/
+/*html, body {
+    height: 100%;
+}*/
+
+.menu_bar {
+    height: 13vh;
+    background-color: #3b4b5c;
+    
+    .logo {
+        @include hs_flex_align_centered;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: #3b4b5c;
+        height: 100%;
+        
+        @include hs_flex_space_between;
+        /*width: 100%;*/
+        border-bottom: solid 1px rgba(149, 152, 154, 0.6);
+        img {
+            width: 30%;
+        }
+    }
+    .mobile_toggle_menu {
+        display: block;
+        position: relative;
+        height: 27px;
+        width: 35px;
+        cursor: pointer;
+        transition: opacity .25s ease;
+        
+        .top, .middle, .bottom {
+            background: #fff;
+            border: none;
+            height: 4px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all .35s ease;
+            background-color: #818b95;
+        }
+        .top, .bottom {
+            width: 100%;
+        }
+        .middle {
+            width: 65%;
+        }
+        .middle {
+            top: 11px;
+        }
+        .bottom {
+            top: 22px;
+        }
+    }
+    
+     .menu {
+        @include hs_flex_direction_column;
+        @include hs_flex_justify_centered;
+        @include hs_flex_align_centered;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 87vh;
+        display: none;
+        &.active {
+            display: block;
+        }
+        
+        .menu_item {
+            @include hs_flex_direction_column;
+            @include hs_flex_justify_centered;
+            @include hs_flex_align_centered;
+            width: 100%;
+            color: #e6e7eb;
+            &:not(:last-child) {
+                height: calc(82vh/4);
+            }
+            
+            &:last-child {
+                height: 5vh;
+                hr {
+                    width: 8rem;
+                    height: 5px;
+                    border-radius: 17px;
+                    background-color: rgba(217, 217, 217, 0.39);
+                    border: none;
+                }
+            }
+            
+            &:nth-child(odd) {
+               background-color: #2d3d4e; 
+            }
+            &:nth-child(even) {
+                background-color: rgba(61, 76, 94, 0.9);
+            }
+        }
+    }
+}
+/** end menu **/
+
+/* Header1 hellostaff ************************************ */
+.list_header {
+    .header_list_header {
+        display: flex;
+        
+        .content_list_event {
+        .list_event {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+            width: 100%;
+            
+            .event {
+              width: calc(100%/7);
+              display: flex;
+              justify-content: center;
+              
+                 img {
+                      width: 100%;
+                      height: 100%;
+                  }
+                  .title_event {
+                      position: absolute;
+                      color: #fff;
+                      margin-top: 4%;
+                  }
+            }
+          }
+        }
+        
+        .content_btn_header {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+            background-color: #fff;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            
+            .btn_header_prev, .btn_header_next {
+                font-size: 5rem;
+                color: #4c5264;
+            }
+        }
+    }
+    
+}
+
+  .list_menu_event {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    background-image: -webkit-linear-gradient(13deg, #36ccb5 , #559bf7);
+    background-image: -o-linear-gradient(13deg, #36ccb5 , #559bf7);
+    background-image: linear-gradient(77deg, #36ccb5 , #559bf7);
+    width: 100%;
+    
+    .cadre_menu_event{
+        width: 25%;
+        cursor: pointer;
+        
+        .catalogue_menu_event {
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16%;
+            margin-bottom: 12%;
+            .fa {
+                font-size: 45px;
+            }
+            .text_menu_list {
+                text-align: center;
+            }
+        }
+    }
+    
+}
+.active_header {
+    border: 16px solid #80d7d7;
+}
+.content_wrap {
+    background-color: #f2f6f8;
+    padding: 3%;
+}
+
+  
+/* End Responsive Header1 hellostaff********************767**************** */

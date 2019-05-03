@@ -1,0 +1,35 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+
+@media (max-width: 1350px) {
+  .description_jobs .item_jobs_list {
+    width: calc(100% - 50px);
+  }
+  .find_candidates_form .jobs_candidates .jobs_proposed,
+  .find_candidates_form .jobs_candidates .presence_confirm {
+    width: 48.5%;
+  }
+  .find_candidates_form .slider_jobs,
+  .find_candidates_form .jobs_candidates {
+    width: 49%;
+  }
+  .btn_find_candidates_white {
+    font-size: 14px;
+    width: 100%;
+  }
+  .filtre_candidates .title_jobs_candidates,
+  .check_presence .title_jobs_candidates {
+    font-size: 15px;
+  }
+  .description_jobs .item_jobs_list .status_jobs {
+    font-size: 25px;
+  }
+  .description_jobs .item_jobs_list .title_jobs {
+    font-size: 15px;
+  }
+  .description_jobs .item_jobs_list .status_jobs {
+    font-size: 25px;
+  }
+}

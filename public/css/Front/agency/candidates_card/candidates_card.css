@@ -1,0 +1,1292 @@
+@charset "UTF-8";
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 6, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.candidates_card {
+  width: 100%;
+  background-color: #F2F6F8;
+}
+/* line 10, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.candidates_card .container_candidates_card {
+  width: 100%;
+}
+/* line 14, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.candidates_card .fiche_candidates {
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #fff;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+/** Description du profile du candidates */
+/* line 24, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.fiche_candidates .description_staff {
+  height: 100%;
+  margin-top: 0;
+  width: 35%;
+  padding: 2%;
+  position: relative;
+  overflow: hidden;
+}
+/* line 32, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.fiche_candidates .description_staff .staff_img_back {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.1;
+  left: 0;
+}
+
+/* line 43, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_btn_precedent {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+}
+/* line 46, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_btn_precedent .btn_presedent {
+  width: 25px;
+  height: 25px;
+  z-index: 9;
+  cursor: pointer;
+}
+/* line 51, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_btn_precedent .btn_presedent img {
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  cursor: pointer;
+}
+/* line 58, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_btn_precedent .btn_presedent i {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* line 65, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.profil_staff {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 70, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.form_item_staff {
+  color: #fff;
+  padding: 3%;
+  width: 65%;
+}
+/* line 75, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.form_item_staff .name_ages {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+/* line 79, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.form_item_staff .name_ages .name {
+  font-size: 45px;
+  margin-right: 17px;
+  width: 70%;
+}
+/* line 84, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.form_item_staff .name_ages .ages {
+  font-size: 27px;
+  font-family: 'Montserrat' !important;
+  font-weight: 300;
+  width: 25%;
+}
+/* line 92, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.form_item_staff .country_staff {
+  font-size: 27px;
+  font-family: 'Montserrat' !important;
+  font-weight: 300;
+}
+/* line 98, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.form_item_staff .form_item_nas {
+  font-size: 23px;
+  margin-top: 5px;
+}
+/* line 102, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.form_item_staff .form_item_nas .number_nas {
+  font-family: 'Montserrat' !important;
+  font-weight: 300;
+}
+
+/* line 109, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.img_profile {
+  width: 25%;
+}
+/* line 111, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.img_profile .photo_staff {
+  width: 171px;
+  height: 171px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* line 116, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.img_profile .photo_staff img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 124, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.btn_profil_staff {
+  padding: 3% 0 0 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 131, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.btn_profil_staff .btn_profil {
+  color: #fff;
+  background-image: linear-gradient(252deg, #1de9b6, #1dc4e9);
+  border: 0;
+  border-radius: 6px;
+  padding: 3% 5%;
+  margin-right: 4%;
+  font-size: 16px;
+  z-index: 9;
+  outline: none;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/** End Description du profile du candidates */
+/** Listes des attributs */
+/* line 147, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_liste_attributs {
+  padding: 3% 1% 3% 0;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 153, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_perso {
+  width: 60%;
+  margin-right: 2%;
+  display: -webkit-flex;
+  display: flex;
+}
+/* line 158, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_perso .container_attributs {
+  width: 26%;
+  padding: 4%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 165, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_perso .content_couriel {
+  width: auto !important;
+}
+
+/* line 169, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.title_content_attributs {
+  margin-bottom: 21px;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+/* line 174, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.title_content_attributs .icones_attributs {
+  width: 37px;
+  height: 37px;
+  margin-right: 15px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 181, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.title_content_attributs .icones_attributs img {
+  width: 100%;
+}
+
+/* line 186, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.title_attributs {
+  color: #4C5264;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* line 191, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.value_attributs {
+  color: #4C5264;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 199, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.separated_attributs {
+  border-right: 2px solid #f0f3f6;
+}
+
+/* line 203, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_auto {
+  padding: 3% 0 3% 3%;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/* line 209, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_attributs_auto {
+  width: 40%;
+}
+
+/* line 213, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.image_not_auto {
+  width: 85px;
+  height: 85px;
+}
+/* line 217, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.image_not_auto img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 222, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.auto_permited {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 228, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.auto_permited .image_auto_permited {
+  width: 100%;
+  height: 55px;
+  margin-bottom: 15px;
+}
+/* line 234, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.auto_permited .image_auto_permited img {
+  width: 100%;
+  height: 100%;
+}
+/* line 239, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.auto_permited .texte_permited {
+  font-size: 12px;
+  color: #4C5264;
+  white-space: nowrap;
+}
+
+/** End Listes des attributs */
+/** Experience pr├®c├®dente */
+/* line 249, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.container_experience {
+  padding: 3%;
+  background-color: #F2F6F8;
+}
+
+/* line 254, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_title_experience {
+  width: 100%;
+  margin-bottom: 55px;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 259, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_title_experience .title_experience {
+  color: #707070;
+  font-size: 23px;
+  margin-right: 10px;
+}
+/* line 265, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.content_title_experience .separated_exp {
+  opacity: 0.5;
+  border: 1px solid #707070;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+}
+
+/* line 272, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_jobs_exp {
+  width: 100%;
+  position: relative;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 278, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_jobs_exp .container_slider_jobs_exp {
+  width: 85%;
+}
+/* line 281, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_jobs_exp .container_slider_jobs_exp svg .cls-1 {
+  fill: #36ccb5;
+}
+
+/* line 287, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.container_btn_slider_exp {
+  position: absolute;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 292, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.container_btn_slider_exp .prev_exp, .container_btn_slider_exp .next_exp {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #707070;
+  border-radius: 50%;
+  color: #707070;
+  font-size: 12px;
+  opacity: 0.5;
+  cursor: pointer;
+  outline: none;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 307, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_jobs_list_exp {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 10%;
+  width: 70%;
+}
+/* line 316, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_jobs_list_exp .logo_jobs_exp {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+/* line 321, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_jobs_list_exp .logo_jobs_exp img {
+  width: 100%;
+  height: 100%;
+}
+/* line 327, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_jobs_list_exp .title_jobs_exp {
+  color: #4C5264;
+  font-size: 15px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  height: 40px;
+}
+/* line 336, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_jobs_list_exp .separated_exp {
+  border: 1px solid #707070;
+  width: 25%;
+  opacity: 0.2;
+  margin-bottom: 12px;
+}
+/* line 343, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_jobs_list_exp .status_jobs_exp {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #3EC0C5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3EC0C5;
+  font-size: 100;
+  background-color: #ffffff;
+}
+
+/** End Experience pr├®c├®dente */
+/** Step More experience */
+/* line 360, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.liste_more_exp {
+  background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+  padding: 4%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 365, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_more_exp {
+  width: calc(20% - 1px);
+  color: #ffffff;
+  cursor: pointer;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-right: 1px solid #fff;
+}
+/* line 375, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_more_exp:last-child {
+  border-right: 0;
+}
+/* line 379, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_more_exp .img_more_exp {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+/* line 385, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_more_exp .img_more_exp img {
+  width: 100%;
+  height: 100%;
+  /*desactiv├® si on a les icones svg*/
+}
+/* line 390, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_more_exp .title_more_exp {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  /*18*/
+  cursor: pointer;
+}
+
+/** End Step more experience*/
+/** color background image **/
+/* line 400, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.color_back_profil {
+  background-image: linear-gradient(65deg, #559bf7, #36ccb5);
+}
+
+/** Popup experience */
+/* line 406, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.experience_wrap {
+  padding: 30px;
+  background-color: #c2eee7;
+  width: fit-content;
+  display: flex;
+  margin: 2.5rem;
+  border-radius: 50%;
+}
+
+/* line 414, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.experience {
+  padding: 30px 35px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #36ccb5;
+  border-radius: 50%;
+  font-size: 39px;
+  width: 43px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+/* line 425, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.experience_wrap_sup {
+  border-radius: 50%;
+  background-color: #e9f9f7;
+}
+
+/* line 429, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.hidden_experience {
+  background-color: transparent !important;
+}
+
+/* line 432, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.experience_null {
+  color: black !important;
+  background-color: #fff !important;
+  border: 1px solid #36ccb5;
+}
+
+/* line 438, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#footer_card_candidates {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 443, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .modal_content {
+  width: 30rem;
+  max-width: 80%;
+}
+/* line 447, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .modal_content .close {
+  position: relative;
+  font-size: 75px;
+}
+/* line 452, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .staff_reg_step_nav {
+  margin: 0;
+}
+/* line 456, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .post {
+  font-size: 145%;
+  font-weight: 300;
+  color: #4E5465;
+}
+/* line 461, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .title-icon-modal {
+  width: 60px;
+  height: 60px;
+}
+/* line 465, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .title-icon-modal img {
+  width: 100%;
+  height: 100%;
+}
+/* line 470, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .foot_paragraph {
+  padding: 0 2.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 476, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .modal_footer {
+  padding-top: 0px;
+}
+/* line 479, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat .content_head_exp {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 4%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-evenly;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 487, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.footer_modals_exp {
+  width: 100%;
+  margin-top: 10%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 493, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.footer_modals_exp .number_post_exp {
+  display: flex;
+  font-size: 18px;
+  color: #707070;
+}
+/* line 498, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.footer_modals_exp .number_post_exp .first_name_candidates {
+  text-decoration: underline solid #707070;
+}
+/* line 503, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.footer_modals_exp .btn_close_modals .close_modal {
+  right: 0 !important;
+}
+
+/* line 509, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.separated_footer_exp {
+  border: 1px solid #707070;
+  opacity: 0.1;
+  width: 80%;
+  margin-top: 3%;
+}
+
+/** End Popup experience  */
+/** Popup language */
+/* line 519, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .modal_content {
+  width: 35rem;
+  max-width: 80%;
+}
+/* line 523, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .modal_content .close {
+  position: relative;
+  font-size: 75px;
+}
+/* line 528, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .staff_reg_step_nav {
+  margin: 0;
+}
+/* line 532, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .post {
+  font-size: 145%;
+  font-weight: 300;
+  color: #4E5465;
+}
+/* line 537, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .title-icon-modal {
+  width: 60px;
+  height: 60px;
+}
+/* line 541, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .title-icon-modal img {
+  width: 100%;
+  height: 100%;
+}
+/* line 546, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .foot_paragraph {
+  padding: 0 2.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 552, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .modal_footer {
+  padding-top: 0px;
+}
+/* line 555, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.language_experience .content_head_exp {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 4%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-evenly;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 563, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_round_language {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 569, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_round_language .item_slider_round {
+  width: 33%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 575, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_round_language .cssprogresscontainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 582, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_round_language .svgcontainer {
+  width: 100%;
+  margin-top: 0;
+}
+/* line 587, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_round_language .item_language {
+  width: 65%;
+  position: absolute;
+  line-height: 20px;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 595, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_round_language .item_language .title_language {
+  color: #4E5465;
+  font-size: 16px;
+}
+/* line 599, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_round_language .item_language .status_language {
+  color: #4E5465;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/** End Popup language */
+/** popup attributs */
+/* line 610, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates {
+  /**standard*/
+  /**end standard*/
+}
+/* line 612, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .modal_content {
+  width: 50rem;
+  max-width: 80%;
+}
+/* line 616, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .modal_content .close {
+  position: relative;
+  font-size: 75px;
+}
+/* line 621, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .post {
+  font-size: 180%;
+  font-weight: 300;
+  color: #4E5465;
+}
+/* line 626, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .title-icon-modal {
+  width: 60px;
+  height: 60px;
+  margin-right: 5%;
+}
+/* line 631, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .title-icon-modal img {
+  width: 100%;
+  height: 100%;
+}
+/* line 636, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .content_head_exp_attr {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 4%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 643, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .separated_footer_exp {
+  width: 85% !important;
+}
+/* line 648, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .attributs_candidates_listes {
+  width: 100%;
+  margin-right: -3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 654, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .list_item_attributs {
+  width: 30%;
+  margin-right: 3%;
+  margin-bottom: 5%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 662, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .image_attributs {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 15px;
+}
+/* line 667, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .image_attributs img {
+  width: 100%;
+  height: 100%;
+}
+/* line 672, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .name_attributs {
+  color: #4E5465;
+  font-size: 25px;
+}
+/* line 676, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.attributs_candidates .value_item_attributs {
+  color: #4E5465;
+  font-size: 18px;
+}
+
+/** popup attributs */
+/** popup certifications */
+/* line 686, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .modal_content {
+  width: 30rem;
+  max-width: 80%;
+}
+/* line 690, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .modal_content .close {
+  position: relative;
+  font-size: 75px;
+}
+/* line 695, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .staff_reg_step_nav {
+  margin: 0;
+}
+/* line 699, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .post {
+  font-size: 145%;
+  font-weight: 300;
+  color: #4E5465;
+}
+/* line 704, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .title-icon-modal {
+  width: 60px;
+  height: 60px;
+}
+/* line 708, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .title-icon-modal img {
+  width: 100%;
+  height: 100%;
+}
+/* line 713, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .foot_paragraph {
+  padding: 0 2.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 719, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .modal_footer {
+  padding-top: 0px;
+}
+/* line 722, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .content_head_exp {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 4%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 729, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.certifications_candidates .content_head_exp .title-icon-modal {
+  margin-right: 5%;
+}
+
+/* line 734, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_certifications {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 739, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_certifications .title_certifications {
+  font-size: 25px;
+}
+/* line 742, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.item_certifications .separed_certifications {
+  margin: 5%;
+  border: 1px solid #707070;
+  width: 20%;
+  opacity: 0.1;
+}
+
+/** end popup certifications */
+/** Popup Mobilities */
+/* line 753, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .modal_content {
+  width: 30rem;
+  max-width: 80%;
+}
+/* line 757, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .modal_content .close {
+  position: relative;
+  font-size: 75px;
+}
+/* line 762, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .staff_reg_step_nav {
+  margin: 0;
+}
+/* line 766, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .post {
+  font-size: 145%;
+  font-weight: 300;
+  color: #4E5465;
+}
+/* line 771, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .title-icon-modal {
+  width: 60px;
+  height: 60px;
+}
+/* line 775, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .title-icon-modal img {
+  width: 100%;
+  height: 100%;
+}
+/* line 780, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .foot_paragraph {
+  padding: 0 2.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 786, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .modal_footer {
+  padding-top: 0px;
+}
+/* line 789, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .content_head_exp {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 4%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 796, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_candidates .content_head_exp .title-icon-modal {
+  margin-right: 5%;
+}
+
+/* line 801, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_listes {
+  padding: 5%;
+}
+/* line 804, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_listes .item_liste {
+  margin-bottom: 30px;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 809, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_listes .item_liste .icone_cible {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}
+/* line 814, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_listes .item_liste .icone_cible img {
+  width: 100%;
+  height: 100%;
+}
+/* line 819, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.mobilities_listes .item_liste .title_mobilities {
+  color: #393C40;
+  font-size: 20px;
+}
+
+/** End Popup mobiblities */
+/* line 827, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.slider_language {
+  width: 300px;
+}
+
+/* line 831, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.svgcontainer {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin-top: 30px;
+}
+
+/* line 838, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.svg {
+  position: relative;
+  transform: rotate(-90deg);
+}
+
+/* line 843, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.progressbg {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  box-shadow: 5px 5px 5px 5px #333;
+}
+
+/* line 850, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.progress {
+  stroke-dashoffset: 125px;
+  transition: stroke 1s linear;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+}
+
+/* line 858, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+.cssprogresscontainer {
+  text-align: center;
+}
+
+/* Pop up Slider image profil staff */
+/* line 865, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#slider_image_candidates .modal_content {
+  max-width: 100%;
+  height: 60%;
+  width: 30%;
+  border-radius: 15px;
+  padding: 5%;
+  position: relative;
+}
+/* line 874, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#slider_image_candidates .cage_slider_profil_staff {
+  width: 100%;
+  height: 100%;
+}
+/* line 879, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#slider_image_candidates .image_profil_staff {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 884, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#slider_image_candidates .image_profil_staff .image_staff {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* line 891, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#slider_image_candidates .btn_next_prev_slider_image_staff {
+  width: 93%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  right: 3.5%;
+  top: 50%;
+}
+/* line 900, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#slider_image_candidates .btn_slider_profil_staff {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  background-color: #fff;
+}
+
+/* End Pop up Slider image profil staff */
+/** color svg*/
+/* line 911, ../../../../sass/Front/agency/candidates_card/candidates_card.scss */
+#experience_candidat svg .cls-1 {
+  fill: #36ccb5;
+}
+
+/** color svg*/

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.971 61.819">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d8d8d8;
+      }
+    </style>
+  </defs>
+  <g id="folding-map" transform="translate(0 0)">
+    <g id="Group_1697" data-name="Group 1697" transform="translate(0 0)">
+      <g id="Layer_5_68_" transform="translate(0 0)">
+        <g id="Group_1696" data-name="Group 1696">
+          <path id="Path_1504" data-name="Path 1504" class="cls-1" d="M19.577,60.926a2.037,2.037,0,0,1-1.33,1.725L1.33,68.669C.6,68.929,0,68.579,0,67.89V14.765A2.036,2.036,0,0,1,1.33,13.04L18.247,7.022c.731-.26,1.33.09,1.33.779Z" transform="translate(0 -6.936)"/>
+          <path id="Path_1505" data-name="Path 1505" class="cls-1" d="M162.657,67.89c0,.688-.6,1.039-1.33.779L144.41,62.651a2.036,2.036,0,0,1-1.33-1.725V7.8c0-.689.6-1.039,1.33-.779l16.917,6.018a2.037,2.037,0,0,1,1.33,1.725Z" transform="translate(-120.883 -6.935)"/>
+          <path id="Path_1506" data-name="Path 1506" class="cls-1" d="M305.736,60.926a2.036,2.036,0,0,1-1.329,1.725l-16.918,6.018c-.732.26-1.33-.09-1.33-.779V14.765a2.036,2.036,0,0,1,1.33-1.725l16.918-6.018c.732-.26,1.329.09,1.329.779V60.926Z" transform="translate(-241.765 -6.936)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

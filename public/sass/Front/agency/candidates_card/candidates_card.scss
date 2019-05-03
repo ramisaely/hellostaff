@@ -1,0 +1,915 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_function.scss';
+
+.candidates_card {
+  width: 100%;
+  background-color: #F2F6F8;
+
+  .container_candidates_card {
+    width: 100%;
+    // height: 345px;
+  }
+  .fiche_candidates {
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #fff;
+    @include hs_flex_align_Centered;
+  }
+}
+
+/** Description du profile du candidates */
+.fiche_candidates {
+  .description_staff {
+    height: 100%;
+    margin-top: 0;
+    width: 35%;
+    padding: 2%;
+    position: relative;
+    overflow: hidden;
+
+    .staff_img_back {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      opacity: 0.1;
+      left: 0;
+    }
+  }
+}
+.content_btn_precedent {
+  @include hs_display_flex;
+  width: 100%;
+  .btn_presedent {
+    width: 25px;
+    height: 25px;
+    z-index: 9;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+      z-index: 9;
+      cursor: pointer;
+    }
+
+    i {
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+}
+
+.profil_staff {
+  width: 100%;
+  @include hs_flex_align_centered;
+  @include hs_flex_space_Between;
+}
+.form_item_staff {
+  color: #fff;
+  padding: 3%;
+  width: 65%;
+
+  .name_ages {
+    @include hs_flex_align_centered;
+    margin-bottom: 5px;
+
+    .name {
+      font-size: 45px;
+      margin-right: 17px;
+      width: 70%;
+    }
+    .ages {
+      font-size: 27px;
+      font-family: 'Montserrat' !important;
+      font-weight: 300;
+      width: 25%;
+    }
+  }
+
+  .country_staff {
+    font-size: 27px;
+    font-family: 'Montserrat' !important;
+    font-weight: 300;
+  }
+
+  .form_item_nas {
+    font-size: 23px;
+    margin-top: 5px;
+
+    .number_nas {
+      font-family: 'Montserrat' !important;
+      font-weight: 300;
+    }
+  }
+}
+
+.img_profile {
+  width: 25%;
+  .photo_staff {
+    width: 171px;
+    height: 171px;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.btn_profil_staff {
+  // margin-top: 7%;
+  padding: 3% 0 0 3%;
+  // @include hs_flex_space_Between;
+  display: flex;
+  flex-wrap: wrap;
+
+  .btn_profil {
+    color: #fff;
+    background-image: linear-gradient(252deg, #1DE9B6, #1DC4E9);
+    border: 0;
+    border-radius: 6px;
+    padding: 3% 5%;
+    margin-right: 4%;
+    font-size: 16px;
+    z-index: 9;
+    outline: none;
+    @include hs_flex_align_centered;
+  }
+}
+/** End Description du profile du candidates */
+
+/** Listes des attributs */
+.content_liste_attributs {
+  padding: 3% 1% 3% 0;
+  @include hs_flex_one;
+  @include hs_flex_align_centered;
+}
+
+.attributs_perso {
+  width: 60%;
+  margin-right: 2%;
+  @include hs_display_flex;
+
+  .container_attributs {
+    width: 26%;
+    padding: 4%;
+    @include hs_flex_direction;
+    @include hs_flex_justify_centered;
+    @include hs_flex_align_centered;
+  }
+  .content_couriel {
+    width: auto !important;
+  }
+}
+.title_content_attributs {
+    margin-bottom: 21px;
+    @include hs_flex_align_centered;
+    flex-wrap: nowrap;
+
+    .icones_attributs {
+      width: 37px;
+      height: 37px;
+      margin-right: 15px;
+      @include hs_flex_justify_centered;
+      @include hs_flex_align_centered;
+
+      img {
+        width: 100%;
+      }
+    }
+}
+.title_attributs {
+  color: #4C5264;
+  font-size: 30px;
+  font-weight: bold;
+}
+.value_attributs {
+  color: #4C5264;
+  font-size: 16px;
+  width: 100%;
+  // word-break: break-all;
+  text-align: center;
+}
+
+.separated_attributs {
+  border-right: 2px solid #f0f3f6;
+}
+
+.attributs_auto {
+  padding: 3% 0 3% 3%;
+  @include hs_flex_one;
+  justify-content: flex-end;
+}
+
+.content_attributs_auto {
+  // width: 33.33%;
+   width: 40%;
+}
+.image_not_auto {
+  width: 85px;
+  height: 85px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.auto_permited {
+  width: 100%;
+  @include hs_flex_direction;
+  @include hs_flex_justify_centered;
+  @include hs_flex_align_centered;
+
+  .image_auto_permited {
+    // width: 85px;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 15px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .texte_permited {
+    font-size: 12px;
+    color: #4C5264;
+    white-space: nowrap;
+  }
+}
+/** End Listes des attributs */
+
+
+/** Experience précédente */
+.container_experience {
+  padding: 3%;
+  background-color: #F2F6F8;
+}
+
+.content_title_experience {
+  width: 100%;
+  margin-bottom: 55px;
+  @include hs_flex_align_centered;
+
+  .title_experience {
+    color: #707070;
+    font-size: 23px;
+    margin-right: 10px;
+  }
+
+  .separated_exp {
+    opacity: 0.5;
+    border: 1px solid #707070;
+    @include hs_flex_one;
+  }
+}
+
+.slider_jobs_exp {
+  width: 100%;
+  position: relative;
+  @include hs_flex_justify_centered;
+  @include hs_flex_align_centered;
+
+  .container_slider_jobs_exp {
+    width: 85%;
+
+    svg .cls-1 {
+        fill: #36ccb5;
+    }
+  }
+}
+
+.container_btn_slider_exp {
+  position: absolute;
+  width: 100%;
+  @include hs_flex_space_Between;
+
+  .prev_exp, .next_exp {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    color: #707070;
+    font-size: 12px;
+    opacity: 0.5;
+    cursor: pointer;
+    outline: none;
+    @include hs_flex_justify_centered;
+    @include hs_flex_align_centered;
+  }
+}
+
+.item_jobs_list_exp {
+  @include hs_flex_direction;
+  @include hs_flex_justify_centered;
+  @include hs_flex_align_centered;
+  background-color: #ffffff;
+  padding: 10%;
+  // margin-right: 25px;
+  width: 70%;
+
+  .logo_jobs_exp {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .title_jobs_exp {
+    color: #4C5264;
+    font-size: 15px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 40px;
+  }
+
+  .separated_exp {
+    border: 1px solid #707070;
+    width: 25%;
+    opacity: 0.2;
+    margin-bottom: 12px;
+  }
+
+  .status_jobs_exp {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #3EC0C5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3EC0C5;
+    font-size: 100;
+    background-color: #ffffff;
+  }
+}
+/** End Experience précédente */
+
+
+/** Step More experience */
+.liste_more_exp {
+  background-image: linear-gradient(83deg, #36CCB5, #559BF7);
+  padding: 4%;
+  @include hs_flex_space_between;
+}
+.item_more_exp {
+  width: calc(20% - 1px);
+  color: #ffffff;
+  cursor: pointer;
+
+  @include hs_flex_direction;
+  @include hs_flex_justify_centered;
+  @include hs_flex_align_centered;
+  border-right: 1px solid #fff;
+
+  &:last-child {
+    border-right: 0;
+  }
+
+  .img_more_exp {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: 100%; /*desactivé si on a les icones svg*/
+    }
+  }
+  .title_more_exp {
+    width: 100%;
+    text-align: center;
+    font-size: 16px; /*18*/
+    cursor: pointer;
+  }
+}
+/** End Step more experience*/
+
+/** color background image **/
+.color_back_profil {
+  background-image: linear-gradient(65deg, #559BF7, #36CCB5);
+}
+
+
+/** Popup experience */
+.experience_wrap {
+	padding: 30px;
+    background-color: #c2eee7;
+    width: fit-content;
+    display: flex;
+    margin: 2.5rem;
+    @include hs_border_round;
+}
+.experience {
+	padding: 30px 35px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #36ccb5;
+    border-radius: 50%;
+    font-size: 39px;
+    width: 43px;
+    height: 54px;
+    @include hs_border_round;
+}
+.experience_wrap_sup {
+  border-radius: 50%;
+  background-color: #e9f9f7;
+}
+.hidden_experience {
+  background-color: transparent !important;
+}
+.experience_null {
+  color:black !important;
+  background-color: #fff !important;
+  border: 1px solid #36ccb5;
+}
+
+#footer_card_candidates{
+  @include hs_flex_justify_centered;
+}
+
+#experience_candidat {
+    .modal_content {
+  		width: 30rem;
+      max-width: 80%;
+
+      .close {
+        position: relative;
+        font-size: 75px;
+      }
+  	}
+    .staff_reg_step_nav {
+      margin: 0;
+
+    }
+    .post {
+      font-size: 145%;
+      font-weight: 300;
+      color: #4E5465;
+    }
+    .title-icon-modal {
+      width: 60px;
+      height: 60px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .foot_paragraph {
+  		padding: 0 2.5rem;
+  		-webkit-transition: all 0.5s;
+  		transition: all 0.5s;
+
+  	}
+  	.modal_footer {
+  	      padding-top: 0px;
+  	}
+    .content_head_exp {
+      width: 100%;
+      margin-bottom: 10%;
+      margin-top: 4%;
+      @include hs_flex_justify_space_evenly;
+      @include hs_flex_align_centered;
+    }
+}
+.footer_modals_exp {
+  width: 100%;
+  margin-top: 10%;
+  @include hs_flex_direction;
+  @include hs_flex_align_centered;
+
+  .number_post_exp {
+    display: flex;
+    font-size: 18px;
+    color: #707070;
+
+    .first_name_candidates {
+      text-decoration: underline solid #707070;
+    }
+  }
+  .btn_close_modals {
+    .close_modal {
+      right: 0 !important;
+    }
+  }
+}
+
+.separated_footer_exp {
+  border: 1px solid #707070;
+  opacity: 0.1;
+  width: 80%;
+  margin-top: 3%;
+}
+/** End Popup experience  */
+
+/** Popup language */
+.language_experience {
+    .modal_content {
+  		width: 35rem;
+      max-width: 80%;
+
+      .close {
+        position: relative;
+        font-size: 75px;
+      }
+  	}
+    .staff_reg_step_nav {
+      margin: 0;
+
+    }
+    .post {
+      font-size: 145%;
+      font-weight: 300;
+      color: #4E5465;
+    }
+    .title-icon-modal {
+      width: 60px;
+      height: 60px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .foot_paragraph {
+  		padding: 0 2.5rem;
+  		-webkit-transition: all 0.5s;
+  		transition: all 0.5s;
+
+  	}
+  	.modal_footer {
+  	      padding-top: 0px;
+  	}
+    .content_head_exp {
+      width: 100%;
+      margin-bottom: 10%;
+      margin-top: 4%;
+      @include hs_flex_justify_space_evenly;
+      @include hs_flex_align_centered;
+    }
+}
+.slider_round_language {
+  width: 100%;
+  // @include hs_flex_space_Between;
+  @include hs_flex_justify_centered;
+  @include hs_flex_align_centered;
+
+  .item_slider_round {
+    width: 33%;
+    @include hs_flex_align_centered;
+    @include hs_flex_justify_centered;
+  }
+
+  .cssprogresscontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include hs_flex_align_centered;
+    @include hs_flex_justify_centered;
+  }
+  .svgcontainer {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .item_language {
+    width: 65%;
+    position: absolute;
+    line-height: 20px;
+    @include hs_flex_direction;
+    @include hs_flex_align_centered;
+    @include hs_flex_justify_centered;
+
+    .title_language {
+      color: #4E5465;
+      font-size: 16px;
+    }
+    .status_language {
+      color: #4E5465;
+      font-size: 12px;
+      opacity: 0.8;
+    }
+  }
+}
+/** End Popup language */
+
+
+/** popup attributs */
+.attributs_candidates {
+  /**standard*/
+  .modal_content {
+    width: 50rem;
+    max-width: 80%;
+
+    .close {
+      position: relative;
+      font-size: 75px;
+    }
+  }
+  .post {
+    font-size: 180%;
+    font-weight: 300;
+    color: #4E5465;
+  }
+  .title-icon-modal {
+    width: 60px;
+    height: 60px;
+    margin-right: 5%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .content_head_exp_attr {
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 4%;
+    @include hs_flex_justify_centered;
+    @include hs_flex_align_centered;
+  }
+  .separated_footer_exp {
+    width: 85% !important;
+  }
+  /**end standard*/
+
+  .attributs_candidates_listes {
+    width: 100%;
+    margin-right: -3%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list_item_attributs {
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    @include hs_flex_direction;
+    @include hs_flex_align_centered;
+  }
+
+  .image_attributs {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 15px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .name_attributs {
+    color: #4E5465;
+    font-size: 25px;
+  }
+  .value_item_attributs {
+    color: #4E5465;
+    font-size: 18px;
+  }
+}
+/** popup attributs */
+
+/** popup certifications */
+
+.certifications_candidates {
+  .modal_content {
+    width: 30rem;
+    max-width: 80%;
+
+    .close {
+      position: relative;
+      font-size: 75px;
+    }
+  }
+  .staff_reg_step_nav {
+    margin: 0;
+
+  }
+  .post {
+    font-size: 145%;
+    font-weight: 300;
+    color: #4E5465;
+  }
+  .title-icon-modal {
+    width: 60px;
+    height: 60px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .foot_paragraph {
+    padding: 0 2.5rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+  }
+  .modal_footer {
+        padding-top: 0px;
+  }
+  .content_head_exp {
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 4%;
+    @include hs_flex_justify_centered;
+    @include hs_flex_align_centered;
+
+    .title-icon-modal {
+      margin-right: 5%;
+    }
+  }
+}
+.item_certifications {
+  width: 100%;
+  @include hs_flex_direction;
+  @include hs_flex_align_centered;
+
+  .title_certifications {
+    font-size: 25px;
+  }
+  .separed_certifications {
+    margin: 5%;
+    border: 1px solid #707070;
+    width: 20%;
+    opacity: 0.1;
+  }
+}
+/** end popup certifications */
+
+/** Popup Mobilities */
+.mobilities_candidates {
+  .modal_content {
+    width: 30rem;
+    max-width: 80%;
+
+    .close {
+      position: relative;
+      font-size: 75px;
+    }
+  }
+  .staff_reg_step_nav {
+    margin: 0;
+
+  }
+  .post {
+    font-size: 145%;
+    font-weight: 300;
+    color: #4E5465;
+  }
+  .title-icon-modal {
+    width: 60px;
+    height: 60px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .foot_paragraph {
+    padding: 0 2.5rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+  }
+  .modal_footer {
+        padding-top: 0px;
+  }
+  .content_head_exp {
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 4%;
+    @include hs_flex_justify_centered;
+    @include hs_flex_align_centered;
+
+    .title-icon-modal {
+      margin-right: 5%;
+    }
+  }
+}
+.mobilities_listes {
+  padding: 5%;
+
+  .item_liste {
+    margin-bottom: 30px;
+    @include hs_display_flex_nowrap;
+    @include hs_flex_align_centered;
+
+    .icone_cible {
+      width: 30px;
+      height: 30px;
+      margin-right: 25px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .title_mobilities {
+      color: #393C40;
+      font-size: 20px;
+    }
+  }
+}
+/** End Popup mobiblities */
+
+.slider_language{
+  width: 300px;
+}
+
+.svgcontainer{
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.svg{
+  position:relative;
+  transform: rotate(-90deg);
+}
+
+.progressbg{
+  z-index:0;
+  position:absolute;
+  top:0px;
+  box-shadow: 5px 5px 5px 5px #333;
+}
+
+.progress{
+  stroke-dashoffset: 125px;
+  transition: stroke 1s linear;
+  z-index:1;
+  position:absolute;
+  top:0px;
+}
+
+.cssprogresscontainer{
+  text-align:center;
+}
+
+
+/* Pop up Slider image profil staff */
+#slider_image_candidates {
+  .modal_content {
+    max-width: 100%;
+    height: 60%;
+    width: 30%;
+    border-radius: 15px;
+    padding: 5%;
+    position: relative;
+  }
+
+  .cage_slider_profil_staff {
+    width: 100%;
+    height: 100%;
+  }
+
+  .image_profil_staff {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .image_staff {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .btn_next_prev_slider_image_staff {
+    width: 93%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 3.5%;
+    top: 50%;
+  }
+  .btn_slider_profil_staff {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    background-color: #fff;
+  }
+}
+/* End Pop up Slider image profil staff */
+/** color svg*/
+#experience_candidat {
+  svg .cls-1 {
+      fill: #36ccb5;
+  }
+}
+/** color svg*/

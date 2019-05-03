@@ -1,0 +1,356 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+
+
+@media (min-width: 500px) {
+	.event_card_top {
+		.left {
+
+			img {
+			}
+		}
+
+		.right {
+		}
+
+		.item {
+			&.about {
+				
+
+				input {
+					
+				}
+
+				.form_item {
+					
+				}
+
+				.item_footer {
+					
+				}
+
+				.zip_item { 
+					width: 35%;
+				}
+
+				.country_item {
+
+				}
+			}		
+		}
+
+
+	}
+}
+
+@media (min-width: 1024px) {
+	.event_card_page {
+
+		.section_title {
+
+	    	span {
+			    padding: 0 3vw;
+			    @include hs_flex_start;
+			    @include hs_flex_align_centered;
+	    	}
+		}
+
+		.agency_card_content {
+			@include hs_flex_align_centered;
+			@include hs_flex_wrap;
+		}
+
+	}
+
+	.event_card_top {
+		@include hs_flex_align_centered;
+		margin-top: 20px;
+		height: 22vw;
+		min-height: 300px;
+
+		.left {
+			margin-right: 2%;
+			width: 28vw;
+			border: 1px solid #CACED5;
+			border-radius: 4px;
+			padding: 1vw;
+			margin-top: 0;
+			height: 100%;
+		}
+
+		.right {
+			@include hs_flex_one;
+			margin-top: 0;
+			height: 100%;
+		}
+
+		.item {
+			height: 100%;
+
+			&.about {
+				width: 19vw;
+				min-width: 250px;
+				margin-right: 3.8vw;
+				@include hs_flex_direction_column;
+				@include hs_flex_space_between;
+
+				.form_item {
+					&, &.localization_info { margin-bottom: 0; }
+				}
+			}
+
+			&.description {
+				@include hs_flex_one;
+				@include hs_flex_direction_column;
+
+				.description_heading {
+					@include hs_display_flex;
+
+					.item {
+						@include hs_flex_one;
+						@include hs_flex_nowrap;
+						padding: 1.25vw 0.9vw;
+
+						&:first-child {
+							margin-right: 2.5%;
+						}
+
+						&.duration {
+							width: 50%;
+							min-width: 250px;
+						}
+
+						img { 
+							margin-right: 1.3vw;
+							max-width: 3vw;
+							max-height: 3vw; 
+						}
+					}
+				}
+
+				.event_description {
+					@include hs_flex_one;
+					@include hs_flex_direction_column;
+				}
+			}
+		
+		}
+
+	}
+
+	.event_description, .post_description {
+
+		.description_head {
+
+			img {
+				max-width: 3vw;
+				max-height: 3vw;
+				margin-left: calc(0.9vw - 10px);
+				margin-right: 1.3vw;
+			}
+
+			.text {
+
+			}
+		}
+
+		.description_brief {
+			width: 100%;
+			padding: 30px 2px; 
+			@include hs_flex_one;
+			
+			p { 
+				margin: 0;
+				font-size: 15px;
+				color: #707070; 
+				overflow: auto;
+			}
+		}
+	}
+
+	.event_card_middle, .event_card_bottom {
+		@include hs_display_flex;
+
+		.section_title, .left_item {
+			@include hs_flex_one;
+			margin-right: 30px;
+		}
+
+		.remuneration, .dates {
+			width: 19.27vw;
+			min-width: 290px;
+			margin-top: 0;
+		}
+	}
+
+
+	.event_card_middle {		
+
+		.section_title {
+
+		}
+
+		.remuneration {
+			margin-top: 0;
+		}
+	}
+
+	.event_card_bottom {
+		margin-top: 20px;
+
+		.left_item {
+
+			.left {
+				width: 49%;
+				max-width: 400px;
+				margin-top: 0;
+				margin-right: 5%;
+				@include hs_flex_direction_column;
+				@include hs_flex_space_between;
+
+				.item {
+				    padding: 1.25vw 0.9vw;
+
+					img { margin-right: 1vw; }
+				}
+
+				.localization_info { margin-bottom: 0; }
+			}
+
+			.right {
+				@include hs_flex_one;
+				@include hs_flex_direction_column;
+
+				.description_heading {
+					@include hs_display_flex;
+					margin-right: -1vw;
+
+					.item {
+						@include hs_flex_nowrap;
+						padding: 1.14vw 0.9vw;
+						width: auto;
+						@include hs_flex_one;
+						margin-right: 1vw;
+
+						/*&:not(:last-child) {
+							margin-right: 1.3vw;
+						}*/
+					}
+
+					label { 
+						width: auto; 
+						font-size: 100%;
+					}
+
+					img {
+						margin-right: 1vw;
+					}
+
+					.place {
+						font-size: 100%;
+					}
+
+					.place_item { max-width: 209px; }
+
+					.hourly_rate_item { max-width: 140px; }
+
+					.deplacement_cost_item { max-width: 226px; min-width: 175px; }
+
+					.per_diem_item { min-width: 215px; }
+
+					.value span {
+						@include hs_flex_justify_centered;
+					    border: 1px solid rgba(112, 112, 112, 0.5);
+						padding: 5% 10%;
+					}
+				}
+
+				.post_description {
+					@include hs_flex_one;
+					@include hs_flex_direction_column;
+				}
+			}
+		}
+	}
+
+	.dates {
+
+		.header_dates {
+			padding: 1.14vw 0.9vw;
+
+			img {
+
+			}
+
+			label {
+				
+			}
+		}
+
+		.date_list {
+			
+
+			.item {
+				width: 100%;
+				height: 65px;
+				@include hs_flex_align_centered;
+				
+			}
+		}
+	}
+}
+
+@media (min-width: 1700px) {
+	.event_card_top .item.about input,
+	.event_card_bottom .left .localization_info input {
+		height: 55px;
+	}
+
+	.dates .date_list .item {
+		height: 72px;
+	}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1350px) {
+	.event_card_bottom .left_item {
+		.left { width: 38%; }
+
+		.right {
+			.description_heading {
+				@include hs_flex_wrap;
+
+				.item { width: calc(50% - 1vw); }
+
+				.place_item, .hourly_rate_item, .deplacement_cost_item, .per_diem_item {
+					max-width: calc(50% - 1vw);
+					min-width: calc(50% - 1vw);
+				}
+			}
+
+			.post_description { 
+				height: 210px; 
+
+				.description_brief { padding: 25px 2px 15px 2px; }
+			}
+		}
+	}
+
+	.dates .date_list .item { height: 70px; }
+
+}
+
+
+
+@media (min-width: 501px) and (max-width: 1023px) {
+	.event_card_container {
+	    max-width: 500px;
+	    margin: auto;
+	}
+
+	.event_card_top .left {
+	    height: 370px;
+	}
+}

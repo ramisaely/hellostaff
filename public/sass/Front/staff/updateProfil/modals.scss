@@ -1,0 +1,93 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+#upload_head_shot_photo,
+#upload_upper_body_photo,
+#upload_resume_file {
+	
+	.modal_content {
+		width: 450px;
+		max-width: 90%;
+	    padding-top: 90px;
+		padding-bottom: 90px;
+
+		.modal_head .close {
+			color: #4C5264;
+		    /*top: 10px;
+    		right: 35px;*/
+
+		}
+	}
+
+	.image_file {
+		label { 
+			width: 7rem;
+			height: 7rem;
+			border-radius: 50%; 
+			cursor: pointer;
+			@include hs_display_flex;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 50%; 
+		}
+	}
+
+	.message {
+		font-size: 20px;
+		color: #AAAAAA;
+		margin: 30px 0 25px 0;
+	}
+
+	.choose_file {
+		background-image: linear-gradient(252deg, #1DE2C0, #1DC4E9);
+		width: 200px;
+		height: 65px;
+		font-size: 20px;
+		color: #FFFFFF;
+		border-radius: 7px;
+		@include hs_flex_justify_centered;
+	    @include hs_flex_align_centered;
+	    border: none;
+	    outline: none;
+	}
+}
+
+@media (max-width: 500px) {
+	#upload_head_shot_photo,
+	#upload_upper_body_photo,
+	#upload_resume_file {
+		
+		.modal_content {
+		    padding-top: 16vh;
+			padding-bottom: 16vh;
+
+			.modal_head .close {
+				font-size: 45px;
+			}
+		}
+
+		.image_file {			
+
+			label {
+				width: 5.5rem;
+				height: 5.5rem;				
+			}
+		}
+
+		.message {
+			font-size: 17px;
+			margin: 30px 0 30px 0;
+		}
+
+		.choose_file {
+			width: 170px;
+			height: 55px;
+			font-size: 15px;
+		}
+	}
+}

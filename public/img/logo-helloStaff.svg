@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195.71 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 40px;
+        font-family: Raleway-Bold, Raleway;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #36ccb5;
+      }
+    </style>
+  </defs>
+  <g id="Group_1131" data-name="Group 1131" transform="translate(-477 -519.035)">
+    <text id="Hello" class="cls-1" transform="translate(477 557.035)"><tspan x="0" y="0">Hello</tspan></text>
+    <text id="Staff" class="cls-2" transform="translate(582.71 557.035)"><tspan x="0" y="0">Staff</tspan></text>
+  </g>
+</svg>

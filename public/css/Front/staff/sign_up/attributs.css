@@ -1,0 +1,83 @@
+/* line 2, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.list_attributs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto 0% auto;
+  grid-template-columns: auto auto 9% auto;
+  margin: auto;
+  width: 77%;
+  margin: auto;
+  /*grid-gap: 80px;*/
+}
+
+/* line 12, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.checkbox_wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+/* line 19, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.dropdown_items {
+  margin-top: 15px;
+}
+
+/* line 22, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.form_item_attributs {
+  margin: -11px 0 !important;
+}
+
+/* line 25, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.dropdown_attrubuts {
+  margin-top: 1% !important;
+}
+
+/* line 28, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.checkbox_attrubuts {
+  margin-right: -65px !important;
+}
+
+/* line 31, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.select_attrubuts {
+  width: 38px !important;
+}
+
+/* line 34, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.checkbox_wrap {
+  border: 20px solid #f2f6f8 !important;
+}
+
+/* line 37, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.place {
+  width: 14% !important;
+  /*margin-left: -164px !important;*/
+}
+
+/* line 41, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.plc {
+  width: 85px !important;
+}
+
+/*.labelplc {
+  margin-left: -68px !important;
+}*/
+/* line 47, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.dropattribut {
+  width: 95px;
+  /*margin-left: -68px;*/
+}
+
+/* line 51, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.divider {
+  opacity: 0.2;
+  border: solid 0.5px #707070;
+  width: 0;
+  margin: 30px;
+}
+
+/* line 58, ../../../../sass/Front/staff/sign_up/attributs.scss */
+.dropdown-menu label {
+  margin-right: 2rem;
+}

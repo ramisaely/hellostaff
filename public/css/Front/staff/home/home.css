@@ -1,0 +1,168 @@
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 4, ../../../../sass/Front/staff/home/home.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, ../../../../sass/Front/staff/home/home.scss */
+.staff_home {
+  height: 100vh;
+}
+/* line 11, ../../../../sass/Front/staff/home/home.scss */
+.staff_home .staff_home_menu_item {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border-style: none;
+  margin-top: -1px;
+}
+/* line 19, ../../../../sass/Front/staff/home/home.scss */
+.staff_home .staff_home_menu_item:nth-child(even) {
+  background: #2d3d4e;
+}
+/* line 23, ../../../../sass/Front/staff/home/home.scss */
+.staff_home .staff_home_menu_item:nth-child(odd) {
+  background: #3d4c5e;
+}
+/* line 27, ../../../../sass/Front/staff/home/home.scss */
+.staff_home .staff_home_menu_item .staff_home_menu_item_content {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  line-height: 23px;
+}
+/* line 35, ../../../../sass/Front/staff/home/home.scss */
+.staff_home .staff_home_menu_item .staff_home_menu_item_content .redirect_link {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2vw;
+  cursor: pointer;
+}
+/* line 41, ../../../../sass/Front/staff/home/home.scss */
+.staff_home .staff_home_menu_item .staff_home_menu_item_content .redirect_link img {
+  width: 4.5vw;
+  height: 4.5vw;
+  background-color: transparent;
+}
+/* line 48, ../../../../sass/Front/staff/home/home.scss */
+.staff_home .staff_home_menu_item .staff_home_menu_item_content .href_link {
+  font-size: 120%;
+  font-family: Raleway;
+  opacity: 0.9;
+  display: flex;
+  text-align: center;
+  height: 3rem;
+}
+/* line 56, ../../../../sass/Front/staff/home/home.scss */
+.staff_home .staff_home_menu_item .staff_home_menu_item_content .href_link a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 779px) {
+  /* line 67, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+  /* line 72, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .content_logo_staff {
+    width: 100%;
+    position: relative;
+    background: #2d3d4e;
+  }
+  /* line 78, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .mobile_container {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 102px);
+  }
+  /* line 84, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .mobile_container .staff_home_menu_item {
+    width: 100%;
+    height: 25%;
+  }
+  /* line 90, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .mobile_container .staff_home_menu_item .staff_home_menu_item_content .redirect_link {
+    margin-bottom: 15px;
+  }
+  /* line 92, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .mobile_container .staff_home_menu_item .staff_home_menu_item_content .redirect_link img {
+    width: 40px;
+    height: 40px;
+  }
+  /* line 97, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .mobile_container .staff_home_menu_item .staff_home_menu_item_content .href_link {
+    font-size: 100%;
+    height: 20px;
+  }
+}
+@media (max-width: 779px) {
+  /* line 112, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .mobile_container .staff_home_menu_item .staff_home_menu_item_content .redirect_link {
+    margin-bottom: 10px;
+  }
+  /* line 114, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .mobile_container .staff_home_menu_item .staff_home_menu_item_content .redirect_link img {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 119, ../../../../sass/Front/staff/home/home.scss */
+  .staff_home .mobile_container .staff_home_menu_item .staff_home_menu_item_content .href_link {
+    font-size: 85%;
+  }
+}

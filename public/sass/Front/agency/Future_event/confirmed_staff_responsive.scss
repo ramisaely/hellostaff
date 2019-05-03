@@ -1,0 +1,108 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+
+@media (min-width: 1024px) and (max-width: 1680px) {
+.description_item_jobs {
+	.icones_jobs {
+	    width: 40px;
+	    height: 40px;
+	    margin-right: 8px;
+	}
+	.name_jobs {
+	    font-size: 14px;
+		}
+ 	}
+	.status_item_jobs {
+		width: 24%;
+
+	.listes_status {
+    	font-size: 16px;
+		}
+	}
+	.find_new_jobs .new_jobs {
+		font-size: 16px;
+	}
+	.dropdown_liste_jobs {
+		width: 100%;
+		.description_staffs {
+			.name_staff {
+				font-size: 15px;
+	  }
+}
+	.country_staff {
+		font-size: 13px;
+		}
+	}
+	.dropdown_liste_jobs li {
+    	padding: 2%;
+	}
+	.listes_jobs {
+		width: 92%;
+	}
+	// .dropdown_liste_jobs {
+	// 	width: 413px;
+	// }
+}
+@media (max-width: 1200px) {
+	.listes_staff_confirmed .content_dropdown_jobs {
+		width: 46%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.description_item_jobs {
+		 .name_jobs {
+		    font-size: 11px;
+		}
+		 .listes_status {
+	    	font-size: 13px;
+		}
+	}
+	.action_staff {
+	    width: 25%;
+	}
+	.dropdown_liste_jobs {
+		width: 319px;
+	}
+	.status_item_jobs .listes_status {
+    	font-size: 13px;
+	}
+	.description_item_jobs {
+	.icones_jobs {
+	    margin-right: 2px;
+	 }
+	}
+}
+@media (min-width: 360px) and (max-width: 1023px) {
+	.confirmed_staff_menus {
+		margin-right: -7px;
+	}
+	.listes_staff_confirmed .content_dropdown_jobs {
+	    width: 100%;
+	    margin-bottom: 2px;
+	}
+	.description_item_jobs {
+		.icones_jobs {
+		    margin-right: 0px;
+		    position: absolute;
+		    width: 0px;
+		    height: 0px;
+			}
+	.name_jobs {
+	    	font-size: 14px;
+			}
+	}
+	.dropdown_liste_jobs {
+	    width: 100%;
+	}
+
+	.status_item_jobs {
+	    width: 26%;
+	 }
+	/* .menu_head .icone_header {
+	    width: 0%;
+	    margin-bottom: 0px;
+	}*/
+}

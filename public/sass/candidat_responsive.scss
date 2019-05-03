@@ -1,0 +1,19 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+@media (min-width: 768px) {
+/****************** tart cendidat filter *********************/
+.candidat_filter_nav {
+    width: 25%;
+}
+.candidat_filter {
+    width: 75%;
+}
+/****************** end cendidat filter *********************/ 
+
+}
+@media (min-width: 1024px) {
+
+}
+  

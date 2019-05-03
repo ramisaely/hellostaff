@@ -1,0 +1,237 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+@media (max-width: 1368px) {
+  /* line 7, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus {
+    width: 9%;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 12, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .avatar {
+    width: 45px;
+    height: 45px;
+  }
+
+  /* line 16, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus .title_menu {
+    font-size: 12px;
+  }
+
+  /* line 19, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .logo_page .logo_hello_staff {
+    width: 90%;
+  }
+}
+@media (max-width: 835px) {
+  /* Dropdown deconnexion */
+  /* line 25, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .dropdown_login {
+    width: 55%;
+  }
+
+  /* End Dropdown deconnexion **/
+  /* line 29, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .master {
+    position: relative;
+    height: 100vh;
+  }
+
+  /* line 33, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .color_responsive_create_event {
+    background-color: #2D3D4E !important;
+  }
+
+  /* line 36, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .content_head_page .content_users {
+    width: 45%;
+  }
+
+  /* line 39, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .logo_users {
+    width: 35%;
+    background-color: transparent;
+    margin-right: 0;
+  }
+  /* line 44, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .logo_users .name_users {
+    display: none;
+  }
+
+  /* line 48, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .logo_page .logo_hello_staff {
+    width: 100%;
+  }
+
+  /* line 51, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .content_head_page {
+    border-bottom: 2px solid #95989A;
+  }
+
+  /* line 55, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .list_menu_page {
+    position: absolute;
+    height: calc(100vh - 102px);
+    /*100vh ou 100vw*/
+    top: 101px;
+    z-index: 999;
+    align-items: start;
+    display: none;
+  }
+  /* line 64, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .list_menu_page.active {
+    display: block !important;
+  }
+
+  /* line 68, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus {
+    width: 100%;
+    height: 20%;
+    color: #E6E7EB;
+    border: 0;
+    font-size: 13px !important;
+  }
+  /* line 75, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus:nth-child(even) {
+    background-color: #3D4C5E;
+  }
+  /* line 78, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus:nth-child(odd) {
+    background-color: #2D3D4E;
+  }
+
+  /* line 83, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .img_menus img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  /* line 89, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus.active {
+    border: 0;
+    color: #fff;
+  }
+
+  /* line 93, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus:hover {
+    border: 0;
+    color: #fff;
+  }
+
+  /* line 98, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .finish_menu {
+    display: none;
+  }
+
+  /* line 101, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .responsive_menus_tools {
+    display: flex;
+  }
+}
+@media (max-width: 500px) {
+  /* line 107, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Dropdown deconnexion */
+  /* line 112, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .dropdown_login {
+    width: 70%;
+  }
+
+  /* line 115, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .dropdown_login li img {
+    width: 23px;
+  }
+
+  /* line 118, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .dropdown_login li a {
+    font-size: 15px;
+  }
+
+  /* line 121, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .content_head_page .content_users {
+    width: 55%;
+  }
+
+  /* line 124, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .logo_users {
+    width: 27%;
+  }
+
+  /* line 127, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .content_first_letter {
+    font-size: 2rem;
+  }
+
+  /* line 130, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .link_create_event_responsive {
+    margin-right: 15px;
+  }
+
+  /* End Dropdown deconnexion **/
+}
+@media (max-width: 350px) {
+  /* line 136, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .content_head_page .content_users {
+    width: 50%;
+  }
+
+  /* line 139, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .avatar {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* line 143, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .link_create_event_responsive .btn_creation_event_responsive {
+    width: 35px;
+  }
+
+  /* line 147, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus_responsive_btn .click_menus_1 {
+    border: 1.5px solid #818B95;
+    margin: 6px 0;
+  }
+  /* line 151, ../../../../sass/Front/agency/Header/header_responsive.scss */
+  .menus_responsive_btn .click_menus {
+    border: 1.5px solid #818B95;
+  }
+}

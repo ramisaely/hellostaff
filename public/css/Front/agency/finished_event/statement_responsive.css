@@ -1,0 +1,315 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+@media (max-width: 1368px) {
+  /* line 6, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event {
+    padding: 12% 6% 2% 51%;
+  }
+
+  /* line 11, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .step_modify_profil {
+    width: 69%;
+  }
+
+  /* line 15, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event img {
+    right: 5px;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 21, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event img {
+    right: 0px;
+  }
+
+  /* line 25, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event {
+    padding: 16% 6% 2% 51%;
+  }
+
+  /* line 28, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    right: 1%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 35, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event {
+    padding: 21% 6% 2% 32%;
+  }
+
+  /* line 39, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .step_modify_profil {
+    width: 58%;
+  }
+
+  /* line 43, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    width: 28%;
+  }
+
+  /* line 47, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event .input_create_event {
+    width: 90%;
+  }
+
+  /* line 51, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event img {
+    right: 1px;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 57, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_step_profil {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 166px;
+  }
+
+  /* line 63, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_step_profil {
+    width: 100% !important;
+    height: 190px !important;
+  }
+
+  /* line 68, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    width: 80%;
+    top: -27%;
+    right: 5%;
+  }
+
+  /* line 73, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .step_modify_profil {
+    width: 100%;
+  }
+
+  /* line 78, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  label.modify.wth_statement_label {
+    color: #707070;
+    width: 100%;
+    text-align: left;
+    padding-left: 4%;
+    font-size: 20px;
+  }
+
+  /* line 86, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .step_modify_profil .modify {
+    padding: 0 15px;
+  }
+
+  /* line 90, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .form_item_create_event {
+    width: 100%;
+  }
+
+  /* line 94, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_divider_finished_pages {
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* line 99, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event {
+    padding: 20px 2% 2% 0%;
+  }
+
+  /* line 103, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event img {
+    right: 6%;
+  }
+
+  /* line 107, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .first_divider_statement_content_finished_event {
+    width: 100%;
+  }
+
+  /* line 111, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .second_divider_statement_content_finished_event {
+    width: 100%;
+  }
+
+  /* line 115, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_pages_statement_finished_event {
+    height: 700px;
+  }
+
+  /* line 119, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event .input_create_event {
+    position: relative;
+    width: 96%;
+    height: 22px;
+  }
+
+  /* line 125, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_statement_finished_event {
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    background-color: #F2F6F8;
+  }
+
+  /* line 133, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_pages_statement_finished_event {
+    width: 100%;
+    padding: 0%;
+  }
+
+  /* line 138, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_statement_finished_event .question_statement_finished_event textarea {
+    width: 94%;
+    margin-left: 3.4%;
+  }
+
+  /* line 142, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_statement_finished_event .response_statement_finished_event textarea {
+    width: 94%;
+    margin-left: 3.4%;
+  }
+
+  /* line 147, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event .input_create_event {
+    width: 90%;
+    margin-left: 3.4%;
+  }
+
+  /* line 152, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_statement_finished_event .question_statement_finished_event label {
+    padding-left: 3%;
+  }
+
+  /* line 156, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_statement_finished_event .response_statement_finished_event label {
+    padding-left: 3%;
+  }
+
+  /* line 160, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event label {
+    margin-left: 3%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 165, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    width: 82%;
+    top: -46%;
+    right: 2%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 172, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    width: 78%;
+    top: -54%;
+    right: 2%;
+  }
+}
+@media (max-width: 360px) {
+  /* line 179, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .content_pages_statement_finished_event .statement_finished_event .form_item_create_event .input_create_event {
+    width: 76%;
+    right: 1%;
+    top: -46%;
+  }
+
+  /* line 184, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_statement_finished_event .response_statement_finished_event textarea {
+    width: 92%;
+    margin-left: 4.4%;
+  }
+
+  /* line 189, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event .input_create_event {
+    width: 86%;
+    margin-left: 4.4%;
+  }
+
+  /* line 193, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event label {
+    margin-left: 4%;
+  }
+
+  /* line 197, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_statement_finished_event .question_statement_finished_event label {
+    padding-left: 4%;
+  }
+
+  /* line 201, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_statement_finished_event .response_statement_finished_event label {
+    padding-left: 4%;
+  }
+
+  /* line 205, ../../../../sass/Front/agency/finished_event/statement_responsive.scss */
+  .flex_second_divider_finished_event img {
+    right: 20px;
+  }
+}

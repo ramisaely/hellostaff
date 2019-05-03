@@ -1,0 +1,312 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/** parent difference event form */
+/* line 8, ../../../../sass/Front/agency/Future_event/statement.scss */
+.statement .content_step_profil {
+  width: 100% !important;
+}
+/* line 11, ../../../../sass/Front/agency/Future_event/statement.scss */
+.statement .bg_step_statement {
+  width: 100%;
+}
+/* line 14, ../../../../sass/Front/agency/Future_event/statement.scss */
+.statement .bg_step_statement #dropdown_users_manage {
+  top: 1.5rem !important;
+}
+/* line 19, ../../../../sass/Front/agency/Future_event/statement.scss */
+.statement .step_modify_profil {
+  width: 96% !important;
+  padding: 2% !important;
+}
+
+/** parent difference event form */
+/* line 26, ../../../../sass/Front/agency/Future_event/statement.scss */
+.statement_agency {
+  width: 100%;
+  height: auto;
+}
+
+/* line 30, ../../../../sass/Front/agency/Future_event/statement.scss */
+.content_statement {
+  padding: 2%;
+  background-color: #F2F6F8;
+}
+
+/* line 35, ../../../../sass/Front/agency/Future_event/statement.scss */
+.content_pages_statement {
+  width: 96%;
+  background-color: #fff;
+  padding: 2%;
+}
+
+/* line 40, ../../../../sass/Front/agency/Future_event/statement.scss */
+.content_step_profil {
+  width: 100%;
+  position: relative;
+}
+
+/* line 45, ../../../../sass/Front/agency/Future_event/statement.scss */
+.bg_step_statement {
+  width: 100%;
+  border-bottom: 1px solid #F2F6F8;
+  border-top: 1px solid #F2F6F8;
+}
+
+/* line 51, ../../../../sass/Front/agency/Future_event/statement.scss */
+.step_modify_profil {
+  width: 100%;
+  height: 96px;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #F2F6F8;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+/* line 63, ../../../../sass/Front/agency/Future_event/statement.scss */
+.step_modify_profil .modify {
+  height: 96%;
+  width: 100%;
+  background-color: #F2F6F8;
+  font-size: 20px;
+  color: #707070;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 73, ../../../../sass/Front/agency/Future_event/statement.scss */
+.step_modify_profil span.icon_input_statement {
+  position: absolute;
+  right: 0;
+  height: 22px;
+  transition: all 275ms;
+  opacity: 0.4;
+  top: 15%;
+}
+
+/* line 83, ../../../../sass/Front/agency/Future_event/statement.scss */
+.input_wth_statement {
+  width: 95%;
+}
+
+/* line 87, ../../../../sass/Front/agency/Future_event/statement.scss */
+.header_statement {
+  margin-bottom: 2%;
+}
+
+/* line 91, ../../../../sass/Front/agency/Future_event/statement.scss */
+.img_opac {
+  opacity: 0.3;
+}
+
+/* line 95, ../../../../sass/Front/agency/Future_event/statement.scss */
+.label_statement {
+  width: 31.5%;
+}
+
+/* line 99, ../../../../sass/Front/agency/Future_event/statement.scss */
+.dropdown_statement {
+  width: 57%;
+}
+/* line 102, ../../../../sass/Front/agency/Future_event/statement.scss */
+.dropdown_statement .dropdown-menu_compte_rendu {
+  width: 35%;
+}
+/* line 105, ../../../../sass/Front/agency/Future_event/statement.scss */
+.dropdown_statement .dropdown_content {
+  position: relative;
+  width: 100%;
+}
+
+/* line 112, ../../../../sass/Front/agency/Future_event/statement.scss */
+.label_wth_statement {
+  width: 10%;
+  font-size: 16px;
+  color: #707070;
+}
+
+/* line 118, ../../../../sass/Front/agency/Future_event/statement.scss */
+.wth_description_statement_question {
+  height: 100px;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  margin-top: 2%;
+  padding: 4% 2%;
+}
+
+/* line 128, ../../../../sass/Front/agency/Future_event/statement.scss */
+.content_question {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 136, ../../../../sass/Front/agency/Future_event/statement.scss */
+.flex_statement_content_question {
+  display: flex;
+  justify-content: space-between;
+  width: 49%;
+}
+/* line 140, ../../../../sass/Front/agency/Future_event/statement.scss */
+.flex_statement_content_question .first_divider_content_question {
+  width: 100%;
+}
+/* line 142, ../../../../sass/Front/agency/Future_event/statement.scss */
+.flex_statement_content_question .first_divider_content_question label {
+  color: #707070;
+  font-size: 20px;
+  padding-left: 2%;
+}
+/* line 149, ../../../../sass/Front/agency/Future_event/statement.scss */
+.flex_statement_content_question .second_divider_content_question {
+  width: 49%;
+}
+
+/* line 155, ../../../../sass/Front/agency/Future_event/statement.scss */
+.second_divider_content_question {
+  width: 49%;
+  display: flex;
+}
+/* line 159, ../../../../sass/Front/agency/Future_event/statement.scss */
+.second_divider_content_question .separator {
+  position: relative;
+  height: 80px;
+  width: 30%;
+  margin-top: 6%;
+}
+
+/* line 167, ../../../../sass/Front/agency/Future_event/statement.scss */
+.label_second_desription {
+  width: 62%;
+  padding: 9%;
+  opacity: 0.3;
+  font-size: 14px;
+}
+
+/* line 174, ../../../../sass/Front/agency/Future_event/statement.scss */
+.plus_img.moins_img.addon_plus_moins.second_divider_content_question_img {
+  margin-top: 9%;
+  padding-left: 27%;
+}
+
+/* line 179, ../../../../sass/Front/agency/Future_event/statement.scss */
+.separator_enter_img {
+  position: absolute;
+  bottom: -28px;
+}
+
+/* line 184, ../../../../sass/Front/agency/Future_event/statement.scss */
+img.img_before {
+  padding-right: 16%;
+}
+
+/* line 188, ../../../../sass/Front/agency/Future_event/statement.scss */
+.wth_img_before {
+  border-right: 3px dotted #707070;
+  padding-right: 8px;
+}
+
+/* line 193, ../../../../sass/Front/agency/Future_event/statement.scss */
+.wth_img_after {
+  padding-left: 8px;
+}
+
+/* line 197, ../../../../sass/Front/agency/Future_event/statement.scss */
+.footer_content_question {
+  display: -webkit-flex;
+  -webkit-justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0 0 1% 0;
+  width: 100%;
+  height: auto;
+}
+/* line 203, ../../../../sass/Front/agency/Future_event/statement.scss */
+.footer_content_question .add {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  /*background-image: linear-gradient(83deg, #559bf7, #36ccb5);*/
+  border: 0px;
+  color: #fff;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  border-radius: 1px;
+  font-size: 14px;
+}
+
+/* line 212, ../../../../sass/Front/agency/Future_event/statement.scss */
+.header_statement .addon_plus_moins {
+  cursor: pointer;
+  width: 8.8%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* line 219, ../../../../sass/Front/agency/Future_event/statement.scss */
+.header_statement .addon_plus_moins img {
+  width: 40px;
+  padding: 2%;
+}
+
+/* line 228, ../../../../sass/Front/agency/Future_event/statement.scss */
+.content_question .addon_plus_moins {
+  cursor: pointer;
+  width: 34%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* line 235, ../../../../sass/Front/agency/Future_event/statement.scss */
+.content_question .addon_plus_moins img {
+  width: 35px;
+  padding: 2%;
+}
+
+/* line 243, ../../../../sass/Front/agency/Future_event/statement.scss */
+.statement_dropdown_taille {
+  top: 1.5rem !important;
+  width: 104% !important;
+}

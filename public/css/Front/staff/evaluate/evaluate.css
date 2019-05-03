@@ -1,0 +1,381 @@
+/**Police*/
+/* raleway-regular - latin */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+/* line 7, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+fieldset, label {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+h1 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+/****** Style Star Rating Widget *****/
+/* line 13, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.rating {
+  border: none;
+  float: left;
+}
+
+/* line 16, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+*
+.rating > input {
+  display: none;
+}
+
+/* line 19, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+/* line 27, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+/* line 32, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.rating > label {
+  color: #ddd;
+  float: right;
+  font-size: 25px;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+/* line 41, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.evaluation_staff_content {
+  padding: 4% 4% 2% 4%;
+}
+
+/* line 45, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.step_evaluation_staff {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #F2F6F8;
+  border-top: 1px solid #F2F6F8;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+/* line 56, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.step_evaluation_staff .title_step_evaluation_staff {
+  font-family: Raleway Light;
+  height: 96%;
+  width: 100%;
+  background-color: #F2F6F8;
+  padding: 0 25px;
+  font-size: 22px;
+  color: #707070;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+/* line 70, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.form_item_drop_right {
+  width: 25%;
+  background-color: #F2F6F8;
+  height: 96%;
+  display: flex;
+  align-items: center;
+}
+
+/* line 78, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+#gestionary_event {
+  height: 20px;
+  width: 96%;
+}
+
+/* line 83, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.form_item_drop_user {
+  margin-right: 32px;
+}
+/* line 85, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.form_item_drop_user:before {
+  content: '';
+  right: 6px;
+  top: 19px;
+  width: 16px;
+  height: 18px;
+  background: #fff;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  background-image: url(../../../../img/input_icons/down-arrow.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+/* line 102, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.dropdown_users {
+  top: 36px;
+}
+
+/*end header avec recherche*/
+/*start contenu*/
+/* line 108, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.evaluation_content {
+  padding-top: 8px;
+}
+
+/* line 112, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.view_evaluation {
+  width: 100%;
+  padding: 8px 0;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 117, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.view_evaluation .evaluation_note {
+  /*width: 50%;*/
+  margin-right: 16px;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  border: 2px solid #F2F6F8;
+  padding: 1.5rem;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 127, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.view_evaluation .evaluation_description {
+  font-family: Raleway Light;
+  width: 43%;
+  border: 2px solid #F2F6F8;
+  padding: 1.5rem;
+  font-size: 15px;
+  color: #707070;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 136, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.view_evaluation .evaluation_description_new {
+  overflow-y: scroll;
+}
+
+/* line 141, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.evaluation_avatar {
+  width: 28%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 145, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.evaluation_avatar .photo_candidates {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* line 151, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.evaluation_avatar .photo_candidates img {
+  width: 100%;
+}
+
+/* line 157, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.info_candidates {
+  width: 64%;
+}
+/* line 159, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.info_candidates span {
+  display: table;
+}
+/* line 161, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.info_candidates .user_post {
+  font-family: Raleway Regular;
+  margin-top: 6px;
+}
+
+/* line 166, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.user_name {
+  font-weight: bold;
+  color: #3AC4BF;
+  font-size: 16px;
+}
+
+/* line 171, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.user_post {
+  color: #828899;
+  font-size: 14px;
+}
+
+/* line 176, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.evaluation_star {
+  /*width: 27%;*/
+  width: auto;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+/* line 182, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.evaluation_star img {
+  padding-left: 6px;
+}
+
+/*end contenu*/
+/*start footer*/
+/* line 189, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.footer_evaluation {
+  width: 100%;
+  height: 14rem;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 196, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.save_evaluation {
+  width: 216px;
+  height: 73px;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  border: 0px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*end footer*/
+/** Star evaluations */
+/* line 208, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.white_start, .green_start {
+  width: 45px;
+}
+/* line 211, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.white_start:not(:last-child), .green_start:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* line 215, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+.info_candidate {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+/** End Star Evaluations */
+/* line 225, ../../../../sass/Front/staff/evaluate/evaluate.scss */
+img {
+  width: 100%;
+  height: 100%;
+}

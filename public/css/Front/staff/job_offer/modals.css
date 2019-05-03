@@ -1,0 +1,242 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 10, ../../../../sass/Front/staff/job_offer/modals.scss */
+#congrate_job_application_success .modal_content,
+#decline_new_job_application .modal_content,
+#decline_pending_job_application .modal_content,
+#modal_applicant_available .modal_content,
+#warning_for_confirmed_application .modal_content {
+  /*width: 37%;*/
+  width: 665px;
+  padding: 5%;
+  max-width: 80%;
+}
+
+/* line 19, ../../../../sass/Front/staff/job_offer/modals.scss */
+#congrate_job_application_success {
+  	/*.modal_content {
+  		padding-top: 70px;
+      	padding-bottom: 70px;
+  	}*/
+}
+/* line 26, ../../../../sass/Front/staff/job_offer/modals.scss */
+#congrate_job_application_success .modal_body .title {
+  font-size: 53px;
+  color: #707070;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #707070;
+}
+/* line 33, ../../../../sass/Front/staff/job_offer/modals.scss */
+#congrate_job_application_success .modal_body .message {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* line 37, ../../../../sass/Front/staff/job_offer/modals.scss */
+#congrate_job_application_success .modal_body .message p {
+  font-size: 30px;
+  color: #707070;
+  margin: 0;
+}
+/* line 46, ../../../../sass/Front/staff/job_offer/modals.scss */
+#congrate_job_application_success .submit a {
+  width: 369.48px;
+  height: 75px;
+  background-image: linear-gradient(259deg, #1de2c0, #1dc4e9);
+  border-radius: 45px;
+  font-size: 25px;
+  color: #ffffff;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 59, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application, #decline_new_job_application, #modal_applicant_available {
+  /*.modal_content {
+  	width: 700px;
+  	padding: 130px 100px;
+  }*/
+}
+/* line 66, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application .message, #decline_new_job_application .message, #modal_applicant_available .message {
+  margin-bottom: 30px;
+}
+/* line 69, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application .message p, #decline_new_job_application .message p, #modal_applicant_available .message p {
+  font-size: 30px;
+}
+/* line 72, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application .submit, #decline_new_job_application .submit, #modal_applicant_available .submit {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 76, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application .submit a, #decline_new_job_application .submit a, #modal_applicant_available .submit a {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 85, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application .confirm_action, #decline_new_job_application .confirm_action, #modal_applicant_available .confirm_action {
+  border: 2px solid #36CCB5;
+  background-image: linear-gradient(259deg, #1de2c0, #1dc4e9);
+  margin-right: 25px;
+}
+/* line 90, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application .confirm_action svg, #decline_new_job_application .confirm_action svg, #modal_applicant_available .confirm_action svg {
+  width: 100%;
+  height: 100%;
+}
+/* line 95, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application .cancel_action, #decline_new_job_application .cancel_action, #modal_applicant_available .cancel_action {
+  border: 2px solid #CCCCCC;
+  background-color: #ffffff;
+}
+/* line 99, ../../../../sass/Front/staff/job_offer/modals.scss */
+#decline_pending_job_application .cancel_action svg, #decline_new_job_application .cancel_action svg, #modal_applicant_available .cancel_action svg {
+  width: 50%;
+  height: 50%;
+  fill: #ACACAC;
+}
+
+/* line 107, ../../../../sass/Front/staff/job_offer/modals.scss */
+#warning_for_confirmed_application .modal_content .close {
+  /*top: 20px;
+  right: 35px;*/
+  font-size: 50px;
+}
+/* line 113, ../../../../sass/Front/staff/job_offer/modals.scss */
+#warning_for_confirmed_application .title i {
+  font-size: 5rem;
+}
+/* line 118, ../../../../sass/Front/staff/job_offer/modals.scss */
+#warning_for_confirmed_application .message p {
+  /*font-size: 26px;*/
+  font-size: 1.6rem;
+}
+
+@media (max-width: 780px) {
+  /* line 128, ../../../../sass/Front/staff/job_offer/modals.scss */
+  #warning_for_confirmed_application .modal_content {
+    padding: 5% 12vw;
+  }
+  /* line 131, ../../../../sass/Front/staff/job_offer/modals.scss */
+  #warning_for_confirmed_application .modal_content .close {
+    top: 0px;
+    right: 20px;
+  }
+  /* line 138, ../../../../sass/Front/staff/job_offer/modals.scss */
+  #warning_for_confirmed_application .title i {
+    font-size: 3.5rem;
+  }
+
+  /* line 146, ../../../../sass/Front/staff/job_offer/modals.scss */
+  #congrate_job_application_success .message p,
+  #decline_new_job_application .message p,
+  #decline_pending_job_application .message p,
+  #modal_applicant_available .message p,
+  #warning_for_confirmed_application .message p {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 500px) {
+  /* line 156, ../../../../sass/Front/staff/job_offer/modals.scss */
+  #congrate_job_application_success .modal_content,
+  #decline_new_job_application .modal_content,
+  #decline_pending_job_application .modal_content,
+  #modal_applicant_available .modal_content,
+  #warning_for_confirmed_application .modal_content {
+    max-width: 90%;
+  }
+  /* line 160, ../../../../sass/Front/staff/job_offer/modals.scss */
+  #congrate_job_application_success .message,
+  #decline_new_job_application .message,
+  #decline_pending_job_application .message,
+  #modal_applicant_available .message,
+  #warning_for_confirmed_application .message {
+    margin-bottom: 10px;
+  }
+
+  /* line 167, ../../../../sass/Front/staff/job_offer/modals.scss */
+  .confirm_action, .cancel_action {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* line 173, ../../../../sass/Front/staff/job_offer/modals.scss */
+  #congrate_job_application_success .submit {
+    width: 90%;
+  }
+  /* line 176, ../../../../sass/Front/staff/job_offer/modals.scss */
+  #congrate_job_application_success .submit a {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+  }
+}

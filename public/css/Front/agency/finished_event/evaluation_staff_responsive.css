@@ -1,0 +1,343 @@
+/**Police*/
+/* raleway-regular - latin */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+@media (min-width: 1024px) and (max-width: 1680px) {
+  /* line 8, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation {
+    padding: 10px 0px;
+  }
+  /* line 10, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation .evaluation_description {
+    width: 54%;
+    font-size: 13px;
+  }
+
+  /* line 15, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_avatar {
+    width: 53%;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /* line 18, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_avatar .photo_candidates {
+    width: 45px;
+    height: 45px;
+  }
+  /* line 22, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_avatar .info_candidates {
+    padding-left: 0;
+  }
+  /* line 24, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_avatar .info_candidates .user_name {
+    font-size: 14px;
+  }
+  /* line 27, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_avatar .info_candidates .user_post {
+    font-size: 13px;
+  }
+
+  /* line 32, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_star {
+    width: 46%;
+  }
+
+  /* line 35, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_star img {
+    padding-left: 5px;
+    width: 24px;
+  }
+
+  /* line 39, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .save_evaluation {
+    width: 178px;
+    height: 67px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1366px) {
+  /* line 46, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation .evaluation_description {
+    width: 55%;
+  }
+
+  /* line 49, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .white_start, .green_start {
+    width: 16%;
+  }
+}
+@media (max-width: 1280px) {
+  /* line 56, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation {
+    padding: 12px 0px;
+  }
+  /* line 58, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation .evaluation_note {
+    width: 40%;
+  }
+  /* line 61, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation .evaluation_description {
+    width: 49%;
+  }
+}
+@media (max-width: 1080px) {
+  /* line 67, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation {
+    padding: 12px 0px;
+  }
+  /* line 69, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation .evaluation_note {
+    width: 47%;
+  }
+  /* line 72, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation .evaluation_description {
+    width: 41%;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 79, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_staff_content {
+    padding: 2% 2% 0 2%;
+  }
+
+  /* line 82, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .step_evaluation_staff {
+    display: flex;
+    flex-direction: column;
+    height: 272px;
+    background-color: #F2F6F8;
+  }
+  /* line 87, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .step_evaluation_staff .title_step_evaluation_staff {
+    width: 41%;
+    text-align: center;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    line-height: 1.5;
+    margin-top: 5%;
+  }
+
+  /* line 96, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .white_start, .green_start {
+    width: 6%;
+  }
+
+  /* line 99, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .form_item_drop_right {
+    width: 69%;
+    margin-bottom: 10%;
+  }
+
+  /* line 103, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .form_item_drop_user::before {
+    top: 21px;
+    right: 3px;
+  }
+
+  /* line 107, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  #gestionary_event {
+    height: 32px;
+    width: 97% !important;
+  }
+
+  /* line 111, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .dropdown_login {
+    width: 100%;
+  }
+
+  /* line 114, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation {
+    padding: 4px 0;
+  }
+  /* line 116, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation .evaluation_note {
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+  }
+  /* line 121, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .view_evaluation .evaluation_description {
+    margin-top: 9px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* line 128, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_avatar {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 67%;
+  }
+  /* line 133, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_avatar .info_candidates {
+    height: 37%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 140, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_avatar .photo_candidates {
+    margin-left: 6px;
+  }
+
+  /* line 144, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .evaluation_star {
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 26%;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* line 151, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .footer_evaluation {
+    height: 6rem;
+    align-items: center;
+  }
+
+  /* line 155, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .save_evaluation {
+    margin-left: 0%;
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  /* line 160, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .form_item_drop_user {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 166, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  #gestionary_event {
+    margin-left: -1px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 171, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .white_start, .green_start {
+    width: 11%;
+  }
+}
+@media (max-width: 360px) {
+  /* line 176, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  .white_start, .green_start {
+    width: 15%;
+  }
+
+  /* line 179, ../../../../sass/Front/agency/finished_event/evaluation_staff_responsive.scss */
+  #gestionary_event {
+    margin-left: -1px;
+    width: 94% !important;
+  }
+}

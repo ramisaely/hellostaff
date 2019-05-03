@@ -1,0 +1,552 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+
+@media (max-width: 1840px) {
+  .filter_candidates {
+    padding: 3% 1% !important;
+
+    .slider_jobs {
+      width: 35% !important;
+
+      .container_btn_slider {
+        width: 95% !important;
+      }
+    }
+
+    .configuration_filter {
+      width: 64% !important;
+    }
+
+    .liste_taux_horaires {
+      justify-content: flex-start;
+      margin-right: -5px;
+
+      .value_horaires {
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .liste_candidates, .liste_candidates_filter {
+
+    .btn_candidat_fiche .loup {
+      margin-right: 3%;
+    }
+  }
+}
+
+@media (max-width: 1580px) {
+  .filter_candidates {
+    .slider_jobs {
+      width: 100% !important;
+      margin-bottom: 3%;
+      padding: 2% 0;
+
+      .container_slider_jobs {
+        height: 100%;
+        width: 70% !important;
+
+        .post_slider {
+          height: 100%;
+        }
+      }
+    }
+
+    .item_jobs_list .image_slider_jobs_slick {
+      width: 15% !important;
+      margin-top: 1rem;
+    }
+
+    .configuration_filter {
+      width: 100% !important;
+    }
+
+  }
+}
+
+/*******************************************************/
+
+@media (min-width: 1301px) and (max-width: 1700px) {
+  .liste_candidates, .liste_candidates_filter {
+    .personnal_candidates_description {
+
+        .photo_candidates {
+          width: 3.5vw;
+          height: 3.5vw;
+        }
+
+        .description_candidates {
+          min-height: 3.5vw;
+
+          .name {
+            font-size: 15px;
+          }
+          .country {
+            font-size: 12px;
+          }
+        }
+    }
+
+    .evaluations_candidates {
+      .title_p_candidates {
+        font-size: 12px;
+      }
+
+      .description_appreciations .status_appreciation {
+        img {
+          width: 18px;
+          margin-right: 8px;
+        }
+
+        .number {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .liste_buttons {
+      .btn_list_candidates {
+        font-size: 10px;
+        width: 140px;
+        height: 48px;
+      }
+    }
+  }
+
+  .separated { margin: 0 8px; }
+
+  .find_candidates {
+    .description_jobs .item_jobs_list .title_jobs {
+      font-size: 19px;
+    }
+    .filtre_candidates, .check_presence {
+      border: 15px solid transparent;
+    }
+    .btn_find_candidates_white {
+      font-size: 15px;
+    }
+    .filtre_candidates .title_jobs_candidates, .check_presence .title_jobs_candidates {
+      font-size: 19px;
+    }
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1400px) {
+  .liste_candidates , .liste_candidates_filter {
+    .personnal_candidates_description .description_candidates .name {
+      font-size: 14px;
+    }
+
+    .liste_buttons .btn_list_candidates {
+      width: 135px;
+      height: 45px;
+      padding: 0;
+    }
+
+    .evaluations_candidates {
+      .description_appreciations .status_appreciation .number {
+        font-size: 15px;
+      }
+
+      .title_p_candidates {
+        font-size: 11px;
+      }
+    }
+  }
+
+  .btn_action_candidates {
+    margin-right: 5px;
+  }
+
+}
+
+@media (max-width: 1185px) {
+  .find_candidates {
+    .find_candidates_form {
+
+      .jobs_candidates {
+        width: 100%;
+        margin-top: 5%;
+      }
+      .slider_jobs {
+        width: 100%;
+        height: 335px;
+      }
+      .jobs_candidates {
+        .jobs_proposed, .presence_confirm {
+          width: calc(50% - 40px);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+
+
+    .personnal_candidates {
+      width: 100%;
+    }
+
+    .personnal_candidates_description {
+      justify-content: flex-start;
+      /*width: 30%;*/
+
+      .photo_candidates {
+        margin-right: 30px;
+      }
+    }
+
+    /*.evaluations_candidates {
+      width: 20%;
+    }*/
+
+    /*.liste_buttons {
+      width: 42%;
+      justify-content: flex-end;
+    }*/
+
+
+  .liste_candidates_filter {
+    .listes_staff {
+      width: 100% !important;
+      margin-bottom: 5%;
+    }
+    /*.personnal_candidates_description {
+      width: 30%;
+    }*/
+
+    /*.evaluations_candidates {
+      width: 20%;
+    }*/
+  }
+}
+@media (max-width: 800px) {
+  .filter_candidates {
+
+    padding: 0 !important;
+    .slider_jobs {
+      box-shadow: none;
+      padding: 8% 0;
+    }
+    .configuration_filter {
+      .content_filter {
+        .gender_item {
+          width: 100%;
+          margin-bottom: 25px;
+
+          .container_gender {
+            @include hs_flex_space_between;
+
+            .list_item_filter {
+              width: 20%;
+            }
+          }
+        }
+        .ages_item {
+          width: 100%;
+          margin-bottom: 25px;
+        }
+        .certifications_item {
+          width: 100%;
+          margin-bottom: 25px;
+        }
+        .experiences_item {
+          width: 100%;
+          // margin-bottom: 25px;
+
+          .separed_item {
+            margin-bottom: 0;
+          }
+
+          .container_exp {
+            @include hs_flex_space_between;
+            .list_item_filter {
+              width: 30%;
+            }
+          }
+        }
+        .languages_item {
+          width: 100%;
+          margin-bottom: 25px;
+
+          .content_languages .cadres_langues {
+            width: 45%;
+            height: 45px;
+          }
+        }
+        .attributs_item {
+          width: 100%;
+          margin-bottom: 25px;
+        }
+        .horaires_taux_item {
+          width: 100%;
+          margin-bottom: 25px;
+
+          .liste_taux_horaires {
+            justify-content: space-between;
+
+            .value_horaires {
+              margin-right: 0;
+              width: 10%;
+              height: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .liste_candidates_filter {
+    padding: 3% 1%;
+
+    .search_candidates {
+      .form_item_candidates_search {
+        width: 100%;
+        margin-bottom: 5%;
+
+        .loup_search {
+          right: 2rem;
+        }
+      }
+      .checkox_filter {
+        width: 100%;
+
+        .list_item_filter {
+          justify-content: flex-end;
+
+          .title_filter {
+            margin-right: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 885px) {
+
+  .find_candidates {
+    .find_candidates_form {
+      .jobs_candidates {
+        margin-bottom: 2%;
+        .jobs_proposed, .presence_confirm {
+          width: calc(54% - 40px);
+        }
+      }
+
+    }
+  }
+  .find_candidates_form {
+    padding: 0 !important;
+    background-color: #fff !important;
+  }
+
+  .find_candidates_form .slider_jobs {
+    width: 95% !important;
+    margin-bottom: 8%;
+    box-shadow: none !important;
+    padding-top: 5%;
+    margin: 0px 2.5%;
+  }
+
+  .slider_jobs .container_slider_jobs {
+    height: 100% !important;
+    width: 100%;
+  }
+  .find_candidates_form .jobs_candidates {
+    width: 94% !important;
+    padding: 0 3% !important;
+  }
+  .slider_jobs .container_btn_slider {
+    display: none !important;
+  }
+  .item_jobs_list .image_slider_jobs_slick {
+    margin-top: 1rem;
+  }
+  .description_jobs .item_jobs_list {
+    width: 90%;
+    border: 15px solid transparent;
+  }
+  .description_jobs .item_jobs_list:hover {
+    border: 15px solid #d6f5f0;
+  }
+  .description_jobs .item_jobs_list.active {
+    border: 15px solid #d6f5f0;
+  }
+  .description_jobs .item_jobs_list .status_jobs {
+    margin-bottom: 1rem;
+  }
+
+  .filtre_candidates .title_jobs_candidates,
+  .check_presence .title_jobs_candidates {
+    font-size: 20px !important;
+  }
+  .btn_find_candidates_white {
+    font-size: 16px !important;
+  }
+
+  .personnal_candidates_description {
+    .photo_candidates {
+      width: 6vw;
+      height: 6vw;
+      margin-right: 1vw;
+    }
+
+    .description_candidates {
+      min-height: 6vw;
+
+      .name { font-size: 15px; }
+
+      .country { font-size: 13px; }
+    }
+  }
+
+}
+
+@media (max-width: 780px) {
+  /*Liste des candidates*/
+
+  .liste_candidates, .liste_candidates_filter {
+    padding: 10% 3% !important;
+    margin: auto;
+
+    .candidates {
+      box-shadow: none;
+      padding: inherit;
+      flex-wrap: wrap !important;
+    }
+    .personnal_candidates {
+      margin-bottom: inherit;
+    }
+
+    .liste_buttons {
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 20px;
+
+      .btn_list_candidates {
+        width: 50%;
+        border-radius: inherit;
+      }
+    }
+
+    /*.evaluations_candidates {
+      width: 40%;
+      padding: 0 5%;
+    }*/
+
+    .icone_responsive_icons_play_one, .icone_responsive_icons_play_two {
+      display: block !important;
+      position: absolute;
+      font-size: 25px;
+      right: 0;
+      width: 20%;
+      cursor: pointer;
+    }
+    .click_icone_responsive_icons_play {
+      transform: rotate(90deg);
+    }
+  }
+
+  .personnal_candidates_description {
+
+    .photo_candidates {
+      width: 60px;
+      height: 60px;
+      margin-right: 20px;
+    }
+
+    .description_candidates {
+      min-height: 60px;
+    }
+  }
+
+  .separated { margin: 0 15px; }
+}
+
+@media (max-width: 615px) {
+  .find_candidates {
+    .find_candidates_form {
+      .jobs_candidates {
+        .jobs_proposed, .presence_confirm {
+          width: calc(56% - 40px);
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .find_candidates_form .jobs_candidates .jobs_proposed,
+  .find_candidates_form .jobs_candidates .presence_confirm {
+    width: 100% !important;
+  }
+
+  .find_candidates_form .jobs_candidates {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .search_candidates .form_item_candidates_search input {
+    width: 92% !important;
+  }
+
+  .personnal_candidates_description {
+    .description_candidates {
+      min-height: 13vw;
+
+      .ages { font-size: 11px; }
+    }
+
+    .photo_candidates {
+      width: 13vw;
+      height: 13vw;
+      margin-right: 2.5vw;
+    }
+  }
+
+  .title_p_candidates {
+    font-size: 70%;
+  }
+
+  .evaluations_candidates .description_appreciations .status_appreciation {
+    img { width: 16px; }
+
+    .number { font-size: 16px; }
+  }
+
+  .liste_candidates , .liste_candidates_filter {
+    .liste_buttons .btn_list_candidates {
+      padding: 0;
+      height: 45px;
+    }
+  }
+}
+
+
+@media (max-width: 380px) {
+  .item_jobs_list .image_slider_jobs_slick {
+    width: 55% !important;
+  }
+  /*.liste_candidates .evaluations_candidates {
+    width: 46% !important;
+    padding: 0 2% !important;
+  }*/
+  .search_candidates .form_item_candidates_search input {
+    width: 90% !important;
+  }
+
+  .liste_candidates , .liste_candidates_filter {
+    .liste_buttons .btn_list_candidates {
+      font-size: 11px;
+    }
+  }
+
+  .btn_candidat_fiche .loup { margin-right: 2vw; }
+}

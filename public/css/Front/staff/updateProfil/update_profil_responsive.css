@@ -1,0 +1,115 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+@media (min-width: 501px) {
+  /* line 6, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff {
+    padding: 3vw;
+  }
+  /* line 9, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content {
+    padding: 0;
+  }
+  /* line 12, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content .section_title {
+    height: 100px;
+    padding-bottom: 0;
+    border-bottom: 2px solid #F2F6F8;
+    border-top: 2px solid #F2F6F8;
+  }
+  /* line 18, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content .section_title .section_title_content {
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    padding: 0 3vw;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /* line 27, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content .update_profil_staff_item {
+    padding: 0 3%;
+    border-top: 2px solid #ffffff;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+@media (min-width: 780px) {
+  /* line 38, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff {
+    padding: 3%;
+  }
+  /* line 42, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content .information_item {
+    width: calc(33.33% - 3vw);
+  }
+  /* line 47, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content .photo_cv_files .photo_cv_files_content {
+    height: calc( 88vw / 9);
+  }
+}
+@media (min-width: 1200px) {
+  /* line 58, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content .information_item {
+    width: calc(33.33% - 6vw);
+  }
+  /* line 63, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content .photo_cv_files .photo_cv_files_content {
+    height: calc( 76vw / 9);
+  }
+}
+@media (max-width: 380px) {
+  /* line 72, ../../../../sass/Front/staff/updateProfil/update_profil_responsive.scss */
+  .update_profil_staff .update_profil_staff_content .section_title_content .title {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}

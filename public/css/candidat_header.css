@@ -1,0 +1,292 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/** start menu **/
+/*html, body {
+    height: 100%;
+}*/
+/* line 10, ../sass/candidat_header.scss */
+.menu_bar {
+  height: 13vh;
+  background-color: #3b4b5c;
+}
+/* line 14, ../sass/candidat_header.scss */
+.menu_bar .logo {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #3b4b5c;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /*width: 100%;*/
+  border-bottom: solid 1px rgba(149, 152, 154, 0.6);
+}
+/* line 24, ../sass/candidat_header.scss */
+.menu_bar .logo img {
+  width: 30%;
+}
+/* line 28, ../sass/candidat_header.scss */
+.menu_bar .mobile_toggle_menu {
+  display: block;
+  position: relative;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  transition: opacity .25s ease;
+}
+/* line 36, ../sass/candidat_header.scss */
+.menu_bar .mobile_toggle_menu .top, .menu_bar .mobile_toggle_menu .middle, .menu_bar .mobile_toggle_menu .bottom {
+  background: #fff;
+  border: none;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .35s ease;
+  background-color: #818b95;
+}
+/* line 46, ../sass/candidat_header.scss */
+.menu_bar .mobile_toggle_menu .top, .menu_bar .mobile_toggle_menu .bottom {
+  width: 100%;
+}
+/* line 49, ../sass/candidat_header.scss */
+.menu_bar .mobile_toggle_menu .middle {
+  width: 65%;
+}
+/* line 52, ../sass/candidat_header.scss */
+.menu_bar .mobile_toggle_menu .middle {
+  top: 11px;
+}
+/* line 55, ../sass/candidat_header.scss */
+.menu_bar .mobile_toggle_menu .bottom {
+  top: 22px;
+}
+/* line 60, ../sass/candidat_header.scss */
+.menu_bar .menu {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 87vh;
+  display: none;
+}
+/* line 69, ../sass/candidat_header.scss */
+.menu_bar .menu.active {
+  display: block;
+}
+/* line 73, ../sass/candidat_header.scss */
+.menu_bar .menu .menu_item {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  color: #e6e7eb;
+}
+/* line 79, ../sass/candidat_header.scss */
+.menu_bar .menu .menu_item:not(:last-child) {
+  height: calc(82vh/4);
+}
+/* line 83, ../sass/candidat_header.scss */
+.menu_bar .menu .menu_item:last-child {
+  height: 5vh;
+}
+/* line 85, ../sass/candidat_header.scss */
+.menu_bar .menu .menu_item:last-child hr {
+  width: 8rem;
+  height: 5px;
+  border-radius: 17px;
+  background-color: rgba(217, 217, 217, 0.39);
+  border: none;
+}
+/* line 94, ../sass/candidat_header.scss */
+.menu_bar .menu .menu_item:nth-child(odd) {
+  background-color: #2d3d4e;
+}
+/* line 97, ../sass/candidat_header.scss */
+.menu_bar .menu .menu_item:nth-child(even) {
+  background-color: rgba(61, 76, 94, 0.9);
+}
+
+/** end menu **/
+/* Header1 hellostaff ************************************ */
+/* line 107, ../sass/candidat_header.scss */
+.list_header .header_list_header {
+  display: flex;
+}
+/* line 111, ../sass/candidat_header.scss */
+.list_header .header_list_header .content_list_event .list_event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  width: 100%;
+}
+/* line 122, ../sass/candidat_header.scss */
+.list_header .header_list_header .content_list_event .list_event .event {
+  width: calc(100%/7);
+  display: flex;
+  justify-content: center;
+}
+/* line 127, ../sass/candidat_header.scss */
+.list_header .header_list_header .content_list_event .list_event .event img {
+  width: 100%;
+  height: 100%;
+}
+/* line 131, ../sass/candidat_header.scss */
+.list_header .header_list_header .content_list_event .list_event .event .title_event {
+  position: absolute;
+  color: #fff;
+  margin-top: 4%;
+}
+/* line 140, ../sass/candidat_header.scss */
+.list_header .header_list_header .content_btn_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  background-color: #fff;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 156, ../sass/candidat_header.scss */
+.list_header .header_list_header .content_btn_header .btn_header_prev, .list_header .header_list_header .content_btn_header .btn_header_next {
+  font-size: 5rem;
+  color: #4c5264;
+}
+
+/* line 165, ../sass/candidat_header.scss */
+.list_menu_event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  background-image: -webkit-linear-gradient(13deg, #36ccb5, #559bf7);
+  background-image: -o-linear-gradient(13deg, #36ccb5, #559bf7);
+  background-image: linear-gradient(77deg, #36ccb5, #559bf7);
+  width: 100%;
+}
+/* line 177, ../sass/candidat_header.scss */
+.list_menu_event .cadre_menu_event {
+  width: 25%;
+  cursor: pointer;
+}
+/* line 181, ../sass/candidat_header.scss */
+.list_menu_event .cadre_menu_event .catalogue_menu_event {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16%;
+  margin-bottom: 12%;
+}
+/* line 189, ../sass/candidat_header.scss */
+.list_menu_event .cadre_menu_event .catalogue_menu_event .fa {
+  font-size: 45px;
+}
+/* line 192, ../sass/candidat_header.scss */
+.list_menu_event .cadre_menu_event .catalogue_menu_event .text_menu_list {
+  text-align: center;
+}
+
+/* line 199, ../sass/candidat_header.scss */
+.active_header {
+  border: 16px solid #80d7d7;
+}
+
+/* line 202, ../sass/candidat_header.scss */
+.content_wrap {
+  background-color: #f2f6f8;
+  padding: 3%;
+}
+
+/* End Responsive Header1 hellostaff********************767**************** */

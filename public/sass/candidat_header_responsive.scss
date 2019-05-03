@@ -1,0 +1,40 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+/****   ||||||||||||||||||||||||||||||  **/
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+/****** start menu *******/
+.menu_bar {
+    @include hs_flex_space_between;
+    background-color: #2d3d4e;
+    .logo {
+        @include hs_flex_align_centered;
+        width: auto;
+    }
+    .mobile_toggle_menu {
+        display: none;
+    }
+    .menu {
+        @include hs_flex_direction_row;
+        width: auto;
+        height: auto;
+        .menu_item {
+            color: #e6e7eb;
+            width: auto;
+            height: auto;
+            background-color: #2d3d4e;
+            &:last-child {
+                display: none;
+            }
+        }
+    }
+}
+/****** end menu *******/
+}
+

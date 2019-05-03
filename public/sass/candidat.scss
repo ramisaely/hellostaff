@@ -1,0 +1,129 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+/****************** tart cendidat filter *********************/
+.content_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+//////////////////////////////////////////////////////////////
+.candidat_filter_nav {
+    @include hs_flex_align_centered;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    
+    .previous, .next {
+        @include hs_flex_justify_centered;
+        @include hs_flex_align_centered;
+        @include hs_border_round;
+        width: 30px;
+        height: 30px;
+        border: solid 0.5px #707070;
+        margin: 15px;
+        i {
+            font-size: 20px;
+            color: #707070;
+        }
+    }
+    .previous {
+        transform: rotate(180deg);
+    }
+    .posts {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        list-style-type: none;
+        margin: 20px 0;
+        width: calc(100% - 60px);
+        overflow-x: hidden;
+    }
+    
+}
+.candidat_filter {
+    width: 100%;
+}
+//////////////////////////////////////////////////////////////////////////////
+
+/** 2nd flex*/
+.content_number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    
+    .first_content, .second_content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        
+        .gender_item {
+            line-height: 2.5rem;
+            padding: 1rem;
+            
+            .gender_flex {
+                flex-direction: column;
+                
+                .flex_checkbox_gender {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-pack: distribute;
+                    justify-content: space-around;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                    flex-direction: row; 
+                }
+            }
+        }
+        .content_gender {
+            background-color: #fff;
+            border: 1px solid #F0F0F0;
+            border-radius: 5px;
+            width: 12rem;
+            
+            .gender_flex {
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                
+                label {
+                    margin-right: 5rem;
+                }
+            }
+        }
+        
+        
+        .tax_btn {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            
+            .list_btn {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+/** end 2nd flex*/
+/****************** end cendidat filter *********************/

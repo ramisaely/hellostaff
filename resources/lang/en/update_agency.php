@@ -1,0 +1,26 @@
+<?php
+
+return [
+	'text_edit' => 'Edit your profile',
+	'French' => 'Français',
+	'English' => 'English',
+	'text_hello' => 'Please contact HelloStaff to modify this information',
+	'text_logo' => 'Logo agency',
+	'Main_Contact' => 'Main Contact',
+	'Email_Agency' => 'Email@Agency',
+	'Agency_Phone' => 'Agency Phone',
+	'User' => 'User',
+	'Name' => 'Name',
+	'First_name' => 'First name',
+	'User_phone' => 'User phone',
+	'Name' => 'Name',
+	'First_name' => 'First name',
+	'Email' => 'Email',
+	'Change_password' => 'Change the Password',
+	'Confirm_password' => 'Confirm your new password',
+	'btn_add' => 'ADD',
+	'REMOVE' => 'REMOVE',
+	'save' => 'SAVE',
+	'change_menu_one' => 'Are you certain to leave this page?',
+	'change_menu_two' => 'Your changes will not be saved.',
+];

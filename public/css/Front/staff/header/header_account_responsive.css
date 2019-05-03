@@ -1,0 +1,218 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+/* line 6, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+.responsive_dotted {
+  display: none;
+}
+
+/**Special responsivite menu page*/
+@media (max-width: 1075px) {
+  /* line 12, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_menus .list_menus {
+    padding: 0 15px;
+  }
+
+  /* line 16, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_menus .menu_head {
+    width: 23%;
+  }
+  /* line 19, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_menus .menu_head .title_menus {
+    font-size: 14px;
+  }
+
+  /* line 25, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .menus {
+    width: 90px;
+  }
+  /* line 28, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .menus .img_menus img {
+    width: 35px !important;
+    height: 35px !important;
+  }
+}
+@media (max-width: 835px) {
+  /* line 39, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .content_users {
+    margin-left: 3.6vw;
+  }
+  /* line 41, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .logo_users {
+    width: auto;
+    padding: 0;
+    margin-right: 20px;
+  }
+  /* line 47, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .list_menu_page {
+    top: 100px;
+  }
+  /* line 49, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .menus {
+    width: 100%;
+    height: 25%;
+    color: #E6E7EB;
+    border: 0;
+    font-size: 13px !important;
+  }
+  /* line 56, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .menus:nth-child(even) {
+    background-color: #3D4C5E;
+  }
+  /* line 60, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .menus:nth-child(odd) {
+    background-color: #2D3D4E;
+  }
+  /* line 64, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .menus .img_menus img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+@media (max-width: 780px) {
+  /* line 74, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .menu_head .title_menus {
+    display: none;
+  }
+
+  /* line 78, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .menu_head .icone_header {
+    width: 40%;
+    margin-bottom: 0;
+  }
+
+  /* line 83, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_menus {
+    height: 135px;
+  }
+
+  /* line 87, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_menus .list_menus {
+    padding: 0;
+    flex-wrap: nowrap !important;
+    align-items: center;
+  }
+
+  /* line 93, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .responsive_dotted {
+    display: block;
+    border-right: 4px solid #216E8F;
+    border-right-style: dotted;
+    height: 27%;
+  }
+
+  /* line 100, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .menu_head {
+    width: 25%;
+    border: 0;
+    height: 100%;
+  }
+
+  /* line 106, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .menu_head.active {
+    border: 0;
+    background-color: #3B6EA3;
+    opacity: 0.6;
+  }
+
+  /* line 112, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .menu_head:hover {
+    border: 0;
+    background-color: #3B6EA3;
+    opacity: 0.6;
+  }
+
+  /* line 118, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .foot_table_total {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 500px) {
+  /* line 124, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .menu_head .icone_header {
+    width: 48%;
+  }
+
+  /* line 128, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_menus {
+    height: 100px;
+  }
+  /* line 131, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_menus .menu_head .icone_header {
+    width: 2.4rem;
+  }
+
+  /* line 138, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .menus {
+    height: 25%;
+    min-height: 100px;
+    max-height: 110px;
+  }
+  /* line 143, ../../../../sass/Front/staff/header/header_account_responsive.scss */
+  .header_account .menus .img_menus img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+/**End Special responsivite menu page*/

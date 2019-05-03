@@ -1,0 +1,231 @@
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_element.scss';
+
+
+
+.range {
+  position: relative;
+  background-image: linear-gradient(to right, #36ccb5, #46b3d7 50%, #022246);
+  border: solid 1.5px #ffffff;
+  height: 25px;
+  width: 100%; /** 550px **/
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.range_input {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  height: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+    appearance: none;
+    border-color: transparent;
+
+  // Thumb
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none; // needed again for Chrome & Safari
+    @include rangeThumb;
+  }
+
+  &::-moz-range-thumb {
+    @include rangeThumb;
+  }
+
+  &::-ms-thumb {
+    @include rangeThumb;
+  }
+
+  // Track
+  &::-webkit-slider-runnable-track {
+    @include rangeTrack;
+  }
+
+  &::-moz-range-track {
+    @include rangeTrack;
+  }
+
+  &::-ms-track {
+    @include rangeTrack;
+  }
+
+  &:focus { // override outline/background on focus
+    background: none;
+    outline: none;
+  }
+
+}
+
+// Labels below slider
+.range_labels {
+  margin: 18px -3rem 0;
+  padding: 0;
+  list-style: none;
+  
+  li {
+    position: relative;
+    float: left;
+    width: calc(100%/9); /** 90.25px **/
+    text-align: center;
+    color: #4d4f5c;
+    font-size: 14px;
+    cursor: pointer;
+    
+    &::before {
+      position: absolute;
+      top: 33px;
+      right: 0;
+      left: 0;
+      content: "|";
+      margin: 0 auto;
+      width: 9px;
+      color: #fff;
+      z-index: 9;
+      font-size: 21px;
+    }
+  }
+  
+  /*.active {
+    color: red;
+  }*/
+  
+  .selected::before {
+    /*background: red;*/
+  }
+  
+  
+}
+input[type="range" i] {
+    color: transparent;
+}
+
+
+/*** start remuneration range slider ***/
+.remuneration {
+  width: 75%;
+  margin: auto;
+}
+.remuneration_inputs {
+  @include hs_flex_space_between;
+  width: 100%;
+  margin-top: 20px;
+
+  .form_item {
+     &:first-child {
+      width: 28rem;
+     }
+     &:last-child {
+      width: 16rem;
+      small {
+        font-size: 15px;
+      }
+     }
+  }
+}
+.remuneration_range_labels {
+  @extend .range_labels;
+
+  .active.selected::before {
+    display: none;
+  }
+}
+.remuneration_range{
+  @extend .range;
+  input {
+    @extend .range_input;
+  }
+}
+/*** end remuneration range slider ***/
+
+/*** start step registration staff range slider ***/
+.staff_reg_step_nav {
+  width: 75%;
+  margin: 6% auto 7% auto;
+}
+.step_range {
+  @extend .range;
+  height: 2px;
+  background-image: none;
+  background-color: #e9e9f0;
+
+  input {
+    @extend .range_input;
+
+    // Thumb
+    &::-webkit-slider-thumb {
+      @include step_rangeThumb;
+    }
+
+    &::-moz-range-thumb {
+      @include step_rangeThumb;
+    }
+
+    &::-ms-thumb {
+      @include step_rangeThumb;
+    }
+  }
+}
+.step_range_labels {
+  @extend .range_labels;
+
+  li {
+    width: calc(100%/8);
+    font-weight: bold;
+    
+    &:before {
+      top: -34px;
+      content: attr(data-value);
+      width: 25px;
+      height: 25px;
+      background: #ffffff;
+      border: solid 0.5px #3b86ff;
+      border-radius: 50%;
+      outline: 5px solid #fff;
+      color: #3b86ff;
+      font-family: SourceSansPro;
+      font-size: 13px;
+      text-align: center;
+      line-height: 25px;
+      font-weight: normal;
+    }
+  }
+  .active.selected::before {
+    background-color: #36ccb5;
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: #ffffff;
+    border: none;
+  }
+}
+/*** end step registration staff range slider ***/
+/*** start job exerience registration staff range slider ***/
+.job_experience_range {
+  @extend .step_range;
+  margin-top: 2rem;
+}
+.job_experience_range_labels {
+  @extend .step_range_labels;
+  li {
+    width: calc(100%/4);
+  }
+}
+
+/*** end job exerience registration staff range slider ***/
+/*** start agency registration step range ***/
+.agency_reg_step_nav {
+  width: 50%;
+  margin: auto;
+  
+  .agency_reg_step_range_labels {
+    @extend .step_range_labels;
+    margin: 18px -6rem 0;
+    
+    li {
+      width: calc(100%/3);
+      font-weight: inherit !important;
+    }
+  }
+}
+/*** start agency registration step range ***/
+

@@ -1,0 +1,1371 @@
+@charset "UTF-8";
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 6, ../../../../sass/Front/agency/creation_event/create_event.scss */
+label, input, textarea, span {
+  opacity: 1 !important;
+}
+
+/* line 11, ../../../../sass/Front/agency/creation_event/create_event.scss */
+html input:-webkit-autofill,
+html input:-webkit-autofill:hover,
+html input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+html textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+html select:-webkit-autofill,
+html select:-webkit-autofill:hover,
+html select:-webkit-autofill:focus, body input:-webkit-autofill,
+body input:-webkit-autofill:hover,
+body input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+body textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+body select:-webkit-autofill,
+body select:-webkit-autofill:hover,
+body select:-webkit-autofill:focus, .master input:-webkit-autofill,
+.master input:-webkit-autofill:hover,
+.master input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+.master textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+.master select:-webkit-autofill,
+.master select:-webkit-autofill:hover,
+.master select:-webkit-autofill:focus {
+  background-color: #fff !important;
+  background: transparent !important;
+  color: #707070 !important;
+}
+/* line 24, ../../../../sass/Front/agency/creation_event/create_event.scss */
+html input:-internal-autofill-previewed,
+html input:-internal-autofill-selected,
+html textarea:-internal-autofill-previewed,
+html textarea:-internal-autofill-selected,
+html select:-internal-autofill-previewed,
+html select:-internal-autofill-selected, body input:-internal-autofill-previewed,
+body input:-internal-autofill-selected,
+body textarea:-internal-autofill-previewed,
+body textarea:-internal-autofill-selected,
+body select:-internal-autofill-previewed,
+body select:-internal-autofill-selected, .master input:-internal-autofill-previewed,
+.master input:-internal-autofill-selected,
+.master textarea:-internal-autofill-previewed,
+.master textarea:-internal-autofill-selected,
+.master select:-internal-autofill-previewed,
+.master select:-internal-autofill-selected {
+  background-color: #fff !important;
+  background: transparent !important;
+  color: #707070 !important;
+}
+
+/* line 38, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_creat_event {
+  width: 100%;
+}
+
+/*Header cr├®ation event*/
+/* line 42, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.creation_reg_head {
+  background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
+
+/* line 49, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .dropdown_users {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid #707070;
+  border-radius: 2px;
+  background-color: #fff;
+  left: 0px;
+  top: 3.5rem;
+}
+
+/*.content_event_form {
+    .initial_image {
+        width: 100%;
+        height: 102%;
+    } initial_image
+}*/
+/*End Header cr├®ation event*/
+/* line 66, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event {
+  background-color: #F2F6F8;
+  padding: 4% 3%;
+}
+
+/* line 70, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event_title {
+  padding: 0% 0% 3% 0%;
+}
+
+/* line 73, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.final_image {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+/* line 78, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.initial_image {
+  /*width: 100%;
+  object-fit: cover;
+  height: 100%; */
+  width: 110px;
+}
+
+/* line 84, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.container_fullcalendar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  padding: 5%;
+}
+
+/* line 91, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_create_event {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 97, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_create_event .photo_event_content {
+  width: calc(25% - 20px);
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+/* line 102, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_create_event .content_form_creat_event {
+  width: 17%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* line 106, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_create_event .content_form_description_event {
+  /*// width: 65%;
+  // @include hs_flex_direction_column;*/
+}
+
+/* line 113, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.icon_input_create_event_pro {
+  position: absolute;
+  top: 2.1rem;
+  right: 1rem;
+  height: 22px;
+  transition: all 275ms;
+  opacity: 0.5;
+}
+
+/*-------------Start create event------------------------*/
+/* line 123, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 126, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.label_create_event {
+  display: inline-grid;
+  font-size: 16px !important;
+}
+
+/* line 131, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.input_create_event {
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  height: 36px;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* line 249, ../../../../sass/Front/generale/_layout.scss */
+.input_create_event:focus {
+  border: solid 2px #36ccb5;
+}
+
+/* line 134, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.input_code_postal {
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  height: 36px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding: 2px 12px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 31px;
+  outline: none;
+}
+/* line 269, ../../../../sass/Front/generale/_layout.scss */
+.input_code_postal:focus {
+  border: solid 2px #36ccb5;
+}
+
+/* line 139, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.input_dropdown_create_event {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  color: #707070;
+  background-image: none;
+  background-color: #ffffff;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+  height: 36px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding: 2px 12px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-top: 6px !important;
+  height: 31px;
+  border-radius: 0px !important;
+}
+/* line 269, ../../../../sass/Front/generale/_layout.scss */
+.input_dropdown_create_event:focus {
+  border: solid 2px #36ccb5;
+}
+
+/* line 146, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.dropdown_create_event {
+  position: relative;
+  display: inline-block;
+  width: 58%;
+  margin: 0 0 !important;
+}
+
+/* line 152, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.postal_event {
+  width: 31%;
+}
+
+/* line 156, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.empty_div_dropdown {
+  width: 12%;
+}
+
+/* line 160, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.empty_div_dropdown_new {
+  width: 3%;
+}
+
+/* line 164, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.icon_input_create_event {
+  position: absolute;
+  top: 2.3rem;
+  right: 1rem;
+  height: 22px;
+  transition: all 275ms;
+  opacity: 0.5;
+}
+
+/* line 173, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event_footer {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 179, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event_footer .postal_event .label_create_event .input_code_postal {
+  width: 77%;
+}
+/* line 187, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event_footer .dropdown_create_event span .input_dropdown_create_event {
+  width: 96%;
+  margin-left: 0px;
+  margin-top: 8px !important;
+  margin-bottom: 0;
+}
+/* line 196, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event_footer .event_form_province {
+  width: 47% !important;
+}
+/* line 199, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event_footer .event_form_province #country {
+  width: 81% !important;
+}
+/* line 203, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event_footer .event_form_code_postal {
+  width: 35%;
+}
+/* line 206, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event_footer .event_form_code_postal .label_create_event {
+  width: 100% !important;
+}
+/* line 209, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event_footer .event_form_code_postal .label_create_event #zip_event {
+  width: 80%;
+}
+
+/* line 216, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.dropdown_cage_heading {
+  margin: 0px 0;
+}
+
+/* line 220, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.description_event {
+  /*height: 70%;*/
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  /*margin-bottom: -5px;*/
+}
+
+/* line 226, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.description_staff {
+  margin-top: 26px;
+}
+
+/* line 231, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.description_event_divider {
+  -webkit-justify-content: safe;
+  -webkit-align-self: center;
+  -webkit-align-items: center;
+  justify-content: safe;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  background-color: white;
+}
+
+/* line 238, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.decription_table_create_event {
+  /*height: 77.5%;*/
+  flex: 1;
+  overflow: auto;
+  height: 0px;
+}
+
+/* line 244, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.decription_table_event_form {
+  /*height: 77%;*/
+  flex: 1;
+  overflow: auto;
+  height: 0px;
+}
+
+/* line 251, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.date_horaire_create_event {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 2rem;
+  padding: 0 2%;
+}
+
+/* line 258, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.plus_create_event {
+  margin-top: -3rem;
+  margin-right: 6.1rem;
+  opacity: 0.3;
+}
+
+/* line 263, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.moins_create_event {
+  margin-top: -6.5rem;
+  margin-left: 17.2rem;
+  opacity: 0.3;
+}
+
+/* line 269, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.horaire_create_event {
+  border-left: solid 1px #707070;
+  padding-left: 1rem;
+  opacity: 0.7;
+}
+
+/* line 274, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.date_create_event {
+  padding-right: 1rem;
+  opacity: 0.7;
+}
+
+/* line 278, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.circle_create_event_blue {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #36ccb5;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 286, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.circle_create_event_purple {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #a389d4;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 294, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.circle_create_event_blue_fonce {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #337de2;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 302, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.circle_create_event_red {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #f44436;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 310, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.circle_create_event_green {
+  width: 11px;
+  border-radius: 50%;
+  height: 11px;
+  background-color: #1fa548;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+/* line 319, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.separator_plus_moins {
+  position: absolute;
+  padding-left: 17.2rem;
+  opacity: 0.3;
+  padding-bottom: 0.5rem;
+}
+
+/* line 326, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.header_create_event_one {
+  width: 100%;
+}
+
+/* line 330, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.header_create_event_two {
+  padding: 0 0 2% 0;
+}
+
+/* Staff n├®c├®ssaire*/
+/* line 335, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .opacity_one {
+  opacity: 0.3;
+}
+/* line 338, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .opacity_two {
+  opacity: 1.3;
+}
+
+/* line 343, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.staff_necessary {
+  width: 100%;
+  background-color: #F2F6F8;
+}
+
+/* line 348, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.header_create_event {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 352, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.number_step_head {
+  width: 50px;
+  height: 50px;
+  background-color: #36ccb5;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  font-size: 26px;
+  color: #fff;
+  margin-right: 34px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 365, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.dropdown_create_event {
+  position: relative;
+  display: inline-block;
+  width: 58%;
+}
+
+/* line 370, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.title_step {
+  margin-right: 45px;
+}
+
+/* line 374, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.left_drop_cage {
+  margin-left: 10px;
+}
+
+/* line 378, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.line_divider {
+  color: #707070;
+  border: 0.5px solid #707070;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  opacity: 0.3;
+}
+
+/* line 385, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.separate_icones {
+  margin-left: 26px;
+}
+
+/* line 388, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.text_dropdown_cage {
+  border: none;
+  color: #707070;
+  text-align: center;
+}
+/* line 392, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.text_dropdown_cage::-webkit-input-placeholder {
+  text-align: center;
+}
+/* line 396, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.text_dropdown_cage:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+/* line 400, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.text_dropdown_cage::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+/* line 404, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.text_dropdown_cage:-ms-input-placeholder {
+  text-align: center;
+}
+
+/* line 409, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.separate_dropdown_cage {
+  margin-top: 15px;
+}
+
+/* line 412, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.plus_moin {
+  width: 100%;
+}
+/* line 418, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.plus_moin .table_dates {
+  width: 100%;
+}
+/* line 421, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.plus_moin .tr_dates {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+/* line 427, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.plus_moin .td_dates {
+  width: 45%;
+}
+/* line 430, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.plus_moin .td_dates .left_staff {
+  opacity: 0.7;
+}
+/* line 435, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.plus_moin .padding_plus {
+  margin-left: 30px;
+}
+
+/* small cage dropdown */
+/* line 440, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.first_content_description {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 444, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.first_content_description .small_cage, .first_content_description .small_cage_label {
+  width: 22%;
+  height: 46px;
+  padding: 1%;
+  font-size: 13px;
+  margin: inherit !important;
+}
+
+/* line 453, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.padding_plus {
+  opacity: 0.3;
+}
+
+/* line 459, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.padding_separator {
+  padding-left: 5px;
+  opacity: 0.3;
+}
+
+/* line 463, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.padding_moins {
+  opacity: 0.3;
+  padding-left: 5px;
+}
+
+/* line 469, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage .icones_dropdown_cage {
+  width: 35px;
+  height: 35px;
+}
+/* line 474, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage .text_dropdown_cage {
+  width: 55%;
+  display: flex;
+  flex: inherit;
+  font-size: 14px;
+  opacity: 0.7;
+  text-align: center;
+}
+/* line 481, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage .text_dropdown_cage .text_dropdown_cage::placeholder {
+  text-align: center;
+}
+/* line 485, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage .line_separator_dropdown {
+  width: 30px;
+}
+/* line 491, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage .separate_icones {
+  margin-left: 0px;
+}
+
+/* line 497, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage_label .icones_dropdown_cage {
+  width: 35px;
+  height: 35px;
+  /*margin-right: 5px;*/
+}
+/* line 502, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage_label .text_dropdown_cage {
+  width: 30%;
+  display: flex;
+  flex: inherit;
+  background-color: #F2F6F8;
+  height: 30px;
+  padding: 0px 10px;
+  text-align: center;
+}
+/* line 512, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage_label .line_separator_dropdown {
+  width: 0px;
+  border: 0px;
+}
+/* line 515, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage_label .line_separator_dropdown .image_dropdown_cage {
+  display: none;
+}
+/* line 519, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage_label .separate_icones {
+  margin-left: 0px;
+}
+/* line 522, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.small_cage_label .text_salaires {
+  color: #707070;
+  opacity: 0.7;
+}
+
+/* line 527, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.separator_form {
+  margin-top: 34px;
+}
+
+/* line 531, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item label {
+  font-size: 16px;
+  color: #707070;
+}
+
+/* line 536, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .separator_two {
+  width: 42px;
+  height: 50px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-left: 1px solid #707070;
+  opacity: 0.7;
+  cursor: pointer;
+}
+/* line 544, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .separator_two .image_dropdown_cage {
+  width: 10px;
+  margin-left: 7px;
+}
+
+/* End small cage dropdown */
+/* End Staff n├®c├®ssaire*/
+/* start content_foter_event */
+/* line 553, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 1.5%;
+  background-color: #F2F6F8;
+  padding-top: 2%;
+}
+/* line 560, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .content_color {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 10%;
+  padding-bottom: 2%;
+}
+/* line 569, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .content_color .choose_label {
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 10%;
+  width: 100%;
+  margin-left: 2%;
+}
+/* line 581, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .color_choose {
+  display: flex;
+  flex-direction: row;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 85%;
+}
+/* line 587, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .choose_color {
+  width: 18px;
+  border-radius: 50%;
+  height: 18px;
+  margin-left: 1px;
+  margin-right: 1px;
+  cursor: pointer;
+}
+/* line 595, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .purple {
+  border: 3px solid #F2F6F8;
+  background-image: linear-gradient(#a389d4, #899ed4);
+}
+/* line 599, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .purple-active {
+  box-shadow: 0 0 1px 1px #A389D4;
+}
+/* line 602, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .purple:hover {
+  box-shadow: 0 0 1px 1px #A389D4;
+  /*margin-right: 1px;*/
+}
+/* line 606, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .blue_sky {
+  background-color: #36ccb5;
+  border: 3px solid #F2F6F8;
+}
+/* line 610, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .blue_sky-active {
+  box-shadow: 0 0 1px 1px #36ccb5;
+}
+/* line 613, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .blue_sky:hover {
+  box-shadow: 0 0 1px 1px #36ccb5;
+  /*margin-right: 1px;*/
+}
+/* line 617, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .orange {
+  border: 3px solid #F2F6F8;
+  background-image: linear-gradient(#f44236, #f44436, #f48f36);
+}
+/* line 621, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .orange-active {
+  box-shadow: 0 0 1px 1px #F44236;
+}
+/* line 624, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .orange:hover {
+  box-shadow: 0 0 1px 1px #F44236;
+}
+/* line 627, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .green-active {
+  box-shadow: 0 0 1px 1px #1FA548;
+}
+/* line 630, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .green {
+  border: 3px solid #F2F6F8;
+  background-image: linear-gradient(#1fa548, #21ffaa);
+}
+/* line 634, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .green:hover {
+  box-shadow: 0 0 1px 1px #1FA548;
+  margin-right: 1px;
+}
+/* line 638, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .blue {
+  border: 3px solid #F2F6F8;
+  background-image: linear-gradient(#48c6ef, #337de2);
+}
+/* line 642, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .blue-active {
+  box-shadow: 0 0 1px 1px #48C6EF;
+}
+/* line 645, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .blue:hover {
+  box-shadow: 0 0 1px 1px #48C6EF;
+}
+/* line 649, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .content_bouton {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 20%;
+}
+/* line 653, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .content_bouton .add {
+  height: 44px;
+  font-size: 12px;
+  width: 45% !important;
+  border-radius: 3px !important;
+  color: #fff;
+  border: 0;
+  background-color: #36ccb5;
+  text-transform: uppercase;
+}
+/* line 665, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .content_bouton .delete {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #C6C9CF;
+  color: #C6C9CF;
+  background-color: transparent;
+  height: 46px;
+  font-size: 12px;
+  width: 45% !important;
+  border-radius: 3px !important;
+  text-transform: uppercase;
+}
+/* line 674, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_color_bouton .content_bouton .isValid {
+  background-color: #eee !important;
+}
+
+/* line 680, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.drop_creat_one {
+  top: 3.5rem !important;
+}
+
+/* line 684, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.dropdownScroll {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+/* line 688, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_bouton_finish {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  width: 100%;
+  margin-top: 3%;
+}
+/* line 694, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_bouton_finish .finish {
+  width: 211px;
+  height: 66px;
+  border-radius: 50px;
+  border: 1px solid #36ccb5;
+  color: #36ccb5;
+  background-color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 5%;
+  width: 239px;
+  height: 82px;
+}
+/* line 704, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.content_bouton_finish .erase {
+  width: 211px;
+  height: 66px;
+  border-radius: 50px;
+  border: 1px solid #36ccb5;
+  color: #36ccb5;
+  background-color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 12px;
+  width: 239px;
+  height: 82px;
+}
+
+/* line 716, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_drop_user .input_drop_user {
+  border: solid 1px rgba(112, 112, 112, 0.15);
+}
+
+/* line 721, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_drop_user .input_drop_user:focus {
+  border: solid 2px #36ccb5;
+}
+
+/* line 724, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item input:not([type="checkbox"]) {
+  margin-top: 8px;
+  height: 22px;
+}
+
+/* line 730, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event {
+  margin: 0px 0 !important;
+}
+
+/* line 734, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_create_event input:not([type="checkbox"]) {
+  font-size: 12px;
+}
+
+/* line 738, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.img_plus, .show_btn_delete {
+  width: 33px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* line 744, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item_drop_user .input_drop_user {
+  width: 94%;
+}
+
+/* line 748, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item .dropdown, .form_item .dropdown.large {
+  width: 104%;
+}
+
+/* line 752, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item .dropdown-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+/* line 757, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.form_item .dropdown-menu #zone {
+  margin-top: inherit !important;
+}
+
+/* line 763, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.drop {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* line 769, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.drop_one {
+  display: flex;
+  width: 100%;
+}
+
+/* line 774, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .drop_creat_two {
+  margin-top: 0.2rem;
+}
+
+/* line 778, ../../../../sass/Front/agency/creation_event/create_event.scss */
+#name, #customer, #location_event {
+  height: 25px;
+}
+
+/* line 782, ../../../../sass/Front/agency/creation_event/create_event.scss */
+#gestionary_event {
+  height: 20px;
+}
+
+/* line 786, ../../../../sass/Front/agency/creation_event/create_event.scss */
+#zip_event {
+  width: 64%;
+  margin-bottom: 0;
+}
+
+/* line 791, ../../../../sass/Front/agency/creation_event/create_event.scss */
+#country {
+  width: 84%;
+  margin-bottom: 0;
+}
+
+/* line 796, ../../../../sass/Front/agency/creation_event/create_event.scss */
+#zone {
+  border: none;
+}
+
+/* line 801, ../../../../sass/Front/agency/creation_event/create_event.scss */
+#start_date {
+  outline: none;
+}
+
+/* line 806, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.dropdown_cage {
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  /* Firefox */
+  /* Chrome */
+  /* Op├®ra*/
+}
+/* line 810, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.dropdown_cage input[type=number] {
+  -moz-appearance: textfield;
+}
+/* line 815, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.dropdown_cage input::-webkit-inner-spin-button,
+.dropdown_cage input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 822, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.dropdown_cage input::-o-inner-spin-button,
+.dropdown_cage input::-o-outer-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
+
+/* line 829, ../../../../sass/Front/agency/creation_event/create_event.scss */
+#dropdown_users_manage {
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  border-radius: 5px;
+}
+
+/* line 834, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.postal {
+  width: 71%;
+  margin-bottom: 0;
+}
+
+/* line 840, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .text_dropdown_cage {
+  border: none !important;
+  font-size: 15px !important;
+}
+/* line 851, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .drop_creat_new {
+  top: 3.5rem;
+  right: -1rem;
+}
+/* line 856, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .text_brief {
+  margin-top: inherit;
+}
+/* line 860, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .province_staff_width {
+  width: 88%;
+}
+/* line 864, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .hour_rate, .create_event .zone_event_staff {
+  margin-top: inherit !important;
+}
+/* line 868, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .hour_rate_dropdown {
+  top: 3.3rem;
+  right: -0.5rem;
+}
+/* line 873, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .description_event_tab {
+  height: 100%;
+  margin: inherit;
+  width: 99.5%;
+  border: solid 1px rgba(112, 112, 112, 0.15);
+  /*display: flex;
+  align-items: center;
+  flex-wrap: wrap;*/
+  background-color: white;
+  /*align-self: center;
+  flex-direction: column;*/
+}
+
+/* line 887, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.delete_date_hours {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 50%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 898, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.update_date_hours {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: #ffffff;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 911, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .content_bouton_finish {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #F2F5F6;
+}
+/* line 916, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .content_bouton_finish .apply {
+  -webkit-appearance: button;
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  border: 0px;
+  color: #fff;
+  height: 44px;
+  font-size: 11px;
+  width: 143px;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  margin-right: 3%;
+  height: 60px;
+  font-size: 15px;
+  width: 180px;
+}
+/* line 934, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .content_bouton_finish .erase {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #C6C9CF;
+  color: #C6C9CF;
+  background-color: transparent;
+  height: 46px;
+  font-size: 11px;
+  width: 143px;
+  height: 60px;
+  font-size: 15px;
+  width: 180px;
+}
+/* line 953, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event .content_foot {
+  background-color: #fff;
+}
+
+/* line 957, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event_list_btn {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
+  /* .delete {
+    border: 1px solid #707070;
+    color: #707070;
+    text-transform: uppercase;
+    width: 20%;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #fff;
+    opacity: 0.5;
+    margin-left: 3%
+  } */
+}
+/* line 963, ../../../../sass/Front/agency/creation_event/create_event.scss */
+.create_event_list_btn .addition {
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  width: 20%;
+  height: 45px;
+  border-radius: 3px;
+}

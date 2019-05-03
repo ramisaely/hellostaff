@@ -1,0 +1,184 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/****************** tart cendidat filter *********************/
+/* line 6, ../sass/candidat.scss */
+.content_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 14, ../sass/candidat.scss */
+.candidat_filter_nav {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+/* line 20, ../sass/candidat.scss */
+.candidat_filter_nav .previous, .candidat_filter_nav .next {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: solid 0.5px #707070;
+  margin: 15px;
+}
+/* line 28, ../sass/candidat.scss */
+.candidat_filter_nav .previous i, .candidat_filter_nav .next i {
+  font-size: 20px;
+  color: #707070;
+}
+/* line 33, ../sass/candidat.scss */
+.candidat_filter_nav .previous {
+  transform: rotate(180deg);
+}
+/* line 36, ../sass/candidat.scss */
+.candidat_filter_nav .posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  margin: 20px 0;
+  width: calc(100% - 60px);
+  overflow-x: hidden;
+}
+
+/* line 49, ../sass/candidat.scss */
+.candidat_filter {
+  width: 100%;
+}
+
+/** 2nd flex*/
+/* line 55, ../sass/candidat.scss */
+.content_number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+/* line 65, ../sass/candidat.scss */
+.content_number .first_content, .content_number .second_content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* line 70, ../sass/candidat.scss */
+.content_number .first_content .gender_item, .content_number .second_content .gender_item {
+  line-height: 2.5rem;
+  padding: 1rem;
+}
+/* line 74, ../sass/candidat.scss */
+.content_number .first_content .gender_item .gender_flex, .content_number .second_content .gender_item .gender_flex {
+  flex-direction: column;
+}
+/* line 77, ../sass/candidat.scss */
+.content_number .first_content .gender_item .gender_flex .flex_checkbox_gender, .content_number .second_content .gender_item .gender_flex .flex_checkbox_gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+/* line 90, ../sass/candidat.scss */
+.content_number .first_content .content_gender, .content_number .second_content .content_gender {
+  background-color: #fff;
+  border: 1px solid #F0F0F0;
+  border-radius: 5px;
+  width: 12rem;
+}
+/* line 96, ../sass/candidat.scss */
+.content_number .first_content .content_gender .gender_flex, .content_number .second_content .content_gender .gender_flex {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 101, ../sass/candidat.scss */
+.content_number .first_content .content_gender .gender_flex label, .content_number .second_content .content_gender .gender_flex label {
+  margin-right: 5rem;
+}
+/* line 108, ../sass/candidat.scss */
+.content_number .first_content .tax_btn, .content_number .second_content .tax_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+/* line 117, ../sass/candidat.scss */
+.content_number .first_content .tax_btn .list_btn, .content_number .second_content .tax_btn .list_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/** end 2nd flex*/
+/****************** end cendidat filter *********************/

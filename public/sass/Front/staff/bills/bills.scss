@@ -1,0 +1,175 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.staff_bills {
+	background-color: #ffffff;
+
+	.job_offers_content {
+	    
+	}
+
+	.section_title {
+		width: 100%;
+		background-color: #F2F6F8;
+	    padding: 3rem 1.5rem 0 1.5rem;
+	    border-bottom: 1px solid rgba(112, 112, 112, 0.4);
+	    @include hs_flex_space_between;
+	    @include hs_flex_align_Centered;
+
+	    label { 
+	    	font-family: Raleway Light;
+	    	color: #707070; 
+	    	font-size: 25px;
+	    }
+
+	    .section_title_content {
+			width: 100%;
+			height: 100%;
+			@include hs_flex_align_centered;
+			@include hs_flex_space_between;	
+		}
+	}
+
+	.search {
+		width: 30rem;
+		input { height: 45px; }
+
+		.input_group {
+
+			input {
+				padding-right: 45px;
+				width: 100% !important;
+				border-right: none; 
+				border-radius: 5px;
+				border-right: 1px solid rgba(112, 112, 112, 0.15); 
+				font-family: Raleway Regular;
+				color: #707070;
+
+				&:focus {
+					border-right: 2px solid #36ccb5;
+				}
+
+				::-webkit-input-placeholder { 
+				  opacity: 0.5;
+				}
+				::-moz-placeholder { 
+				  opacity: 0.5;
+				}
+				:-ms-input-placeholder { 
+				  opacity: 0.5;
+				}
+				:-moz-placeholder { 
+				  opacity: 0.5;
+				}
+			}
+
+			.input_addon {
+				right: 10px;
+	            top: 1px;
+	            bottom: 1px;
+	            height: auto;
+	            width: 45px;
+	            border: none;
+	            background-color: transparent;
+			}
+		}
+
+		.message_job_offer {
+			font-family: Raleway LightItalic;
+			font-size: 15px;
+			margin-top: 9px;
+    		display: block;
+		}
+	}
+
+	.table_staff_bills {
+	    margin-top: 1.5rem;
+
+	    table {
+	    	width: 100%;	
+	    }
+	}
+
+	table {
+	    border: 1px solid #F2F6F8;
+		border-spacing: 0;
+
+		tr {
+			height: 70px;
+			padding: 10px;
+			text-align: center;
+			border-top: 1px solid rgba(112, 112, 112, 0.4);
+			border-bottom: 1px solid rgba(112, 112, 112, 0.4);
+
+			&:nth-child(odd) {
+				background-color: #ffffff;
+				padding: 1px;
+				
+				td { background-color: #F2F6F8; }
+			}
+
+			&:nth-child(even) {
+				background-color: #ffffff;
+			}
+		}
+
+		thead tr { height: 60px; }
+
+		td {
+			font-family: Raleway Light;
+			text-align: center;
+			color: #393C40;
+			font-size: 16px;
+		}
+
+		th {
+			font-family: Raleway Light;
+			color: #393C40;
+    		font-weight: normal;
+    		font-size: 17px;
+		}
+
+		.cell_wrapper {
+		    border-right: 0.5px dotted #c8e0ec;
+		    height: 50px;
+		    @include hs_flex_justify_centered;
+			@include hs_flex_align_centered;
+		}
+
+	}
+
+	.logo_agency, .see_bill, .download_bill {
+		@include hs_flex_justify_centered;
+		@include hs_flex_align_centered;
+	}
+
+	.logo_agency {
+
+		img {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+	}
+
+	.bill_link {
+		&, img { 
+			width: 30px; 
+			height: 38px; 
+			display: block; 
+		}
+	}
+
+	.download_bill_link {
+		&, img { 
+			width: 34px; 
+			height: 34px; 
+			display: block; 
+		}
+	}
+}

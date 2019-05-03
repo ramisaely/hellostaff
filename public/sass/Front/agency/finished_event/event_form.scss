@@ -1,0 +1,158 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+.container_fullcalendar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 3% !important;
+}
+.staff_necessary_update {
+  margin-bottom: 3%;
+}
+
+.left_staff {
+     padding-left: 13%;
+}
+.form_item_create_event {
+  width: 100%;
+
+  .label_drop_user, .labedropdown_largel_create_event {
+    font-size: 16px;
+    color: #707070;
+  }
+}
+.content_event_form {
+	  padding: 2%;
+    background-color: #F2F6F8;
+}
+.plus_moin .td_dates {
+  width: auto;
+  display: flex;
+  flex: 1;
+}
+.icon_creat_event {
+  width: 100%;
+  height: 100%;
+}
+
+.step_modify_profil {
+  width: 96%;
+  height: auto;
+  justify-content: space-between;
+  padding: 2%;
+
+}
+.form_item_drop_user::before {
+  display: none;
+}
+.content_pages_event_form {
+	  width: 96%;
+    background-color: #fff;
+    padding: 2%;
+    height: auto;
+
+	  .statement_event_form {
+	    width: 100%;
+      background-color: #fff;
+      padding-bottom: 3%;
+
+      .form_item_create_event {
+
+       		.input_create_event {
+		       	position: absolute;
+			      width: 20%;
+			      margin-left: -28%;
+			      top: 24%;
+    			  right: 2%;
+	       }
+      }
+	  }
+}
+
+.content_event_form .create_event {
+    padding: 0%;
+}
+
+.dropdown_create_event {
+    width: 90%;
+}
+
+.content_event_form #country {
+    width: 89%;
+}
+
+.form_item_drop_user .input_drop_user {
+    height: 25px;
+}
+
+.content_color_bouton .content_bouton .add {
+  font-size: 11px;
+}
+
+.content_color_bouton .content_bouton .delet {
+  font-size: 11px;
+}
+
+.img_roue {
+  width: 40px;
+}
+
+
+.code_postal_drop, .drop_one {
+  .icon_input_create_event_pro {
+    top: 1rem;
+  }
+}
+.text_brief {
+  opacity: 0.3;
+}
+.zone_event_staff {
+  width: 55% !important;
+}
+.icone_modify_photo {
+  background-color: #36ccb5;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 30px !important;
+  height: 30px !important;
+}
+#dropdown_users_manage {
+  top: 3.8rem;
+  width: 100%;
+}
+.create_event .drop_creat_two {
+  top: 2.8rem;
+}
+.specify_modif_drop_city {
+  top: 3.8rem !important;
+  width: 108% !important;
+  right: -1rem !important;
+}
+.specify_modif_drop_province {
+  top: 3rem !important;
+  width: 102% !important;
+  right: -1rem !important;
+}
+
+.text_drop_new {
+  border-top: 1px solid #d3d6d7;
+  border-bottom: 1px solid #d3d6d7;
+}
+
+.description_event_tab {
+  tbody {
+    width: 90%;
+    padding: 2%;
+
+    tr {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.horaire_create_event {
+  border: 0;
+}

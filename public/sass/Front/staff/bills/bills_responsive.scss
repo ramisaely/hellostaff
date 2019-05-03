@@ -1,0 +1,168 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+@media (min-width: 501px){
+	.staff_bills {
+		padding: 3vw;
+
+		.job_offers_content {
+		    padding: 0;
+
+		}
+
+		.section_title {
+			/*height: 100px;*/
+		    padding: 0;
+		    border-bottom: 2px solid #F2F6F8;
+			border-top: 2px solid #F2F6F8;
+
+			.section_title_content {
+			    border-bottom: 2px solid #ffffff;
+			    border-top: 2px solid #ffffff;
+			    padding: 0 3vw;
+				@include hs_flex_align_centered;
+				@include hs_flex_space_between;			    
+			}
+		}
+
+		.search {
+
+		}
+	}
+}
+
+@media (min-width: 780px){
+	.staff_bills {
+		padding: 3%;
+	}
+}
+
+@media (max-width: 1023px){
+	.staff_bills {
+
+		.section_title {
+		    padding-top: 1.5rem;
+
+		    .section_title_content {
+		    	border: none;
+		    }
+
+			label {
+			    font-size: 23px;
+			}
+
+			.search {
+				width: 100%;
+
+				.message_job_offer { font-size: 13px; }
+			}
+		}
+
+		table {
+			border: none;
+
+			thead {
+			    border: none;
+			    clip: rect(0 0 0 0);
+			    height: 1px;
+			    padding: 0;
+			    position: absolute;
+			    width: 1px;
+			}
+
+			tr {
+				width: 100%;
+				height: auto;
+				@include hs_flex_wrap;
+				border-top: none;
+    			border-bottom: none;
+    			margin-bottom: 18px;
+			}
+
+			td {
+				width: 100%;
+				height: 40px;
+				@include hs_flex_space_between;
+				@include hs_flex_align_centered;
+			    padding: 0 20px;
+		        border-bottom: 1px solid #F2F6F8;
+		        background-color: #ffffff !important;
+
+				&.td_logo_agency, &.td_agency_name {
+				    background-color: #F2F6F8 !important;
+				}
+
+				&:last-child{
+				    background-color: #F2F6F8 !important;
+				}
+
+				&:before {
+					font-family: Raleway Medium;
+					content: attr(data-label);
+				    left: 0;
+				}
+
+				&.td_logo_agency {
+					@include hs_flex_one;
+					padding-right: 10px;
+				}
+
+				&.td_agency_name {
+					width: auto;
+					padding-left: 0;
+				}
+			}
+
+			.cell_wrapper {
+			    border-right: none;
+			}
+
+		}	
+
+		.logo_agency img {
+			width: 30px;
+			height: 30px;
+		}	
+
+		.bill_link {
+			&, img { 
+				width: 23px; 
+				height: auto;  
+			}
+		}
+
+		.download_bill_link {
+			&, img { 
+				width: 30px; 
+				height: 30px; 
+			}
+		}
+		
+	}
+}
+
+@media (max-width: 500px){
+	.staff_bills {
+		table {
+			td { 
+				font-size: 13px; 
+
+				&.td_logo_agency { padding-right: 7px; }
+			}
+		}
+
+		.bill_link {
+			&, img { 
+				width: 4.7vw; 
+			}
+		}
+
+		.download_bill_link {
+			&, img { 
+				width: 7.2vw; 
+				height: 7.2vw; 
+			}
+		}
+	}
+}

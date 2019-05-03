@@ -1,0 +1,90 @@
+/* line 1, ../sass/slider.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 2, ../sass/slider.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 4, ../sass/slider.scss */
+img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+/* line 10, ../sass/slider.scss */
+h2 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* line 15, ../sass/slider.scss */
+.slick-dots {
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+/* line 19, ../sass/slider.scss */
+.slick-dots li {
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+/* line 24, ../sass/slider.scss */
+.slick-dots li.slick-active button {
+  background-color: black;
+}
+/* line 28, ../sass/slider.scss */
+.slick-dots li button {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: #999;
+  border: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+/* line 38, ../sass/slider.scss */
+.slick-dots li :hover {
+  background-color: black;
+}
+
+/* Custom Arrow */
+/* line 45, ../sass/slider.scss */
+.prev {
+  color: #999;
+  position: absolute;
+  top: 38%;
+  left: -2em;
+  font-size: 1.5em;
+}
+/* line 51, ../sass/slider.scss */
+.prev :hover {
+  cursor: pointer;
+  color: black;
+}
+
+/* line 56, ../sass/slider.scss */
+.next {
+  color: #999;
+  position: absolute;
+  top: 38%;
+  right: -2em;
+  font-size: 1.5em;
+}
+/* line 62, ../sass/slider.scss */
+.next :hover {
+  cursor: pointer;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 69, ../sass/slider.scss */
+  .next {
+    display: none !important;
+  }
+}

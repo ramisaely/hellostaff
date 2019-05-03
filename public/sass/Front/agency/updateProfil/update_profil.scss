@@ -1,0 +1,392 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_function.scss';
+
+.content_pages {
+  padding: 3%;
+}
+
+.modify_profil {
+  width: 100%;
+}
+.step_modify_profil {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #F2F6F8;
+  border-top: 1px solid #F2F6F8;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+    /* flex-wrap: wrap; */
+  .modify {
+    height: 96%;
+    width: 100%;
+    background-color: #F2F6F8;
+    padding: 0 25px;
+    font-size: 20px;
+    color: #707070;
+    @include hs_flex_align_centered;
+  }
+
+  .modify_language {
+    height: 96%;
+    width: 100%;
+    background-color: #F2F6F8;
+    padding: 0 25px;
+    font-size: 20px;
+    color: #707070;
+    @include hs_flex_end;
+    @include hs_flex_align_centered;
+  }
+}
+.parent_view {
+  width: 100%;
+  position:relative;
+}
+
+.form_modify_profil {
+  margin-top: 40px;
+  @include hs_flex_space_between;
+
+  .form_group_profil {
+    width: 23%;
+
+    .form_item {
+      @include hs_flex_direction;
+      color: #707070;
+      /* Firefox */
+      input[type=number] {
+          -moz-appearance: textfield;
+          width: 94%;
+      }
+      /* Chrome */
+      input::-webkit-inner-spin-button,
+      input::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin:0;
+      }
+      /* Opéra*/
+      input::-o-inner-spin-button,
+      input::-o-outer-spin-button {
+        -o-appearance: none;
+        margin:0
+      }
+
+      input {
+        border-radius: 0px;
+        background-color: #F2F6F8;
+        border: 0;
+        // width: 100%;
+      }
+    }
+  }
+}
+.form_tps_tvq {
+  width: 96%;
+  @include hs_flex_space_between;
+
+  .tps_tvq {
+    width: 44%;
+  }
+}
+
+.form_message {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  @include hs_flex_end;
+
+  .bold_message {
+    font-weight: bold;
+  }
+}
+
+.description_modify {
+  @include hs_flex_space_between;
+  background-color: #F2F6F8;
+  padding: 53px;
+  font-size: 14px;
+  color: #707070;
+  margin-top: 35px;
+}
+
+.logo_modif {
+    width: 15%;
+    @include hs_flex_direction;
+    justify-content: flex-start;
+    position: relative;
+}
+.title_logo {
+  margin-bottom: 15px;
+}
+.agency_logo {
+  width: auto;
+  border-radius: 10px;
+  border: 20px solid #fff;
+  position: relative;
+  height: 173px;
+  overflow: hidden;
+  @include hs_flex_justify_centered;
+  .change {
+    position: absolute;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.form_modif {
+  width: 20%;
+  .form_item {
+    @include hs_flex_direction;
+    label {
+      color: #707070;
+      font-size: 14px;
+    }
+  }
+}
+
+.description {
+  width: 56%;
+
+  .form_item {
+    @include hs_flex_direction;
+
+    .desc_modif {
+      color: #707070;
+      font-size: 14px;
+    }
+    textarea {
+      resize: none;
+      overflow: hidden;
+    }
+  }
+}
+
+.description textarea:focus {
+    border: solid 2px #36ccb5;
+    outline: none;
+}
+.form_item_create_event input:focus {
+    border: solid 2px #36ccb5;
+    outline: none;
+}
+
+.texte_description {
+  margin-top: 11px;
+  border: 0px;
+  color: #707070;
+  font-size: 14px;
+  padding: 40px 25px;
+  background-color: #fff;
+  height: 112px;
+  line-height: 30px;
+}
+.header_create_event {
+    @include hs_flex_align_centered;
+}
+
+.header_create_event_two {
+    width: 100%;
+    padding-bottom: 2.5%;
+    padding-top: 0.5%;
+
+}
+
+.number_step_head {
+    width: 60px;
+    height: 60px;
+    background-color: #36ccb5;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    font-size: 29px;
+    color: #fff;
+    margin-right: 1%;
+    margin-left: 3%;
+    @include hs_flex_justify_centered;
+    @include hs_flex_align_centered;
+    font-size: 29px;
+    color: #fff;
+
+}
+.police_number {
+    font-family: SourceSansPro !important;
+}
+.title_step {
+    margin-right: 34px;
+}
+.title_h2 {
+  color: #707070;
+  font-size: 30px;
+}
+.line_divider {
+  color: #707070;
+  border: 0.5px solid #707070;
+  @include hs_flex_one;
+  opacity: 0.3;
+  margin-left: 3%;
+  margin-right: 56px;
+
+}
+.utilisateur_profil_update {
+  background-color: #F2F6F8;
+  padding-bottom: 4%;
+}
+.input_update_profil {
+  width: 100%;
+  @include hs_display_flex;
+  @include hs_flex_space_Between;
+
+  .input_update_profil_col1 {
+    width: 27%;
+    padding-left: 3.5%;
+
+    .dropdown_create_event {
+    @include hs_dropdown_create_event;
+    width: 100%;
+    }
+
+    .icon_input_create_event {
+      position: absolute;
+      top: 34px;
+      right: 9%;
+      height: 22px;
+      transition: all 275ms;
+    }
+  }
+
+  .input_update_profil_col2 {
+    width: 30%;
+  }
+
+  .input_update_profil_col3 {
+    width: 30%;
+    padding-right: 3.5%;
+  }
+}
+
+.liste_button_update {
+  width: 100%;
+  margin-top: 3%;
+  @include hs_flex_justify_centered;
+  @include hs_flex_align_centered;
+
+  .button_update_profil_gradient {
+    width: 30% !important;
+    height: 57px !important;
+    margin-right: 0 !important;
+    background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  }
+}
+
+.content_button_update_profil {
+  @include hs_display_flex;
+  @include hs_flex_end;
+  width: calc(100% - 8%);
+  padding: 3% 4%;
+}
+
+.button_update_profil_no_gradient {
+  @include hs_btn_no_gradient;
+  border-radius: 2px;
+}
+
+.button_update_profil_gradient {
+  @include hs_btn_gradient;
+  background-color: #36ccb5;
+  border-radius: 2px;
+  margin-right: 3%;
+}
+
+.btn_valide{
+  @include hs_btn_gradient;
+  background-color: #36ccb5;
+  border-radius: 2px;
+  margin-right: 3%;
+}
+
+.btn_valide_first{
+  @include hs_btn_gradient;
+  background-color: #36ccb5;
+  border-radius: 2px;
+  margin-right: 3%;
+}
+
+.btn_validLast{
+  @include hs_btn_gradient;
+  background-color: #36ccb5;
+  border-radius: 2px;
+  margin-right: 3%;
+}
+
+.button_update_profil_footer {
+  @include hs_btn_gradient;
+  height: 44px;
+  font-size: 11px;
+  width: 143px;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+}
+
+.button_update_profil_footer {
+    width: 15%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 1px solid #36ccb5;
+    color: #36ccb5;
+    background-image: inherit !important;
+    background-color: #fff !important;
+}
+
+.footer_update_profil {
+  // height: 80px;
+  background-color: #F2F6F8;
+  padding: 4% 0% 4% 0;
+  width: 100%;
+  @include hs_flex_justify_centered;
+  @include hs_flex_align_centered;
+}
+.line_divider_bg {
+    width: 100%;
+    background-color: #F2F6F8;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance:textfield;
+        width: auto;
+        /* Chrome */
+      	&::-webkit-inner-spin-button {
+      		-webkit-appearance: none;
+      		margin:0;
+      	}
+
+      	/* Opéra*/
+      	&::-o-inner-spin-button {
+      		-o-appearance: none;
+      		margin: 0;
+      	}
+    }
+
+.modal_body_img {
+  width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+}

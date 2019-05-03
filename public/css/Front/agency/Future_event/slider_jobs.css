@@ -1,0 +1,198 @@
+@import url("http://fonts.googleapis.com/css?family=Exo+2:400,700|Oswald:400,700");
+/** page structure **/
+/* line 6, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+#window_slider_jobs {
+  /* display: block;
+  max-width: 830px;
+  min-width: 300px; */
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 2px 3px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* line 20, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.container_slider {
+  width: 80%;
+}
+
+/** posts slider widget **/
+/* line 25, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-items_slider {
+  display: block;
+  /* padding: 5px; */
+}
+
+/* line 30, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs {
+  background: #fff;
+  padding: 8px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 42, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs .thumbnail {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* line 48, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs .thumbnail img {
+  display: block;
+  /* fix 1px image space http://stackoverflow.com/q/5804256/477958 */
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+/* line 54, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs .thumbnail:hover img {
+  opacity: 0.8;
+}
+
+/* line 58, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs h3 {
+  font-family: 'Oswald', 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 1.95em;
+  line-height: 1.25em;
+  margin-bottom: 12px;
+}
+
+/* line 64, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs h3 a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* line 68, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs h3 a:hover {
+  text-decoration: underline;
+}
+
+/* line 72, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs .postdate {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 6px;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #4e90da;
+}
+
+/* line 85, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs p {
+  font-size: 1.2em;
+  line-height: 1.55em;
+  margin-bottom: 5px;
+}
+
+/* line 91, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs p.readmore a {
+  display: block;
+  float: right;
+  color: #4e90da;
+  padding: 3px 5px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 102, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.crsl-item_slider_jobs p.readmore a:hover {
+  background: #4b6caa;
+  color: #fff;
+}
+
+/** posts slider nav **/
+/* line 109, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.slidernav_slider {
+  display: block;
+  text-align: center;
+  /* margin-bottom: 5px; */
+  width: 100%;
+  position: absolute;
+}
+
+/* line 117, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.slidernav_slider a {
+  display: inline-block;
+  padding: 5px 8px;
+  /* margin-right: 8px; */
+  font-size: 1.4em;
+  background: #fff;
+  /* color: #666; */
+  text-decoration: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #707070;
+  color: #707070;
+  opacity: 0.5;
+  /* -webkit-box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 0px rgba(0,0,0,0.2); */
+}
+
+/* line 142, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.slidernav_slider a:active {
+  /* -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.2); */
+}
+
+/** media queries **/
+@media screen and (max-width: 660px) {
+  /* line 151, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+  h1 {
+    font-size: 2.4em;
+    line-height: 1.2em;
+  }
+
+  /* line 153, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+  .crsl-item_slider_jobs h3 {
+    font-size: 1.65em;
+  }
+}
+/** clearfix **/
+/* .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; } */
+/* line 158, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+.clearfix_slider {
+  /* display: inline-block;  */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 165, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+html[xmlns] .clearfix_slider {
+  display: block;
+}
+
+/* line 166, ../../../../sass/Front/agency/Future_event/slider_jobs.scss */
+* html .clearfix_slider {
+  height: 1%;
+}

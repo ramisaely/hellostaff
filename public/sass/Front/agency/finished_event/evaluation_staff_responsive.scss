@@ -1,0 +1,183 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+@media (min-width:1024px) and (max-width: 1680px) {
+	.view_evaluation {
+		padding: 10px 0px;
+		.evaluation_description {
+			width: 54%;
+			font-size: 13px;
+		}
+	}
+	.evaluation_avatar {
+    	width: 53%;
+    	@include hs_flex_justify_space_around;
+    	.photo_candidates {
+		    width: 45px;
+		    height: 45px;
+		}
+		.info_candidates {
+		    padding-left: 0;
+		    .user_name {
+			    font-size: 14px;
+			}
+			.user_post {
+			    font-size: 13px;
+			}
+		}
+	}
+	.evaluation_star {
+		width: 46%;
+	}
+	.evaluation_star img {
+	    padding-left: 5px;
+	    width: 24px;
+	}
+	.save_evaluation {
+	    width: 178px;
+	    height: 67px;
+	    font-size: 14px;
+	}
+}
+@media (max-width:1366px) {
+	.view_evaluation .evaluation_description {
+ 		width: 55%;
+ 	}
+ 	.white_start, .green_start {
+	    width: 16%;
+	}
+
+ }
+
+@media (max-width:1280px) {
+	.view_evaluation {
+		padding: 12px 0px;
+		.evaluation_note {
+	    	width: 40%;
+	    }
+	    .evaluation_description {
+		    width: 49%;
+		}
+	 }
+ }
+ @media (max-width:1080px) {
+	.view_evaluation {
+		padding: 12px 0px;
+		.evaluation_note {
+	    	width: 47%;
+	    }
+	    .evaluation_description {
+		    width: 41%;
+		}
+	 }
+
+ }
+@media (max-width: 1023px) {
+	.evaluation_staff_content {
+		padding: 2% 2% 0 2%;
+	}
+	.step_evaluation_staff {
+		display: flex;
+		flex-direction: column;
+		height: 272px;
+		background-color: #F2F6F8;
+		.title_step_evaluation_staff {
+			width: 41%;
+			text-align: center;
+			@include hs_flex_justify_centered;
+			padding: 0px;
+			line-height: 1.5;
+			margin-top: 5%;
+		}
+	}
+	.white_start, .green_start {
+		width: 6%;
+	}
+	.form_item_drop_right {
+		width: 69%;
+		margin-bottom: 10%;
+	}
+	.form_item_drop_user::before {
+		top: 21px;
+		right: 3px;
+	}
+	#gestionary_event {
+	    height: 32px;
+	   	width: 97%!important;
+	}
+	.dropdown_login {
+	    width: 100%;
+	}
+	.view_evaluation {
+		padding: 4px 0;
+		.evaluation_note{
+			width: 100%;
+			@include hs_flex_direction_column;
+			height: 200px;
+		}
+		.evaluation_description {
+			margin-top: 9px;
+			width: 100%;
+			font-size: 15px;
+			text-align: center;
+		}
+	}
+	.evaluation_avatar {
+		@include hs_flex_direction_column;
+		width: 100%;
+		@include hs_flex_space_between;
+		height: 67%;
+		.info_candidates {
+			height: 37%;
+			display: flex;
+			@include hs_flex_direction;
+			@include hs_flex_justify_space_around;
+			@include hs_flex_align_centered;
+		}
+		.photo_candidates {
+			margin-left: 6px;
+		}
+	}
+	.evaluation_star {
+   		 width: 100%;
+   		 @include hs_flex_justify_centered;
+   		 height: 26%;
+		 @include hs_flex_align_centered;
+
+   	}
+   	.footer_evaluation {
+   		height: 6rem;
+		align-items: center;
+   	}
+   	.save_evaluation {
+	    margin-left: 0%;
+	    width: 100%;
+	    border-radius: 0px;
+	}
+	.form_item_drop_user {
+		margin-right: 0px;
+	}
+
+ }
+@media (max-width: 767px) {
+	#gestionary_event {
+	    margin-left: -1px;
+	}
+}
+@media (max-width: 480px) {
+	.white_start, .green_start {
+	    width: 11%;
+	}
+}
+@media (max-width: 360px) {
+	.white_start, .green_start {
+	    width: 15%;
+	}
+	#gestionary_event {
+	    margin-left: -1px;
+	    width: 94% !important;
+	}
+}

@@ -1,0 +1,169 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+.agency_card_page {
+	background-color: #ffffff;
+	padding: 15px;
+
+	.section_title {
+		width: 100%;
+		height: 100px;
+		background-color: #F2F6F8;
+
+    	span {
+    		font-family: Raleway Light;
+    		width: 100%;
+    		height: 100%;
+    		@include hs_flex_justify_centered;
+		    @include hs_flex_align_centered;
+		    color: #707070;
+		    font-size: 25px;
+    	}
+	}
+
+	.agency_logo {
+		width: 100%;
+		@include hs_flex_justify_centered;
+	    @include hs_flex_align_centered;
+	    margin-top: 30px;
+	    margin-bottom: 45px;
+
+	    img {
+	    	width: 115px;
+	    	height: 115px;
+	    	border-radius: 50%;
+	    }
+	}
+
+	p { 
+		margin: 0;
+		font-size: 14px;
+
+		&.title {
+			color: #405164;
+		}
+
+		&.text {
+			color: #707070;
+		}
+	}
+
+	.agency_card_header { width: 100%; }
+
+	.agency_identity_item {
+		& , .content {
+			@include hs_flex_justify_centered;
+			@include hs_flex_direction_column;
+			@include hs_flex_align_centered;
+		}
+
+		&.address { margin-top: 30px; }
+
+		img {
+			width: 30px;
+			height: 40px;
+		}
+
+		p { 
+			width: auto;
+			margin-top: 4px;
+		}
+
+		.title { font-family: Raleway Medium; }
+	}
+
+	.description { 
+		margin-top: 50px; 
+	    margin-left: 10px;
+	    margin-right: 10px;
+
+		p {
+			width: 100%;
+			text-align: center;
+		}
+
+		.title {			
+			font-size: 24px;
+			color: #707070;
+			margin-bottom: 30px;
+		}
+
+		.text {
+			font-family: Raleway Light;
+			font-size: 15px;
+			color: #434242;
+		}
+
+	}
+
+	.agency_card_footer {
+		width: 100%;
+		@include hs_flex_wrap;
+		background-color: #F2F6F8;
+	    margin-top: 25px;
+	    padding: 75px 0 50px 0;
+
+		.submit {
+			order: 2;
+			width: 100%;
+			@include hs_flex_justify_centered;
+
+			button {
+			    font-family: Raleway Medium;
+				width: 250px;
+				max-width: 95%;
+				height: 75px;
+				background-image: linear-gradient(90deg, #1DC4E9, #1DE9B6);
+				border: 0;
+				outline: none;
+				color: #FFFFFF;
+				font-size: 18px;
+				padding: 0;
+			}
+		}
+
+		.footer_informations {
+			order: 1;
+			width: 100%;
+			@include hs_flex_justify_centered;
+			@include hs_flex_direction_column;
+			@include hs_flex_align_centered;
+			margin-bottom: 80px;
+			
+			.information_item {
+				@include hs_flex_direction_column;
+				@include hs_flex_align_centered;
+
+				&:not(:last-child) {
+					margin-bottom: 50px;
+				}
+
+				img {
+					width: 73px;
+					height: 73px;
+					margin-bottom: 22px;
+				}
+			}
+
+			.information_wrapper {
+
+			}
+
+			p { font-size: 20px; text-align: center; }
+
+			.title { 
+			    font-family: Raleway Medium;
+				color: #707070; 
+			}
+
+			.info { 
+				color: #707070; 
+				opacity: 0.5;
+				margin-top: 5px; 
+			}
+		}
+	}
+
+}
+

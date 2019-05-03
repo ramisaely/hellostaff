@@ -1,0 +1,47 @@
+@import 'compass';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_function.scss';
+
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+p {
+
+}
+
+label {
+  /*color: #707070;*/
+}
+
+.title_h2 {
+    color: #707070;
+    font-size: 28px;
+}
+.label_create_event {
+   color: #707070;
+   font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+
+.police_number {
+    font-family: SourceSansPro !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+
+@media (max-width: 767px){
+
+}
+
+@media (max-width: 480px){
+
+}
+
+@media (max-width: 380px) {
+
+}

@@ -1,0 +1,624 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* taille avec responsivite des police: p , span, label, input, li, button,
+titre: title_h1, title_h2, title_h3, ...
+h1, h2, h3
+*/
+/* line 14, ../../../../sass/Front/generale/_default.scss */
+label {
+  /*color: #707070;*/
+}
+
+/* line 18, ../../../../sass/Front/generale/_default.scss */
+.title_h2 {
+  color: #707070;
+  font-size: 28px;
+}
+
+/* line 22, ../../../../sass/Front/generale/_default.scss */
+.label_create_event {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* End taille avec responsivite des police */
+/* line 29, ../../../../sass/Front/generale/_default.scss */
+.police_number {
+  font-family: SourceSansPro !important;
+}
+
+@media (max-width: 1840px) {
+  /* line 7, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates {
+    padding: 3% 1% !important;
+  }
+  /* line 10, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .slider_jobs {
+    width: 35% !important;
+  }
+  /* line 13, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .slider_jobs .container_btn_slider {
+    width: 95% !important;
+  }
+  /* line 18, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter {
+    width: 64% !important;
+  }
+  /* line 22, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .liste_taux_horaires {
+    justify-content: flex-start;
+    margin-right: -5px;
+  }
+  /* line 26, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .liste_taux_horaires .value_horaires {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 1700px) {
+  /* line 37, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .btn_candidat_fiche .loup, .liste_candidates_filter .btn_candidat_fiche .loup {
+    margin-right: 3%;
+  }
+}
+@media (max-width: 1580px) {
+  /* line 45, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .slider_jobs {
+    width: 100% !important;
+    margin-bottom: 3%;
+    padding: 2% 0;
+  }
+  /* line 50, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .slider_jobs .container_slider_jobs {
+    height: 100%;
+    width: 70% !important;
+  }
+  /* line 54, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .slider_jobs .container_slider_jobs .post_slider {
+    height: 100%;
+  }
+  /* line 60, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .item_jobs_list .image_slider_jobs_slick {
+    width: 15% !important;
+    margin-top: 1rem;
+  }
+  /* line 65, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter {
+    width: 100% !important;
+  }
+}
+/*******************************************************/
+@media (min-width: 1301px) and (max-width: 1700px) {
+  /* line 78, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .personnal_candidates_description .photo_candidates, .liste_candidates_filter .personnal_candidates_description .photo_candidates {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  /* line 83, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .personnal_candidates_description .description_candidates, .liste_candidates_filter .personnal_candidates_description .description_candidates {
+    min-height: 3.5vw;
+  }
+  /* line 86, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .personnal_candidates_description .description_candidates .name, .liste_candidates_filter .personnal_candidates_description .description_candidates .name {
+    font-size: 15px;
+  }
+  /* line 89, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .personnal_candidates_description .description_candidates .country, .liste_candidates_filter .personnal_candidates_description .description_candidates .country {
+    font-size: 12px;
+  }
+  /* line 96, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .evaluations_candidates .title_p_candidates, .liste_candidates_filter .evaluations_candidates .title_p_candidates {
+    font-size: 12px;
+  }
+  /* line 101, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .evaluations_candidates .description_appreciations .status_appreciation img, .liste_candidates_filter .evaluations_candidates .description_appreciations .status_appreciation img {
+    width: 18px;
+    margin-right: 8px;
+  }
+  /* line 106, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .evaluations_candidates .description_appreciations .status_appreciation .number, .liste_candidates_filter .evaluations_candidates .description_appreciations .status_appreciation .number {
+    font-size: 16px;
+  }
+  /* line 113, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .liste_buttons .btn_list_candidates, .liste_candidates_filter .liste_buttons .btn_list_candidates {
+    font-size: 10px;
+    width: 140px;
+    height: 48px;
+  }
+
+  /* line 121, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .separated {
+    margin: 0 8px;
+  }
+
+  /* line 124, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .description_jobs .item_jobs_list .title_jobs {
+    font-size: 19px;
+  }
+  /* line 127, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .filtre_candidates, .find_candidates .check_presence {
+    border: 15px solid transparent;
+  }
+  /* line 130, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .btn_find_candidates_white {
+    font-size: 15px;
+  }
+  /* line 133, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .filtre_candidates .title_jobs_candidates, .find_candidates .check_presence .title_jobs_candidates {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1301px) and (max-width: 1400px) {
+  /* line 141, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .personnal_candidates_description .description_candidates .name, .liste_candidates_filter .personnal_candidates_description .description_candidates .name {
+    font-size: 14px;
+  }
+  /* line 145, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .liste_buttons .btn_list_candidates, .liste_candidates_filter .liste_buttons .btn_list_candidates {
+    width: 135px;
+    height: 45px;
+    padding: 0;
+  }
+  /* line 152, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .evaluations_candidates .description_appreciations .status_appreciation .number, .liste_candidates_filter .evaluations_candidates .description_appreciations .status_appreciation .number {
+    font-size: 15px;
+  }
+  /* line 156, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .evaluations_candidates .title_p_candidates, .liste_candidates_filter .evaluations_candidates .title_p_candidates {
+    font-size: 11px;
+  }
+
+  /* line 162, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .btn_action_candidates {
+    margin-right: 5px;
+  }
+}
+@media (max-width: 1185px) {
+  /* line 172, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .find_candidates_form .jobs_candidates {
+    width: 100%;
+    margin-top: 5%;
+  }
+  /* line 176, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .find_candidates_form .slider_jobs {
+    width: 100%;
+    height: 335px;
+  }
+  /* line 181, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .find_candidates_form .jobs_candidates .jobs_proposed, .find_candidates .find_candidates_form .jobs_candidates .presence_confirm {
+    width: calc(50% - 40px);
+  }
+}
+@media (max-width: 1300px) {
+  /* line 192, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates {
+    width: 100%;
+  }
+
+  /* line 196, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description {
+    justify-content: flex-start;
+    /*width: 30%;*/
+  }
+  /* line 200, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .photo_candidates {
+    margin-right: 30px;
+  }
+
+  /*.evaluations_candidates {
+    width: 20%;
+  }*/
+  /*.liste_buttons {
+    width: 42%;
+    justify-content: flex-end;
+  }*/
+  /* line 215, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates_filter {
+    /*.personnal_candidates_description {
+      width: 30%;
+    }*/
+    /*.evaluations_candidates {
+      width: 20%;
+    }*/
+  }
+  /* line 216, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates_filter .listes_staff {
+    width: 100% !important;
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 800px) {
+  /* line 230, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates {
+    padding: 0 !important;
+  }
+  /* line 233, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .slider_jobs {
+    box-shadow: none;
+    padding: 8% 0;
+  }
+  /* line 239, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .gender_item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  /* line 243, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .gender_item .container_gender {
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /* line 246, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .gender_item .container_gender .list_item_filter {
+    width: 20%;
+  }
+  /* line 251, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .ages_item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  /* line 255, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .certifications_item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  /* line 259, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .experiences_item {
+    width: 100%;
+  }
+  /* line 263, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .experiences_item .separed_item {
+    margin-bottom: 0;
+  }
+  /* line 267, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .experiences_item .container_exp {
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /* line 269, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .experiences_item .container_exp .list_item_filter {
+    width: 30%;
+  }
+  /* line 274, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .languages_item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  /* line 278, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .languages_item .content_languages .cadres_langues {
+    width: 45%;
+    height: 45px;
+  }
+  /* line 283, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .attributs_item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  /* line 287, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .horaires_taux_item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  /* line 291, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .horaires_taux_item .liste_taux_horaires {
+    justify-content: space-between;
+  }
+  /* line 294, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filter_candidates .configuration_filter .content_filter .horaires_taux_item .liste_taux_horaires .value_horaires {
+    margin-right: 0;
+    width: 10%;
+    height: 50px;
+  }
+
+  /* line 305, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates_filter {
+    padding: 3% 1%;
+  }
+  /* line 309, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates_filter .search_candidates .form_item_candidates_search {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  /* line 313, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates_filter .search_candidates .form_item_candidates_search .loup_search {
+    right: 2rem;
+  }
+  /* line 317, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates_filter .search_candidates .checkox_filter {
+    width: 100%;
+  }
+  /* line 320, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates_filter .search_candidates .checkox_filter .list_item_filter {
+    justify-content: flex-end;
+  }
+  /* line 323, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates_filter .search_candidates .checkox_filter .list_item_filter .title_filter {
+    margin-right: 25px;
+  }
+}
+@media (max-width: 885px) {
+  /* line 336, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .find_candidates_form .jobs_candidates {
+    margin-bottom: 2%;
+  }
+  /* line 338, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .find_candidates_form .jobs_candidates .jobs_proposed, .find_candidates .find_candidates_form .jobs_candidates .presence_confirm {
+    width: calc(54% - 40px);
+  }
+
+  /* line 345, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates_form {
+    padding: 0 !important;
+    background-color: #fff !important;
+  }
+
+  /* line 350, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates_form .slider_jobs {
+    width: 95% !important;
+    margin-bottom: 8%;
+    box-shadow: none !important;
+    padding-top: 5%;
+    margin: 0px 2.5%;
+  }
+
+  /* line 358, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .slider_jobs .container_slider_jobs {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  /* line 362, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates_form .jobs_candidates {
+    width: 94% !important;
+    padding: 0 3% !important;
+  }
+
+  /* line 366, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .slider_jobs .container_btn_slider {
+    display: none !important;
+  }
+
+  /* line 369, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .item_jobs_list .image_slider_jobs_slick {
+    margin-top: 1rem;
+  }
+
+  /* line 372, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .description_jobs .item_jobs_list {
+    width: 90%;
+    border: 15px solid transparent;
+  }
+
+  /* line 376, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .description_jobs .item_jobs_list:hover {
+    border: 15px solid #d6f5f0;
+  }
+
+  /* line 379, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .description_jobs .item_jobs_list.active {
+    border: 15px solid #d6f5f0;
+  }
+
+  /* line 382, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .description_jobs .item_jobs_list .status_jobs {
+    margin-bottom: 1rem;
+  }
+
+  /* line 386, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .filtre_candidates .title_jobs_candidates,
+  .check_presence .title_jobs_candidates {
+    font-size: 20px !important;
+  }
+
+  /* line 390, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .btn_find_candidates_white {
+    font-size: 16px !important;
+  }
+
+  /* line 395, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .photo_candidates {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 1vw;
+  }
+  /* line 401, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .description_candidates {
+    min-height: 6vw;
+  }
+  /* line 404, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .description_candidates .name {
+    font-size: 15px;
+  }
+  /* line 406, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .description_candidates .country {
+    font-size: 13px;
+  }
+}
+@media (max-width: 780px) {
+  /*Liste des candidates*/
+  /* line 415, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates, .liste_candidates_filter {
+    padding: 10% 3% !important;
+    margin: auto;
+    /*.evaluations_candidates {
+      width: 40%;
+      padding: 0 5%;
+    }*/
+  }
+  /* line 419, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .candidates, .liste_candidates_filter .candidates {
+    box-shadow: none;
+    padding: inherit;
+    flex-wrap: wrap !important;
+  }
+  /* line 424, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .personnal_candidates, .liste_candidates_filter .personnal_candidates {
+    margin-bottom: inherit;
+  }
+  /* line 428, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .liste_buttons, .liste_candidates_filter .liste_buttons {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  /* line 433, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .liste_buttons .btn_list_candidates, .liste_candidates_filter .liste_buttons .btn_list_candidates {
+    width: 50%;
+    border-radius: inherit;
+  }
+  /* line 444, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .icone_responsive_icons_play_one, .liste_candidates .icone_responsive_icons_play_two, .liste_candidates_filter .icone_responsive_icons_play_one, .liste_candidates_filter .icone_responsive_icons_play_two {
+    display: block !important;
+    position: absolute;
+    font-size: 25px;
+    right: 0;
+    width: 20%;
+    cursor: pointer;
+  }
+  /* line 452, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .click_icone_responsive_icons_play, .liste_candidates_filter .click_icone_responsive_icons_play {
+    transform: rotate(90deg);
+  }
+
+  /* line 459, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .photo_candidates {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  /* line 465, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .description_candidates {
+    min-height: 60px;
+  }
+
+  /* line 470, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .separated {
+    margin: 0 15px;
+  }
+}
+@media (max-width: 615px) {
+  /* line 477, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates .find_candidates_form .jobs_candidates .jobs_proposed, .find_candidates .find_candidates_form .jobs_candidates .presence_confirm {
+    width: calc(56% - 40px);
+  }
+}
+@media (max-width: 500px) {
+  /* line 487, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates_form .jobs_candidates .jobs_proposed,
+  .find_candidates_form .jobs_candidates .presence_confirm {
+    width: 100% !important;
+  }
+
+  /* line 492, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .find_candidates_form .jobs_candidates {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  /* line 496, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .search_candidates .form_item_candidates_search input {
+    width: 92% !important;
+  }
+
+  /* line 501, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .description_candidates {
+    min-height: 13vw;
+  }
+  /* line 504, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .description_candidates .ages {
+    font-size: 11px;
+  }
+  /* line 507, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .personnal_candidates_description .photo_candidates {
+    width: 13vw;
+    height: 13vw;
+    margin-right: 2.5vw;
+  }
+
+  /* line 514, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .title_p_candidates {
+    font-size: 70%;
+  }
+
+  /* line 519, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .evaluations_candidates .description_appreciations .status_appreciation img {
+    width: 16px;
+  }
+  /* line 521, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .evaluations_candidates .description_appreciations .status_appreciation .number {
+    font-size: 16px;
+  }
+
+  /* line 525, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .liste_buttons .btn_list_candidates, .liste_candidates_filter .liste_buttons .btn_list_candidates {
+    padding: 0;
+    height: 45px;
+  }
+}
+@media (max-width: 380px) {
+  /* line 534, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .item_jobs_list .image_slider_jobs_slick {
+    width: 55% !important;
+  }
+
+  /*.liste_candidates .evaluations_candidates {
+    width: 46% !important;
+    padding: 0 2% !important;
+  }*/
+  /* line 541, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .search_candidates .form_item_candidates_search input {
+    width: 90% !important;
+  }
+
+  /* line 546, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .liste_candidates .liste_buttons .btn_list_candidates, .liste_candidates_filter .liste_buttons .btn_list_candidates {
+    font-size: 11px;
+  }
+
+  /* line 551, ../../../../sass/Front/agency/Future_event/find_candidates_responsive.scss */
+  .btn_candidat_fiche .loup {
+    margin-right: 2vw;
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.249" height="54.681" viewBox="0 0 54.249 54.681">
+  <g id="btn_add" transform="translate(2 2)">
+    <g id="Ellipse_385" data-name="Ellipse 385" transform="translate(0 0)" fill="#69ead6" stroke="#fff" stroke-width="2">
+      <ellipse cx="25.124" cy="25.341" rx="25.124" ry="25.341" stroke="none"/>
+      <ellipse cx="25.124" cy="25.341" rx="26.124" ry="26.341" fill="none"/>
+    </g>
+    <line id="line" y2="20.927" transform="translate(25.124 13.822)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="line-2" data-name="line" y2="20.749" transform="translate(35.499 24.286) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

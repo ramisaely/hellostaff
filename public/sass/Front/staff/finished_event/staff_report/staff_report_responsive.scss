@@ -1,0 +1,118 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+
+
+@media (min-width: 780px) {
+	.staff_report_page {
+
+		.section_title {
+			border-bottom: 2px solid #F2F6F8;
+	    	border-top: 2px solid #F2F6F8;
+
+	    	span {
+			    border-bottom: 2px solid #ffffff;
+			    border-top: 2px solid #ffffff;
+			    padding: 0 3vw;
+			    @include hs_flex_start;
+			    @include hs_flex_align_centered;
+	    	}
+		}
+
+		.staff_report_content {
+			margin-top: 50px;
+		}
+		.question, .response {
+			label {
+				font-size: 25px;
+			}
+		}
+
+		.question {
+
+			label { margin-bottom: 13px; }
+
+			.question_content {
+				font-size: 16px;
+				color: #434242;
+			}
+		}
+
+		.response {
+			@include hs_flex_one;
+			label { margin-bottom: 20px; }
+
+			textarea {
+				font-size: 16px;
+			}
+		}
+
+		.attachment_container {
+			width: 35%;
+		}
+
+		.attachment {
+			width: 300px;
+
+			.attachment_file_content {
+				margin-top: 20px;
+			}
+		}
+
+		.submit {
+			@include hs_flex_start;
+			
+			button {
+
+			}
+		}
+	}
+}
+
+@media (min-width: 781px) and (max-width: 1150px) {
+	.staff_report_page {
+		.attachment_container {
+			@include hs_flex_end;
+		}
+
+		.response { margin-right: 2rem; }
+
+		.attachment {
+		    margin-right: 0;
+
+		    .title {
+		    	font-size: 140%;
+		    }
+
+		    label {
+		    	width: 4vw;
+    			height: 4vw;
+		    }
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.staff_report_page {
+		padding: 15px;
+
+		
+	}
+
+}
+
+@media (max-width: 300px) {
+	.staff_report_page {
+
+		.attachment {
+			.title { font-size: 130%; }
+
+			.separator {  margin-right: 10px; }
+
+			label {
+			    width: 10vw;
+    			height: 10vw;
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_function.scss';
+@import 'Front/generale/_layout.scss';
+
+.background_view {
+    background-image: url('../../../img/input_icons/icon_view.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+.background_no_view {
+    background-image: url('../../../img/input_icons/icon_no_view.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+.backgroung_search {
+    position: absolute;
+    background-image: url(../../../img/input_icons/Search.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    opacity: 0.3;
+    top: 29%;
+
+}
+.background_plus_color {
+    position: absolute;
+    background-image: url('../../../img/input_icons/plus_color.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    opacity: 0.3;
+    right:0;
+    bottom: 10px;
+}
+.background_refrech {
+    position: absolute;
+    background-image: url('../../../img/input_icons/refrech.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+.go_back_grey {
+    background-image: url('../../../img/input_icons/go_back_grey.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}

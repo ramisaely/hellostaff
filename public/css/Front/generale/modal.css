@@ -1,0 +1,521 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/* line 5, ../../../sass/Front/generale/modal.scss */
+.launch_modal {
+  cursor: pointer;
+}
+
+/* line 8, ../../../sass/Front/generale/modal.scss */
+.modal {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  /*padding-top: 4%;*/
+  background-color: rgba(240, 243, 246, 0.4);
+  -webkit-transition: 0.5s;
+  overflow: auto;
+  transition: all 0.3s linear;
+  overflow-y: scroll;
+  text-align: left;
+}
+/* line 14, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 50%;
+  height: auto;
+  text-align: center;
+  color: #43425d;
+  position: relative;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #4d4f5c;
+  font-family: Raleway;
+  line-height: 1.35;
+  letter-spacing: normal;
+}
+/* line 23, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content font {
+  size: 10px;
+  weight: normal;
+  style: normal;
+  stretch: normal;
+}
+/* line 30, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content .modal_body {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 36, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content .modal_title {
+  margin: 0;
+  text-align: center;
+  line-height: 1.42;
+  	/*// @font-face {
+    //   font-family: Raleway-Black;
+    //   src: url('/fonts/Raleway/Raleway-Black.tff');
+  	// }
+  	// src: url("fonts/Raleway/Raleway-Black.tff");*/
+  font-style: normal;
+  /*family: Raleway;*/
+  font-weight: 500;
+  font-size: 40px;
+  font-stretch: normal;
+  font-spacing: normal;
+  color: #4d4f5c;
+}
+/* line 40, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content input[type=number]::-webkit-outer-spin-button,
+.modal .modal_content input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 46, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content input[type=number] {
+  -moz-appearance: textfield;
+}
+/* line 50, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content .fas {
+  color: #36ccb5;
+}
+/* line 54, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content .close {
+  color: #4d4f5c;
+  font-size: 60px;
+  position: absolute;
+    /*right: 0.5rem;
+	top: -0.5rem;*/
+  font-family: serif;
+  height: 40px;
+  width: 40px;
+  top: 1rem;
+  right: 1rem;
+  line-height: 0.7;
+  padding: 0;
+}
+/* line 68, ../../../sass/Front/generale/modal.scss */
+.modal .modal_content .close:hover, .modal .modal_content .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 76, ../../../sass/Front/generale/modal.scss */
+.modal .modal_footer {
+  padding-top: 15px;
+  border-top: 1px solid #f1f9ff;
+  width: 30%;
+}
+/* line 82, ../../../sass/Front/generale/modal.scss */
+.modal .register_webcam {
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+  height: 64px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-weight: bold;
+}
+/* line 92, ../../../sass/Front/generale/modal.scss */
+.modal .register_webcam_plain {
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  background-image: linear-gradient(83deg, #36ccb5, #559bf7);
+  height: 64px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-weight: bold;
+}
+/* line 102, ../../../sass/Front/generale/modal.scss */
+.modal .capture {
+  width: 100%;
+  color: #707070;
+  font-size: 16px;
+  height: 64px;
+  border: 2px solid #707070;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+/* line 112, ../../../sass/Front/generale/modal.scss */
+.modal .capture_plain {
+  width: 100%;
+  color: #707070;
+  font-size: 16px;
+  height: 64px;
+  border: 2px solid #707070;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+/* line 122, ../../../sass/Front/generale/modal.scss */
+.modal .image_capture {
+  color: #707070;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* line 128, ../../../sass/Front/generale/modal.scss */
+.modal_open {
+  overflow: hidden;
+}
+
+/* line 130, ../../../sass/Front/generale/modal.scss */
+.is_hidden {
+  display: none;
+}
+
+/* line 131, ../../../sass/Front/generale/modal.scss */
+.is_visually_hidden {
+  opacity: 0;
+}
+
+/* line 132, ../../../sass/Front/generale/modal.scss */
+.is_blurred {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+/* line 138, ../../../sass/Front/generale/modal.scss */
+.modal .modal_creat_popup {
+  width: 700px;
+  height: 450px;
+  border-radius: 8px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 143, ../../../sass/Front/generale/modal.scss */
+.modal .modal_creat_popup .modal_pop {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+/* line 147, ../../../sass/Front/generale/modal.scss */
+.modal .modal_creat_popup .modal_pop .text_homse {
+  font-size: 18x;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*.modal_head {
+	width: 57%;
+}*/
+/* line 161, ../../../sass/Front/generale/modal.scss */
+.check_modal_creat {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 166, ../../../sass/Front/generale/modal.scss */
+.check_modal_creat .check_modal {
+  font-size: 11px;
+  color: #fff;
+  background-color: #36ccb5;
+  padding: 12px 12px 9px 13px;
+  -webkit-justify-content: safe;
+  -webkit-align-self: center;
+  -webkit-align-items: center;
+  justify-content: safe;
+  align-self: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-right: 25px;
+  cursor: pointer;
+  width: 25px;
+  height: 29px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 179, ../../../sass/Front/generale/modal.scss */
+.check_modal_creat .check_modal .check_image {
+  font-size: 12px;
+  border-radius: 50px;
+  border: none;
+  background-color: #36ccb5;
+}
+/* line 186, ../../../sass/Front/generale/modal.scss */
+.check_modal_creat .check_modal i {
+  font-size: 20px;
+}
+/* line 190, ../../../sass/Front/generale/modal.scss */
+.check_modal_creat .check_modal_crois {
+  font-size: 11px;
+  color: #707070;
+  background-color: #fff;
+  padding: 9px 12px 8px 12px;
+  border: 1px solid #707070;
+  -webkit-justify-content: safe;
+  -webkit-align-self: center;
+  -webkit-align-items: center;
+  justify-content: safe;
+  align-self: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: 25px;
+  cursor: pointer;
+  width: 23px;
+  height: 30px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 204, ../../../sass/Front/generale/modal.scss */
+.check_modal_creat .check_modal_crois .check_image_moin {
+  font-size: 12px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+}
+/* line 211, ../../../sass/Front/generale/modal.scss */
+.check_modal_creat .confirm_action {
+  height: 57px;
+  border-radius: 7px;
+  border: 0px;
+  color: #fff;
+  width: auto;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  font-size: 30px;
+  padding: 20px;
+}
+/* line 222, ../../../sass/Front/generale/modal.scss */
+.check_modal_creat i {
+  font-size: 20px;
+}
+
+/* line 226, ../../../sass/Front/generale/modal.scss */
+.text_connection_home {
+  width: 100%;
+  font-size: 31px;
+  color: #707070;
+  padding-bottom: 7%;
+}
+
+/* line 233, ../../../sass/Front/generale/modal.scss */
+.modal_content.modal_update {
+  width: 311px;
+  height: 300px;
+}
+
+/* line 239, ../../../sass/Front/generale/modal.scss */
+.footer_update_modal .button_choose {
+  width: 158px;
+  height: 57px;
+  font-size: 18px;
+  border-radius: 7px;
+  border: 0px;
+  color: #fff;
+  background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+/* line 254, ../../../sass/Front/generale/modal.scss */
+.label_update_modal label_update {
+  font-size: 15px;
+  opacity: 0.3;
+  top: 23px;
+  right: 4px;
+  position: relative;
+}
+
+/* line 263, ../../../sass/Front/generale/modal.scss */
+.label_update_modal label.label_little {
+  font-size: 23px;
+  color: #707070;
+}
+
+/* line 268, ../../../sass/Front/generale/modal.scss */
+.modal .modal_update .close {
+  color: #4d4f5c;
+  font-size: 60px;
+  position: absolute;
+  right: 1.5rem;
+  top: -0.5rem;
+  font-family: serif;
+}
+
+/* line 276, ../../../sass/Front/generale/modal.scss */
+.input_update {
+  width: 150px;
+  height: 99px;
+  position: absolute;
+  top: 45px;
+  right: 100px;
+}
+
+/* line 284, ../../../sass/Front/generale/modal.scss */
+.modal_content.modal_myStaff {
+  width: 481px;
+  height: 350px;
+}
+
+/* line 290, ../../../sass/Front/generale/modal.scss */
+.label_update_modal label.label_big {
+  font-size: 31px;
+  /* opacity: 0.3; */
+  top: 23px;
+  right: 4px;
+  position: relative;
+}
+
+/* line 299, ../../../sass/Front/generale/modal.scss */
+.label_update_modal label.label_big_bold {
+  font-size: 31px;
+  /* opacity: 0.3; */
+  top: 23px;
+  right: 4px;
+  position: relative;
+  font-weight: bold;
+}
+
+/* line 307, ../../../sass/Front/generale/modal.scss */
+.avatar_myStaff_popup {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+
+/* line 317, ../../../sass/Front/generale/modal.scss */
+.lbl_img {
+  cursor: pointer;
+}
+
+@media (max-width: 780px) {
+  /* line 327, ../../../sass/Front/generale/modal.scss */
+  .modal .modal_content {
+    width: 500px;
+    max-width: 100%;
+  }
+
+  /* line 332, ../../../sass/Front/generale/modal.scss */
+  #show_my_bill .my_bill_container tr.default td::before {
+    height: 40px !important;
+  }
+}
+/* line 337, ../../../sass/Front/generale/modal.scss */
+.wait {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}

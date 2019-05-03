@@ -1,0 +1,469 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+@media (max-width: 1023px) {
+  /* line 8, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .hour_facture_content {
+    margin: 0;
+  }
+  /* line 12, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table {
+    border: none;
+  }
+  /* line 15, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  /* line 24, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table tr {
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: none;
+    border-bottom: none;
+    /*margin-bottom: 18px;*/
+  }
+  /* line 33, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table tr:not(.extended_row) .responsive_extension {
+    display: none;
+  }
+  /* line 39, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table tr.extended_row .responsive_extension {
+    display: -webkit-flex;
+    display: flex;
+  }
+  /* line 43, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table tr.extended_row .extendhour_facture_table {
+    transform: rotate(90deg);
+  }
+  /* line 49, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table td {
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    display: flex;
+    flex: 1;
+    position: relative;
+    font-size: 13px;
+    height: auto;
+  }
+  /* line 56, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table td:before {
+    content: attr(data-label);
+  }
+  /* line 60, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table td:not(:last-child) {
+    border: none;
+  }
+  /* line 63, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_extension {
+    height: auto;
+  }
+  /* line 66, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_extension:before {
+    font-size: 12px;
+    height: 25px;
+    width: 100%;
+    background-color: #F2F6F8;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  /* line 75, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_extension .cell_content {
+    height: 35px;
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  /* line 83, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .dates, .hour_facture_page table .cell_performed_hour {
+    width: 100%;
+    flex: 100%;
+    height: 40px;
+    padding-right: 15px;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-end;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  /* line 90, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .dates:before, .hour_facture_page table .cell_performed_hour:before {
+    width: auto;
+    position: absolute;
+    left: 15px;
+  }
+  /* line 97, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_distance_rate, .hour_facture_page table .cell_expense {
+    width: 50px;
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    display: flex;
+    flex: 1;
+  }
+  /* line 102, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .distance_rate .distance {
+    width: 48px;
+    height: 25px;
+  }
+  /* line 107, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .expense .amount {
+    width: 40px;
+    height: 25px;
+    margin-right: 5px;
+  }
+  /* line 113, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .distance_rate .amount {
+    display: none;
+  }
+  /* line 115, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .dates {
+    background-color: #F2F6F8;
+    font-size: 15px;
+  }
+  /* line 119, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .dates:before {
+    font-size: 15px;
+  }
+  /* line 124, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_performed_hour {
+    background-color: #ffffff;
+    font-size: 14px;
+  }
+  /* line 128, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_performed_hour:before {
+    font-size: 13px;
+  }
+  /* line 132, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_performed_hour .cell_content {
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 136, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_performed_hour button {
+    display: -webkit-flex;
+    display: flex;
+    border: none;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    background: transparent;
+    outline: none;
+  }
+  /* line 145, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_performed_hour button svg {
+    fill: #4C5264;
+    width: 14px;
+    height: 14px;
+  }
+  /* line 153, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .performed_hour {
+    width: 170px;
+    max-width: 170px;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /* line 158, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .performed_hour .hour_from, .hour_facture_page table .performed_hour .hour_to {
+    width: 35px;
+    height: 25px;
+  }
+  /* line 163, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .performed_hour .hour_to + span {
+    border-right: 2px dotted #d4dbde;
+    padding-right: 10px;
+  }
+  /* line 169, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_more_info {
+    display: none;
+  }
+  /* line 173, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_more_info {
+    display: block;
+    margin-bottom: 10px;
+  }
+  /* line 177, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_more_info td {
+    border-bottom: none;
+  }
+  /* line 180, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_more_info td:before {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F2F6F8;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+  }
+  /* line 191, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_more_info .more_info_content {
+    padding: 15px;
+    font-size: 13px;
+    background-color: #F2F6F8;
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #d2dadd;
+  }
+  /* line 202, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .sub_total .total {
+    display: -webkit-flex;
+    display: flex;
+  }
+  /* line 206, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .sub_total .responsive_separator {
+    border-right: 2px dotted #d4dbde;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    display: -webkit-flex;
+    display: flex;
+  }
+  /* line 216, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .sub_total_item:not(:last-child) {
+    display: none;
+  }
+  /* line 220, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .sub_total_item:last-child {
+    height: 40px;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-end;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 780px) {
+  /* line 234, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .section_title {
+    text-align: center;
+  }
+  /* line 239, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .hour_facture_footer .left, .hour_facture_page .hour_facture_footer .right {
+    width: 100%;
+    max-width: unset;
+  }
+  /* line 244, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .hour_facture_footer .right {
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  /* line 255, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .hour_facture_content {
+    padding: 0 1rem;
+  }
+  /* line 259, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .section_title {
+    font-size: 23px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #F2F6F8;
+    height: 6.5rem;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  /* line 269, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .table_hour_facture {
+    margin-top: 0;
+  }
+  /* line 272, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .table_hour_facture .travelling {
+    display: none;
+  }
+  /* line 277, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table {
+    margin-bottom: 15px;
+  }
+  /* line 282, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_more_info td:before {
+    font-size: 14px;
+  }
+  /* line 288, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table td {
+    font-size: 10px;
+  }
+  /* line 292, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_extension:before {
+    font-size: 10px;
+  }
+  /* line 296, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .dates, .hour_facture_page table .cell_performed_hour {
+    height: 35px;
+    padding-right: 8px;
+  }
+  /* line 300, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .dates:before, .hour_facture_page table .cell_performed_hour:before {
+    left: 8px;
+  }
+  /* line 305, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .dates {
+    font-size: 14px;
+  }
+  /* line 308, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .dates:before {
+    font-size: 14px;
+  }
+  /* line 313, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_performed_hour {
+    font-size: 13px;
+  }
+  /* line 316, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_performed_hour:before {
+    font-size: 12px;
+  }
+  /* line 320, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .cell_performed_hour button {
+    border: none;
+    width: 12px;
+  }
+  /* line 326, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .performed_hour {
+    width: 135px;
+  }
+  /* line 329, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .performed_hour .hour_from, .hour_facture_page table .performed_hour .hour_to {
+    width: 25px;
+    height: 20px;
+  }
+  /* line 335, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .distance_rate .distance {
+    width: 40px;
+    height: 20px;
+  }
+  /* line 340, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .expense .amount {
+    width: 35px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  /* line 346, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_more_info {
+    margin-bottom: 10px;
+  }
+  /* line 351, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_more_info td:before {
+    height: 35px;
+    padding-left: 8px;
+  }
+  /* line 357, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .responsive_more_info .more_info_content {
+    padding: 15px 8px;
+    font-size: 11px;
+  }
+  /* line 365, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page table .sub_total_item:last-child {
+    height: 35px;
+    padding-right: 8px;
+    font-size: 12px;
+  }
+  /* line 374, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .hour_facture_footer .show_my_bill {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  /* line 379, ../../../../../sass/Front/staff/finished_event/hour_facture/hour_facture_responsive.scss */
+  .hour_facture_page .hour_facture_footer .message p {
+    font-size: 14px;
+  }
+}

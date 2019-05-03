@@ -1,0 +1,381 @@
+@import 'compass';
+@import 'Front/generale/_default.scss';
+
+@media (min-width: 1024px) and (max-width: 1680px) {
+	.label_facture_one {
+		font-size: 12px;
+	}
+	.label_facture_two {
+		font-size: 13px;
+	}
+	.label_facture {
+		font-size: 12px;
+	}
+	.label_three {
+		font-size: 13px;
+	}
+	.table_col_three {
+    	width: 65%;
+	}
+	.border_foot_one {
+		margin-left: 18px;
+		margin-right: -1%;
+	}
+	.border_foot_two {
+    	width: 10%;
+	}
+	.label_td {
+		font-size: 12px;
+	}
+	.th {
+		width: 20.5%;
+	}
+	.table_col_three {
+		width: 70%;
+	}
+	.foot_table {
+		font-size: 12px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.th_distribution {
+		width: 98%;
+		padding: 5.3% 1px;
+		height: 20px;
+	}
+	.flex_one a {
+    	font-size: 12px;
+	}
+	.label_facturec_content_one {
+    	font-size: 11px;
+    }
+    .flex {
+		width: 81%;
+	}
+	.border_foot_three {
+		width: calc(10% - 0px);
+	}
+	.flex_one {
+		padding: 6.2% 3px;
+		height: 20px;
+	}
+	.head_one{
+		padding: 6.9% 2px;
+		height: 20px;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.flex{
+		width: 94%;
+	}
+	.label_facture_one {
+		font-size: 11px;
+	}
+	.label_facture_two {
+		font-size: 11px;
+	}
+	
+	.label_facturec_content {
+		font-size: 15px;
+
+	}
+	
+	.th_distribution {
+		font-size: 11px;
+		width: 98%;
+	}
+	.border_foot_two {
+		width: 14%;
+	}
+	.border_foot_one {
+		margin-left: 0px;
+		margin-right: -1%;
+		width: 14%;
+	}
+	.label_facture {
+		font-size: 11px;
+	}
+	.flex_one {
+		width: 93%;
+		a {
+		font-size: 11px;
+		}
+	}
+	.label_three {
+		font-size: 11px;
+	}
+	.label_facturec_content_one {
+		font-size: 11px;
+	}
+	.avatar_facture {
+	    width: 30px;
+	    height: 30px;
+	}
+	.label_td {
+    	font-size: 10px;
+	}
+
+}
+
+@media (max-width: 1023px) {
+	.label_date::before {
+	    content: attr(data-head);
+	    float: left;
+	    font-weight: bold;
+	    position: absolute;
+	    display: flex;
+	    justify-content: left;
+	    display: flex;
+		margin-left: 2%;
+		color: #707070;
+		font-size: 13px;
+	}
+	.table_col_one {
+		width: 0px;
+		display: none;
+	}
+	.table_col_two {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+ 	.thead_two {
+ 		width: 100%;
+ 		margin-top: 2%;
+ 	}
+ 	.flex_one a {
+	    display: none;
+	    width: 0px;
+	}
+	.table_col_three {
+		width: 0px;
+		display: none;
+	}
+	.display_facture {
+		display: flex;
+		width: 45%;
+	}
+	.border_foot_three {
+		display: none;
+	}
+	.border_foot_three {
+		width: 10%;
+		display: flex;
+		justify-content: center;
+		border-right: 1px solid rgba(209, 216, 219, 0.199);
+		align-items: center;
+	}
+	.label_date {
+		border-right: 0px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #F2F6F8;
+	}
+	.label_facturec_content {
+	    font-size: 20px;
+	    display: flex;
+	    justify-content: center;
+	    padding-bottom: 4%;
+		padding-top: 4%;
+	}
+	 .slide_facrure {
+	 	display: flex;
+		width: 20px;
+		justify-content: space-around;
+		margin-left: 2px;
+	 }
+	 .label_facture_one {
+	 	font-size: 13px;
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+	 }
+	 .flex_one {
+	 	border-right: 0px;
+	 }
+	 .litle_bouton {
+	 	position: relative;
+	 	bottom: -3px;
+		margin-left: 5%;
+		width: 9px;
+		height: 9px;
+	 }
+	 .litle_bouton_one {
+	 	position: relative;
+	 	bottom: -3px;
+		margin-left: 5%;
+		width: 9px;
+		height: 9px;
+	 }
+	 .label_facturec_content_one {
+		display: none;
+	}
+	.label_td {
+	    font-size: 13px;
+	    margin-left: 8%;
+	}
+	.label_date_three {
+		justify-content: space-between;
+		border-right: 0px solid rgba(209, 216, 219, 0.199);
+	}
+	.flex_two {
+		display: flex;
+		width: 22%;
+		justify-content: space-around;
+	}
+	.border_foot_two {
+		display: none;
+	}
+	.border_foot_three {
+		display: none;
+	}
+	.border_foot_four {
+		display: flex;
+		width: 17%;
+	}
+	.label_three {
+    	font-size: 12px;
+	}
+	.content_future_budget {
+		background-color: #fff;
+	}
+	.foot_table {
+		font-size: 13px;
+		padding: 1.5%;
+	}
+	.foot_table_total {
+		justify-content: space-between;
+		width: 88%;
+		padding: 3.5%;
+		font-weight: inherit;
+		margin-bottom: 1%;
+	}
+	.border_foot_five {
+		font-size: 23px;
+		width: 46%;
+	}
+	.border_foot_sixe {
+		border-left: 1px solid rgba(209, 216, 219, 0.199);
+		width: 53%;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.label_date_simple {
+		border-bottom: 0px solid rgba(209, 216, 219, 0.199)!important;
+	}
+	.litle_table {
+		width: 100%;
+		background-color: #F2F6F8;
+		padding: 1%;
+		display: block;
+	}
+	.litle_table_one {
+		width: 100%;
+		background-color: #F2F6F8;
+		padding: 1%;
+		display: none;
+	}
+	.litle_th_one {
+		font-size: 10px;
+		width: 15%;
+		border-right: 1px solid rgba(209, 216, 219, 1);
+		border-bottom: 1px solid rgba(209, 216, 219, 1);
+		color: #707070;
+	}
+	.litle_th_two {
+		border-right: 1px solid rgba(209, 216, 219, 1);
+		border-bottom: 1px solid rgba(209, 216, 219, 1);
+		font-size: 10px;
+		width: 15%;
+		color: #707070;
+	}
+	.litle_th_three {
+		border-right: 1px solid rgba(209, 216, 219, 1);
+		border-bottom: 1px solid rgba(209, 216, 219, 1);
+		font-size: 12px;
+		width: 20%;
+		color: #707070;
+	}
+	.litle_th_three {
+		border-bottom: 1px solid rgba(209, 216, 219, 1);
+		font-size: 10px;
+		border-right: 1px solid rgba(209, 216, 219, 1);
+		width: 20%;
+		color: #707070;
+	}
+	.litle_th_four {
+		border-bottom: 1px solid rgba(209, 216, 219, 1);
+		font-size: 10px;
+		width: 20%;
+		color: #707070;
+	}
+	.litle_td_one {
+		font-size: 10px;
+		width: 15%;
+		border-right: 1px solid rgba(209, 216, 219, 1);
+		color: #707070;
+	}
+	.litle_td_two {
+		border-right: 1px solid rgba(209, 216, 219, 1);
+		font-size: 10px;
+		width: 15%;
+		color: #707070;
+	}
+	.litle_td_three {
+		border-right: 1px solid rgba(209, 216, 219, 1);
+		font-size: 10px;
+		width: 20%;
+		color: #707070;
+	}
+	.litle_td_four {
+		font-size: 10px;
+		width: 20%;
+		color: #707070;
+	}
+	table td {
+		text-align: center;
+	}
+	table tr{
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.litle_head {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.litle_tr {
+		display: flex;
+		width: 100%;
+	}
+	.litle_body {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+}
+
+@media(max-width: 480px)  {
+	.flex_two {
+    	width: 30%;
+	}
+	.foot_table_total {
+		width: 86%;
+	}
+	.content_facture .label_facturec_content {
+		padding-top: 8%;
+	}
+
+}
+@media(max-width: 360px)  {
+	.flex_two {
+	    width: 36%;
+	}
+	.litle_td_four {
+		margin-left: 4px;
+	}
+}

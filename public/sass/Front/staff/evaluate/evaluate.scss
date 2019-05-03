@@ -1,0 +1,228 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+  border: none;
+  float: left;
+}*
+
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+  float: right;
+  font-size: 25px;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+
+.evaluation_staff_content{
+	padding: 4% 4% 2% 4%;
+}
+
+.step_evaluation_staff {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #F2F6F8;
+  border-top: 1px solid #F2F6F8;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .title_step_evaluation_staff {
+    font-family: Raleway Light;
+    height: 96%;
+    width: 100%;
+    background-color: #F2F6F8;
+    padding: 0 25px;
+    font-size: 22px;
+    color: #707070;
+    @include hs_flex_align_centered;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+  }
+}
+
+.form_item_drop_right{
+	width: 25%;
+    background-color: #F2F6F8;
+    height: 96%;
+    display: flex;
+    align-items: center;
+}
+
+#gestionary_event{
+	height: 20px;
+	width: 96%;
+}
+
+.form_item_drop_user {
+    margin-right: 32px;
+    &:before {
+      content: '';
+      right: 6px;
+      top: 19px;
+      width: 16px;
+      height: 18px;
+      background: #fff;
+      position: absolute;
+      pointer-events: none;
+      display: block;
+      background-image: url(../../../../img/input_icons/down-arrow.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: 50%;
+  }
+}
+
+.dropdown_users {
+    top: 36px;
+}
+/*end header avec recherche*/
+
+/*start contenu*/
+.evaluation_content {
+	padding-top: 8px;
+}
+
+.view_evaluation {
+  width: 100%;
+  padding: 8px 0;
+  @include hs_flex_space_between;
+
+  .evaluation_note {
+    /*width: 50%;*/
+    margin-right: 16px;
+    @include hs_flex_one;
+    border: 2px solid #F2F6F8;
+    padding: 1.5rem;
+    @include hs_flex_align_centered;
+    @include hs_flex_space_between;
+  }
+
+  .evaluation_description {
+    font-family: Raleway Light;
+    width: 43%;
+    border: 2px solid #F2F6F8;
+    padding: 1.5rem;
+    font-size: 15px;
+    color: #707070;
+    @include hs_flex_align_centered;
+  }
+  .evaluation_description_new {
+    overflow-y: scroll;
+   }
+}
+
+.evaluation_avatar{
+    width: 28%;
+    @include hs_flex_align_centered;
+    @include hs_flex_space_between;
+    .photo_candidates {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      overflow: hidden;
+
+      & img {
+        width: 100%;
+      }
+    }
+
+}
+.info_candidates{
+      width: 64%;
+      & span { display: table; }
+
+      .user_post { 
+        font-family: Raleway Regular; 
+        margin-top: 6px;
+      }
+}
+ .user_name{
+        font-weight: bold;
+        color: #3AC4BF;
+        font-size: 16px;
+      }
+.user_post{
+  color: #828899;
+  font-size: 14px;
+}
+
+.evaluation_star{
+    /*width: 27%;*/
+    width: auto;
+    @include hs_flex_space_between;
+    @include hs_flex_nowrap;
+
+    & img {
+      padding-left: 6px;
+    }
+}
+/*end contenu*/
+
+/*start footer*/
+.footer_evaluation{
+  width: 100%;
+  height: 14rem;
+  @include hs_flex_justify_centered;
+  @include hs_flex_align_centered;
+}
+
+.save_evaluation {
+    width: 216px;
+    height: 73px;
+    background-image: linear-gradient(83deg, #559bf7, #36ccb5);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+/*end footer*/
+
+/** Star evaluations */
+.white_start, .green_start {
+	width: 45px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.info_candidate{
+      display: flex;
+      flex-direction: column;
+      width: 23%;
+
+}
+
+
+/** End Star Evaluations */
+
+img{
+  width: 100%;
+  height: 100%;
+}

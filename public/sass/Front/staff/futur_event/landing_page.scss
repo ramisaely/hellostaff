@@ -1,0 +1,113 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_function.scss';
+
+
+.lp_content {
+  width: 100%;
+  height: calc(100vh - 102px);
+  // background-color: #36CCB5;
+  background-image: linear-gradient(63deg, #36CCB5, #559BF7);
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  @include hs_flex_align_centered;
+  @include hs_flex_justify_centered;
+}
+
+.lp_description {
+  position: absolute;
+  z-index: 1;
+  width: 36%;
+  @include hs_flex_align_centered;
+  @include hs_flex_justify_centered;
+  @include hs_flex_direction;
+}
+
+.lp_presentation {
+  color: #fff;
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.lp_btn_primary {
+  margin-top: 15%;
+  color: #fff;
+  background-color: #36CCB5;
+  height: 5rem;
+  border: 3px solid #fff;
+  width: 20rem;
+  font-size: 30px;
+}
+
+.lp_fond {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  object-fit: cover;
+}
+
+@media (max-width: 1340px ) {
+  .lp_description {
+    width: 29%;
+  }
+  .lp_presentation {
+    font-size: 28px;
+  }
+  .lp_btn_primary {
+    width: 15rem;
+    font-size: 25px;
+  }
+}
+@media (max-width: 1155px ) {
+  .lp_description {
+    width: 34%;
+  }
+}
+@media (max-width: 985px ) {
+  .lp_description {
+    width: 40%;
+  }
+}
+@media (max-width: 835px ) {
+  .lp_description {
+    width: 47%;
+  }
+}
+@media (max-width: 714px ) {
+  .lp_description {
+    width: 56%;
+  }
+}
+@media (max-width: 600px ) {
+  .lp_description {
+    width: 67%;
+  }
+}
+@media (max-width: 500px ) {
+  .lp_description {
+    width: 80%;
+  }
+}
+@media (max-width: 420px ) {
+  .lp_description {
+    width: 95%;
+  }
+
+  .lp_presentation {
+    font-size: 25px;
+  }
+  .lp_btn_primary {
+    width: 13rem;
+    font-size: 22px;
+  }
+}
+@media (max-width: 354px ) {
+  .lp_description {
+    width: 100%;
+  }
+}

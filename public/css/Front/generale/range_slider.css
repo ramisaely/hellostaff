@@ -1,0 +1,330 @@
+/* line 3, ../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 6, ../../../sass/Front/generale/range_slider.scss */
+.range, .remuneration_range, .step_range, .job_experience_range {
+  position: relative;
+  background-image: linear-gradient(to right, #36ccb5, #46b3d7 50%, #022246);
+  border: solid 1.5px #ffffff;
+  height: 25px;
+  width: 100%;
+  /** 550px **/
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+/* line 16, ../../../sass/Front/generale/range_slider.scss */
+.range_input, .remuneration_range input, .step_range input, .job_experience_range input {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  height: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-color: transparent;
+}
+/* line 27, ../../../sass/Front/generale/range_slider.scss */
+.range_input::-webkit-slider-thumb, .remuneration_range input::-webkit-slider-thumb, .step_range input::-webkit-slider-thumb, .job_experience_range input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 45px;
+  height: 45px;
+  margin: -20px 0  5px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+  /*background-color: #36ccb5;
+  border: solid 1.5px #ffffff;
+  content:"\f00c";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  color:#ffffff;*/
+  background: url(../../../img/staff/remuneration_range_thumb.svg);
+  z-index: 9999;
+}
+/* line 32, ../../../sass/Front/generale/range_slider.scss */
+.range_input::-moz-range-thumb, .remuneration_range input::-moz-range-thumb, .step_range input::-moz-range-thumb, .job_experience_range input::-moz-range-thumb {
+  width: 45px;
+  height: 45px;
+  margin: -20px 0  5px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+  /*background-color: #36ccb5;
+  border: solid 1.5px #ffffff;
+  content:"\f00c";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  color:#ffffff;*/
+  background: url(../../../img/staff/remuneration_range_thumb.svg);
+  z-index: 9999;
+}
+/* line 36, ../../../sass/Front/generale/range_slider.scss */
+.range_input::-ms-thumb, .remuneration_range input::-ms-thumb, .step_range input::-ms-thumb, .job_experience_range input::-ms-thumb {
+  width: 45px;
+  height: 45px;
+  margin: -20px 0  5px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+  /*background-color: #36ccb5;
+  border: solid 1.5px #ffffff;
+  content:"\f00c";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  color:#ffffff;*/
+  background: url(../../../img/staff/remuneration_range_thumb.svg);
+  z-index: 9999;
+}
+/* line 41, ../../../sass/Front/generale/range_slider.scss */
+.range_input::-webkit-slider-runnable-track, .remuneration_range input::-webkit-slider-runnable-track, .step_range input::-webkit-slider-runnable-track, .job_experience_range input::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+/* line 45, ../../../sass/Front/generale/range_slider.scss */
+.range_input::-moz-range-track, .remuneration_range input::-moz-range-track, .step_range input::-moz-range-track, .job_experience_range input::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+/* line 49, ../../../sass/Front/generale/range_slider.scss */
+.range_input::-ms-track, .remuneration_range input::-ms-track, .step_range input::-ms-track, .job_experience_range input::-ms-track {
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+/* line 53, ../../../sass/Front/generale/range_slider.scss */
+.range_input:focus, .remuneration_range input:focus, .step_range input:focus, .job_experience_range input:focus {
+  background: none;
+  outline: none;
+}
+
+/* line 61, ../../../sass/Front/generale/range_slider.scss */
+.range_labels, .remuneration_range_labels, .step_range_labels, .job_experience_range_labels, .agency_reg_step_nav .agency_reg_step_range_labels {
+  margin: 18px -3rem 0;
+  padding: 0;
+  list-style: none;
+  /*.active {
+    color: red;
+  }*/
+}
+/* line 66, ../../../sass/Front/generale/range_slider.scss */
+.range_labels li, .remuneration_range_labels li, .step_range_labels li, .job_experience_range_labels li, .agency_reg_step_nav .agency_reg_step_range_labels li {
+  position: relative;
+  float: left;
+  width: calc(100%/9);
+  /** 90.25px **/
+  text-align: center;
+  color: #4d4f5c;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* line 75, ../../../sass/Front/generale/range_slider.scss */
+.range_labels li::before, .remuneration_range_labels li::before, .step_range_labels li::before, .job_experience_range_labels li::before, .agency_reg_step_nav .agency_reg_step_range_labels li::before {
+  position: absolute;
+  top: 33px;
+  right: 0;
+  left: 0;
+  content: "|";
+  margin: 0 auto;
+  width: 9px;
+  color: #fff;
+  z-index: 9;
+  font-size: 21px;
+}
+/* line 93, ../../../sass/Front/generale/range_slider.scss */
+.range_labels .selected::before, .remuneration_range_labels .selected::before, .step_range_labels .selected::before, .job_experience_range_labels .selected::before, .agency_reg_step_nav .agency_reg_step_range_labels .selected::before {
+  /*background: red;*/
+}
+
+/* line 99, ../../../sass/Front/generale/range_slider.scss */
+input[type="range" i] {
+  color: transparent;
+}
+
+/*** start remuneration range slider ***/
+/* line 105, ../../../sass/Front/generale/range_slider.scss */
+.remuneration {
+  width: 75%;
+  margin: auto;
+}
+
+/* line 109, ../../../sass/Front/generale/range_slider.scss */
+.remuneration_inputs {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+/* line 115, ../../../sass/Front/generale/range_slider.scss */
+.remuneration_inputs .form_item:first-child {
+  width: 28rem;
+}
+/* line 118, ../../../sass/Front/generale/range_slider.scss */
+.remuneration_inputs .form_item:last-child {
+  width: 16rem;
+}
+/* line 120, ../../../sass/Front/generale/range_slider.scss */
+.remuneration_inputs .form_item:last-child small {
+  font-size: 15px;
+}
+
+/* line 129, ../../../sass/Front/generale/range_slider.scss */
+.remuneration_range_labels .active.selected::before {
+  display: none;
+}
+
+/*** end remuneration range slider ***/
+/*** start step registration staff range slider ***/
+/* line 142, ../../../sass/Front/generale/range_slider.scss */
+.staff_reg_step_nav {
+  width: 75%;
+  margin: 6% auto 7% auto;
+}
+
+/* line 146, ../../../sass/Front/generale/range_slider.scss */
+.step_range, .job_experience_range {
+  height: 2px;
+  background-image: none;
+  background-color: #e9e9f0;
+}
+/* line 156, ../../../sass/Front/generale/range_slider.scss */
+.step_range input::-webkit-slider-thumb, .job_experience_range input::-webkit-slider-thumb {
+  width: 0.5px;
+  height: 0.5px;
+  cursor: none;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  content: "";
+  font-size: 1px;
+}
+/* line 160, ../../../sass/Front/generale/range_slider.scss */
+.step_range input::-moz-range-thumb, .job_experience_range input::-moz-range-thumb {
+  width: 0.5px;
+  height: 0.5px;
+  cursor: none;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  content: "";
+  font-size: 1px;
+}
+/* line 164, ../../../sass/Front/generale/range_slider.scss */
+.step_range input::-ms-thumb, .job_experience_range input::-ms-thumb {
+  width: 0.5px;
+  height: 0.5px;
+  cursor: none;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  content: "";
+  font-size: 1px;
+}
+
+/* line 172, ../../../sass/Front/generale/range_slider.scss */
+.step_range_labels li, .job_experience_range_labels li, .agency_reg_step_nav .agency_reg_step_range_labels li {
+  width: calc(100%/8);
+  font-weight: bold;
+}
+/* line 176, ../../../sass/Front/generale/range_slider.scss */
+.step_range_labels li:before, .job_experience_range_labels li:before, .agency_reg_step_nav .agency_reg_step_range_labels li:before {
+  top: -34px;
+  content: attr(data-value);
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  border: solid 0.5px #3b86ff;
+  border-radius: 50%;
+  outline: 5px solid #fff;
+  color: #3b86ff;
+  font-family: SourceSansPro;
+  font-size: 13px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: normal;
+}
+/* line 193, ../../../sass/Front/generale/range_slider.scss */
+.step_range_labels .active.selected::before, .job_experience_range_labels .active.selected::before, .agency_reg_step_nav .agency_reg_step_range_labels .active.selected::before {
+  background-color: #36ccb5;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #ffffff;
+  border: none;
+}
+
+/*** end step registration staff range slider ***/
+/*** start job exerience registration staff range slider ***/
+/* line 203, ../../../sass/Front/generale/range_slider.scss */
+.job_experience_range {
+  margin-top: 2rem;
+}
+
+/* line 209, ../../../sass/Front/generale/range_slider.scss */
+.job_experience_range_labels li {
+  width: calc(100%/4);
+}
+
+/*** end job exerience registration staff range slider ***/
+/*** start agency registration step range ***/
+/* line 216, ../../../sass/Front/generale/range_slider.scss */
+.agency_reg_step_nav {
+  width: 50%;
+  margin: auto;
+}
+/* line 220, ../../../sass/Front/generale/range_slider.scss */
+.agency_reg_step_nav .agency_reg_step_range_labels {
+  margin: 18px -6rem 0;
+}
+/* line 224, ../../../sass/Front/generale/range_slider.scss */
+.agency_reg_step_nav .agency_reg_step_range_labels li {
+  width: calc(100%/3);
+  font-weight: inherit !important;
+}
+
+/*** start agency registration step range ***/

@@ -1,0 +1,61 @@
+
+.list_attributs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto 0% auto;
+    grid-template-columns: auto auto 9% auto;
+  margin: auto;
+  width: 77%;
+  margin: auto;
+  /*grid-gap: 80px;*/
+}
+.checkbox_wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.dropdown_items {
+  margin-top: 15px;
+}
+.form_item_attributs {
+    margin: -11px 0 !important;
+}
+.dropdown_attrubuts {
+  margin-top: 1% !important;
+}
+.checkbox_attrubuts {
+    margin-right: -65px !important;
+}
+.select_attrubuts {
+  width: 38px !important;
+}
+.checkbox_wrap {
+  border: 20px solid #f2f6f8 !important;
+}
+.place {
+  width: 14% !important;
+  /*margin-left: -164px !important;*/
+}
+.plc {
+    width: 85px !important;
+}
+/*.labelplc {
+  margin-left: -68px !important;
+}*/
+.dropattribut {
+  width: 95px;
+  /*margin-left: -68px;*/
+}
+.divider {
+  opacity: 0.2;
+  border: solid 0.5px #707070;
+  width: 0;
+  margin: 30px;
+}
+.dropdown-menu {
+  label {
+    margin-right: 2rem;
+  }
+}

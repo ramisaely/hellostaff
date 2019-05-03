@@ -1,0 +1,284 @@
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+@media (min-width: 780px) {
+  /* line 8, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .section_title {
+    border-bottom: 2px solid #F2F6F8;
+    border-top: 2px solid #F2F6F8;
+  }
+  /* line 12, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .section_title span {
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    padding: 0 3vw;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 21, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_content {
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 26, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_logo {
+    width: auto;
+    /*width: 390px;
+    /*padding-right: 130px;*/
+    padding-left: 1rem;
+    padding-right: 6.7vw;
+    margin: 0;
+  }
+  /* line 34, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_logo img {
+    /*width: 260px; height: 260px;*/
+    width: 13.5vw;
+    height: 13.5vw;
+  }
+  /* line 41, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_header {
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    display: flex;
+    flex: 1;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 13.5vw;
+    margin: 3.3rem 0;
+  }
+  /* line 49, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_identity {
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 54, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_identity_item {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  /* line 58, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_identity_item.address {
+    margin-top: 0;
+  }
+  /* line 62, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_identity_item:not(:last-child) {
+    margin-right: 100px;
+  }
+  /* line 64, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_identity_item .content {
+    display: -webkit-flex;
+    -webkit-align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  /* line 69, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_identity_item img {
+    margin-right: 20px;
+  }
+  /* line 72, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .description {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+  }
+  /* line 77, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .description p {
+    text-align: left;
+  }
+  /* line 79, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .description .title {
+    margin-bottom: 15px;
+  }
+  /* line 81, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .description .text {
+    font-size: 17px;
+  }
+  /* line 84, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer {
+    height: 13rem;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  /* line 89, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .submit {
+    order: 1;
+    width: calc(20.2vw + 1rem);
+    padding-left: 2.3vw;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  /* line 95, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .submit button {
+    width: 13.5vw;
+    min-width: 200px;
+    font-size: 100%;
+  }
+  /* line 102, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .footer_informations {
+    order: 2;
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    display: flex;
+    flex: 1;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-right: 5.2vw;
+  }
+  /* line 110, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .footer_informations .information_item {
+    margin-bottom: 0 !important;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /* line 114, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .footer_informations .information_item img {
+    margin-bottom: 0;
+    /*margin-right: 20px;*/
+    margin-right: 1.1vw;
+    width: 3.8vw;
+    height: 3.8vw;
+  }
+  /* line 122, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .footer_informations p {
+    text-align: left;
+    font-size: 19px;
+  }
+}
+@media (min-width: 781px) and (max-width: 1100px) {
+  /* line 133, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_logo img {
+    width: 17.5vw;
+    height: 17.5vw;
+  }
+  /* line 138, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_header {
+    min-height: 17.5vw;
+  }
+  /* line 150, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .footer_informations p {
+    font-size: 15px;
+  }
+  /* line 155, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .submit {
+    width: calc(24.2vw + 1rem);
+  }
+  /* line 158, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page .agency_card_footer .submit button {
+    font-size: 90%;
+    min-width: 180px;
+    height: 65px;
+  }
+}
+@media (min-width: 501px) {
+  /* line 170, ../../../../../sass/Front/staff/finished_event/agency_card/agency_card_responsive.scss */
+  .agency_card_page {
+    padding: 2rem;
+  }
+}

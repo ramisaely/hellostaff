@@ -1,0 +1,113 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_default.scss';
+
+@media (max-width: 1710px) {
+	.form_item_create_event_footer .event_form_code_postal {
+		width: 45%;
+	}
+	.content_color_bouton .content_color {
+		width: 12%;
+	}
+	.form_item_drop_user .input_drop_user {
+		width: 92%;
+	}
+	.form_item_create_event_footer .event_form_province #country {
+		width: 79% !important;
+	}
+	.create_event .hour_rate {
+		width: 30%;
+	}
+}
+
+@media (max-width: 1545px) {
+	.form_item_create_event_footer .event_form_province #country {
+		width: 76% !important;
+	}
+}
+@media (max-width: 1300px) {
+	.create_event .hour_rate {
+		width: 30% !important;
+	}
+}
+@media (max-width: 1340px) {
+	.content_event_form {
+		padding: 2% 0%;
+	}
+	.photo_event_content {
+		margin-right: 1%;
+	}
+	.content_form_description_event {
+		margin-left: 1%;
+	}
+}
+
+@media (max-width: 1230px) {
+	.form_item_drop_user .input_drop_user {
+		width: 97%;
+	}
+	.code_postal_drop {
+		width: 100%;
+	}
+	.form_item_create_event_footer .event_form_province #country {
+		width: 90% !important;
+	}
+	.decription_table_event_form {
+		height: 200px;
+	}
+	.description_event_tab tbody tr {
+		margin-top: 0rem !important;
+	}
+	.content_color_bouton .content_color {
+		width: 16%;
+	}
+}
+@media (max-width: 1145px) {
+	.form_item_drop_user .input_drop_user {
+		width: 96.5%;
+	}
+	.form_item_create_event_footer .event_form_province #country {
+		width: 89% !important;
+	}
+}
+
+@media (max-width: 1025px) {
+	.form_item_drop_user .input_drop_user {
+		width: 96%;
+	}
+	.form_item_create_event_footer .event_form_province #country {
+		width: 88% !important;
+	}
+}
+
+@media (max-width: 910px) {
+	.form_item_create_event_footer .event_form_province #country {
+		width: 86% !important;
+	}
+	.form_item_drop_user .input_drop_user {
+		width: 95%;
+	}
+	.content_color_bouton .content_color {
+		width: 20%;
+	}
+}
+@media (max-width: 800px) {
+	.form_item_drop_user .input_drop_user {
+		width: 97.7%;
+	}
+	.form_item_create_event_footer .event_form_province #country {
+		width: 93% !important;
+	}
+	.step_modify_profil {
+		height: auto !important;
+		flex-direction: row !important;
+		padding: 2%;
+	}
+	.step_modify_profil .modify {
+		margin-top: inherit !important;
+	}
+	.content_color_bouton .content_color {
+		width: 100%;
+	}
+}

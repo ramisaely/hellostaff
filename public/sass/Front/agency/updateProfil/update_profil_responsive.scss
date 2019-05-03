@@ -1,0 +1,314 @@
+@import 'compass';
+@import 'Front/generale/_element.scss';
+@import 'Front/generale/_layout.scss';
+@import 'Front/generale/_function.scss';
+@media (max-width: 1368px) {
+	.utilisateur_profil_update {
+		.content_button_update_profil {
+			.button_update_profil_gradient {
+				margin-right: 4%;
+			}
+			.label_create_event {
+				font-size: 12px;
+			}
+		}
+	}
+	.label_create_event {
+		font-size: 12px;
+	}
+	.form_item {
+    	label {
+    		font-size: 12px;
+    	}
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.label_create_event {
+		font-size: 12px;
+	}
+	.content_pages {
+		.form_tps_tvq {
+			width: 88%;
+			.tps_tvq {
+				width: 39%;
+			}
+		}
+		.logo_modif {
+			width: 25%;
+		}
+		.form_modif {
+			width: 25%;
+		}
+		.description {
+			width: 46%;
+		}
+		#form_modify_profil label {
+			font-size: 12px;
+		}
+		.content_button_update_profil {
+			width: 94%;
+		}
+
+	}
+	.form_modify_profil .form_group_profil .form_item input[type=number] {
+	    -moz-appearance: textfield;
+	    width: 100%;
+    }
+    .form_item {
+    	label {
+    		font-size: 12px;
+    	}
+    }
+  //   .footer_update_profil {
+  //   	padding: 2% 0% 0% 43%;
+	// }
+	.button_update_profil_footer {
+		width: 20%;
+	}
+}
+@media (max-width: 930px) {
+	.liste_button_update .button_update_profil_gradient {
+		width: 40% !important;
+	}
+	.button_update_profil_footer {
+		width: 25%;
+	}
+}
+
+@media (max-width: 767px){
+.form_modify_profil {
+		.form_group_profil {
+			width: 100%;
+	    }
+	}
+
+.btn_valide_first {
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 3%;
+}
+.content_button_update_profil {
+	padding: 5% 0;
+}
+.liste_button_update .button_update_profil_gradient {
+	width: 100% !important;
+}
+
+.liste_button_update {
+	.btn_valide {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+}
+
+.description_modify {
+	.logo_modif {
+		width: 100%;
+	}
+	.form_modif {
+		width: 100%;
+	}
+	.description {
+		width: 100%;
+	}
+}
+
+	.utilisateur_profil_update {
+		.input_update_profil {
+			display: block;
+			.input_update_profil_col1 {
+				width: 100%;
+				padding: 0;
+			}
+			.input_update_profil_col2 {
+				width: 100%;
+			}
+			.input_update_profil_col3 {
+				width: 100%;
+			}
+		}
+
+		.content_button_update_profil {
+			width: 100%;
+			margin:0;
+			.button_update_profil_gradient {
+				width: 100%;
+				margin-right: 4%;
+			}
+			.button_update_profil_no_gradient {
+				width: 100%;
+			}
+		}
+
+	}
+	.form_tps_tvq {
+		width: 98.5%;
+	}
+
+	.form_modify_profil .form_group_profil .form_item input[type=number] {
+    	width: 96.5%;
+    }
+	.utilisateur_profil_update {
+        padding: 0% 9% 9% 9%;
+    }
+    .icon_refresh {
+	    bottom: 11px;
+    }
+	.utilisateur_profil_update .footer_update_profil {
+    margin: 1% 46% 0% 37%;
+	}
+
+	// .footer_update_profil {
+  //   	padding: 2% 0% 0% 41%;
+	// }
+	.button_update_profil_footer {
+		width: 35%;
+	}
+
+	.utilisateur_profil_update {
+	    padding: 0% 9% 6% 9%;
+	}
+
+	.step_modify_profil {
+	  .modify_language {
+	    @include hs_flex_start;
+	  }
+	}
+}
+
+@media (max-width: 480px){
+	.form_modify_profil {
+		.form_group_profil {
+			width: 100%;
+	    }
+	}
+	.description_modify {
+		.logo_modif {
+			width: 100%;
+		}
+		.form_modif {
+			width: 100%;
+		}
+		.description {
+			width: 100%;
+		}
+	}
+
+	.utilisateur_profil_update {
+		.input_update_profil {
+			display: block;
+			.input_update_profil_col1 {
+				width: 100%;
+				padding: 0;
+			}
+			.input_update_profil_col2 {
+				width: 100%;
+			}
+			.input_update_profil_col3 {
+				width: 100%;
+			}
+		}
+
+		.content_button_update_profil {
+			width: 100%;
+			margin:0;
+			.button_update_profil_gradient {
+				width: 100%;
+				margin-right: 4%;
+			}
+			.button_update_profil_no_gradient {
+				width: 100%;
+			}
+		}
+
+	}
+
+	.form_tps_tvq {
+		width: 96.5%;
+	}
+
+	.form_modify_profil .form_group_profil .form_item input[type=number] {
+    	width: 95.5%;
+    }
+
+  //   .footer_update_profil {
+	//     padding: 3% 0% 0% 33%;
+	//     margin: 0;
+	// }
+
+	.button_update_profil_footer {
+		width: 80%;
+	}
+	.line_divider {
+		margin: 0;
+	}
+}
+
+@media (max-width: 380px) {
+
+	.modification_profil_agence {
+		flex-direction: column;
+		padding: 4%;
+	}
+
+	.form_message {
+		justify-content: center;
+	}
+
+	.line_divider {
+		display: none;
+	}
+	.header_create_event_two {
+		flex-direction: column;
+	}
+	.title_step {
+		margin-right: 0;
+	}
+
+	.form_modify_profil .form_group_profil {
+		padding: 0 4%;
+	}
+
+	.content_pages {
+		padding:0;
+	}
+
+	.agency_logo {
+		.refrech_background {
+			top: 296%;
+    		right: 21%;
+
+        }
+	}
+
+	.utilisateur_profil_update {
+    	padding: 0% 13% 13% 13%;
+    }
+
+  //   .footer_update_profil {
+	//     padding: 6% 0% 0% 28%;
+	// }
+
+	.utilisateur_profil_update {
+	    padding: 0% 13% 8% 13%;
+	}
+
+	.utilisateur_profil_update {
+		.input_update_profil {
+			display: block;
+			.input_update_profil_col1 {
+				width: 100%;
+				padding: 0;
+			}
+			.input_update_profil_col2 {
+				width: 100%;
+			}
+		}
+	}
+
+	// .footer_update_profil {
+	//     padding: 3% 0% 0% 31%;
+	//     margin:0;
+	// }
+}

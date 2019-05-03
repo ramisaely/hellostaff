@@ -1,0 +1,757 @@
+@charset "UTF-8";
+/**Police*/
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff2") format("woff2"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.woff") format("woff"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.ttf") format("truetype"), url("../../../fonts/Raleway_v2/raleway-v12-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../../../fonts/SourceSansPro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */
+}
+/**End police*/
+/*** Hello staff custom color ***/
+/*// @mixin hs_police {
+// 	font-family: Raleway-Black;
+// 	src: url("fonts/Raleway/Raleway-Black.tff");
+// }*/
+/*** Hello staff form element ***/
+/*** Hello staff buttons ***/
+/*** modal ***/
+/*** divider ***/
+/*** start range slider ***/
+/*** end ***/
+/* line 3, ../../../../sass/Front/generale/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*** Hello staff positioning ***/
+/*** start template ***/
+/* line 7, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+html input:-webkit-autofill,
+html input:-webkit-autofill:hover,
+html input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+html textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+html select:-webkit-autofill,
+html select:-webkit-autofill:hover,
+html select:-webkit-autofill:focus, body input:-webkit-autofill,
+body input:-webkit-autofill:hover,
+body input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+body textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+body select:-webkit-autofill,
+body select:-webkit-autofill:hover,
+body select:-webkit-autofill:focus, .master input:-webkit-autofill,
+.master input:-webkit-autofill:hover,
+.master input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+.master textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+.master select:-webkit-autofill,
+.master select:-webkit-autofill:hover,
+.master select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+  background-color: url() no-repeat !important;
+  background: #3b4b5c !important;
+}
+
+/* line 22, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.form_item .dropdown.drop_new_one {
+  width: 65%;
+}
+/* line 25, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.form_item .dropdown.drop_new_two {
+  width: 63%;
+}
+
+/* line 29, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.master {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 34, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.content_wrap {
+  min-height: 100vh;
+  width: 70%;
+  margin-left: 30%;
+  height: auto;
+}
+
+/* line 40, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  margin: 0;
+  position: fixed;
+}
+/* line 46, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.sidebar .font_sidebar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* line 51, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.sidebar .language_site {
+  display: -webkit-flex;
+  -webkit-justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+}
+/* line 55, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.sidebar .agency_reg_side {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50%;
+  padding: 2rem;
+  position: relative;
+}
+/* line 62, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.sidebar .agency_reg_side .paragraph, .sidebar .agency_reg_side .paragraph2 {
+  color: #ffffff;
+  text-align: center;
+  width: 98%;
+}
+/* line 67, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.sidebar .agency_reg_side .steve_jobs {
+  color: #ffffff;
+  text-align: center;
+  margin-top: -0.2rem;
+  font-style: italic;
+  width: 98%;
+}
+
+/* line 77, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.step_head {
+  height: 5rem;
+}
+
+/* line 80, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.content {
+  background-color: #f2f6f8;
+  min-height: calc(100vh - 9rem);
+  height: auto;
+}
+
+/* line 85, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.footer {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  margin-top: 5%;
+}
+/* line 91, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.footer .step_btn {
+  padding: 15px 40px;
+  font-size: 25px;
+  color: #ffffff;
+  border: solid 0.5px #ffffff;
+  border-radius: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #36ccb5;
+}
+
+/* line 96, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity {
+  padding: 7rem 0;
+}
+
+/* line 99, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.entreprise, .contact_principal {
+  padding: 3rem 0;
+}
+
+/*** end template ***/
+/*** start entreprise ***/
+/* line 105, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.entreprise {
+  display: -webkit-flex;
+  -webkit-justify-content: space-evenly;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 109, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.entreprise .form_item {
+  width: 100%;
+  /* Firefox */
+  /* Chrome */
+  /* Opéra*/
+}
+/* line 113, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.entreprise .form_item input[type=number] {
+  -moz-appearance: textfield;
+}
+/* line 118, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.entreprise .form_item input::-webkit-inner-spin-button,
+.entreprise .form_item input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 125, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.entreprise .form_item input::-o-inner-spin-button,
+.entreprise .form_item input::-o-outer-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
+/* line 131, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.entreprise .form_item input:not([type="checkbox"]) {
+  width: 100%;
+}
+
+/* line 135, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.dropdown_city {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 139, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.link {
+  text-decoration: underline;
+}
+
+/* line 142, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.form_location {
+  width: 120% !important;
+}
+
+/* line 145, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.location {
+  width: 60% !important;
+}
+
+/* line 148, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.page {
+  display: none;
+}
+
+/* line 151, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.content_term_condition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 156, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.tiret_separation {
+  margin-bottom: 6%;
+  height: 1px;
+  background-image: none;
+  background-color: #707070;
+  width: 69%;
+  margin-top: 5%;
+  opacity: 0.17;
+}
+
+/* line 165, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.form_condition {
+  margin-top: -3%;
+}
+
+/* line 168, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.marg_condition {
+  margin-bottom: -4%;
+}
+
+/* line 171, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.checkbox_label::before {
+  top: -3px !important;
+}
+
+/*** end entreprise ***/
+/*** start corporative identity ***/
+/* line 177, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity {
+  display: -webkit-flex;
+  -webkit-justify-content: space-evenly;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: auto;
+}
+/* line 181, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .entreprise_logo, .corporative_identity .brief_description {
+  position: relative;
+  width: 44%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+  padding: 0.5rem 0;
+}
+/* line 189, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .entreprise_logo {
+  cursor: pointer;
+}
+/* line 193, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .entreprise_logo {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/img/agency/image_logo_entreprise.png ");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* line 202, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .entreprise_logo .dragBox {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+/* line 211, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .entreprise_logo .logo {
+  display: -webkit-flex;
+  -webkit-align-items: flex-end;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  width: 65%;
+}
+/* line 215, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .entreprise_logo .logo #img_entreprise {
+  width: 100%;
+}
+/* line 219, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .entreprise_logo .medium_title {
+  line-height: 28px;
+}
+/* line 223, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .entreprise_logo .mini-title {
+  margin: 15px;
+  font-style: normal;
+}
+/* line 229, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .brief_description {
+  padding: 1rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* line 233, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .brief_description .heading {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-bottom: solid 1px #b7b7b7;
+  color: #b7b7b7;
+}
+/* line 239, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .brief_description .heading .language_site {
+  position: relative;
+  width: 50%;
+  padding: 0;
+}
+/* line 244, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .brief_description .heading .language_site label {
+  color: #b7b7b7;
+}
+/* line 246, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .brief_description .heading .language_site label:before {
+  border: sol id 0.5px #dbdfe0;
+}
+/* line 250, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .brief_description .heading .language_site label:hover:before {
+  border: solid 2px #dbdfe0 !important;
+}
+/* line 257, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .brief_description .texts {
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  display: flex;
+  flex: 1;
+  box-sizing: border-box;
+}
+/* line 261, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.corporative_identity .brief_description .texts textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  resize: none;
+  outline: none;
+  color: #444;
+  box-sizing: border-box;
+}
+
+/* line 276, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.visible {
+  display: block !important;
+}
+
+/*** end cor
+porative identity ***/
+/* line 281, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.title_tiret {
+  display: flex;
+}
+/* line 283, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.title_tiret .title {
+  margin-right: 8%;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.47;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+/* line 296, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.tiret {
+  height: 1px;
+  background-image: none;
+  background-color: #707070;
+  width: 74%;
+  margin-top: 5px;
+  opacity: 0.17;
+}
+
+/* line 304, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.tiret_contact_user {
+  margin-left: -3.5rem;
+}
+
+/* line 307, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.tiret_users {
+  width: 74% !important;
+}
+
+/* line 310, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.tvq_tps {
+  font-size: 76%;
+}
+
+/* line 313, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.item_user {
+  width: 100% !important;
+}
+
+/* line 316, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.contact_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 50%;
+}
+/* line 326, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.contact_user .personal {
+  width: 30%;
+}
+/* line 329, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.contact_user .personnal {
+  width: 55%;
+}
+/* line 333, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.contact_user .form_item {
+  width: 100%;
+  /* Firefox */
+  /* Chrome */
+  /* Opéra*/
+}
+/* line 337, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.contact_user .form_item input[type=number] {
+  -moz-appearance: textfield;
+}
+/* line 342, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.contact_user .form_item input::-webkit-inner-spin-button,
+.contact_user .form_item input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 349, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.contact_user .form_item input::-o-inner-spin-button,
+.contact_user .form_item input::-o-outer-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
+
+/* line 356, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.input_contact_user {
+  width: 99% !important;
+}
+
+/* line 359, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.title_agency {
+  margin: 0px 0px 30px 109px;
+  width: 100%;
+}
+
+/* line 363, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.show_title {
+  margin-top: 60px;
+}
+
+/* line 366, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.personal_plus:before {
+  content: attr(data-range);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 29px;
+  margin: -23px auto auto 28px;
+  padding: 5px 17px;
+  border: 4px solid #ffff;
+  position: absolute;
+  background-color: #36ccb5;
+}
+
+/** Contact utilisateur: bouton Ajouter supprimer */
+/* line 378, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.bouton_personal {
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  width: 105%;
+}
+/* line 384, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.bouton_personal .supprimer {
+  width: 35%;
+  text-align: center;
+  background-color: #f2f6f8;
+  color: #707070;
+  border: 2px solid #707070;
+  padding: 5%;
+  cursor: pointer;
+}
+/* line 393, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.bouton_personal .ajouter {
+  width: 35%;
+  text-align: center;
+  background-color: #36ccb5;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5%;
+  cursor: pointer;
+}
+
+/** End Contact utilisateur: bouton Ajouter supprimer */
+/** modal agency*/
+/* line 408, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#agency_registration_finish .modal_content {
+  background-image: linear-gradient(43deg, #36ccb5, #559bf7);
+}
+/* line 411, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#agency_registration_finish .check_confirmation {
+  background-color: transparent;
+  margin: 40px auto;
+  width: 7rem;
+  height: 7rem;
+}
+/* line 417, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#agency_registration_finish .icon_confirmation {
+  font-size: 113px;
+}
+/* line 420, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#agency_registration_finish .post_confirmation {
+  font-family: Raleway;
+  font-size: 55px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -15px;
+}
+/* line 432, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#agency_registration_finish .text_confirmation {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px 50px;
+}
+/* line 444, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#agency_registration_finish .step_btn {
+  padding: 15px 40px;
+  font-size: 25px;
+  color: #ffffff;
+  border-radius: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 0.5px #ffffff;
+}
+/* line 453, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#agency_registration_finish .confirm_agency {
+  margin-top: 130px;
+}
+
+/** end modal agency*/
+/* start validation */
+/* line 469, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#corporative_validation .modal_content, #company_logo_validation .modal_content,
+#description_validation .modal_content, #fill .modal_content, #corporative_validation_en .modal_content {
+  padding: 3rem;
+  background-color: #f2dede;
+  border-color: #ebcccc;
+  color: #a94442;
+}
+
+/* end  validation */
+/* line 478, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.form_item .input_group input {
+  width: calc(98% - 24px) !important;
+}
+
+/* line 481, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+#error_confirm {
+  color: #a94442;
+  font-size: 10px;
+}
+
+/** Scrollbar dropdown*/
+/* line 487, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.scrollbar {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+/* line 490, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.scrollbar::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+  border-radius: 10px;
+  background-color: transparent;
+}
+/* line 496, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+/* line 501, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+  background-color: #ebebeb;
+}
+
+/* line 509, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.decoration_scrollbar::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+  border-radius: 10px;
+  background-color: transparent;
+}
+/* line 515, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.decoration_scrollbar::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+/* line 520, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.decoration_scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+  background-color: #ebebeb;
+}
+
+/** End Scrollbar dropdown*/
+/* input_hidden_special */
+/* line 530, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.input_hidden_special {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* overflow: hidden; */
+  z-index: 6 !important;
+  cursor: pointer;
+}
+
+/* end input_hidden_special */
+/*ajouter utilisateur dans contact utilisateur*/
+/* line 544, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.btn_make_user_register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 550, ../../../../sass/Front/agency/sign_up/agency_registration.scss */
+.btn_make_user_register .btn_make_user {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1.5%;
+  font-size: 16px;
+  background-image: linear-gradient(50deg, #36ccb5, #559bf7);
+}
+
+/*End ajouter utilisateur dans contact utilisateur*/

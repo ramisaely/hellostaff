@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.08" height="50.08" viewBox="0 0 50.08 50.08">
+  <g id="icon" transform="translate(-635 -991)">
+    <g id="Icon.BG" transform="translate(635 991)" fill="#fff" stroke="#36ccb5" stroke-width="1">
+      <circle cx="25.04" cy="25.04" r="25.04" stroke="none"/>
+      <circle cx="25.04" cy="25.04" r="24.54" fill="none"/>
+    </g>
+    <path id="Path_249" data-name="Path 249" d="M10.225,0A9.169,9.169,0,0,0,1,9.225a8.859,8.859,0,0,0,2.768,6.589c.132.132,5.4,4.876,5.535,5.008a1.382,1.382,0,0,0,1.713,0c.132-.132,5.535-4.876,5.535-5.008a8.859,8.859,0,0,0,2.768-6.589A8.977,8.977,0,0,0,10.225,0Zm0,11.861a2.636,2.636,0,1,1,2.636-2.636A2.644,2.644,0,0,1,10.225,11.861Z" transform="translate(649.815 1005.497)" fill="#36ccb5"/>
+  </g>
+</svg>
